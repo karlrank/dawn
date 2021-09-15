@@ -61,12 +61,6 @@
           "settings": {
           }
         },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        },
         "c93981a2-30f3-4294-803c-c2c27ba4890e": {
           "type": "collapsible_tab",
           "settings": {
@@ -82,6 +76,12 @@
             "text": "The category of this camera is {{ product.title }}",
             "text_style": "body"
           }
+        },
+        "96c45658-7a4f-4bbe-8af4-a6f32859a982": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{{ 'products.product.taxable' | t }}"
+          }
         }
       },
       "block_order": [
@@ -95,9 +95,9 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share",
         "c93981a2-30f3-4294-803c-c2c27ba4890e",
-        "b4d99444-8c54-4577-9a32-d83aca0327c2"
+        "b4d99444-8c54-4577-9a32-d83aca0327c2",
+        "96c45658-7a4f-4bbe-8af4-a6f32859a982"
       ],
       "settings": {
         "enable_sticky_info": true,
