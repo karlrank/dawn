@@ -32,6 +32,12 @@
           "settings": {
           }
         },
+        "853cea71-8e8d-4b3a-8d41-fda13fdf751d": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{{ 'products.product.not_taxable' | t }}"
+          }
+        },
         "subtitle": {
           "type": "text",
           "settings": {
@@ -90,12 +96,6 @@
             "text": "The following dynamic data is liquid placed in the metafield labeled: {{ product.metafields.my_fields.liquidtest.value }}",
             "text_style": "body"
           }
-        },
-        "853cea71-8e8d-4b3a-8d41-fda13fdf751d": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "The following dynamic data is liquid placed in the metafield labeled: {{ 'products.product.not_taxable' | t }}"
-          }
         }
       },
       "block_order": [
@@ -104,6 +104,7 @@
         "title",
         "f0c9e60b-84e2-4c7b-a294-cab454328d82",
         "price",
+        "853cea71-8e8d-4b3a-8d41-fda13fdf751d",
         "subtitle",
         "variant_picker",
         "buy_buttons",
@@ -112,8 +113,7 @@
         "b4d99444-8c54-4577-9a32-d83aca0327c2",
         "7dc073f7-8b5d-48ef-9859-3c410b822a44",
         "96c45658-7a4f-4bbe-8af4-a6f32859a982",
-        "3859855d-800d-442e-8802-334b4d652e69",
-        "853cea71-8e8d-4b3a-8d41-fda13fdf751d"
+        "3859855d-800d-442e-8802-334b4d652e69"
       ],
       "settings": {
         "enable_sticky_info": true,
