@@ -97,13 +97,6 @@
     "1631699212640753e5": {
       "type": "multicolumn",
       "blocks": {
-        "1631699212640753e5-0": {
-          "type": "column",
-          "settings": {
-            "title": "Mechanics Rating: 5",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
         "1631699212640753e5-1": {
           "type": "column",
           "settings": {
@@ -118,15 +111,23 @@
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
+        },
+        "1631699212640753e5-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/UfFOGKO5nDNXP4Y4Vh1-I4OTnVunoLVd231IQzWAq_QPNeODpi1NNN1deY53R2dhfRVI6E0iGD0P-NsVaWpePhJ9YUoD6tDAEXanFNU9JCpNP4mYdCQWUGldnvSQcL6QV-PyASh2NoeZSA94QjQoIg08OFjCQs0-d-e1-ft-1000x562.jpg",
+            "title": "Quality Service Since 2010",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
         }
       },
       "block_order": [
-        "1631699212640753e5-0",
         "1631699212640753e5-1",
-        "1631699212640753e5-2"
+        "1631699212640753e5-2",
+        "1631699212640753e5-0"
       ],
       "settings": {
-        "title": "This {{ product.title }}'s Condition Rating Detail",
+        "title": "Heading",
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",
