@@ -19,7 +19,7 @@
         "c8dbdd94-5d5c-4b28-940d-2dc1b267c8ac": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{{ product.type }}"
+            "custom_liquid": "<div class=\"color-background-2\"><p>&nbsp;{{ product.type }}<\/p><\/div>"
           }
         },
         "title": {
