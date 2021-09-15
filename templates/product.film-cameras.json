@@ -54,7 +54,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "14 Day Return Policy",
-            "content": "<p>Change your mind? Buy the wrong thing? Let us know within 14 days of delivery for a return and refund.<\/p>",
+            "content": "<p>Change your mind? Buy the wrong thing? Let us know within 14 days of delivery for a return and refund. <a href=\"\/policies\/refund-policy\" target=\"_blank\" title=\"\/policies\/refund-policy\">Read More<\/a><\/p>",
             "page": "",
             "icon": "return"
           }
