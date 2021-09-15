@@ -50,11 +50,11 @@
           "settings": {
           }
         },
-        "3859855d-800d-442e-8802-334b4d652e69": {
-          "type": "text",
+        "10cda053-132a-4eae-8c87-d3e0e27c641c": {
+          "type": "popup",
           "settings": {
-            "text": "The following dynamic data is liquid placed in the metafield labeled: {{ product.metafields.my_fields.liquidtest.value }}",
-            "text_style": "body"
+            "text": "Refunds & Returns",
+            "page": "vat"
           }
         }
       },
@@ -67,7 +67,7 @@
         "853cea71-8e8d-4b3a-8d41-fda13fdf751d",
         "buy_buttons",
         "description",
-        "3859855d-800d-442e-8802-334b4d652e69"
+        "10cda053-132a-4eae-8c87-d3e0e27c641c"
       ],
       "settings": {
         "enable_sticky_info": true,
