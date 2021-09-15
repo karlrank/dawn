@@ -21,6 +21,12 @@
           "settings": {
           }
         },
+        "f0c9e60b-84e2-4c7b-a294-cab454328d82": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span> {{ current_variant.sku }}<\/span> \/ {%- assign current_variant = product.selected_or_first_available_variant -%}\n<span> {{ current_variant.barcode }}<\/span>"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -66,12 +72,6 @@
             "text_style": "body"
           }
         },
-        "f0c9e60b-84e2-4c7b-a294-cab454328d82": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div class=\"color-background-2\"><p>I am red<\/p><\/div>{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span> {{ current_variant.sku }}<\/span> \/ {%- assign current_variant = product.selected_or_first_available_variant -%}\n<span> {{ current_variant.barcode }}<\/span>"
-          }
-        },
         "7dc073f7-8b5d-48ef-9859-3c410b822a44": {
           "type": "custom_liquid",
           "settings": {
@@ -102,6 +102,7 @@
         "vendor",
         "c8dbdd94-5d5c-4b28-940d-2dc1b267c8ac",
         "title",
+        "f0c9e60b-84e2-4c7b-a294-cab454328d82",
         "price",
         "subtitle",
         "variant_picker",
@@ -109,7 +110,6 @@
         "description",
         "c93981a2-30f3-4294-803c-c2c27ba4890e",
         "b4d99444-8c54-4577-9a32-d83aca0327c2",
-        "f0c9e60b-84e2-4c7b-a294-cab454328d82",
         "7dc073f7-8b5d-48ef-9859-3c410b822a44",
         "96c45658-7a4f-4bbe-8af4-a6f32859a982",
         "3859855d-800d-442e-8802-334b4d652e69",
