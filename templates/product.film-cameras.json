@@ -1,0 +1,189 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "c8dbdd94-5d5c-4b28-940d-2dc1b267c8ac": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{{ product.type }}"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "subtitle": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "c93981a2-30f3-4294-803c-c2c27ba4890e": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ product.title }}",
+            "content": "<p>The brand of this item is {{ product.vendor }}<\/p>",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "b4d99444-8c54-4577-9a32-d83aca0327c2": {
+          "type": "text",
+          "settings": {
+            "text": "The category of this camera is {{ product.title }}",
+            "text_style": "body"
+          }
+        },
+        "f0c9e60b-84e2-4c7b-a294-cab454328d82": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"color-background-2\"><p>I am red<\/p><\/div>{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span> {{ current_variant.sku }}<\/span> \/ {%- assign current_variant = product.selected_or_first_available_variant -%}\n<span> {{ current_variant.barcode }}<\/span>"
+          }
+        },
+        "7dc073f7-8b5d-48ef-9859-3c410b822a44": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{{ 'products.product.not_taxable' | t }}"
+          }
+        },
+        "96c45658-7a4f-4bbe-8af4-a6f32859a982": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{{ 'products.product.taxable' | t }}"
+          }
+        },
+        "3859855d-800d-442e-8802-334b4d652e69": {
+          "type": "text",
+          "settings": {
+            "text": "The following dynamic data is liquid placed in the metafield labeled: {{ product.metafields.my_fields.liquidtest.value }}",
+            "text_style": "body"
+          }
+        },
+        "853cea71-8e8d-4b3a-8d41-fda13fdf751d": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "The following dynamic data is liquid placed in the metafield labeled: {{ 'products.product.not_taxable' | t }}"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "c8dbdd94-5d5c-4b28-940d-2dc1b267c8ac",
+        "title",
+        "price",
+        "subtitle",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "c93981a2-30f3-4294-803c-c2c27ba4890e",
+        "b4d99444-8c54-4577-9a32-d83aca0327c2",
+        "f0c9e60b-84e2-4c7b-a294-cab454328d82",
+        "7dc073f7-8b5d-48ef-9859-3c410b822a44",
+        "96c45658-7a4f-4bbe-8af4-a6f32859a982",
+        "3859855d-800d-442e-8802-334b4d652e69",
+        "853cea71-8e8d-4b3a-8d41-fda13fdf751d"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "1631699212640753e5": {
+      "type": "multicolumn",
+      "blocks": {
+        "1631699212640753e5-0": {
+          "type": "column",
+          "settings": {
+            "title": "Mechanics Rating: 5",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "1631699212640753e5-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "1631699212640753e5-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1631699212640753e5-0",
+        "1631699212640753e5-1",
+        "1631699212640753e5-2"
+      ],
+      "settings": {
+        "title": "This {{ product.title }}'s Condition Rating Detail",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations",
+    "1631699212640753e5"
+  ]
+}
