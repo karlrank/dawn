@@ -38,23 +38,17 @@
             "custom_liquid": "{{ 'products.product.not_taxable' | t }}"
           }
         },
-        "c2f2b412-79aa-4cc7-8c22-0ced9be2ef44": {
-          "type": "text",
-          "settings": {
-            "text": "Condition rating slill bars here",
-            "text_style": "body"
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true
           }
         },
-        "description": {
-          "type": "description",
-          "disabled": true,
+        "c2f2b412-79aa-4cc7-8c22-0ced9be2ef44": {
+          "type": "text",
           "settings": {
+            "text": "Condition rating slill bars here",
+            "text_style": "body"
           }
         },
         "0d54122a-b1cd-4ad5-9065-a50ef63c420b": {
@@ -74,6 +68,11 @@
             "page": "",
             "icon": "return"
           }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -83,11 +82,11 @@
         "f0c9e60b-84e2-4c7b-a294-cab454328d82",
         "price",
         "853cea71-8e8d-4b3a-8d41-fda13fdf751d",
-        "c2f2b412-79aa-4cc7-8c22-0ced9be2ef44",
         "buy_buttons",
-        "description",
+        "c2f2b412-79aa-4cc7-8c22-0ced9be2ef44",
         "0d54122a-b1cd-4ad5-9065-a50ef63c420b",
-        "a4908876-2ec2-4049-8519-f88aac2c716e"
+        "a4908876-2ec2-4049-8519-f88aac2c716e",
+        "description"
       ],
       "settings": {
         "enable_sticky_info": true,
