@@ -50,6 +50,15 @@
           "settings": {
           }
         },
+        "0d54122a-b1cd-4ad5-9065-a50ef63c420b": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Worldwide Express Shipping",
+            "content": "",
+            "page": "",
+            "icon": "plane"
+          }
+        },
         "a4908876-2ec2-4049-8519-f88aac2c716e": {
           "type": "collapsible_tab",
           "settings": {
@@ -69,6 +78,7 @@
         "853cea71-8e8d-4b3a-8d41-fda13fdf751d",
         "buy_buttons",
         "description",
+        "0d54122a-b1cd-4ad5-9065-a50ef63c420b",
         "a4908876-2ec2-4049-8519-f88aac2c716e"
       ],
       "settings": {
