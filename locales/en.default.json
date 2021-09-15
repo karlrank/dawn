@@ -104,6 +104,8 @@
       "description": "Description",
       "on_sale": "Sale",
       "product_variants": "Product variants",
+      "taxable": "Price includes your countries VAT (EU only).",
+      "not_taxable": "Used item, no deductible VAT.",
       "media": {
         "open_featured_media": "Open featured media in gallery view",
         "open_media": "Open media {{ index }} in gallery view",
