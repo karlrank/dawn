@@ -6,12 +6,20 @@
         "vendor": {
           "type": "text",
           "settings": {
-            "text_style": "uppercase",
-            "text": "{{ product.vendor }}"
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "c8dbdd94-5d5c-4b28-940d-2dc1b267c8ac": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{{ product.type }}"
           }
         },
         "title": {
-          "type": "title"
+          "type": "title",
+          "settings": {
+          }
         },
         "subtitle": {
           "type": "text",
@@ -21,26 +29,58 @@
           }
         },
         "price": {
-          "type": "price"
+          "type": "price",
+          "settings": {
+          }
         },
         "variant_picker": {
-          "type": "variant_picker"
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
         },
         "quantity_selector": {
-          "type": "quantity_selector"
+          "type": "quantity_selector",
+          "settings": {
+          }
         },
         "buy_buttons": {
-          "type": "buy_buttons"
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
         },
         "description": {
-          "type": "description"
+          "type": "description",
+          "settings": {
+          }
         },
         "share": {
-          "type": "share"
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "c93981a2-30f3-4294-803c-c2c27ba4890e": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ product.title }}",
+            "content": "<p>The brand of this item is {{ product.vendor }}<\/p>",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "b4d99444-8c54-4577-9a32-d83aca0327c2": {
+          "type": "text",
+          "settings": {
+            "text": "The category of this camera is {{ product.title }}",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
         "vendor",
+        "c8dbdd94-5d5c-4b28-940d-2dc1b267c8ac",
         "title",
         "subtitle",
         "price",
@@ -48,11 +88,27 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
-      ]
+        "share",
+        "c93981a2-30f3-4294-803c-c2c27ba4890e",
+        "b4d99444-8c54-4577-9a32-d83aca0327c2"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
     },
     "product-recommendations": {
-      "type": "product-recommendations"
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
     }
   },
   "order": [
