@@ -30,7 +30,7 @@
         "f0c9e60b-84e2-4c7b-a294-cab454328d82": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "SKU- {%- assign current_variant = product.selected_or_first_available_variant -%}\n<span>{{ current_variant.sku }}<\/span>"
+            "custom_liquid": "SKU- {%- assign current_variant = product.selected_or_first_available_variant -%}\n<span>{{ current_variant.sku }}<\/span> Barcode- {%- assign current_variant = product.selected_or_first_available_variant -%}\n<span>{{ current_variant.barcode }}<\/span>"
           }
         },
         "price": {
@@ -88,6 +88,19 @@
           "settings": {
             "custom_liquid": "{{ 'products.product.taxable' | t }}"
           }
+        },
+        "3859855d-800d-442e-8802-334b4d652e69": {
+          "type": "text",
+          "settings": {
+            "text": "The following dynamic data is liquid placed in the metafield labeled: {{ product.metafields.my_fields.liquidtest.value }}",
+            "text_style": "body"
+          }
+        },
+        "853cea71-8e8d-4b3a-8d41-fda13fdf751d": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "The following dynamic data is liquid placed in the metafield labeled: {{ 'products.product.not_taxable' | t }}"
+          }
         }
       },
       "block_order": [
@@ -104,7 +117,9 @@
         "description",
         "c93981a2-30f3-4294-803c-c2c27ba4890e",
         "b4d99444-8c54-4577-9a32-d83aca0327c2",
-        "96c45658-7a4f-4bbe-8af4-a6f32859a982"
+        "96c45658-7a4f-4bbe-8af4-a6f32859a982",
+        "3859855d-800d-442e-8802-334b4d652e69",
+        "853cea71-8e8d-4b3a-8d41-fda13fdf751d"
       ],
       "settings": {
         "enable_sticky_info": true,
