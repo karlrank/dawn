@@ -37,13 +37,6 @@
             "show_dynamic_checkout": true
           }
         },
-        "c2f2b412-79aa-4cc7-8c22-0ced9be2ef44": {
-          "type": "text",
-          "settings": {
-            "text": "Condition rating slill bars here",
-            "text_style": "body"
-          }
-        },
         "ad4fef74-222f-422b-a2e1-33623ff7b9e6": {
           "type": "collapsible_tab",
           "settings": {
@@ -71,6 +64,13 @@
             "icon": "return"
           }
         },
+        "c2f2b412-79aa-4cc7-8c22-0ced9be2ef44": {
+          "type": "text",
+          "settings": {
+            "text": "Condition rating slill bars here",
+            "text_style": "body"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -84,10 +84,10 @@
         "price",
         "853cea71-8e8d-4b3a-8d41-fda13fdf751d",
         "buy_buttons",
-        "c2f2b412-79aa-4cc7-8c22-0ced9be2ef44",
         "ad4fef74-222f-422b-a2e1-33623ff7b9e6",
         "0d54122a-b1cd-4ad5-9065-a50ef63c420b",
         "a4908876-2ec2-4049-8519-f88aac2c716e",
+        "c2f2b412-79aa-4cc7-8c22-0ced9be2ef44",
         "description"
       ],
       "settings": {
