@@ -38,19 +38,6 @@
             "custom_liquid": "{{ 'products.product.not_taxable' | t }}"
           }
         },
-        "subtitle": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -105,8 +92,6 @@
         "f0c9e60b-84e2-4c7b-a294-cab454328d82",
         "price",
         "853cea71-8e8d-4b3a-8d41-fda13fdf751d",
-        "subtitle",
-        "variant_picker",
         "buy_buttons",
         "description",
         "c93981a2-30f3-4294-803c-c2c27ba4890e",
