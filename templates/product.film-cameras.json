@@ -83,6 +83,12 @@
             "text": "The following dynamic data is liquid placed in the metafield labeled: {{ product.metafields.my_fields.liquidtest.value }}",
             "text_style": "body"
           }
+        },
+        "4ea260ad-dc3f-4068-95dc-c189308bbb6b": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{{ link.product.price | money }}"
+          }
         }
       },
       "block_order": [
@@ -98,7 +104,8 @@
         "b4d99444-8c54-4577-9a32-d83aca0327c2",
         "7dc073f7-8b5d-48ef-9859-3c410b822a44",
         "96c45658-7a4f-4bbe-8af4-a6f32859a982",
-        "3859855d-800d-442e-8802-334b4d652e69"
+        "3859855d-800d-442e-8802-334b4d652e69",
+        "4ea260ad-dc3f-4068-95dc-c189308bbb6b"
       ],
       "settings": {
         "enable_sticky_info": true,
