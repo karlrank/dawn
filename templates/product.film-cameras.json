@@ -31,6 +31,13 @@
             "custom_liquid": "{{ 'products.product.not_taxable' | t }}"
           }
         },
+        "c2f2b412-79aa-4cc7-8c22-0ced9be2ef44": {
+          "type": "text",
+          "settings": {
+            "text": "Condition rating slill bars here",
+            "text_style": "body"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -43,16 +50,7 @@
             "heading": "Accurate Condition Rating",
             "content": "<p>Our condition ratings are over 99,5% accurate.<\/p>",
             "page": "",
-            "icon": "check_mark"
-          }
-        },
-        "0d54122a-b1cd-4ad5-9065-a50ef63c420b": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Worldwide Shipping",
-            "content": "<p>Finland: <strong>5<\/strong>€<br\/>European Union: <strong>10<\/strong>€<br\/>Unites States: 20€ \/ ~$<strong>24<br\/><\/strong>Most other countries: <strong>20<\/strong>€<br\/>Some regions: 40€<\/p><p><a href=\"\/pages\/shipping-price-summary\" target=\"_blank\" title=\"Shipping Price Summary\">See full details<\/a><\/p>",
-            "page": "",
-            "icon": "plane"
+            "icon": "star"
           }
         },
         "a4908876-2ec2-4049-8519-f88aac2c716e": {
@@ -64,11 +62,13 @@
             "icon": "return"
           }
         },
-        "c2f2b412-79aa-4cc7-8c22-0ced9be2ef44": {
-          "type": "text",
+        "0d54122a-b1cd-4ad5-9065-a50ef63c420b": {
+          "type": "collapsible_tab",
           "settings": {
-            "text": "Condition rating slill bars here",
-            "text_style": "body"
+            "heading": "Worldwide Shipping",
+            "content": "<p>Finland: <strong>5<\/strong>€<br\/>European Union: <strong>10<\/strong>€<br\/>Unites States: 20€ \/ ~$<strong>24<br\/><\/strong>Most other countries: <strong>20<\/strong>€<br\/>Some regions: 40€<\/p><p><a href=\"\/pages\/shipping-price-summary\" target=\"_blank\" title=\"Shipping Price Summary\">See full details<\/a><\/p>",
+            "page": "",
+            "icon": "plane"
           }
         },
         "description": {
@@ -83,11 +83,11 @@
         "f0c9e60b-84e2-4c7b-a294-cab454328d82",
         "price",
         "853cea71-8e8d-4b3a-8d41-fda13fdf751d",
+        "c2f2b412-79aa-4cc7-8c22-0ced9be2ef44",
         "buy_buttons",
         "ad4fef74-222f-422b-a2e1-33623ff7b9e6",
-        "0d54122a-b1cd-4ad5-9065-a50ef63c420b",
         "a4908876-2ec2-4049-8519-f88aac2c716e",
-        "c2f2b412-79aa-4cc7-8c22-0ced9be2ef44",
+        "0d54122a-b1cd-4ad5-9065-a50ef63c420b",
         "description"
       ],
       "settings": {
