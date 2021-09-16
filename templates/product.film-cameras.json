@@ -1,5 +1,11 @@
 {
   "sections": {
+    "163179108960277131": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width page-width--wide\">\n<style>\n  .breadcrumbs {\n    margin: 0 0 2em;\n  }\n\n  .breadcrumbs__list {\n    list-style-type: none;\n    margin: 0;\n    padding: 0;\n  }\n\n  .breadcrumbs__item {\n    display: inline-block;\n  }\n\n  .breadcrumbs__item:not(:last-child):after {\n    border-style: solid;\n    border-width: .10em .10em 0 0;\n    content: '';\n    display: inline-block;\n    height: .20em;\n    margin: 0 .20em;\n    position: relative;\n    transform: rotate(45deg);\n    vertical-align: middle;\n    width: .20em;\n  }\n\n  .breadcrumbs__link {\n    text-decoration: underline;\n  }\n\n  .breadcrumbs__link[aria-current=\"page\"] {\n    color: inherit;\n    font-weight: normal;\n    text-decoration: none;\n  }\n\n  .breadcrumbs__link[aria-current=\"page\"]:hover,\n  .breadcrumbs__link[aria-current=\"page\"]:focus {\n    text-decoration: underline;\n  }\n<\/style>\n\n{%- unless template == 'index' or template == 'cart' or template == 'list-collections' or template == '404' -%}\n{%- assign t = template | split: '.' | first -%}\n\n<nav class=\"breadcrumbs\" role=\"navigation\" aria-label=\"breadcrumbs\">\n  <ol class=\"breadcrumbs__list\">\n    <li class=\"breadcrumbs__item\">\n      <a class=\"breadcrumbs__link\" href=\"\/\">Home<\/a>\n    <\/li>\n    {%- case t -%}\n      {%- when 'page' -%}\n        <li class=\"breadcrumbs__item\">\n          <a class=\"breadcrumbs__link\" href=\"{{ page.url }}\" aria-current=\"page\">{{ page.title }}<\/a>\n        <\/li>\n      {%- when 'product' -%}\n        {%- if collection.url -%}\n          <li class=\"breadcrumbs__item\">\n            {{ collection.title | link_to: collection.url }}\n          <\/li>\n        {%- endif -%}\n        <li class=\"breadcrumbs__item\">\n          <a class=\"breadcrumbs__link\" href=\"{{ product.url }}\" aria-current=\"page\">{{ product.title }}<\/a>\n        <\/li>\n      {%- when 'collection' and collection.handle -%}\n        {%- if current_tags -%}\n          <li class=\"breadcrumbs__item\">\n            {{ collection.title | link_to: collection.url }}\n          <\/li>\n          <li class=\"breadcrumbs__item\">\n            {%- capture tag_url -%}{{ collection.url }}\/{{ current_tags | join: \"+\"}}{%- endcapture -%}\n            <a class=\"breadcrumbs__link\" href=\"{{ tag_url }}\" aria-current=\"page\">{{ current_tags | join: \" + \"}}<\/a>\n          <\/li>\n        {%- else -%}\n          <li class=\"breadcrumbs__item\">\n            <a class=\"breadcrumbs__link\" href=\"{{ collection.url }}\" aria-current=\"page\">{{ collection.title }}<\/a>\n          <\/li>\n        {%- endif -%}\n      {%- when 'blog' -%}\n        {%- if current_tags -%}\n          <li class=\"breadcrumbs__item\">\n            {{ blog.title | link_to: blog.url }}\n          <\/li>\n          <li class=\"breadcrumbs__item\">\n            {%- capture tag_url -%}{{blog.url}}\/tagged\/{{ current_tags | join: \"+\" }}{%- endcapture -%}\n            <a class=\"breadcrumbs__link\" href=\"{{ tag_url }}\" aria-current=\"page\">{{ current_tags | join: \" + \" }}<\/a>\n          <\/li>\n        {%- else -%}\n          <li class=\"breadcrumbs__item\">\n            <a class=\"breadcrumbs__link\" href=\"{{ blog.url }}\" aria-current=\"page\">{{ blog.title }}<\/a>\n          <\/li>\n        {%- endif -%}\n      {%- when 'article' -%}\n        <li class=\"breadcrumbs__item\">\n          {{ blog.title | link_to: blog.url }}\n        <\/li>\n        <li class=\"breadcrumbs__item\">\n          <a class=\"breadcrumbs__link\" href=\"{{ article.url }}\" aria-current=\"page\">{{ article.title }}<\/a>\n        <\/li>\n      {%- else -%}\n        <li class=\"breadcrumbs__item\">\n          <a class=\"breadcrumbs__link\" href=\"{{ request.path }}\" aria-current=\"page\">{{ page_title }}<\/a>\n        <\/li>\n    {%- endcase -%}\n  <\/ol>\n<\/nav>\n{%- endunless -%}<\/div>"
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -77,12 +83,6 @@
             "icon": "plane"
           }
         },
-        "description": {
-          "type": "description",
-          "disabled": true,
-          "settings": {
-          }
-        },
         "a7a065d8-ebcb-417c-a339-e0764ee01666": {
           "type": "custom_liquid",
           "settings": {
@@ -102,7 +102,6 @@
         "ad4fef74-222f-422b-a2e1-33623ff7b9e6",
         "a4908876-2ec2-4049-8519-f88aac2c716e",
         "0d54122a-b1cd-4ad5-9065-a50ef63c420b",
-        "description",
         "a7a065d8-ebcb-417c-a339-e0764ee01666"
       ],
       "settings": {
@@ -174,6 +173,7 @@
     }
   },
   "order": [
+    "163179108960277131",
     "main",
     "163178438845c86d64",
     "1631699212640753e5",
