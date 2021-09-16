@@ -29,7 +29,7 @@
         "f0c9e60b-84e2-4c7b-a294-cab454328d82": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span> {{ current_variant.sku }}<\/span> \/ {%- assign current_variant = product.selected_or_first_available_variant -%}\n<span> {{ current_variant.barcode }}<\/span>"
+            "custom_liquid": "<p style=\"color: #b3b3b3\">{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span> {{ current_variant.sku }}<\/span> \/ {%- assign current_variant = product.selected_or_first_available_variant -%}\n<span> {{ current_variant.barcode }}<\/span><\/p>"
           }
         },
         "price": {
