@@ -114,7 +114,7 @@
     "163178438845c86d64": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"page-width page-width--wide\">{{ product.description }}<\/div>"
+        "custom_liquid": "<div class=\"page-width page-width--wide\">\n<H2>{{ product.title }} Description<\/h2>{{ product.description }}<\/div>"
       }
     },
     "1631699212640753e5": {
