@@ -3,6 +3,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "eef5d81b-99be-406b-8d49-804694bc4c77": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% for tag in product.tags %}\n    {% if tag contains 'system' %}\n        {{ tag }}\n    {% endif %}\n{% endfor %}"
+          }
+        },
         "c8dbdd94-5d5c-4b28-940d-2dc1b267c8ac": {
           "type": "custom_liquid",
           "settings": {
@@ -78,6 +84,7 @@
         }
       },
       "block_order": [
+        "eef5d81b-99be-406b-8d49-804694bc4c77",
         "c8dbdd94-5d5c-4b28-940d-2dc1b267c8ac",
         "title",
         "f0c9e60b-84e2-4c7b-a294-cab454328d82",
