@@ -177,6 +177,12 @@
         "show_vendor": true,
         "show_rating": false
       }
+    },
+    "163179208178567e24": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<table>\n  {% tablerow tag in product.tags cols:2 %}\n    {{ tag }}\n  {% endtablerow %}\n<\/table>\n<table>"
+      }
     }
   },
   "order": [
@@ -184,6 +190,7 @@
     "main",
     "163178438845c86d64",
     "1631699212640753e5",
-    "product-recommendations"
+    "product-recommendations",
+    "163179208178567e24"
   ]
 }
