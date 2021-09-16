@@ -8,11 +8,12 @@
     "colors_outline_button_labels": "#027ed2",
     "colors_background_1": "#ffffff",
     "colors_background_2": "#F3F3F3",
-    "type_header_font": "avenir_next_rounded_n5",
+    "type_header_font": "chivo_n4",
     "type_body_font": "assistant_n4",
     "page_width": "1200",
     "predictive_search_show_vendor": true,
     "predictive_search_show_price": false,
+    "checkout_logo_size": "medium",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
