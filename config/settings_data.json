@@ -37,15 +37,8 @@
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
-              "menu": "footer"
-            }
-          },
-          "footer-1": {
-            "type": "text",
-            "settings": {
-              "heading": "Heading",
-              "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
+              "heading": "Jump to:",
+              "menu": "things-you-can-do"
             }
           },
           "1584f1e0-0793-4350-9e20-b07a559b3f5a": {
@@ -54,12 +47,19 @@
               "heading": "FAQ",
               "menu": "questions-answered"
             }
+          },
+          "footer-1": {
+            "type": "text",
+            "settings": {
+              "heading": "Heading",
+              "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
+            }
           }
         },
         "block_order": [
           "footer-0",
-          "footer-1",
-          "1584f1e0-0793-4350-9e20-b07a559b3f5a"
+          "1584f1e0-0793-4350-9e20-b07a559b3f5a",
+          "footer-1"
         ],
         "settings": {
           "color_scheme": "background-1",
