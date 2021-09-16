@@ -88,12 +88,6 @@
             "page": "",
             "icon": "plane"
           }
-        },
-        "a7a065d8-ebcb-417c-a339-e0764ee01666": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{% for collection in product.collections %}\n                            {% if collection.title != product.title %}\n                                <a href=\"{{ collection.url }}\"><span class=\"rating\">{{ collection.title }}<\/span><\/a>\n        |                    {% endif %}\n                        {% endfor %}"
-          }
         }
       },
       "block_order": [
@@ -108,8 +102,7 @@
         "6e329fbd-c3b0-4cfe-a6f4-9911df60910e",
         "ad4fef74-222f-422b-a2e1-33623ff7b9e6",
         "a4908876-2ec2-4049-8519-f88aac2c716e",
-        "0d54122a-b1cd-4ad5-9065-a50ef63c420b",
-        "a7a065d8-ebcb-417c-a339-e0764ee01666"
+        "0d54122a-b1cd-4ad5-9065-a50ef63c420b"
       ],
       "settings": {
         "enable_sticky_info": true,
