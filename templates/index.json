@@ -184,6 +184,41 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
+    },
+    "1631783246bd86182c": {
+      "type": "image-with-text",
+      "blocks": {
+        "1631783246bd86182c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Valoi 360 (New!)"
+          }
+        },
+        "1631783246bd86182c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Digitise your 120 and 35mm film negatives at home with precision and ease using the all new VALOI 360 system and accessories.<\/p>"
+          }
+        },
+        "1631783246bd86182c-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1631783246bd86182c-0",
+        "1631783246bd86182c-1",
+        "1631783246bd86182c-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Valoi_35mm.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
     }
   },
   "order": [
@@ -192,6 +227,7 @@
     "featured_products",
     "collage",
     "video",
-    "multi_column"
+    "multi_column",
+    "1631783246bd86182c"
   ]
 }
