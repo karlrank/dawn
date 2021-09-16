@@ -37,7 +37,7 @@
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "Jump to:",
+              "heading": "Things to do",
               "menu": "things-you-can-do"
             }
           },
@@ -51,15 +51,23 @@
           "footer-1": {
             "type": "text",
             "settings": {
-              "heading": "Heading",
-              "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
+              "heading": "Contact",
+              "subtext": "<p>Kameratori Oy<br\/>Erkkilänkatu 11 A, <br\/>PMK-talo, 7. krs<br\/>33100 Tampere, Finland<\/p><p>Info@kamerastore.com<br\/><a href=\"tel:+358 10 2311777\" title=\"tel:+358 10 2311777\">+358 10 2311777<\/a><\/p>"
+            }
+          },
+          "5769cebb-1b61-44a0-b986-fb568a3856a3": {
+            "type": "text",
+            "settings": {
+              "heading": "Business Hours",
+              "subtext": "<p><span style=\"text-decoration:underline\"><strong>Customer Service<br\/><\/strong><\/span>Mon-Fri: 10:00 to 16:00<br\/>Sat-Sun: Closed<\/p><p><span style=\"text-decoration:underline\"><strong>Shipping Operations<br\/><\/strong><\/span>Mon-Fri: 09:00 to 16:00<br\/>Sat-Sun: Closed<\/p><p><a href=\"https:\/\/www.google.com\/maps?cid=190194912039482085\" title=\"Tampere Showroom & Kiosk\"><span style=\"text-decoration:underline\"><strong>Tampere Showroom & Kiosk<\/strong><\/span><\/a><br\/>Mon-Fri: Appointment only<br\/>Sat-Sun: Closed<\/p><p><a href=\"https:\/\/www.google.com\/maps?cid=544005958638645025\" title=\"Helsinki Kiosk\"><span style=\"text-decoration:underline\"><strong>Helsinki Kiosk<\/strong><\/span><\/a><br\/>Wed-Fri: Appointment only<br\/>Sat-Tue: Closed<\/p><p>Time zone: (<a href=\"https:\/\/time.is\/GMT+2\" target=\"_blank\" title=\"https:\/\/time.is\/GMT+3\">GMT+3<\/a>)<\/p>"
             }
           }
         },
         "block_order": [
           "footer-0",
           "1584f1e0-0793-4350-9e20-b07a559b3f5a",
-          "footer-1"
+          "footer-1",
+          "5769cebb-1b61-44a0-b986-fb568a3856a3"
         ],
         "settings": {
           "color_scheme": "background-1",
