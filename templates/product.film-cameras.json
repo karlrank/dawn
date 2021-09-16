@@ -37,6 +37,15 @@
             "show_dynamic_checkout": true
           }
         },
+        "a4908876-2ec2-4049-8519-f88aac2c716e": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "14d Satisfaction Guarantee",
+            "content": "<p>Change your mind? Buy the wrong thing? Let us know within 14 days of delivery for a return and refund. <a href=\"\/policies\/refund-policy\" target=\"_blank\" title=\"\/policies\/refund-policy\">Read More<\/a><\/p>",
+            "page": "",
+            "icon": "return"
+          }
+        },
         "ad4fef74-222f-422b-a2e1-33623ff7b9e6": {
           "type": "collapsible_tab",
           "settings": {
@@ -53,15 +62,6 @@
             "content": "<p>Finland: <strong>5<\/strong>€<br\/>European Union: <strong>10<\/strong>€<br\/>Unites States: 20€ \/ ~$<strong>24<br\/><\/strong>Most other countries: <strong>20<\/strong>€<br\/>Some regions: 40€<\/p><p><a href=\"\/pages\/shipping-price-summary\" target=\"_blank\" title=\"Shipping Price Summary\">See full details<\/a><\/p>",
             "page": "",
             "icon": "plane"
-          }
-        },
-        "a4908876-2ec2-4049-8519-f88aac2c716e": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "14 Day Return Policy",
-            "content": "<p>Change your mind? Buy the wrong thing? Let us know within 14 days of delivery for a return and refund. <a href=\"\/policies\/refund-policy\" target=\"_blank\" title=\"\/policies\/refund-policy\">Read More<\/a><\/p>",
-            "page": "",
-            "icon": "return"
           }
         },
         "c2f2b412-79aa-4cc7-8c22-0ced9be2ef44": {
@@ -84,9 +84,9 @@
         "price",
         "853cea71-8e8d-4b3a-8d41-fda13fdf751d",
         "buy_buttons",
+        "a4908876-2ec2-4049-8519-f88aac2c716e",
         "ad4fef74-222f-422b-a2e1-33623ff7b9e6",
         "0d54122a-b1cd-4ad5-9065-a50ef63c420b",
-        "a4908876-2ec2-4049-8519-f88aac2c716e",
         "c2f2b412-79aa-4cc7-8c22-0ced9be2ef44",
         "description"
       ],
