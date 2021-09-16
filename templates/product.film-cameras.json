@@ -85,7 +85,7 @@
         "a7a065d8-ebcb-417c-a339-e0764ee01666": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% for collection in product.collections %}\n                            {% if collection.title != product.title %}\n                                <a href=\"{{ collection.url }}\"><span class=\"button\">{{ collection.title }}<\/span><\/a>\n                            {% endif %}\n                        {% endfor %}"
+            "custom_liquid": "{% for collection in product.collections %}\n                            {% if collection.title != product.title %}\n                                <a href=\"{{ collection.url }}\"><span class=\"rating\">{{ collection.title }}<\/span><\/a>\n        |                    {% endif %}\n                        {% endfor %}"
           }
         }
       },
