@@ -47,11 +47,19 @@
               "heading": "Heading",
               "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
             }
+          },
+          "1584f1e0-0793-4350-9e20-b07a559b3f5a": {
+            "type": "link_list",
+            "settings": {
+              "heading": "FAQ",
+              "menu": "questions-answered"
+            }
           }
         },
         "block_order": [
           "footer-0",
-          "footer-1"
+          "footer-1",
+          "1584f1e0-0793-4350-9e20-b07a559b3f5a"
         ],
         "settings": {
           "color_scheme": "background-1",
