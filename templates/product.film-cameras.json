@@ -197,7 +197,7 @@
           "type": "column",
           "settings": {
             "title": "Infinity Focusing & Rangefinder Alignment",
-            "text": "<p>Using a \"Collimator\" to simulate focusing at infinity, we are able to check a lenses focus at all distances.<\/p><p><\/p><p>If a lens mounted to a camera isn’t able to focus properly on this target, then there is something wrong with it (provided the camera body is good). With rangefinder cameras, we also check the focusing at different distances using a special high-contrast target. Using these two steps we find out if it is in “alignment” and will focus properly. We also check lenses for all cameras with similar equipment. <\/p>"
+            "text": "<p>Using a \"Collimator\" to simulate focusing at infinity, we are able to check a lenses focus from near to far.  We also use a special high-contrast target board to check that a rangefinder lens is<em> <\/em>in<em> <\/em>alignment with its viewfinders rangefinder. Any problems are likley due to the lens, but can be attributed to the body and are fully investigated.<\/p>"
           }
         },
         "6ac9b599-c067-409f-818e-24aa63217351": {
