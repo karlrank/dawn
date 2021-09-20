@@ -132,8 +132,8 @@
         "163213238375145c93-0": {
           "type": "column",
           "settings": {
-            "title": "Step 1",
-            "text": "<p>Some or all of the following checks have been performed:<\/p><p>General function<\/p><p>Lens optics<\/p><p>Shutter Speeds<\/p><p>Light meters and Automatic Exposure (AE) testing<\/p><p>Rangefinder alignment and infinity focusing<\/p><p>Light seals<\/p><p>Cleaning<\/p>"
+            "title": "Preliminary Check",
+            "text": "<p>Missing parts<\/p><p>External damage<\/p><p>Cover\/leatherette condition<\/p><p>Winding related mechanism functions<\/p><p>Button functions<\/p><p>Lever functions<\/p><p>Electronic connection functions<\/p><p>Self-timer<\/p>"
           }
         },
         "163213238375145c93-1": {
