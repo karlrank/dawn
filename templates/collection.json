@@ -21,27 +21,10 @@
         "enable_sorting": true,
         "collapse_on_larger_devices": false
       }
-    },
-    "1632121502a9f3c2cd": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Don't forget your film!",
-        "collection": "film",
-        "products_to_show": 4,
-        "show_view_all": true,
-        "swipe_on_mobile": true,
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "add_image_padding": true,
-        "show_image_outline": true,
-        "show_vendor": true,
-        "show_rating": false
-      }
     }
   },
   "order": [
     "banner",
-    "product-grid",
-    "1632121502a9f3c2cd"
+    "product-grid"
   ]
 }
