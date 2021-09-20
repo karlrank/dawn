@@ -189,7 +189,7 @@
         "16321391205a6cb4a0-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2021-09-20_at_16.21.48.png",
+            "image": "shopify:\/\/shop_images\/Screenshot_2021-09-20_at_16.21.48_Cropped.png",
             "title": "Shutter Speeds",
             "text": "<p>We the have authentic film-era machinery required to accurate test shutter speed performance. They tell us how long the shutter is open, how much light comes through and if the shutter curtains are moving correctly. If there is a tolerable error, we will fix it or add it to the description and adjust the price accordingly.<\/p>"
           }
@@ -197,6 +197,7 @@
         "16321391205a6cb4a0-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2021-09-20_at_16.21.48_Cropped.png",
             "title": "Light meters & Automatic Exposure",
             "text": "<p>As with shutter speeds, light meters can also fall out of adjustment. Cameras with automatic exposure rely on their light meter to calculate correct shutter times for proper exposure. We can precisely measure the amount of light coming through to the film, and compare that with the cameras meter to see how accurate it is.<\/p>"
           }
