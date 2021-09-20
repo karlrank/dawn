@@ -1,39 +1,40 @@
-{{ 'template-collection.css' | asset_url | stylesheet_tag }}
-{{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
-{{ 'component-card.css' | asset_url | stylesheet_tag }}
-{{ 'component-price.css' | asset_url | stylesheet_tag }}
-{{ 'component-product-grid.css' | asset_url | stylesheet_tag }}
+{{ "template-collection.css" | asset_url | stylesheet_tag }}
+{{ "component-loading-overlay.css" | asset_url | stylesheet_tag }}
 
-<link rel="preload" href="{{ 'component-rte.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" href="{{ 'component-card.css' | asset_url }}" as="style"
+	onload="this.onload=null;this.rel='stylesheet'" />
+<link rel="preload" href="{{ 'component-price.css' | asset_url }}" as="style"
+	onload="this.onload=null;this.rel='stylesheet'" />
+<link rel="preload" href="{{ 'component-badge.css' | asset_url }}" as="style"
+	onload="this.onload=null;this.rel='stylesheet'" />
+<link rel="preload" href="{{ 'component-rte.css' | asset_url }}" as="style"
+	onload="this.onload=null;this.rel='stylesheet'" />
+<link rel="stylesheet" href="{{ 'component-pagination.css' | asset_url }}"
+	media="print" onload="this.media='all'" />
 
-<noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
-
-<script src="{{ 'collection-filters-form.js' | asset_url }}" defer="defer"></script>
+<noscript>{{ "component-card.css" | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ "component-price.css" | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ "component-badge.css" | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ "component-rte.css" | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ "component-pagination.css" | asset_url | stylesheet_tag}}</noscript>
 
 {%- paginate collection.products by section.settings.products_per_page -%}
-<div class="page-width collection-filters" id="main-collection-filters" data-id="{{ section.id }}">
+<div class="collection page-width collection-filters" id="main-collection-filters" data-id="{{ section.id }}">
 	<div class="boost-pfs-container-default boost-pfs-filter-wrapper-page facets">
 		{%- comment -%} TOOLBAR TOP MOBILE {%- endcomment -%}
 
 		<div class="facets__form">
-			<div class="facets__wrapper">
-				<div class="boost-pfs-filter-tree boost-pfs-filter-tree-h" data-is-desktop>
-					{% render 'boost-pfs-filter-skeleton', type: 'filter-tree-h' %}
-				</div>
-			</div>
-
+			<div class="facets__wrapper"></div>
       {%- if section.settings.enable_sorting -%}
         <div class="collection-filters__item sorting">
           <div class="collection-filters__field">
             <label class="collection-filters__label" for="SortBy">{{"sections.collection_template.sort_by_label" | t }}</label>
-            <div class="select
-                  boost-pfs-filter-custom-sorting
-                  boost-pfs-filter-top-sorting">
+            <div class="select boost-pfs-filter-custom-sorting boost-pfs-filter-top-sorting">
               {%- render 'boost-pfs-filter-skeleton' -%}
             </div>
           </div>
         </div>
-		  {%- endif -%}
+      {%- endif -%}
       <div class="collection-product-count light" role="status">
         <p id="CollectionProductCountDesktop" class="collection-product-count__text boost-pfs-filter-total-product">
           {%- if collection.products_count == collection.all_products_count -%}
@@ -43,40 +44,52 @@
           {%- endif -%}
         </p>
       </div>
-    </div>
+		</div>
+
 		<div class="boost-pfs-filter-toolbar-top-mobile">
 			<div class="boost-pfs-filter-tree-mobile-button">
-				{%- include 'boost-pfs-filter-skeleton', type: 'button' -%}
+				{%- render 'boost-pfs-filter-skeleton', type: 'button' -%}
 			</div>
 		</div>
-		<div class="boost-pfs-filter-tree boost-pfs-filter-tree-v" data-is-mobile></div>
 		{%- comment -%} END TOOLBAR TOP MOBILE {%- endcomment -%}
 	</div>
 </div>
 <div id="CollectionProductGrid">
-	<div class="collection page-width">
-		<div class="boost-pfs-filter-refine-by-wrapper-h"></div>
-		<ul id="main-collection-product-grid" data-id="{{ section.id }}" class=" negative-margin
-              	boost-pfs-filter-products
-              	grid grid--2-col
-                {% if collection.products_count < 4 %} grid--{{collection.products_count}}-col-tablet{% else %}
-                {% if collection.products_count == 4 %} grid--4-col-desktop{% else %} grid--3-col-tablet grid--one-third-max grid--4-col-desktop grid--quarter-max{% endif %}
-                {% endif %}">
-			{%- for product in collection.products -%}
-			<li class="grid__item">
-				{% render 'product-card', product_card_product: product, media_size:
-				section.settings.image_ratio, show_secondary_image:
-				section.settings.show_secondary_image, add_image_padding:
-				section.settings.add_image_padding, show_vendor:
-				section.settings.show_vendor %}
-			</li>
-			{%- endfor -%}
-		</ul>
+	<div class="boost-pfs-filter-wrapper collection page-width">
+		<div class="boost-pfs-container-default-box">
+			<div class="boost-pfs-filter-left-col">
+				<div class="boost-pfs-filter-left-col-inner">
+					<div class="boost-pfs-filter-tree boost-pfs-filter-tree-v">
+						{% render 'boost-pfs-filter-skeleton', type: 'filter-tree' %}
+					</div>
+				</div>
+			</div>
+			<div class="boost-pfs-filter-right-col">
+				<div class="product-grid negative-margin">
+					<ul id="main-collection-product-grid" data-id="{{ section.id }}" class="
+						boost-pfs-filter-products
+						grid grid--2-col
+                		{% if collection.products_count < 4 %} grid--{{collection.products_count}}-col-tablet{% else %}
+                  		{% if collection.products_count == 4 %} grid--4-col-desktop{% else %} grid--3-col-tablet grid--one-third-max grid--4-col-desktop grid--quarter-max{% endif %}
+                		{% endif %}">
+						{%- for product in collection.products -%}
+						<li class="grid__item">
+							{% render 'product-card', product_card_product: product,
+							media_size: section.settings.image_ratio, show_secondary_image:
+							section.settings.show_secondary_image, add_image_padding:
+							section.settings.add_image_padding, show_vendor:
+							section.settings.show_vendor %}
+						</li>
+						{%- endfor -%}
+					</ul>
+				</div>
+
+				<div class="boost-pfs-filter-load-more"></div>
+				<div class="boost-pfs-filter-bottom-pagination"></div>
+			</div>
+		</div>
 	</div>
 </div>
-
-<div class="boost-pfs-filter-load-more"></div>
-<div class="boost-pfs-filter-bottom-pagination"></div>
 {%- endpaginate -%}
 
 <script>
@@ -105,7 +118,7 @@ var boostPFSThemeConfig = {
 		unit_price: {{ 'products.product.price.unit_price' | t | json }},
 		selected_or_first_unit_price: {{ 'products.product.price.unit_price' | t | json }},
 		unit_price_separator: {{ 'accessibility.unit_price_separator' | t | default: '' | json }}
-    },
+	},
 	custom: {
 		show_vendor: {% if section.settings.show_vendor %} {{ section.settings.show_vendor | json }} {% else %} false {% endif %},
 		add_image_padding: {% if section.settings.add_image_padding %} {{ section.settings.add_image_padding | json }} {% else %} false {% endif %},
@@ -137,6 +150,7 @@ var boostPFSTemplate = {
 };
 </script>
 {% schema %}
+
 
 
 {

@@ -4,6 +4,7 @@
 {% assign searchBoxMobileHeight = '64px' %}
 
 /**************************** Place your custom css below  ****************************/
+/* Layout */
 .boost-pfs-container-default-box {
   padding: 0;
 }
@@ -13,16 +14,15 @@
   overflow-y: visible !important;
 }
 
-.boost-pfs-filter-refine-by {
-  clear: both;
+.boost-pfs-filter-left-col {
+  width: 20%;
+  float: left;
 }
 
-.boost-pfs-filter-tree-h .boost-pfs-filter-option:not(.boost-pfs-filter-option-collapsed) .boost-pfs-filter-option-title:after {
-  bottom: -13px;
-}
-
-.boost-pfs-filter-tree-h .boost-pfs-filter-option:not(.boost-pfs-filter-option-collapsed) .boost-pfs-filter-option-title:before {
-  bottom: -11px;
+.boost-pfs-filter-right-col {
+  width: 80%;
+  float: right;
+  padding-left: 30px;
 }
 
 #boost-pfs-search-box-mobile:focus-visible {
@@ -33,6 +33,7 @@
   display: block;
 }
 
+/* Product */
 @media (min-width: {{ breakpointDesktop }}) {
   #main-collection-product-grid {
     margin-top: 0;
@@ -48,28 +49,6 @@
   }
 }
 
-@media (min-width: {{ breakpointMobile }}) {
-  .boost-pfs-filter-refine-by {
-    margin-top: 0;
-    margin-bottom: 15px;
-  }
-}
-
-.boost-pfs-filter-tree-h {
-  display: flex;
-  align-items: center;
-  margin-bottom: 0;
-  margin-left: .5rem;
-}
-
-.boost-pfs-filter-tree-h .boost-pfs-filter-option {
-  padding-bottom: 0px;
-}
-
-.boost-pfs-filter-tree-h .boost-pfs-filter-option-title-heading:before {
-  top: 55% !important;
-}
-
 /**** Custom Search result toolbar ****/
 .boost-pfs-search-suggestion-header-view-all a,
 .boost-pfs-search-suggestion-item a {
@@ -78,7 +57,7 @@
 
 .template-search .filters-toolbar-wrapper {
   margin-top: 55px;
-  margin-bottom: 30px;
+  margin-bottom: 55px;
 }
 
 .boost-pfs-search-result-toolbar {
@@ -165,8 +144,17 @@ h3.boost-pfs-search-result-list-item-title {
 ul.boost-pfs-search-result-panel-controls>li button {
   cursor: pointer;
 }
+.boost-pfs-container-default .facets__form {
+  margin-bottom: 1.5rem;
+}
+
 
 @media (max-width: {{ breakpointMobile }}) {
+  .boost-pfs-filter-right-col {
+    width: 100%;
+    float: none;
+    padding-left: 0;
+  }
   .facets__wrapper {
     display: none !important;
   }

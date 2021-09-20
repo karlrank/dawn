@@ -99,26 +99,26 @@
 
 	<div class="page-width">
 		<div class="boost-pfs-filter-wrapper boost-pfs-search-panel-product-show">
-			<div class="boost-pfs-filter-tree boost-pfs-filter-tree-h" data-is-desktop>
-                {% render 'boost-pfs-filter-skeleton', type: 'filter-tree-h' %}
-            </div>
-            <div class="boost-pfs-filter-tree boost-pfs-filter-tree-v" data-is-mobile></div>
-            <div class="boost-pfs-filter-refine-by-wrapper-h"></div>
-            <div class="boost-pfs-filter-products grid grid--2-col grid--3-col-tablet grid--one-third-max grid--4-col-desktop grid--quarter-max">
-              {% comment %} Fix Shopify search term report {% endcomment %}
-              {% paginate search.results by 2 %}
-              {% if search.performed %}
-              {% for item in search.results %}
-              <div class="grid__item" style="display: none !important"></div>
-              {% endfor %}
-              {% endif %}
-              {% endpaginate %}
-            </div>
+			<div class="boost-pfs-filter-tree boost-pfs-filter-tree-v">
+				{% render 'boost-pfs-filter-skeleton', type: 'filter-tree' %}
+			</div>
+			<div class="boost-pfs-filter-right">
+				<div class="boost-pfs-filter-products grid grid--2-col grid--3-col-tablet grid--one-third-max grid--4-col-desktop grid--quarter-max">
+					{% comment %} Fix Shopify search term report {% endcomment %}
+					{% paginate search.results by 2 %}
+						{% if search.performed %}
+							{% for item in search.results %}
+								<div class="grid__item" style="display: none !important"></div>
+							{% endfor %}
+						{% endif %}
+					{% endpaginate %}
+				</div>
 
-            <div class="boost-pfs-filter-bottom-pagination">
-              {% render 'boost-pfs-filter-skeleton', width: 2 %}
-            </div>
-            <div class="boost-pfs-filter-load-more"></div>
+				<div class="boost-pfs-filter-bottom-pagination">
+					{% render 'boost-pfs-filter-skeleton', width: 2 %}
+				</div>
+				<div class="boost-pfs-filter-load-more"></div>
+			</div>
 		</div>
 
 		<div class="boost-pfs-search-result-wrap boost-hidden">
@@ -198,6 +198,7 @@ var boostPFSTemplate = {
 };
 </script>
 {% schema %}
+
 
 
 {
