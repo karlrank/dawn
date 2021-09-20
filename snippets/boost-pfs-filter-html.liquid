@@ -1,0 +1,95 @@
+{%- capture bc_layout -%}
+{%- case layout -%}
+{%- when 'productGridItemHtml' -%}
+{%- raw -%}
+<div class="grid__item">
+  <div class="card-wrapper">
+    <a href="{{itemUrl}}" class="full-unstyled-link">
+      <span class="visually-hidden">{{itemTitle}}</span>
+      <div class="card card--product {{cardProductClass}}" tabindex="-1">
+        <div class="card__inner">
+          {{itemImages}}
+          <div class="card__badge">
+            {{itemSoldOut}}
+            {{itemSale}}
+          </div>
+        </div>
+      </div>
+      <div class="card-information">
+        <div class="card-information__wrapper">
+          {{itemVendor}}
+          <span class="card-information__text h5">{{itemTitle}}</span>
+          {{itemReviews}}
+          {{itemPrice}}
+        </div>
+      </div>
+    </a>
+  </div>
+</div>
+{%- endraw -%}
+
+{%- when 'soldOutLabelHtml' -%}
+<span class="badge badge--bottom-left color-[[soldOutBadgeClass]]" aria-hidden="true">
+  {{ 'products.product.sold_out' | t }}
+</span>
+
+{%- when 'saleLabelHtml' -%}
+<span class="badge badge--bottom-left color-[[saleBadgeClass]]" aria-hidden="true">
+  {{ 'products.product.on_sale' | t }}
+</span>
+
+{%- when 'vendorHtml' -%}
+<span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
+<div class="caption-with-letter-spacing light">[[itemVendorLabel]]</div>
+
+{%- when 'previousActiveHtml' -%}
+<li>
+  <a href="[[itemUrl]]" class="pagination__item pagination__item--next pagination__item-arrow link motion-reduce">
+    <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret" viewBox="0 0 10 6">
+      <path fill-rule="evenodd" clip-rule="evenodd"
+        d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z"
+        fill="currentColor">
+      </path>
+    </svg>
+  </a>
+</li>
+
+{%- when 'nextActiveHtml' -%}
+<li>
+  <a href="[[itemUrl]]" class="pagination__item pagination__item--prev pagination__item-arrow link motion-reduce">
+    <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret" viewBox="0 0 10 6">
+      <path fill-rule="evenodd" clip-rule="evenodd"
+        d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z"
+        fill="currentColor">
+      </path>
+    </svg>
+  </a>
+</li>
+
+{%- when 'pageItemHtml' -%}
+<li><a href="[[itemUrl]]" class="pagination__item link">[[itemTitle]]</a></li>
+
+{%- when 'pageItemSelectedHtml' -%}
+<li><span class="pagination__item pagination__item--current" aria-current="page">[[itemTitle]]</span></li>
+
+{% when 'pageItemRemainHtml' %}
+<li><span class="pagination__item">[[itemTitle]]</span></li>
+
+{%- when 'paginateHtml' -%}
+<div class="pagination-wrapper">
+  <nav class="pagination" role="navigation" aria-label="Pagination">
+    <ul class="pagination__list list-unstyled" role="list">[[previous]][[pageItems]][[next]]</ul>
+  </nav>
+</div>
+
+{%- when 'sortingHtml' -%}
+<select name="sort_by" class="select__select collection-filters__sort" id="SortBy" aria-describedby="a11y-refresh-page-message">[[sortingItems]]</select>
+<svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret" viewBox="0 0 10 6">
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor">
+</path></svg>
+
+{%- endcase -%}
+{%- endcapture -%}
+
+{%- assign str = '}}' -%}
+{{- bc_layout | json | replace: '[[', '{{' | replace: ']]', str -}}
