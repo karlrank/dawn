@@ -83,10 +83,17 @@
         "0d54122a-b1cd-4ad5-9065-a50ef63c420b": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Worldwide Shipping",
+            "heading": "Shipping",
             "content": "<p>Finland: <strong>5<\/strong>€<br\/>European Union: <strong>10<\/strong>€<br\/>Unites States: 20€ \/ ~$<strong>24<br\/><\/strong>Most other countries: <strong>20<\/strong>€<br\/>Some regions: 40€<\/p><p><a href=\"\/pages\/shipping-price-summary\" target=\"_blank\" title=\"Shipping Price Summary\">See full details<\/a><\/p>",
             "page": "",
             "icon": "plane"
+          }
+        },
+        "1dd60c6e-1dcb-4bd1-a65c-ad2e41025b79": {
+          "type": "text",
+          "settings": {
+            "text": "Actual item pictured",
+            "text_style": "body"
           }
         }
       },
@@ -102,7 +109,8 @@
         "6e329fbd-c3b0-4cfe-a6f4-9911df60910e",
         "ad4fef74-222f-422b-a2e1-33623ff7b9e6",
         "a4908876-2ec2-4049-8519-f88aac2c716e",
-        "0d54122a-b1cd-4ad5-9065-a50ef63c420b"
+        "0d54122a-b1cd-4ad5-9065-a50ef63c420b",
+        "1dd60c6e-1dcb-4bd1-a65c-ad2e41025b79"
       ],
       "settings": {
         "enable_sticky_info": true,
