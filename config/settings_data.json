@@ -16,7 +16,10 @@
     "social_youtube_link": "https:\/\/www.youtube.com\/c\/Kamerastore",
     "predictive_search_show_vendor": true,
     "predictive_search_show_price": false,
-    "checkout_logo_size": "medium",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Kamerastore_Logo.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "small",
+    "checkout_body_background_color": "#ffffff",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
