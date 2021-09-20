@@ -118,7 +118,13 @@
     {%- endif -%}
 
     <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
-  </head>
+  
+<!--begin-boost-pfs-filter-css-->
+  {% render 'boost-pfs-style' %}
+<!--end-boost-pfs-filter-css-->
+
+
+</head>
 
   <body class="gradient">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
@@ -165,5 +171,9 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-  </body>
+  
+<!--begin-boost-pfs-js-->
+  {% render 'boost-pfs' %}
+<!--end-boost-pfs-js-->
+</body>
 </html>
