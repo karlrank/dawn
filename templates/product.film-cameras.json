@@ -128,6 +128,7 @@
     },
     "163213238375145c93": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "163213238375145c93-0": {
           "type": "column",
@@ -264,6 +265,63 @@
         "color_scheme": "background-2",
         "layout": "image_first"
       }
+    },
+    "16321391205a6cb4a0": {
+      "type": "multicolumn",
+      "blocks": {
+        "16321391205a6cb4a0-0": {
+          "type": "column",
+          "settings": {
+            "title": "Shutter Speed",
+            "text": "<p>Testing if the shutter on the camera is accurate can only be done with specialised equipment. We have machines to test how long the shutter is open, how much light comes through and if the shutter curtains are moving correctly. If the shutter doesn’t work like intended we mark the minor problems in the listing, so you know about it and can compensate for it, or we hand it to the Cameramakers who work their magic to revive it. <\/p>"
+          }
+        },
+        "16321391205a6cb4a0-1": {
+          "type": "column",
+          "settings": {
+            "title": "Light meters and Automatic Exposure (AE) testing",
+            "text": "<p>As with shutter speeds, light meters can also fall out of adjustment. This is particularly important for cameras with Automatic Exposure because the camera has full control over exposure - so if it’s confused, your pictures will come out bad. Therefore, we have equipment that precisely measures the amount of light coming through to the film, judging how well the camera reads light<\/p>"
+          }
+        },
+        "16321391205a6cb4a0-2": {
+          "type": "column",
+          "settings": {
+            "title": "Rangefinder alignment and infinity focusing",
+            "text": "<p>Another important factor is focusing. To ensure lenses are in order, we have a special target called a “Collimator”, which simulates infinity distance. If a lens mounted to a camera isn’t able to focus properly on this target, then there is something wrong with it (provided the camera body is good). With rangefinder cameras, we also check the focusing at different distances using a special high-contrast target. Using these two steps we find out if it is in “alignment” and will focus properly. We also check lenses for all cameras with similar equipment. Since we test these functions properly you can be sure to have sharp images every time.<\/p>"
+          }
+        },
+        "6ac9b599-c067-409f-818e-24aa63217351": {
+          "type": "column",
+          "settings": {
+            "title": "Light seals",
+            "text": "<p>Light seals, on most models, are small strips of black foam that ensure your camera is light-tight in the right places. If they are not replaced once in a while they will degrade and might let unwanted light ruin your film. Most cameras we sell have new light seals to ensure that your precious pictures aren’t ruined.<\/p>"
+          }
+        },
+        "fb536a15-ee33-4a1f-ad23-a80e2ce67059": {
+          "type": "column",
+          "settings": {
+            "title": "General Cleaning",
+            "text": "<p>Once we are satisfied that the item is in good condition and can be sold, it is cleaned well from sand particles, dust and grime to make sure the buyer has a nice experience receiving the item. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16321391205a6cb4a0-0",
+        "16321391205a6cb4a0-1",
+        "16321391205a6cb4a0-2",
+        "6ac9b599-c067-409f-818e-24aa63217351",
+        "fb536a15-ee33-4a1f-ad23-a80e2ce67059"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
     }
   },
   "order": [
@@ -273,6 +331,7 @@
     "163213238375145c93",
     "1631699212640753e5",
     "product-recommendations",
-    "16321339467e367887"
+    "16321339467e367887",
+    "16321391205a6cb4a0"
   ]
 }
