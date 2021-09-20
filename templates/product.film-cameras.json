@@ -142,11 +142,19 @@
             "title": "Column",
             "text": "<p>This item has been thoroughly inspected by our technicians and assigned the above condition rating based on a 50+ point inspection in the following areas when applicable:<\/p><p><br\/><\/p><p>Cosmetic condition<\/p><p>Shutter speed accuracy<\/p><p>Focusing function<\/p><p>Optical integrity<\/p><p>Metering<\/p><p>Automatic exposure<\/p><p>Viewfinder<\/p><p>Shutter & mirror<\/p><p>Film advance<\/p><p>Light seals \/foams<\/p><p>Batteries<\/p><p>Button, lever, & connection functions<\/p>"
           }
+        },
+        "c3a5df44-7cfe-4c2b-83dd-a494475f2514": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>General Condition (8)<\/p><p>Lens & Focusing (6)<\/p><p>Viewfinder (5)<\/p><p>Metering (4)<\/p><p>Shutter & Mirror (4)<\/p><p>Film Advance (4)<\/p><p>Light Seals \/Foams (3)<\/p><p>Batteries (2)<\/p><p>Shutter speeds (2)<\/p><p>Other Functions (6)<\/p>"
+          }
         }
       },
       "block_order": [
         "163213238375145c93-0",
-        "163213238375145c93-1"
+        "163213238375145c93-1",
+        "c3a5df44-7cfe-4c2b-83dd-a494475f2514"
       ],
       "settings": {
         "title": "Quality Control",
