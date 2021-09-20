@@ -132,18 +132,11 @@
         "163213238375145c93-0": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "title": "Step 1",
+            "text": "<p>Some or all of the following checks have been performed:<\/p><p>General function<\/p><p>Lens optics<\/p><p>Shutter Speeds<\/p><p>Light meters and Automatic Exposure (AE) testing<\/p><p>Rangefinder alignment and infinity focusing<\/p><p>Light seals<\/p><p>Cleaning<\/p>"
           }
         },
         "163213238375145c93-1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "163213238375145c93-2": {
           "type": "column",
           "settings": {
             "title": "Column",
@@ -153,8 +146,7 @@
       },
       "block_order": [
         "163213238375145c93-0",
-        "163213238375145c93-1",
-        "163213238375145c93-2"
+        "163213238375145c93-1"
       ],
       "settings": {
         "title": "Quality Control",
