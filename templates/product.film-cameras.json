@@ -196,8 +196,8 @@
         "16321391205a6cb4a0-2": {
           "type": "column",
           "settings": {
-            "title": "Rangefinder alignment and infinity focusing",
-            "text": "<p>Another important factor is focusing. To ensure lenses are in order, we have a special target called a “Collimator”, which simulates infinity distance. If a lens mounted to a camera isn’t able to focus properly on this target, then there is something wrong with it (provided the camera body is good). With rangefinder cameras, we also check the focusing at different distances using a special high-contrast target. Using these two steps we find out if it is in “alignment” and will focus properly. We also check lenses for all cameras with similar equipment. Since we test these functions properly you can be sure to have sharp images every time.<\/p>"
+            "title": "Infinity Focusing & Rangefinder Alignment",
+            "text": "<p>Using a \"Collimator\" to simulate focusing at infinity, we are able to check a lenses focus at all distances.<\/p><p><\/p><p>If a lens mounted to a camera isn’t able to focus properly on this target, then there is something wrong with it (provided the camera body is good). With rangefinder cameras, we also check the focusing at different distances using a special high-contrast target. Using these two steps we find out if it is in “alignment” and will focus properly. We also check lenses for all cameras with similar equipment. <\/p>"
           }
         },
         "6ac9b599-c067-409f-818e-24aa63217351": {
@@ -223,7 +223,7 @@
         "fb536a15-ee33-4a1f-ad23-a80e2ce67059"
       ],
       "settings": {
-        "title": "Kamerastore Quality Control",
+        "title": "Film Camera Quality Control",
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",
