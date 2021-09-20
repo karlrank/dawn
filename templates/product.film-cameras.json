@@ -279,8 +279,8 @@
         "16321391205a6cb4a0-1": {
           "type": "column",
           "settings": {
-            "title": "Light meters and Automatic Exposure (AE) testing",
-            "text": "<p>As with shutter speeds, light meters can also fall out of adjustment. This is particularly important for cameras with Automatic Exposure because the camera has full control over exposure - so if it’s confused, your pictures will come out bad. Therefore, we have equipment that precisely measures the amount of light coming through to the film, judging how well the camera reads light<\/p>"
+            "title": "Light meters & Automatic Exposure",
+            "text": "<p>As with shutter speeds, light meters can also fall out of adjustment. Cameras with automatic exposure rely on their light meter to calculate correct shutter times for proper exposure. We can precisely measure the amount of light coming through to the film, and compare that with the cameras meter to see how accurate it is.<\/p>"
           }
         },
         "16321391205a6cb4a0-2": {
