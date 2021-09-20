@@ -149,12 +149,20 @@
             "title": "Column",
             "text": "<p>General Condition (8)<\/p><p>Lens & Focusing (6)<\/p><p>Viewfinder (5)<\/p><p>Metering (4)<\/p><p>Shutter & Mirror (4)<\/p><p>Film Advance (4)<\/p><p>Light Seals \/Foams (3)<\/p><p>Batteries (2)<\/p><p>Shutter speeds (2)<\/p><p>Other Functions (6)<\/p>"
           }
+        },
+        "f110b363-3922-4e6a-961e-fdbfb116face": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
         }
       },
       "block_order": [
         "163213238375145c93-0",
         "163213238375145c93-1",
-        "c3a5df44-7cfe-4c2b-83dd-a494475f2514"
+        "c3a5df44-7cfe-4c2b-83dd-a494475f2514",
+        "f110b363-3922-4e6a-961e-fdbfb116face"
       ],
       "settings": {
         "title": "Quality Control",
