@@ -197,7 +197,7 @@
         "16321391205a6cb4a0-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2021-09-20_at_16.21.48_Cropped.png",
+            "image": "shopify:\/\/shop_images\/Screenshot_2021-09-20_at_16.36.47_Cropped.png",
             "title": "Light meters & Automatic Exposure",
             "text": "<p>As with shutter speeds, light meters can also fall out of adjustment. Cameras with automatic exposure rely on their light meter to calculate correct shutter times for proper exposure. We can precisely measure the amount of light coming through to the film, and compare that with the cameras meter to see how accurate it is.<\/p>"
           }
@@ -205,6 +205,7 @@
         "16321391205a6cb4a0-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2021-09-20_at_16.33.46_Cropped.png",
             "title": "Infinity Focusing & Rangefinder Alignment",
             "text": "<p>Using a \"Collimator\" to simulate focusing at infinity, we are able to check a lenses focus from near to far.  We also use a special high-contrast target board to check that a rangefinder lens is<em> <\/em>in<em> <\/em>alignment with its viewfinders rangefinder. Any problems are likley due to the lens, but can be attributed to the body and are fully investigated.<\/p>"
           }
