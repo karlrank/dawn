@@ -172,14 +172,6 @@
     "16321391205a6cb4a0": {
       "type": "multicolumn",
       "blocks": {
-        "16321391205a6cb4a0-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2021-09-20_at_16.36.47_Cropped.png",
-            "title": "Automatic Exposure \/ Metering",
-            "text": "<p>The amount of automatic features in a camera will determine the path of machine testing we must perform. These tests can check for correct metering, aperture, & shutter speed, through a range of exposure values. Calibrated lenses and calibrated light boxes also assist in this process.<\/p>"
-          }
-        },
         "6ac9b599-c067-409f-818e-24aa63217351": {
           "type": "column",
           "settings": {
@@ -188,12 +180,12 @@
             "text": "<p>Light seals, on most models, are small strips of black foam that keep unwanted light from leaking into your cameras body. They very often degrade with time, compromising your images. We install brand new light seals on almost all our cameras. <\/p>"
           }
         },
-        "16321391205a6cb4a0-0": {
+        "16321391205a6cb4a0-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2021-09-20_at_16.30.17_Cropped.png",
-            "title": "Shutter Speeds",
-            "text": "<p>We the have authentic modern & film-era machinery required to accurately test shutter speed performance. They tell us how long the shutter is open and wether the shutter curtains are moving correctly or not. Different camera types require different machines.<\/p>"
+            "image": "shopify:\/\/shop_images\/Screenshot_2021-09-20_at_16.36.47_Cropped.png",
+            "title": "Automatic Exposure \/ Metering",
+            "text": "<p>The amount of automatic features in a camera will determine the path of machine testing we must perform. These tests can check for correct metering, aperture, & shutter speed, through a range of exposure values. Calibrated lenses and calibrated light boxes also assist in this process.<\/p>"
           }
         },
         "16321391205a6cb4a0-2": {
@@ -203,13 +195,21 @@
             "title": "Infinity Focusing & Rangefinder Alignment",
             "text": "<p>Using a \"Collimator\" to simulate focusing at infinity, we are able to check a lenses focus from near to far.  We also use a special high-contrast target board to check that a rangefinder lens is<em> <\/em>in<em> <\/em>alignment with its viewfinders rangefinder. <\/p>"
           }
+        },
+        "16321391205a6cb4a0-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2021-09-20_at_16.30.17_Cropped.png",
+            "title": "Shutter Speeds",
+            "text": "<p>We the have authentic modern & film-era machinery required to accurately test shutter speed performance. They tell us how long the shutter is open and wether the shutter curtains are moving correctly or not. Different camera types require different machines.<\/p>"
+          }
         }
       },
       "block_order": [
-        "16321391205a6cb4a0-1",
         "6ac9b599-c067-409f-818e-24aa63217351",
-        "16321391205a6cb4a0-0",
-        "16321391205a6cb4a0-2"
+        "16321391205a6cb4a0-1",
+        "16321391205a6cb4a0-2",
+        "16321391205a6cb4a0-0"
       ],
       "settings": {
         "title": "Film Camera Quality Control",
