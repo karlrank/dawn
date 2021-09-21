@@ -193,7 +193,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Screenshot_2021-09-20_at_16.36.47_Cropped.png",
             "title": "Light meters & Automatic Exposure",
-            "text": "<p>Cameras with automatic exposure rely on their light meter to calculate correct shutter times for proper exposure. We can precisely measure the amount of light coming through to the film, and compare that with the cameras meter to see how accurate it is.<\/p>"
+            "text": "<p>The amount of automatic features in a camera determine the path of testing we must perform. These test consider shutter speed, ISO, aperture, and EV output<\/p><p><\/p><p>Cameras with automatic exposure rely on their light meter to calculate correct shutter times for proper exposure. We can precisely measure the amount of light coming through to the film, and compare that with the cameras meter to see how accurate it is.<\/p><p>Different types of cameras require different types of testing. <\/p><p>Using calibrated test lenses we<\/p><p>We are using calibrated test lenses when checking Automatic exposure since exposure = time + ISO + aperture.<\/p>"
           }
         },
         "16321391205a6cb4a0-2": {
