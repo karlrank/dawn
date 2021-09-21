@@ -34,7 +34,7 @@
         "853cea71-8e8d-4b3a-8d41-fda13fdf751d": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div class=\"product__policies rte\">\n                    {% if variant.taxable %}\n                        {{ 'products.product.taxable' | t }}\n                    {% else %}\n                        {{ 'products.product.not_taxable' | t }}\n                    {% endif %}"
+            "custom_liquid": "{% if product.selected_or_first_available_variant.taxable %}\n    {{ 'products.product.taxable' | t }}\n{% else %}\n    {{ 'products.product.not_taxable' | t }}\n{% endif %}"
           }
         },
         "c2f2b412-79aa-4cc7-8c22-0ced9be2ef44": {
