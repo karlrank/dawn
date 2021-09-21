@@ -217,52 +217,9 @@
         "image_ratio": "adapt",
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "swipe_on_mobile": false
-      }
-    },
-    "1631699212640753e5": {
-      "type": "multicolumn",
-      "blocks": {
-        "1631699212640753e5-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/unnamed.png",
-            "title": "Need help with an order?",
-            "text": "<p>Email: <a href=\"mailto:info@kamerastore.com?subject=Ordering%20inquiry\" target=\"_blank\">info@kamerastore.com<\/a><br\/>or Call: +358 10 2311777<br\/>Weekdays 9:00-16:00 (GMT+3)<\/p>"
-          }
-        },
-        "1631699212640753e5-2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "1631699212640753e5-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/UfFOGKO5nDNXP4Y4Vh1-I4OTnVunoLVd231IQzWAq_QPNeODpi1NNN1deY53R2dhfRVI6E0iGD0P-NsVaWpePhJ9YUoD6tDAEXanFNU9JCpNP4mYdCQWUGldnvSQcL6QV-PyASh2NoeZSA94QjQoIg08OFjCQs0-d-e1-ft-1000x562.jpg",
-            "title": "Quality Service Since 2010",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1631699212640753e5-1",
-        "1631699212640753e5-2",
-        "1631699212640753e5-0"
-      ],
-      "settings": {
-        "title": "Heading",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "swipe_on_mobile": true
       }
     },
     "product-recommendations": {
@@ -308,8 +265,8 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/minolta-8320-0002.jpg",
         "height": "small",
-        "color_scheme": "background-2",
-        "layout": "image_first"
+        "color_scheme": "accent-1",
+        "layout": "text_first"
       }
     }
   },
@@ -319,7 +276,6 @@
     "163178438845c86d64",
     "163213238375145c93",
     "16321391205a6cb4a0",
-    "1631699212640753e5",
     "product-recommendations",
     "16321339467e367887"
   ]
