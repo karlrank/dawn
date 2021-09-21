@@ -193,7 +193,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Screenshot_2021-09-20_at_16.36.47_Cropped.png",
             "title": "Light meters & Automatic Exposure",
-            "text": "<p>The amount of automatic features in a camera determine the path of machine testing we must perform. These tests can check for correct ISO, aperture, & shutter speed, through a range of exposure values. Calibrated lenses and calibrated light boxes also assist in this process.<\/p>"
+            "text": "<p>The amount of automatic features in a camera determine the path of machine testing we must perform. These tests can check for correct metering, aperture, & shutter speed, through a range of exposure values. Calibrated lenses and calibrated light boxes also assist in this process.<\/p>"
           }
         },
         "16321391205a6cb4a0-2": {
