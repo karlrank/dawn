@@ -50,6 +50,12 @@
             "show_dynamic_checkout": true
           }
         },
+        "80fbe6e3-0e56-4ee6-be9c-6a5e5c5f985c": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
         "6e329fbd-c3b0-4cfe-a6f4-9911df60910e": {
           "type": "custom_liquid",
           "settings": {
@@ -91,6 +97,18 @@
             "page": "",
             "icon": "eye"
           }
+        },
+        "8a1f013f-3fbd-4ebb-b70b-fd9e114e338b": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "9b20a83b-fe5d-4d60-80fb-5e93ee1a61c2": {
+          "type": "popup",
+          "settings": {
+            "text": "Pop-up link text",
+            "page": "about-kamerastore"
+          }
         }
       },
       "block_order": [
@@ -101,11 +119,14 @@
         "853cea71-8e8d-4b3a-8d41-fda13fdf751d",
         "c2f2b412-79aa-4cc7-8c22-0ced9be2ef44",
         "buy_buttons",
+        "80fbe6e3-0e56-4ee6-be9c-6a5e5c5f985c",
         "6e329fbd-c3b0-4cfe-a6f4-9911df60910e",
         "ad4fef74-222f-422b-a2e1-33623ff7b9e6",
         "a4908876-2ec2-4049-8519-f88aac2c716e",
         "0d54122a-b1cd-4ad5-9065-a50ef63c420b",
-        "a41a8e68-deb3-4414-bc77-846ae026a7ec"
+        "a41a8e68-deb3-4414-bc77-846ae026a7ec",
+        "8a1f013f-3fbd-4ebb-b70b-fd9e114e338b",
+        "9b20a83b-fe5d-4d60-80fb-5e93ee1a61c2"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -268,6 +289,12 @@
         "color_scheme": "accent-1",
         "layout": "text_first"
       }
+    },
+    "16323827888a9c9217": {
+      "type": "page",
+      "settings": {
+        "page": ""
+      }
     }
   },
   "order": [
@@ -277,6 +304,7 @@
     "163213238375145c93",
     "16321391205a6cb4a0",
     "product-recommendations",
-    "16321339467e367887"
+    "16321339467e367887",
+    "16323827888a9c9217"
   ]
 }
