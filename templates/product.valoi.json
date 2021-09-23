@@ -1,0 +1,282 @@
+{
+  "sections": {
+    "163179108960277131": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width page-width--wide\">\n<style>\n  .breadcrumbs {\n    margin: 0 0 2em;\n  }\n\n  .breadcrumbs__list {\n    list-style-type: none;\n    margin: 0;\n    padding: 0;\n  }\n\n  .breadcrumbs__item {\n    display: inline-block;\n  }\n\n  .breadcrumbs__item:not(:last-child):after {\n    border-style: solid;\n    border-width: .10em .10em 0 0;\n    content: '';\n    display: inline-block;\n    height: .20em;\n    margin: 0 .20em;\n    position: relative;\n    transform: rotate(45deg);\n    vertical-align: middle;\n    width: .20em;\n  }\n\n  .breadcrumbs__link {\n    text-decoration: underline;\n  }\n\n  .breadcrumbs__link[aria-current=\"page\"] {\n    color: inherit;\n    font-weight: normal;\n    text-decoration: none;\n  }\n\n  .breadcrumbs__link[aria-current=\"page\"]:hover,\n  .breadcrumbs__link[aria-current=\"page\"]:focus {\n    text-decoration: underline;\n  }\n<\/style>\n\n{%- unless template == 'index' or template == 'cart' or template == 'list-collections' or template == '404' -%}\n{%- assign t = template | split: '.' | first -%}\n\n<nav class=\"breadcrumbs\" role=\"navigation\" aria-label=\"breadcrumbs\">\n  <ol class=\"breadcrumbs__list\">\n    <li class=\"breadcrumbs__item\">\n      <a class=\"breadcrumbs__link\" href=\"\/\">Home<\/a>\n    <\/li>\n    {%- case t -%}\n      {%- when 'page' -%}\n        <li class=\"breadcrumbs__item\">\n          <a class=\"breadcrumbs__link\" href=\"{{ page.url }}\" aria-current=\"page\">{{ page.title }}<\/a>\n        <\/li>\n      {%- when 'product' -%}\n        {%- if collection.url -%}\n          <li class=\"breadcrumbs__item\">\n            {{ collection.title | link_to: collection.url }}\n          <\/li>\n        {%- endif -%}\n        <li class=\"breadcrumbs__item\">\n          <a class=\"breadcrumbs__link\" href=\"{{ product.url }}\" aria-current=\"page\">{{ product.title }}<\/a>\n        <\/li>\n      {%- when 'collection' and collection.handle -%}\n        {%- if current_tags -%}\n          <li class=\"breadcrumbs__item\">\n            {{ collection.title | link_to: collection.url }}\n          <\/li>\n          <li class=\"breadcrumbs__item\">\n            {%- capture tag_url -%}{{ collection.url }}\/{{ current_tags | join: \"+\"}}{%- endcapture -%}\n            <a class=\"breadcrumbs__link\" href=\"{{ tag_url }}\" aria-current=\"page\">{{ current_tags | join: \" + \"}}<\/a>\n          <\/li>\n        {%- else -%}\n          <li class=\"breadcrumbs__item\">\n            <a class=\"breadcrumbs__link\" href=\"{{ collection.url }}\" aria-current=\"page\">{{ collection.title }}<\/a>\n          <\/li>\n        {%- endif -%}\n      {%- when 'blog' -%}\n        {%- if current_tags -%}\n          <li class=\"breadcrumbs__item\">\n            {{ blog.title | link_to: blog.url }}\n          <\/li>\n          <li class=\"breadcrumbs__item\">\n            {%- capture tag_url -%}{{blog.url}}\/tagged\/{{ current_tags | join: \"+\" }}{%- endcapture -%}\n            <a class=\"breadcrumbs__link\" href=\"{{ tag_url }}\" aria-current=\"page\">{{ current_tags | join: \" + \" }}<\/a>\n          <\/li>\n        {%- else -%}\n          <li class=\"breadcrumbs__item\">\n            <a class=\"breadcrumbs__link\" href=\"{{ blog.url }}\" aria-current=\"page\">{{ blog.title }}<\/a>\n          <\/li>\n        {%- endif -%}\n      {%- when 'article' -%}\n        <li class=\"breadcrumbs__item\">\n          {{ blog.title | link_to: blog.url }}\n        <\/li>\n        <li class=\"breadcrumbs__item\">\n          <a class=\"breadcrumbs__link\" href=\"{{ article.url }}\" aria-current=\"page\">{{ article.title }}<\/a>\n        <\/li>\n      {%- else -%}\n        <li class=\"breadcrumbs__item\">\n          <a class=\"breadcrumbs__link\" href=\"{{ request.path }}\" aria-current=\"page\">{{ page_title }}<\/a>\n        <\/li>\n    {%- endcase -%}\n  <\/ol>\n<\/nav>\n{%- endunless -%}<\/div>"
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "eef5d81b-99be-406b-8d49-804694bc4c77": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% for tag in product.tags %}\n    {% if tag contains 'System' %}\n        {{ tag  | split:\"-\" | last}} \/\n    {% endif %}\n{% endfor %}\n{{ product.type }}"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "f0c9e60b-84e2-4c7b-a294-cab454328d82": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p style=\"color: #b3b3b3\">{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span> ID: {{ current_variant.sku }}<\/span> {% if current_variant.barcode %}{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span>\/ Code: {{ current_variant.barcode }}<\/span><\/p>{% endif %}"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "853cea71-8e8d-4b3a-8d41-fda13fdf751d": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.selected_or_first_available_variant.taxable %}\n    {{ 'products.product.taxable' | t }}\n{% else %}\n    {{ 'products.product.not_taxable' | t }}\n{% endif %}"
+          }
+        },
+        "c2f2b412-79aa-4cc7-8c22-0ced9be2ef44": {
+          "type": "text",
+          "settings": {
+            "text": "Condition rating slill bars here",
+            "text_style": "body"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "6e329fbd-c3b0-4cfe-a6f4-9911df60910e": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.available %}\n\n<div class=\"related-stock\">In-stock and ready to ship.<\/div>\n\n{% else %}\n\n{% endif %}"
+          }
+        },
+        "ad4fef74-222f-422b-a2e1-33623ff7b9e6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "True Condition",
+            "content": "<p>Our condition ratings are over 99,5% accurate! Our highly skilled technitians use authentic film-era machinery to evaluate an item's true condtion.<\/p><p>See more at the bottom of the page.<\/p>",
+            "page": "",
+            "icon": "star"
+          }
+        },
+        "a4908876-2ec2-4049-8519-f88aac2c716e": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "14 Day Returns",
+            "content": "<p>Change your mind? Not satisfied? Let us know within 14 days of delivery for a return and refund. <\/p><p><a href=\"\/policies\/refund-policy\" target=\"_blank\" title=\"\/policies\/refund-policy\">Read More<\/a><\/p>",
+            "page": "",
+            "icon": "return"
+          }
+        },
+        "0d54122a-b1cd-4ad5-9065-a50ef63c420b": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Fast Shipping",
+            "content": "<p>Flat-Rate <strong>Worldwide <\/strong>Shipping<\/p><p>🇫🇮 <strong>Finland <\/strong>5€ | 1-3 days<strong><br\/><\/strong>🇪🇺 <strong>EU<\/strong> 10€ | 1-3 days<br\/>🇺🇸 <strong>USA<\/strong> 20€ (~$24)<strong> <\/strong>| 3-5 days<strong><br\/><\/strong>Most<strong> others<\/strong> 20€ | 3-5 days<\/p><p><a href=\"\/pages\/shipping-price-summary\" target=\"_blank\" title=\"Shipping Price Summary\">See full list<\/a><\/p>",
+            "page": "",
+            "icon": "plane"
+          }
+        },
+        "a41a8e68-deb3-4414-bc77-846ae026a7ec": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Actual Item Pictured",
+            "content": "<p>We take the time to photograph every used item. When you buy from us you are getting the item you see in the photos. <\/p>",
+            "page": "",
+            "icon": "eye"
+          }
+        }
+      },
+      "block_order": [
+        "eef5d81b-99be-406b-8d49-804694bc4c77",
+        "title",
+        "f0c9e60b-84e2-4c7b-a294-cab454328d82",
+        "price",
+        "853cea71-8e8d-4b3a-8d41-fda13fdf751d",
+        "c2f2b412-79aa-4cc7-8c22-0ced9be2ef44",
+        "buy_buttons",
+        "6e329fbd-c3b0-4cfe-a6f4-9911df60910e",
+        "ad4fef74-222f-422b-a2e1-33623ff7b9e6",
+        "a4908876-2ec2-4049-8519-f88aac2c716e",
+        "0d54122a-b1cd-4ad5-9065-a50ef63c420b",
+        "a41a8e68-deb3-4414-bc77-846ae026a7ec"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "163178438845c86d64": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width page-width--narrow\">\n<H2>Description<\/h2><H3>{{ product.title }}<\/h3>{{ product.description }}<\/div>"
+      }
+    },
+    "163213238375145c93": {
+      "type": "multicolumn",
+      "disabled": true,
+      "blocks": {
+        "163213238375145c93-0": {
+          "type": "column",
+          "settings": {
+            "title": "Preliminary Check",
+            "text": "<p>Missing parts<\/p><p>External damage<\/p><p>Cover\/leatherette condition<\/p><p>Winding related mechanism functions<\/p><p>Button functions<\/p><p>Lever functions<\/p><p>Electronic connection functions<\/p><p>Self-timer<\/p>"
+          }
+        },
+        "163213238375145c93-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>This item has been thoroughly inspected by our technicians and assigned the above condition rating based on a 50+ point inspection in the following areas when applicable:<\/p><p><br\/><\/p><p>Cosmetic condition<\/p><p>Shutter speed accuracy<\/p><p>Focusing function<\/p><p>Optical integrity<\/p><p>Metering<\/p><p>Automatic exposure<\/p><p>Viewfinder<\/p><p>Shutter & mirror<\/p><p>Film advance<\/p><p>Light seals \/foams<\/p><p>Batteries<\/p><p>Button, lever, & connection functions<\/p>"
+          }
+        },
+        "c3a5df44-7cfe-4c2b-83dd-a494475f2514": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>General Condition (8)<\/p><p>Lens & Focusing (6)<\/p><p>Viewfinder (5)<\/p><p>Metering (4)<\/p><p>Shutter & Mirror (4)<\/p><p>Film Advance (4)<\/p><p>Light Seals \/Foams (3)<\/p><p>Batteries (2)<\/p><p>Shutter speeds (2)<\/p><p>Other Functions (6)<\/p>"
+          }
+        },
+        "f110b363-3922-4e6a-961e-fdbfb116face": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "163213238375145c93-0",
+        "163213238375145c93-1",
+        "c3a5df44-7cfe-4c2b-83dd-a494475f2514",
+        "f110b363-3922-4e6a-961e-fdbfb116face"
+      ],
+      "settings": {
+        "title": "Quality Control",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "16321391205a6cb4a0": {
+      "type": "multicolumn",
+      "blocks": {
+        "6ac9b599-c067-409f-818e-24aa63217351": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_0101_Cropped.jpg",
+            "title": "Light Seals",
+            "text": "<p>Light seals, on most models, are small strips of black foam that keep unwanted light from leaking into your cameras body. They very often degrade with time, compromising your images. We install brand new light seals on almost all our cameras. <\/p>"
+          }
+        },
+        "16321391205a6cb4a0-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2021-09-20_at_16.36.47_Cropped.png",
+            "title": "Automatic Exposure \/ Metering",
+            "text": "<p>The amount of automatic features in a camera will determine the path of machine testing we must perform. These tests can check for correct metering, aperture, & shutter speed, through a range of exposure values. Calibrated lenses and calibrated light boxes also assist in this process.<\/p>"
+          }
+        },
+        "16321391205a6cb4a0-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2021-09-20_at_16.33.46_Cropped.png",
+            "title": "Infinity Focusing & Rangefinder Alignment",
+            "text": "<p>Using a \"Collimator\" to simulate focusing at infinity, we are able to check a lenses focus from near to far.  We also use a special high-contrast target board to check that a rangefinder lens is<em> <\/em>in<em> <\/em>alignment with its viewfinders rangefinder. <\/p>"
+          }
+        },
+        "16321391205a6cb4a0-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2021-09-20_at_16.30.17_Cropped.png",
+            "title": "Shutter Speeds",
+            "text": "<p>We the have authentic modern & film-era machinery required to accurately test shutter speed performance. They tell us how long the shutter is open and wether the shutter curtains are moving correctly or not. Different camera types require different machines.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "6ac9b599-c067-409f-818e-24aa63217351",
+        "16321391205a6cb4a0-1",
+        "16321391205a6cb4a0-2",
+        "16321391205a6cb4a0-0"
+      ],
+      "settings": {
+        "title": "Film Camera Quality Control",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": true,
+        "show_rating": false
+      }
+    },
+    "16321339467e367887": {
+      "type": "image-with-text",
+      "blocks": {
+        "16321339467e367887-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "We Buy Cameras"
+          }
+        },
+        "16321339467e367887-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Do you have unused camera gear laying around? We buy cameras, lenses, and accessories of all ages. Sell for cash or trade-in for something new.<\/p>"
+          }
+        },
+        "16321339467e367887-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "QUOTE REQUEST FORM",
+            "button_link": "shopify:\/\/pages\/sell-or-trade-your-used-camera-gear"
+          }
+        }
+      },
+      "block_order": [
+        "16321339467e367887-0",
+        "16321339467e367887-1",
+        "16321339467e367887-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/minolta-8320-0002.jpg",
+        "height": "small",
+        "color_scheme": "accent-1",
+        "layout": "text_first"
+      }
+    }
+  },
+  "order": [
+    "163179108960277131",
+    "main",
+    "163178438845c86d64",
+    "163213238375145c93",
+    "16321391205a6cb4a0",
+    "product-recommendations",
+    "16321339467e367887"
+  ]
+}
