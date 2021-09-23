@@ -179,7 +179,7 @@
           "type": "button",
           "settings": {
             "button_label": "Quote Request Form",
-            "button_link": ""
+            "button_link": "https:\/\/app.kamerastore.com\/sell_to_us?language=eng"
           }
         }
       },
@@ -189,8 +189,9 @@
         "163239432974b497b2-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/minolta-8320-0002.jpg",
         "height": "adapt",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "layout": "image_first"
       }
     }
