@@ -62,8 +62,8 @@
         "c93981a2-30f3-4294-803c-c2c27ba4890e": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "{{ product.title }}",
-            "content": "<p>The brand of this item is {{ product.vendor }}<\/p>",
+            "heading": "14 Day Return",
+            "content": "<p>Change your mind? Not satisfied? Let us know within 14 days of delivery for a return and refund. <\/p><p><a href=\"\/policies\/refund-policy\" target=\"_blank\" title=\"\/policies\/refund-policy\">Read More<\/a><\/p>",
             "page": "",
             "icon": "check_mark"
           }
