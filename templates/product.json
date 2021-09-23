@@ -159,6 +159,40 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
+    },
+    "163239432974b497b2": {
+      "type": "image-with-text",
+      "blocks": {
+        "163239432974b497b2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "We Buy Cameras"
+          }
+        },
+        "163239432974b497b2-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Do you have unused camera gear laying around? We buy cameras, lenses, and accessories of all ages. Sell for cash or trade-in for something new.<\/p>"
+          }
+        },
+        "163239432974b497b2-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Quote Request Form",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "163239432974b497b2-0",
+        "163239432974b497b2-1",
+        "163239432974b497b2-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
     }
   },
   "order": [
@@ -166,6 +200,7 @@
     "main",
     "1632393643eca7584e",
     "product-recommendations",
-    "1631699212640753e5"
+    "1631699212640753e5",
+    "163239432974b497b2"
   ]
 }
