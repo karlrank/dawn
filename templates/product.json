@@ -117,6 +117,41 @@
         "custom_liquid": "<div class=\"page-width page-width--narrow\">\n<H2>Description<\/h2><H3>{{ product.title }}<\/h3>{{ product.description }}<\/div>"
       }
     },
+    "16324019941e428b8f": {
+      "type": "multicolumn",
+      "blocks": {
+        "16324019941e428b8f-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/UfFOGKO5nDNXP4Y4Vh1-I4OTnVunoLVd231IQzWAq_QPNeODpi1NNN1deY53R2dhfRVI6E0iGD0P-NsVaWpePhJ9YUoD6tDAEXanFNU9JCpNP4mYdCQWUGldnvSQcL6QV-PyASh2NoeZSA94QjQoIg08OFjCQs0-d-e1-ft-1000x562.jpg",
+            "title": "Why Kamerastore?",
+            "text": "<p>We are a real business with a real <a href=\"https:\/\/g.page\/Kamerastore?share\" target=\"_blank\" title=\"https:\/\/g.page\/Kamerastore?share\">shop<\/a>, and real <a href=\"\/pages\/our-team\" target=\"_blank\" title=\"\/pages\/our-team\">camera nerds<\/a> inside. We have helped over 30,000 customers since 2010 and have a <a href=\"https:\/\/g.page\/Kamerastore?share\" target=\"_blank\">4.8 star rating on Google<\/a> .<\/p>"
+          }
+        },
+        "16324019941e428b8f-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2021-09-23_at_16.14.55_Cropped.png",
+            "title": "Need help with an order?",
+            "text": "<p>Email: <a href=\"mailto:info@kamerastore.com?subject=Ordering%20inquiry\" target=\"_blank\">info@kamerastore.com<\/a><br\/>or Call: +358 10 2311777<br\/>Weekdays 9:00-17:00 (GMT+3)<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16324019941e428b8f-0",
+        "16324019941e428b8f-1"
+      ],
+      "settings": {
+        "title": "Quality Service Since 2010",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "secondary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -163,58 +198,14 @@
         "color_scheme": "accent-1",
         "layout": "image_first"
       }
-    },
-    "16324019941e428b8f": {
-      "type": "multicolumn",
-      "blocks": {
-        "16324019941e428b8f-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/UfFOGKO5nDNXP4Y4Vh1-I4OTnVunoLVd231IQzWAq_QPNeODpi1NNN1deY53R2dhfRVI6E0iGD0P-NsVaWpePhJ9YUoD6tDAEXanFNU9JCpNP4mYdCQWUGldnvSQcL6QV-PyASh2NoeZSA94QjQoIg08OFjCQs0-d-e1-ft-1000x562.jpg",
-            "title": "Why Kamerastore?",
-            "text": "<p>We are a real business with a real <a href=\"https:\/\/g.page\/Kamerastore?share\" target=\"_blank\" title=\"https:\/\/g.page\/Kamerastore?share\">shop<\/a>, and real <a href=\"\/pages\/our-team\" target=\"_blank\" title=\"\/pages\/our-team\">camera nerds<\/a> inside. We have helped over 30,000 customers since 2010 and have a <a href=\"https:\/\/g.page\/Kamerastore?share\" target=\"_blank\">4.8 star rating on Google<\/a> .<\/p>"
-          }
-        },
-        "16324019941e428b8f-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2021-09-23_at_16.14.55_Cropped.png",
-            "title": "Need help with an order?",
-            "text": "<p>Email: <a href=\"mailto:info@kamerastore.com?subject=Ordering%20inquiry\" target=\"_blank\">info@kamerastore.com<\/a><br\/>or Call: +358 10 2311777<br\/>Weekdays 9:00-17:00 (GMT+3)<\/p>"
-          }
-        },
-        "16324019941e428b8f-2": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "16324019941e428b8f-0",
-        "16324019941e428b8f-1",
-        "16324019941e428b8f-2"
-      ],
-      "settings": {
-        "title": "Quality Service Since 2010",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "background_style": "secondary",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": false
-      }
     }
   },
   "order": [
     "163239234053a8c6b7",
     "main",
     "1632393643eca7584e",
+    "16324019941e428b8f",
     "product-recommendations",
-    "163239432974b497b2",
-    "16324019941e428b8f"
+    "163239432974b497b2"
   ]
 }
