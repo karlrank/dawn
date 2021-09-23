@@ -150,6 +150,9 @@ ul.boost-pfs-search-result-panel-controls>li button {
 
 
 @media (max-width: 767px) {
+  .boost-pfs-filter-left-col {
+    display: none;
+  }
   .boost-pfs-filter-right-col {
     width: 100%;
     float: none;
