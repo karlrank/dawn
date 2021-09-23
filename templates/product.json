@@ -178,8 +178,9 @@
         "16324019941e428b8f-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "image": "shopify:\/\/shop_images\/unnamed.png",
+            "title": "Need help with an order?",
+            "text": "<p>Email: <a href=\"mailto:info@kamerastore.com?subject=Ordering%20inquiry\" target=\"_blank\">info@kamerastore.com<\/a><br\/>or Call: +358 10 2311777<br\/>Weekdays 9:00-17:00 (GMT+3)<\/p>"
           }
         },
         "16324019941e428b8f-2": {
