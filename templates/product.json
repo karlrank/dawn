@@ -80,6 +80,15 @@
             "page": "",
             "icon": "eye"
           }
+        },
+        "4c9ef1cc-f6f3-4512-940d-96c0a632b68d": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "True Condition",
+            "content": "<p>Our condition ratings are over 99,5% accurate! Our highly skilled technitians use authentic film-era machinery to evaluate an item's true condtion.<\/p>",
+            "page": "",
+            "icon": "star"
+          }
         }
       },
       "block_order": [
@@ -93,7 +102,8 @@
         "buy_buttons",
         "c93981a2-30f3-4294-803c-c2c27ba4890e",
         "e44a2970-017f-4a65-9008-2a056066686c",
-        "d77e20c7-084d-471a-954d-4bc9d03753ea"
+        "d77e20c7-084d-471a-954d-4bc9d03753ea",
+        "4c9ef1cc-f6f3-4512-940d-96c0a632b68d"
       ],
       "settings": {
         "enable_sticky_info": true,
