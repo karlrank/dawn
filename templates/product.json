@@ -15,13 +15,6 @@
             "custom_liquid": "{% for tag in product.tags %}\n    {% if tag contains 'System' %}\n        {{ tag  | split:\"-\" | last}} \/\n    {% endif %}\n{% endfor %}\n{{ product.type }}"
           }
         },
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -111,7 +104,6 @@
       },
       "block_order": [
         "96c45658-7a4f-4bbe-8af4-a6f32859a982",
-        "vendor",
         "title",
         "c8dbdd94-5d5c-4b28-940d-2dc1b267c8ac",
         "price",
