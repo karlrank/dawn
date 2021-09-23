@@ -163,6 +163,47 @@
         "color_scheme": "accent-1",
         "layout": "image_first"
       }
+    },
+    "16324019941e428b8f": {
+      "type": "multicolumn",
+      "blocks": {
+        "16324019941e428b8f-0": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "16324019941e428b8f-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "16324019941e428b8f-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16324019941e428b8f-0",
+        "16324019941e428b8f-1",
+        "16324019941e428b8f-2"
+      ],
+      "settings": {
+        "title": "Quality Service Since 2010",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "secondary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
     }
   },
   "order": [
@@ -170,6 +211,7 @@
     "main",
     "1632393643eca7584e",
     "product-recommendations",
-    "163239432974b497b2"
+    "163239432974b497b2",
+    "16324019941e428b8f"
   ]
 }
