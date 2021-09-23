@@ -76,6 +76,15 @@
             "page": "",
             "icon": "plane"
           }
+        },
+        "d77e20c7-084d-471a-954d-4bc9d03753ea": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Actual Item Pictured",
+            "content": "<p>We take the time to photograph every used item. When you buy from us you are getting the item you see in the photos. <\/p>",
+            "page": "",
+            "icon": "eye"
+          }
         }
       },
       "block_order": [
@@ -89,7 +98,8 @@
         "buy_buttons",
         "description",
         "c93981a2-30f3-4294-803c-c2c27ba4890e",
-        "e44a2970-017f-4a65-9008-2a056066686c"
+        "e44a2970-017f-4a65-9008-2a056066686c",
+        "d77e20c7-084d-471a-954d-4bc9d03753ea"
       ],
       "settings": {
         "enable_sticky_info": true,
