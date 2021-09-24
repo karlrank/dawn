@@ -34,7 +34,7 @@
     "1632393643eca7584e": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"page-width page-width--narrow\">\n<H2>Description<\/h2><H3>{{ product.title }}<\/h3>{{ product.description }}<\/div>"
+        "custom_liquid": "<div class=\"page-width page-width--narrow\">\n<H2>Database Description<\/h2><H3>{{ product.title }}<\/h3>{{ product.description }}<\/div>"
       }
     },
     "16324019941e428b8f": {
