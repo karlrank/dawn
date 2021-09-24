@@ -100,15 +100,6 @@
         "mobile_layout": "collage"
       }
     },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "Video",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false
-      }
-    },
     "multi_column": {
       "type": "multicolumn",
       "blocks": {
@@ -225,7 +216,6 @@
     "image_banner",
     "featured_products",
     "collage",
-    "video",
     "multi_column",
     "1631783246bd86182c",
     "1632470234f73d3bc0"
