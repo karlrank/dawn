@@ -1,0 +1,211 @@
+{
+  "sections": {
+    "163239234053a8c6b7": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width page-width--wide\">\n<style>\n  .breadcrumbs {\n    margin: 0 0 2em;\n  }\n\n  .breadcrumbs__list {\n    list-style-type: none;\n    margin: 0;\n    padding: 0;\n  }\n\n  .breadcrumbs__item {\n    display: inline-block;\n  }\n\n  .breadcrumbs__item:not(:last-child):after {\n    border-style: solid;\n    border-width: .10em .10em 0 0;\n    content: '';\n    display: inline-block;\n    height: .20em;\n    margin: 0 .20em;\n    position: relative;\n    transform: rotate(45deg);\n    vertical-align: middle;\n    width: .20em;\n  }\n\n  .breadcrumbs__link {\n    text-decoration: underline;\n  }\n\n  .breadcrumbs__link[aria-current=\"page\"] {\n    color: inherit;\n    font-weight: normal;\n    text-decoration: none;\n  }\n\n  .breadcrumbs__link[aria-current=\"page\"]:hover,\n  .breadcrumbs__link[aria-current=\"page\"]:focus {\n    text-decoration: underline;\n  }\n<\/style>\n\n{%- unless template == 'index' or template == 'cart' or template == 'list-collections' or template == '404' -%}\n{%- assign t = template | split: '.' | first -%}\n\n<nav class=\"breadcrumbs\" role=\"navigation\" aria-label=\"breadcrumbs\">\n  <ol class=\"breadcrumbs__list\">\n    <li class=\"breadcrumbs__item\">\n      <a class=\"breadcrumbs__link\" href=\"\/\">Home<\/a>\n    <\/li>\n    {%- case t -%}\n      {%- when 'page' -%}\n        <li class=\"breadcrumbs__item\">\n          <a class=\"breadcrumbs__link\" href=\"{{ page.url }}\" aria-current=\"page\">{{ page.title }}<\/a>\n        <\/li>\n      {%- when 'product' -%}\n        {%- if collection.url -%}\n          <li class=\"breadcrumbs__item\">\n            {{ collection.title | link_to: collection.url }}\n          <\/li>\n        {%- endif -%}\n        <li class=\"breadcrumbs__item\">\n          <a class=\"breadcrumbs__link\" href=\"{{ product.url }}\" aria-current=\"page\">{{ product.title }}<\/a>\n        <\/li>\n      {%- when 'collection' and collection.handle -%}\n        {%- if current_tags -%}\n          <li class=\"breadcrumbs__item\">\n            {{ collection.title | link_to: collection.url }}\n          <\/li>\n          <li class=\"breadcrumbs__item\">\n            {%- capture tag_url -%}{{ collection.url }}\/{{ current_tags | join: \"+\"}}{%- endcapture -%}\n            <a class=\"breadcrumbs__link\" href=\"{{ tag_url }}\" aria-current=\"page\">{{ current_tags | join: \" + \"}}<\/a>\n          <\/li>\n        {%- else -%}\n          <li class=\"breadcrumbs__item\">\n            <a class=\"breadcrumbs__link\" href=\"{{ collection.url }}\" aria-current=\"page\">{{ collection.title }}<\/a>\n          <\/li>\n        {%- endif -%}\n      {%- when 'blog' -%}\n        {%- if current_tags -%}\n          <li class=\"breadcrumbs__item\">\n            {{ blog.title | link_to: blog.url }}\n          <\/li>\n          <li class=\"breadcrumbs__item\">\n            {%- capture tag_url -%}{{blog.url}}\/tagged\/{{ current_tags | join: \"+\" }}{%- endcapture -%}\n            <a class=\"breadcrumbs__link\" href=\"{{ tag_url }}\" aria-current=\"page\">{{ current_tags | join: \" + \" }}<\/a>\n          <\/li>\n        {%- else -%}\n          <li class=\"breadcrumbs__item\">\n            <a class=\"breadcrumbs__link\" href=\"{{ blog.url }}\" aria-current=\"page\">{{ blog.title }}<\/a>\n          <\/li>\n        {%- endif -%}\n      {%- when 'article' -%}\n        <li class=\"breadcrumbs__item\">\n          {{ blog.title | link_to: blog.url }}\n        <\/li>\n        <li class=\"breadcrumbs__item\">\n          <a class=\"breadcrumbs__link\" href=\"{{ article.url }}\" aria-current=\"page\">{{ article.title }}<\/a>\n        <\/li>\n      {%- else -%}\n        <li class=\"breadcrumbs__item\">\n          <a class=\"breadcrumbs__link\" href=\"{{ request.path }}\" aria-current=\"page\">{{ page_title }}<\/a>\n        <\/li>\n    {%- endcase -%}\n  <\/ol>\n<\/nav>\n{%- endunless -%}<\/div>"
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "96c45658-7a4f-4bbe-8af4-a6f32859a982": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% for tag in product.tags %}\n    {% if tag contains 'System' %}\n        {{ tag  | split:\"-\" | last}} \/\n    {% endif %}\n{% endfor %}\n{{ product.type }}"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "c8dbdd94-5d5c-4b28-940d-2dc1b267c8ac": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p style=\"color: #b3b3b3\">{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span> ID: {{ current_variant.sku }}<\/span> {% if current_variant.barcode %}{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span>\/ Code: {{ current_variant.barcode }}<\/span><\/p>{% endif %}"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "f0c9e60b-84e2-4c7b-a294-cab454328d82": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.selected_or_first_available_variant.taxable %}\n    {{ 'products.product.taxable' | t }}\n{% else %}\n    {{ 'products.product.not_taxable' | t }}\n{% endif %}"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "c93981a2-30f3-4294-803c-c2c27ba4890e": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "14 Day Returns",
+            "content": "<p>Change your mind? Not satisfied? Let us know within 14 days of delivery for a return and refund. <\/p><p><a href=\"\/policies\/refund-policy\" target=\"_blank\" title=\"\/policies\/refund-policy\">Read More<\/a><\/p>",
+            "page": "",
+            "icon": "return"
+          }
+        },
+        "e44a2970-017f-4a65-9008-2a056066686c": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Fast Shipping",
+            "content": "<p>Flat-Rate <strong>Worldwide <\/strong>Shipping<\/p><p>🇫🇮 <strong>Finland <\/strong>5€ | 1-3 days<strong><br\/><\/strong>🇪🇺 <strong>EU<\/strong> 10€ | 1-3 days<br\/>🇺🇸 <strong>USA<\/strong> 20€ (~$24)<strong> <\/strong>| 3-5 days<strong><br\/><\/strong>Most<strong> others<\/strong> 20€ | 3-5 days<\/p><p><a href=\"\/pages\/shipping-price-summary\" target=\"_blank\" title=\"Shipping Price Summary\">See full list<\/a><\/p>",
+            "page": "",
+            "icon": "plane"
+          }
+        },
+        "d77e20c7-084d-471a-954d-4bc9d03753ea": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Actual Item Pictured",
+            "content": "<p>We take the time to photograph every used item. When you buy from us you are getting the item you see in the photos. <\/p>",
+            "page": "",
+            "icon": "eye"
+          }
+        },
+        "4c9ef1cc-f6f3-4512-940d-96c0a632b68d": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "True Condition",
+            "content": "<p>Our condition ratings are over 99,5% accurate! Our highly skilled technitians use authentic film-era machinery to evaluate an item's true condtion.<\/p>",
+            "page": "",
+            "icon": "star"
+          }
+        }
+      },
+      "block_order": [
+        "96c45658-7a4f-4bbe-8af4-a6f32859a982",
+        "title",
+        "c8dbdd94-5d5c-4b28-940d-2dc1b267c8ac",
+        "price",
+        "f0c9e60b-84e2-4c7b-a294-cab454328d82",
+        "quantity_selector",
+        "variant_picker",
+        "buy_buttons",
+        "c93981a2-30f3-4294-803c-c2c27ba4890e",
+        "e44a2970-017f-4a65-9008-2a056066686c",
+        "d77e20c7-084d-471a-954d-4bc9d03753ea",
+        "4c9ef1cc-f6f3-4512-940d-96c0a632b68d"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "1632393643eca7584e": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width page-width--narrow\">\n<H2>Description<\/h2><H3>{{ product.title }}<\/h3>{{ product.description }}<\/div>"
+      }
+    },
+    "16324019941e428b8f": {
+      "type": "multicolumn",
+      "blocks": {
+        "16324019941e428b8f-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/UfFOGKO5nDNXP4Y4Vh1-I4OTnVunoLVd231IQzWAq_QPNeODpi1NNN1deY53R2dhfRVI6E0iGD0P-NsVaWpePhJ9YUoD6tDAEXanFNU9JCpNP4mYdCQWUGldnvSQcL6QV-PyASh2NoeZSA94QjQoIg08OFjCQs0-d-e1-ft-1000x562.jpg",
+            "title": "Why Kamerastore?",
+            "text": "<p>We are a real business with a real <a href=\"https:\/\/g.page\/Kamerastore?share\" target=\"_blank\" title=\"https:\/\/g.page\/Kamerastore?share\">shop<\/a>, and real <a href=\"\/pages\/our-team\" target=\"_blank\" title=\"\/pages\/our-team\">camera nerds<\/a> inside. We have helped over 30,000 customers since 2010 and have a <a href=\"https:\/\/g.page\/Kamerastore?share\" target=\"_blank\">4.8 star rating on Google<\/a> .<\/p>"
+          }
+        },
+        "16324019941e428b8f-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2021-09-23_at_16.14.55_Cropped.png",
+            "title": "Need help with an order?",
+            "text": "<p>Email: <a href=\"mailto:info@kamerastore.com?subject=Ordering%20inquiry\" target=\"_blank\">info@kamerastore.com<\/a><br\/>or Call: +358 10 2311777<br\/>Weekdays 9:00-17:00 (GMT+3)<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16324019941e428b8f-0",
+        "16324019941e428b8f-1"
+      ],
+      "settings": {
+        "title": "Quality Service Since 2010",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "secondary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": false,
+        "show_vendor": true,
+        "show_rating": false
+      }
+    },
+    "163239432974b497b2": {
+      "type": "image-with-text",
+      "blocks": {
+        "163239432974b497b2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "We Buy Cameras"
+          }
+        },
+        "163239432974b497b2-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Do you have unused camera gear laying around? We buy cameras, lenses, and accessories of all ages. Sell for cash or trade-in for something new.<\/p>"
+          }
+        },
+        "163239432974b497b2-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Quote Request Form",
+            "button_link": "https:\/\/app.kamerastore.com\/sell_to_us?language=eng"
+          }
+        }
+      },
+      "block_order": [
+        "163239432974b497b2-0",
+        "163239432974b497b2-1",
+        "163239432974b497b2-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/minolta-8320-0002.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    }
+  },
+  "order": [
+    "163239234053a8c6b7",
+    "main",
+    "1632393643eca7584e",
+    "16324019941e428b8f",
+    "product-recommendations",
+    "163239432974b497b2"
+  ]
+}
