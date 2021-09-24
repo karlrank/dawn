@@ -19,91 +19,11 @@
           "type": "title",
           "settings": {
           }
-        },
-        "c8dbdd94-5d5c-4b28-940d-2dc1b267c8ac": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<p style=\"color: #b3b3b3\">{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span> ID: {{ current_variant.sku }}<\/span> {% if current_variant.barcode %}{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span>\/ Code: {{ current_variant.barcode }}<\/span><\/p>{% endif %}"
-          }
-        },
-        "price": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "f0c9e60b-84e2-4c7b-a294-cab454328d82": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{% if product.selected_or_first_available_variant.taxable %}\n    {{ 'products.product.taxable' | t }}\n{% else %}\n    {{ 'products.product.not_taxable' | t }}\n{% endif %}"
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        },
-        "c93981a2-30f3-4294-803c-c2c27ba4890e": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "14 Day Returns",
-            "content": "<p>Change your mind? Not satisfied? Let us know within 14 days of delivery for a return and refund. <\/p><p><a href=\"\/policies\/refund-policy\" target=\"_blank\" title=\"\/policies\/refund-policy\">Read More<\/a><\/p>",
-            "page": "",
-            "icon": "return"
-          }
-        },
-        "e44a2970-017f-4a65-9008-2a056066686c": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Fast Shipping",
-            "content": "<p>Flat-Rate <strong>Worldwide <\/strong>Shipping<\/p><p>🇫🇮 <strong>Finland <\/strong>5€ | 1-3 days<strong><br\/><\/strong>🇪🇺 <strong>EU<\/strong> 10€ | 1-3 days<br\/>🇺🇸 <strong>USA<\/strong> 20€ (~$24)<strong> <\/strong>| 3-5 days<strong><br\/><\/strong>Most<strong> others<\/strong> 20€ | 3-5 days<\/p><p><a href=\"\/pages\/shipping-price-summary\" target=\"_blank\" title=\"Shipping Price Summary\">See full list<\/a><\/p>",
-            "page": "",
-            "icon": "plane"
-          }
-        },
-        "d77e20c7-084d-471a-954d-4bc9d03753ea": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Actual Item Pictured",
-            "content": "<p>We take the time to photograph every used item. When you buy from us you are getting the item you see in the photos. <\/p>",
-            "page": "",
-            "icon": "eye"
-          }
-        },
-        "4c9ef1cc-f6f3-4512-940d-96c0a632b68d": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "True Condition",
-            "content": "<p>Our condition ratings are over 99,5% accurate! Our highly skilled technitians use authentic film-era machinery to evaluate an item's true condtion.<\/p>",
-            "page": "",
-            "icon": "star"
-          }
         }
       },
       "block_order": [
         "96c45658-7a4f-4bbe-8af4-a6f32859a982",
-        "title",
-        "c8dbdd94-5d5c-4b28-940d-2dc1b267c8ac",
-        "price",
-        "f0c9e60b-84e2-4c7b-a294-cab454328d82",
-        "quantity_selector",
-        "variant_picker",
-        "buy_buttons",
-        "c93981a2-30f3-4294-803c-c2c27ba4890e",
-        "e44a2970-017f-4a65-9008-2a056066686c",
-        "d77e20c7-084d-471a-954d-4bc9d03753ea",
-        "4c9ef1cc-f6f3-4512-940d-96c0a632b68d"
+        "title"
       ],
       "settings": {
         "enable_sticky_info": true,
