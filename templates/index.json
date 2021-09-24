@@ -185,41 +185,6 @@
         "layout": "image_first"
       }
     },
-    "163213202139178d71": {
-      "type": "image-with-text",
-      "blocks": {
-        "163213202139178d71-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text"
-          }
-        },
-        "163213202139178d71-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p> All items are put through a rigorous testing process to determine their functional quality, and we do our best to accurately represent that information in the listing.<\/p><p>Over 60 inspection points are reviewed by our technicians in order to give each item a <a href=\"https:\/\/kamerastore.com\/kamerastore-condition-ratings\/\" target=\"_blank\">Condition Rating<\/a> .<\/p><p>Every camera gets checked using authentic film-era equipment. This is important because basic camera functions (such as shutter speed, metering, and automatic exposure accuracy) cannot be precisely tested without these.<\/p>"
-          }
-        },
-        "163213202139178d71-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "163213202139178d71-0",
-        "163213202139178d71-1",
-        "163213202139178d71-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/testing.jpg",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first"
-      }
-    },
     "1632470234f73d3bc0": {
       "type": "rich-text",
       "blocks": {
@@ -263,7 +228,6 @@
     "video",
     "multi_column",
     "1631783246bd86182c",
-    "163213202139178d71",
     "1632470234f73d3bc0"
   ]
 }
