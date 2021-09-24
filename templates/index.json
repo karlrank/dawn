@@ -115,21 +115,21 @@
         "column1": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "title": "Buy",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         },
         "column2": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "title": "Sell",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         },
         "column3": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "title": "Trade",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         }
