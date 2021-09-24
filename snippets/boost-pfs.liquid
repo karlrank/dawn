@@ -106,3 +106,8 @@
   <!-- Instant search no result JSON data -->
   {% render  "boost-pfs-instant-search-no-result-json" %}
 {% endunless %}
+
+<!-- 3rd App Integration -->
+{%- if boost_pfs_is_initfilter == true -%}
+  <script defer src="{{ 'boost-pfs-integration.js' | asset_url }}"></script>
+{%- endif -%}
