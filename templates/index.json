@@ -226,7 +226,7 @@
         "1632470234f73d3bc0-0": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Quality Used Products",
             "heading_size": "h1"
           }
         },
@@ -239,8 +239,8 @@
         "1632470234f73d3bc0-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "About Us",
+            "button_link": "shopify:\/\/pages\/about-kamerastore",
             "button_style_secondary": false
           }
         }
