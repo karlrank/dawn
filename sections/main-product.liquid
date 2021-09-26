@@ -341,6 +341,48 @@
                 <span class="visually-hidden">{{ product.metafields.reviews.rating_count }} {{ "accessibility.total_reviews" | t }}</span>
               </p>
             {%- endif -%}
+          {%- when 'condition' -%}
+            {% assign condition = product.metafields.kameratori.condition.value %}
+
+            {% if condition %}
+              {% comment %}<h3>{{ 'products.product.product_condition_heading' | t }}</h3>{% endcomment %}
+
+              <ul class=product-condition>
+                {%- if condition.optical -%}
+                  <li>
+                    <h5>{{ 'products.product.optical_condition_heading' | t: condition: condition.optical }}</h5>
+                    <div class="condition-bar">
+                      <div class="condition" style="width: calc({{ condition.optical }} * 20%)">
+                      </div>
+                      <div class="knob"
+                           style="left: calc({{ condition.optical }} * 20% - 1rem)">{{ condition.optical }}</div>
+                    </div>
+                  </li>
+                {%- endif -%}
+                {%- if condition.mechanical -%}
+                  <li>
+                    <h5>{{ 'products.product.mechanical_condition_heading' | t: condition: condition.mechanical }}</h5>
+                    <div class="condition-bar">
+                      <div class="condition" style="width: calc({{ condition.mechanical }} * 20%)">
+                      </div>
+                      <div class="knob"
+                           style="left: calc({{ condition.mechanical }} * 20% - 1rem)">{{ condition.mechanical }}</div>
+                    </div>
+                  </li>
+                {%- endif -%}
+                {%- if condition.cosmetic -%}
+                  <li>
+                    <h5>{{ 'products.product.cosmetic_condition_heading' | t: condition: condition.cosmetic }}</h5>
+                    <div class="condition-bar">
+                      <div class="condition" style="width: calc({{ condition.cosmetic }} * 20%)">
+                      </div>
+                      <div class="knob"
+                           style="left: calc({{ condition.cosmetic }} * 20% - 1rem)">{{ condition.cosmetic }}</div>
+                    </div>
+                  </li>
+                {%- endif -%}
+              </ul>
+            {% endif %}
           {%- endcase -%}
         {%- endfor -%}
       </div>
@@ -781,6 +823,11 @@
           "content": "t:sections.main-product.blocks.rating.settings.paragraph.content"
         }
       ]
+    },
+    {
+      "type": "condition",
+      "name": "t:sections.main-product.blocks.condition.name",
+      "limit": 1
     }
   ],
   "settings": [

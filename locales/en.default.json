@@ -140,7 +140,11 @@
       "video_exit_message": "{{ title }} opens full screen video in same window.",
       "view_full_details": "View full details",
       "xr_button": "View in your space",
-      "xr_button_label": "View in your space, loads item in augmented reality window"
+      "xr_button_label": "View in your space, loads item in augmented reality window",
+      "product_condition_heading": "Product condition:",
+      "optical_condition_heading": "Optical condition: {{ condition }} / 5",
+      "mechanical_condition_heading": "Mechanical condition: {{ condition }} / 5",
+      "cosmetic_condition_heading": "Cosmetic condition: {{ condition }} / 5"
     },
     "modal": {
       "label": "Media gallery"
