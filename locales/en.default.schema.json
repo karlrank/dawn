@@ -1086,6 +1086,9 @@
         "subtotal": {
           "name": "Subtotal price"
         },
+        "terms_and_conditions": {
+          "name": "Terms and Conditions"
+        },
         "buttons": {
           "name": "Checkout button"
         }

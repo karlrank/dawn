@@ -85,6 +85,44 @@ cart-items {
   margin-top: 1rem;
 }
 
+/* Terms and conditions block styles */
+
+.cart__footer p.terms-and-conditions-alert {
+  color: red;
+  letter-spacing: .04rem;
+}
+
+.cart__footer p.terms-and-conditions-alert.hidden {
+  display: none;
+}
+
+.cart__footer p.terms-and-conditions-checkbox {
+  font-size: 1.3rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+
+  margin-top: 0.5rem;
+}
+
+.cart__footer p.terms-and-conditions-checkbox input {
+  margin-bottom: 4px;
+  width: 1.6rem;
+  height: 1.6rem;
+  margin-right: 0.25rem;
+}
+
+.cart__footer p.terms-and-conditions-checkbox label {
+  font-size: 1.3rem;
+  letter-spacing: .04rem;
+}
+
+.cart__footer p.terms-and-conditions-checkbox a {
+  color: #528ec1;
+}
+
 .cart__note {
   display: block;
 }

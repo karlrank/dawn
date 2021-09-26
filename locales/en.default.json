@@ -215,7 +215,9 @@
       "login": {
         "title": "Have an account?",
         "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Log in<\/a> to check out faster."
-      }
+      },
+      "terms_and_conditions_checkbox_label_html": "I have read and agreed with the <a class=\"link underlined-link\" href=\"{{ link }}\">terms and conditions<\/a>.",
+      "terms_and_conditions_alert": "You must agree with the terms and conditions of sales to check out."
     },
     "footer": {
       "payment": "Payment methods"
