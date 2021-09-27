@@ -74,7 +74,7 @@
           "type": "column",
           "settings": {
             "title": "Trade",
-            "text": "<p>In the mood for something new? Pay less or pay nothing by trading in your unwanted gear towards the purchase of new gear.<\/p>"
+            "text": "<p>In the mood for something new? Pay less or pay nothing by trading in your unwanted gear towards the purchase of something new. <\/p>"
           }
         },
         "column2": {
@@ -91,7 +91,7 @@
         "column2"
       ],
       "settings": {
-        "title": "What's your next move?",
+        "title": "",
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",
