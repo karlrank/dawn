@@ -210,6 +210,15 @@
         "color_scheme": "background-1",
         "full_width": true
       }
+    },
+    "163273752240df21a1": {
+      "type": "video",
+      "settings": {
+        "heading": "Kamerastore on Youtube",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false
+      }
     }
   },
   "order": [
@@ -218,6 +227,7 @@
     "collage",
     "multi_column",
     "1631783246bd86182c",
-    "1632470234f73d3bc0"
+    "1632470234f73d3bc0",
+    "163273752240df21a1"
   ]
 }
