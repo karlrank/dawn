@@ -70,28 +70,28 @@
             "text": "<p>We sell quality used film cameras, lenses, accessories, film, adapters, and digital gear. Around 8000 items in stock with dozens added daily.<\/p>"
           }
         },
+        "column3": {
+          "type": "column",
+          "settings": {
+            "title": "Trade",
+            "text": "<p>In the mood for something new? Pay less or pay nothing by trading in your unwanted gear towards the purchase of new gear.<\/p>"
+          }
+        },
         "column2": {
           "type": "column",
           "settings": {
             "title": "Sell",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Trade",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
         }
       },
       "block_order": [
         "column1",
-        "column2",
-        "column3"
+        "column3",
+        "column2"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "What's your next move?",
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",
