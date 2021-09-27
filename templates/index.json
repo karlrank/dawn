@@ -66,6 +66,7 @@
         "column1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/DSC8971-3.jpg",
             "title": "Buy",
             "text": "<p>We sell quality used film cameras, lenses, accessories, film, adapters, and digital gear. Around 8000 items in stock with dozens added daily.<\/p>"
           }
@@ -73,6 +74,7 @@
         "column3": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Kamerastore_all_cameras_ad_small_f7386a3a-4fcf-48be-914b-777d8976bf5b.jpg",
             "title": "Trade",
             "text": "<p>In the mood for something new? Pay less or pay nothing by trading in your unwanted gear towards the purchase of something new. <\/p>"
           }
