@@ -2162,10 +2162,6 @@ details[open] > .header__icon--menu .icon-hamburger {
   color: rgba(var(--color-foreground), 0.75);
 }
 
-/*.header__menu-item:hover {*/
-/*  color: rgb(var(--color-foreground));*/
-/*}*/
-
 .header__menu-item a.link--text:hover {
   color: rgb(var(--color-foreground));
 }
@@ -2197,6 +2193,22 @@ details[open] > .header__icon--menu .icon-hamburger {
 
 .header__menu-item:hover .header__active-menu-item {
   text-decoration-thickness: 0.2rem;
+}
+
+.header__menu-item span.header__caret-container:before {
+  transition: background-color var(--duration-short) ease;
+  content: '';
+  background: transparent;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 2rem;
+  position: absolute;
+  bottom: 1.15rem;
+  right: 0.3rem;
+}
+
+.header__menu-item:hover span.header__caret-container:before {
+  background: #d5d5d5;
 }
 
 .header__submenu {
