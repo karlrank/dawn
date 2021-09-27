@@ -821,7 +821,7 @@ a.product__text {
   height: 3.2rem;
   color: white;
   width: 3.2rem;
-  background-color: rgb(var(--color-base-solid-button-labels));
+  background-color: rgb(var(--color-base-outline-button-labels));
   border-radius: 1.6rem;
   position: relative;
   top: -2.4rem;
