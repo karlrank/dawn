@@ -20,10 +20,10 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "About the VALOI System",
-            "button_link_1": "",
+            "button_link_1": "shopify:\/\/pages\/about-valoi",
             "button_style_secondary_1": false,
             "button_label_2": "What is camera scanning?",
-            "button_link_2": "",
+            "button_link_2": "shopify:\/\/pages\/what-is-camera-scanning",
             "button_style_secondary_2": false
           }
         }
