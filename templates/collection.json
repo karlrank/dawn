@@ -19,10 +19,10 @@
         "16327340910a0d58dc-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Button label",
+            "button_label_1": "About the VALOI System",
             "button_link_1": "",
             "button_style_secondary_1": false,
-            "button_label_2": "Button label",
+            "button_label_2": "What is camera scanning?",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
@@ -46,6 +46,7 @@
     },
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": true,
         "show_collection_image": false
