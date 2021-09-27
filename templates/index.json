@@ -99,9 +99,44 @@
         "image_ratio": "adapt",
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "swipe_on_mobile": false
+      }
+    },
+    "1632470234f73d3bc0": {
+      "type": "rich-text",
+      "blocks": {
+        "1632470234f73d3bc0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Quality Used Products",
+            "heading_size": "h1"
+          }
+        },
+        "1632470234f73d3bc0-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Much like aperture, ISO, and shutter speed must work together to create a balanced image, offering quality used products requires a harmony between testing machinery, pupose-built tools, & knowledgeable technitians.<\/p>"
+          }
+        },
+        "1632470234f73d3bc0-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "About Us",
+            "button_link": "shopify:\/\/pages\/about-kamerastore",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1632470234f73d3bc0-0",
+        "1632470234f73d3bc0-1",
+        "1632470234f73d3bc0-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
       }
     },
     "1631783246bd86182c": {
@@ -138,42 +173,6 @@
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
-      }
-    },
-    "1632470234f73d3bc0": {
-      "type": "rich-text",
-      "blocks": {
-        "1632470234f73d3bc0-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Quality Used Products",
-            "heading_size": "h1"
-          }
-        },
-        "1632470234f73d3bc0-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Much like aperture, ISO, and shutter speed must work together to create a balanced image, offering quality used products requires a harmony between testing machinery, pupose-built tools, & knowledgeable technitians.<\/p>"
-          }
-        },
-        "1632470234f73d3bc0-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "About Us",
-            "button_link": "shopify:\/\/pages\/about-kamerastore",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "1632470234f73d3bc0-0",
-        "1632470234f73d3bc0-1",
-        "1632470234f73d3bc0-2"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
       }
     },
     "16327380926b68c98b": {
@@ -232,8 +231,8 @@
     "image_banner",
     "featured_products",
     "multi_column",
-    "1631783246bd86182c",
     "1632470234f73d3bc0",
+    "1631783246bd86182c",
     "16327380926b68c98b",
     "163273752240df21a1"
   ]
