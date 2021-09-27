@@ -1486,7 +1486,18 @@
           }
         },
         "condition": {
-          "name": "Product condition"
+          "name": "Product condition",
+          "settings": {
+            "show_mechanical": {
+              "label": "Show mechanical condition"
+            },
+            "show_optical": {
+              "label": "Show optical condition"
+            },
+            "show_cosmetic": {
+              "label": "Show cosmetic condition"
+            }
+          }
         }
       },
       "settings": {

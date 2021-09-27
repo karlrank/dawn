@@ -348,7 +348,7 @@
               {% comment %}<h3>{{ 'products.product.product_condition_heading' | t }}</h3>{% endcomment %}
 
               <ul class=product-condition>
-                {%- if condition.optical -%}
+                {%- if condition.optical and block.settings.show_optical -%}
                   <li>
                     <h5>{{ 'products.product.optical_condition_heading' | t: condition: condition.optical }}</h5>
                     <div class="condition-bar">
@@ -359,7 +359,7 @@
                     </div>
                   </li>
                 {%- endif -%}
-                {%- if condition.mechanical -%}
+                {%- if condition.mechanical and block.settings.show_mechanical -%}
                   <li>
                     <h5>{{ 'products.product.mechanical_condition_heading' | t: condition: condition.mechanical }}</h5>
                     <div class="condition-bar">
@@ -370,7 +370,7 @@
                     </div>
                   </li>
                 {%- endif -%}
-                {%- if condition.cosmetic -%}
+                {%- if condition.cosmetic and block.settings.show_cosmetic -%}
                   <li>
                     <h5>{{ 'products.product.cosmetic_condition_heading' | t: condition: condition.cosmetic }}</h5>
                     <div class="condition-bar">
@@ -827,7 +827,27 @@
     {
       "type": "condition",
       "name": "t:sections.main-product.blocks.condition.name",
-      "limit": 1
+      "limit": 1,
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "show_mechanical",
+          "label": "t:sections.main-product.blocks.condition.settings.show_mechanical.label",
+          "default": true
+        },
+        {
+          "type": "checkbox",
+          "id": "show_optical",
+          "label": "t:sections.main-product.blocks.condition.settings.show_optical.label",
+          "default": true
+        },
+        {
+          "type": "checkbox",
+          "id": "show_cosmetic",
+          "label": "t:sections.main-product.blocks.condition.settings.show_cosmetic.label",
+          "default": true
+        }
+      ]
     }
   ],
   "settings": [
