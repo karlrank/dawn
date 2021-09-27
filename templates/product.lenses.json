@@ -40,6 +40,9 @@
         "4fc793ac-a118-4f11-a2c8-eaa352ca1d8c": {
           "type": "condition",
           "settings": {
+            "show_mechanical": true,
+            "show_optical": true,
+            "show_cosmetic": false
           }
         },
         "buy_buttons": {
