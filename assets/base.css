@@ -2238,6 +2238,11 @@ details[open] > .header__icon--menu .icon-hamburger {
   padding-left: 3rem;
 }
 
+.header__submenu .header__menu-item span.header__caret-container:before {
+  right: 1.4rem;
+  top: 0.8rem;
+}
+
 .header__menu-item .icon-caret {
   right: 0.8rem;
 }
