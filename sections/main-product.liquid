@@ -350,34 +350,34 @@
               <ul class=product-condition>
                 {%- if condition.optical and block.settings.show_optical -%}
                   <li>
-                    <h5>{{ 'products.product.optical_condition_heading' | t: condition: condition.optical }}</h5>
+                    <p>{{ 'products.product.optical_condition_heading' | t: condition: condition.optical }}</p>
                     <div class="condition-bar">
                       <div class="condition" style="width: calc({{ condition.optical }} * 20%)">
                       </div>
                       <div class="knob"
-                           style="left: calc({{ condition.optical }} * 20% - 1rem)">{{ condition.optical }}</div>
+                           style="left: calc({{ condition.optical }} * 20% - 1.6rem)">{{ condition.optical }}</div>
                     </div>
                   </li>
                 {%- endif -%}
                 {%- if condition.mechanical and block.settings.show_mechanical -%}
                   <li>
-                    <h5>{{ 'products.product.mechanical_condition_heading' | t: condition: condition.mechanical }}</h5>
+                    <p>{{ 'products.product.mechanical_condition_heading' | t: condition: condition.mechanical }}</p>
                     <div class="condition-bar">
                       <div class="condition" style="width: calc({{ condition.mechanical }} * 20%)">
                       </div>
                       <div class="knob"
-                           style="left: calc({{ condition.mechanical }} * 20% - 1rem)">{{ condition.mechanical }}</div>
+                           style="left: calc({{ condition.mechanical }} * 20% - 1.6rem)">{{ condition.mechanical }}</div>
                     </div>
                   </li>
                 {%- endif -%}
                 {%- if condition.cosmetic and block.settings.show_cosmetic -%}
                   <li>
-                    <h5>{{ 'products.product.cosmetic_condition_heading' | t: condition: condition.cosmetic }}</h5>
+                    <p>{{ 'products.product.cosmetic_condition_heading' | t: condition: condition.cosmetic }}</p>
                     <div class="condition-bar">
                       <div class="condition" style="width: calc({{ condition.cosmetic }} * 20%)">
                       </div>
                       <div class="knob"
-                           style="left: calc({{ condition.cosmetic }} * 20% - 1rem)">{{ condition.cosmetic }}</div>
+                           style="left: calc({{ condition.cosmetic }} * 20% - 1.6rem)">{{ condition.cosmetic }}</div>
                     </div>
                   </li>
                 {%- endif -%}
