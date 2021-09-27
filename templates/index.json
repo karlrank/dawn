@@ -156,8 +156,8 @@
         "1632470234f73d3bc0-2": {
           "type": "button",
           "settings": {
-            "button_label": "About Us",
-            "button_link": "shopify:\/\/pages\/about-kamerastore",
+            "button_label": "",
+            "button_link": "",
             "button_style_secondary": false
           }
         }
