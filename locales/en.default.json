@@ -143,8 +143,8 @@
       "xr_button_label": "View in your space, loads item in augmented reality window",
       "product_condition_heading": "Product condition:",
       "optical_condition_heading": "Optical condition: {{ condition }} \/ 5",
-      "mechanical_condition_heading": "Mechanical condition: {{ condition }} \/ 5",
-      "cosmetic_condition_heading": "Cosmetic condition: {{ condition }} \/ 5"
+      "mechanical_condition_heading": "Mechanics: {{ condition }} \/ 5",
+      "cosmetic_condition_heading": "Cosmetics: {{ condition }} \/ 5"
     },
     "modal": {
       "label": "Media gallery"
