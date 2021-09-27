@@ -103,6 +103,7 @@
     },
     "1631783246bd86182c": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "1631783246bd86182c-0": {
           "type": "heading",
@@ -175,9 +176,10 @@
       "type": "video",
       "settings": {
         "heading": "Kamerastore on Youtube",
+        "cover_image": "shopify:\/\/shop_images\/maxresdefaultdf.jpg",
         "video_url": "https:\/\/youtu.be\/YSohN-YTLeE",
         "description": "",
-        "full_width": true
+        "full_width": false
       }
     }
   },
