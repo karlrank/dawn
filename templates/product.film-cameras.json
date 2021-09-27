@@ -150,14 +150,6 @@
             "text": "<p>The amount of automatic features in a camera will determine the path of machine testing we must perform. These tests can check for correct metering, aperture, & shutter speed, through a range of exposure values. Calibrated lenses and calibrated light boxes also assist in this process.<\/p>"
           }
         },
-        "16321391205a6cb4a0-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_0233_Cropped-3.jpg",
-            "title": "Infinity Focusing & Rangefinder Alignment",
-            "text": "<p>Using a \"Collimator\" to simulate focusing at infinity, we are able to check a lenses focus from near to far.  We also use a special high-contrast target board to check that a rangefinder lens is<em> <\/em>in<em> <\/em>alignment with its viewfinders rangefinder. <\/p>"
-          }
-        },
         "16321391205a6cb4a0-0": {
           "type": "column",
           "settings": {
@@ -165,13 +157,21 @@
             "title": "Shutter Speeds",
             "text": "<p>We the have authentic modern & film-era machinery required to accurately test shutter speed performance. They tell us how long the shutter is open and wether the shutter curtains are moving correctly or not. Different camera types require different machines.<\/p>"
           }
+        },
+        "16321391205a6cb4a0-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_0233_Cropped-3.jpg",
+            "title": "Infinity Focusing & Rangefinder Alignment",
+            "text": "<p>Using a \"Collimator\" to simulate focusing at infinity, we are able to check a lenses focus from near to far.  We also use a special high-contrast target board to check that a rangefinder lens is<em> <\/em>in<em> <\/em>alignment with its viewfinders rangefinder. <\/p>"
+          }
         }
       },
       "block_order": [
         "6ac9b599-c067-409f-818e-24aa63217351",
         "16321391205a6cb4a0-1",
-        "16321391205a6cb4a0-2",
-        "16321391205a6cb4a0-0"
+        "16321391205a6cb4a0-0",
+        "16321391205a6cb4a0-2"
       ],
       "settings": {
         "title": "Film Camera Quality Control",
