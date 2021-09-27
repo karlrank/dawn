@@ -1,5 +1,49 @@
 {
   "sections": {
+    "16327340910a0d58dc": {
+      "type": "image-banner",
+      "blocks": {
+        "16327340910a0d58dc-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "medium"
+          }
+        },
+        "16327340910a0d58dc-1": {
+          "type": "text",
+          "settings": {
+            "text": "Change the way you scan your film to save time and money by jumping into the future of film scanning."
+          }
+        },
+        "16327340910a0d58dc-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16327340910a0d58dc-0",
+        "16327340910a0d58dc-1",
+        "16327340910a0d58dc-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DSC6451_export.jpg",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
@@ -37,6 +81,7 @@
     }
   },
   "order": [
+    "16327340910a0d58dc",
     "banner",
     "product-grid",
     "1632215400760a0fb4"
