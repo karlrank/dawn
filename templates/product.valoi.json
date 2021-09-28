@@ -175,6 +175,7 @@
     },
     "16321391205a6cb4a0": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "6ac9b599-c067-409f-818e-24aa63217351": {
           "type": "column",
@@ -216,7 +217,7 @@
         "16321391205a6cb4a0-0"
       ],
       "settings": {
-        "title": "Film Camera Quality Control",
+        "title": "Camera Scanning",
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",
@@ -237,47 +238,6 @@
         "show_vendor": true,
         "show_rating": false
       }
-    },
-    "16321339467e367887": {
-      "type": "image-with-text",
-      "blocks": {
-        "16321339467e367887-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "We Buy Cameras"
-          }
-        },
-        "16321339467e367887-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Do you have unused camera gear laying around? We buy cameras, lenses, and accessories of all ages. Sell for cash or trade-in for something new.<\/p>"
-          }
-        },
-        "16321339467e367887-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "QUOTE REQUEST FORM",
-            "button_link": "shopify:\/\/pages\/sell-or-trade-your-used-camera-gear"
-          }
-        }
-      },
-      "block_order": [
-        "16321339467e367887-0",
-        "16321339467e367887-1",
-        "16321339467e367887-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/minolta-8320-0002.jpg",
-        "height": "small",
-        "color_scheme": "accent-1",
-        "layout": "text_first"
-      }
-    },
-    "16323827888a9c9217": {
-      "type": "page",
-      "settings": {
-        "page": ""
-      }
     }
   },
   "order": [
@@ -286,8 +246,6 @@
     "163178438845c86d64",
     "163213238375145c93",
     "16321391205a6cb4a0",
-    "product-recommendations",
-    "16321339467e367887",
-    "16323827888a9c9217"
+    "product-recommendations"
   ]
 }
