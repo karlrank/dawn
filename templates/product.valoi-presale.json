@@ -20,7 +20,7 @@
         "163282385185599d93-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>VALOI <\/strong>makes equipment for digitizing film using a digital camera. <a href=\"\/pages\/what-is-camera-scanning\" target=\"_blank\" title=\"What is Camera Scanning\">Learn more about camera scanning.<\/a><\/p>"
+            "text": "<p><strong>VALOI <\/strong>makes equipment for  digitizing film using a digital camera. <a href=\"\/pages\/what-is-camera-scanning\" target=\"_blank\" title=\"What is Camera Scanning\">Learn more about camera scanning.<\/a><\/p>"
           }
         },
         "163282385185599d93-2": {
@@ -103,6 +103,7 @@
         },
         "6e329fbd-c3b0-4cfe-a6f4-9911df60910e": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "{% if product.available %}\n\n<div class=\"related-stock\">In-stock and ready to ship.<\/div>\n\n{% else %}\n\n{% endif %}"
           }
