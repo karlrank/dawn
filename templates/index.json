@@ -290,6 +290,12 @@
           "settings": {
             "collection": "other-film-cameras"
           }
+        },
+        "a295c9a8-5bbe-46eb-9501-afe24f16e553": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "digital-cameras"
+          }
         }
       },
       "block_order": [
@@ -297,10 +303,11 @@
         "1632819349ddf6100e-1",
         "1632819349ddf6100e-2",
         "26e73203-4249-4944-86eb-3ba86baca5c6",
-        "4e634492-ee65-4265-b310-0f5560dfb366"
+        "4e634492-ee65-4265-b310-0f5560dfb366",
+        "a295c9a8-5bbe-46eb-9501-afe24f16e553"
       ],
       "settings": {
-        "title": "Collections",
+        "title": "Cameras",
         "image_ratio": "square",
         "color_scheme": "background-2",
         "swipe_on_mobile": true,
