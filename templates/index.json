@@ -191,14 +191,62 @@
         "layout": "image_first"
       }
     },
-    "163273752240df21a1": {
-      "type": "video",
+    "1632819349ddf6100e": {
+      "type": "collection-list",
+      "blocks": {
+        "1632819349ddf6100e-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "35mm-cameras"
+          }
+        },
+        "1632819349ddf6100e-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "medium-format-film-cameras"
+          }
+        },
+        "1632819349ddf6100e-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "instant-polaroid-film-cameras"
+          }
+        },
+        "26e73203-4249-4944-86eb-3ba86baca5c6": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": "movie-cameras"
+          }
+        },
+        "4e634492-ee65-4265-b310-0f5560dfb366": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "other-film-cameras"
+          }
+        },
+        "a295c9a8-5bbe-46eb-9501-afe24f16e553": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "digital-cameras"
+          }
+        }
+      },
+      "block_order": [
+        "1632819349ddf6100e-0",
+        "1632819349ddf6100e-1",
+        "1632819349ddf6100e-2",
+        "26e73203-4249-4944-86eb-3ba86baca5c6",
+        "4e634492-ee65-4265-b310-0f5560dfb366",
+        "a295c9a8-5bbe-46eb-9501-afe24f16e553"
+      ],
       "settings": {
-        "heading": "Kamerastore on Youtube",
-        "cover_image": "shopify:\/\/shop_images\/maxresdefaultdf.jpg",
-        "video_url": "https:\/\/youtu.be\/YSohN-YTLeE",
-        "description": "",
-        "full_width": false
+        "title": "Cameras",
+        "image_ratio": "square",
+        "color_scheme": "background-2",
+        "swipe_on_mobile": true,
+        "image_padding": false,
+        "show_view_all": false
       }
     },
     "1632819284873cdad3": {
@@ -258,61 +306,14 @@
         "show_view_all": false
       }
     },
-    "1632819349ddf6100e": {
-      "type": "collection-list",
-      "blocks": {
-        "1632819349ddf6100e-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "35mm-cameras"
-          }
-        },
-        "1632819349ddf6100e-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "medium-format-film-cameras"
-          }
-        },
-        "1632819349ddf6100e-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "instant-polaroid-film-cameras"
-          }
-        },
-        "26e73203-4249-4944-86eb-3ba86baca5c6": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "movie-cameras"
-          }
-        },
-        "4e634492-ee65-4265-b310-0f5560dfb366": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "other-film-cameras"
-          }
-        },
-        "a295c9a8-5bbe-46eb-9501-afe24f16e553": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "digital-cameras"
-          }
-        }
-      },
-      "block_order": [
-        "1632819349ddf6100e-0",
-        "1632819349ddf6100e-1",
-        "1632819349ddf6100e-2",
-        "26e73203-4249-4944-86eb-3ba86baca5c6",
-        "4e634492-ee65-4265-b310-0f5560dfb366",
-        "a295c9a8-5bbe-46eb-9501-afe24f16e553"
-      ],
+    "163273752240df21a1": {
+      "type": "video",
       "settings": {
-        "title": "Cameras",
-        "image_ratio": "square",
-        "color_scheme": "background-2",
-        "swipe_on_mobile": true,
-        "image_padding": false,
-        "show_view_all": false
+        "heading": "Kamerastore on Youtube",
+        "cover_image": "shopify:\/\/shop_images\/maxresdefaultdf.jpg",
+        "video_url": "https:\/\/youtu.be\/YSohN-YTLeE",
+        "description": "",
+        "full_width": false
       }
     }
   },
@@ -323,8 +324,8 @@
     "1632470234f73d3bc0",
     "16328192199ca25f9a",
     "1631783246bd86182c",
-    "163273752240df21a1",
+    "1632819349ddf6100e",
     "1632819284873cdad3",
-    "1632819349ddf6100e"
+    "163273752240df21a1"
   ]
 }
