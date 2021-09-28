@@ -315,6 +315,22 @@
         "description": "",
         "full_width": false
       }
+    },
+    "1632819820cfe9c4e7": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Medium Format Film Cameras",
+        "collection": "medium-format-film-cameras",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": true,
+        "show_rating": false
+      }
     }
   },
   "order": [
@@ -326,6 +342,7 @@
     "1631783246bd86182c",
     "1632819349ddf6100e",
     "1632819284873cdad3",
-    "163273752240df21a1"
+    "163273752240df21a1",
+    "1632819820cfe9c4e7"
   ]
 }

@@ -70,6 +70,24 @@
             "custom_liquid": "{% if product.available %}\n\n<div class=\"related-stock\">In-stock and ready to ship.<\/div>\n\n{% else %}\n\n{% endif %}"
           }
         },
+        "f8b9a89d-8fdd-4b79-b6e1-80fbde58346d": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Modular Scanning System",
+            "content": "<p>Start small according to your needs and grow the system as you improve your process. Just what you need, when you need it.<\/p>",
+            "page": "",
+            "icon": "dryer"
+          }
+        },
+        "a5a11cfe-80a9-4294-953b-395acd66d02f": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Learn Camera Scanning",
+            "content": "<p>VALOI is commited to providing information about our products specifically and camera scanning generally.<\/p><p>Learn More<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
         "a4908876-2ec2-4049-8519-f88aac2c716e": {
           "type": "collapsible_tab",
           "settings": {
@@ -91,8 +109,8 @@
         "9b20a83b-fe5d-4d60-80fb-5e93ee1a61c2": {
           "type": "popup",
           "settings": {
-            "text": "Pop-up link text",
-            "page": "about-kamerastore"
+            "text": "About VALOI",
+            "page": "about-valoi"
           }
         }
       },
@@ -107,6 +125,8 @@
         "buy_buttons",
         "80fbe6e3-0e56-4ee6-be9c-6a5e5c5f985c",
         "6e329fbd-c3b0-4cfe-a6f4-9911df60910e",
+        "f8b9a89d-8fdd-4b79-b6e1-80fbde58346d",
+        "a5a11cfe-80a9-4294-953b-395acd66d02f",
         "a4908876-2ec2-4049-8519-f88aac2c716e",
         "0d54122a-b1cd-4ad5-9065-a50ef63c420b",
         "9b20a83b-fe5d-4d60-80fb-5e93ee1a61c2"
