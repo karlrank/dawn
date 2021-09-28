@@ -142,8 +142,8 @@
     "16328192199ca25f9a": {
       "type": "featured-collection",
       "settings": {
-        "title": "35mm Film Cameras",
-        "collection": "35mm-cameras",
+        "title": "Film Cameras",
+        "collection": "film-cameras",
         "products_to_show": 4,
         "show_view_all": true,
         "swipe_on_mobile": true,
@@ -158,8 +158,8 @@
     "1632819820cfe9c4e7": {
       "type": "featured-collection",
       "settings": {
-        "title": "Medium Format Film Cameras",
-        "collection": "medium-format-film-cameras",
+        "title": "SLR & DSLR Lenses",
+        "collection": "slr-dslr-lenses",
         "products_to_show": 4,
         "show_view_all": true,
         "swipe_on_mobile": true,
