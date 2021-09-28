@@ -1,5 +1,41 @@
 {
   "sections": {
+    "1632821684416a6917": {
+      "type": "rich-text",
+      "blocks": {
+        "1632821684416a6917-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Gear Database",
+            "heading_size": "h1"
+          }
+        },
+        "1632821684416a6917-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You are viewing our gear database which will be in development into early 2022. Soon you can expect to find information about thousands of items, related articles, videos, and statistics. When viewing a certain item you will be able to see if any are available, as well as previosuly sold prices. Reading and writing reviews is avialable now. <strong>Find your favorite items and bookmark the page!<\/strong><\/p>"
+          }
+        },
+        "1632821684416a6917-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1632821684416a6917-0",
+        "1632821684416a6917-1",
+        "1632821684416a6917-2"
+      ],
+      "settings": {
+        "color_scheme": "inverse",
+        "full_width": true
+      }
+    },
     "163239234053a8c6b7": {
       "type": "custom-liquid",
       "settings": {
@@ -148,6 +184,7 @@
     }
   },
   "order": [
+    "1632821684416a6917",
     "163239234053a8c6b7",
     "main",
     "1632393643eca7584e",
