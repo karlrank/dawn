@@ -58,6 +58,12 @@
             "show_dynamic_checkout": false
           }
         },
+        "6f50b370-ca2b-479e-ab82-460ca482b922": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p><span style=\"color: #FF4C5A;\"><strong>This item is on pre-order and will ship after the 1st of November. Items ordered together will also ship together. <\/strong><\/span><\/p>"
+          }
+        },
         "80fbe6e3-0e56-4ee6-be9c-6a5e5c5f985c": {
           "type": "variant_picker",
           "settings": {
@@ -123,6 +129,7 @@
         "853cea71-8e8d-4b3a-8d41-fda13fdf751d",
         "8a1f013f-3fbd-4ebb-b70b-fd9e114e338b",
         "buy_buttons",
+        "6f50b370-ca2b-479e-ab82-460ca482b922",
         "80fbe6e3-0e56-4ee6-be9c-6a5e5c5f985c",
         "6e329fbd-c3b0-4cfe-a6f4-9911df60910e",
         "f8b9a89d-8fdd-4b79-b6e1-80fbde58346d",
