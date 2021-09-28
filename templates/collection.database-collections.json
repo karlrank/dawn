@@ -1,5 +1,41 @@
 {
   "sections": {
+    "163282324605c30201": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "163282324605c30201-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "163282324605c30201-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "163282324605c30201-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "163282324605c30201-0",
+        "163282324605c30201-1",
+        "163282324605c30201-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
@@ -21,10 +57,90 @@
         "enable_sorting": true,
         "collapse_on_larger_devices": false
       }
+    },
+    "163282320584b68eff": {
+      "type": "image-banner",
+      "blocks": {
+        "163282320584b68eff-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "medium"
+          }
+        },
+        "163282320584b68eff-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "163282320584b68eff-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "163282320584b68eff-0",
+        "163282320584b68eff-1",
+        "163282320584b68eff-2"
+      ],
+      "settings": {
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": false,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "16328232632ffa0267": {
+      "type": "image-with-text",
+      "blocks": {
+        "16328232632ffa0267-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "16328232632ffa0267-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "16328232632ffa0267-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16328232632ffa0267-0",
+        "16328232632ffa0267-1",
+        "16328232632ffa0267-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
     }
   },
   "order": [
+    "163282324605c30201",
     "banner",
-    "product-grid"
+    "product-grid",
+    "163282320584b68eff",
+    "16328232632ffa0267"
   ]
 }
