@@ -101,7 +101,7 @@
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
-        "swipe_on_mobile": false
+        "swipe_on_mobile": true
       }
     },
     "1632470234f73d3bc0": {
@@ -136,7 +136,7 @@
       ],
       "settings": {
         "color_scheme": "background-1",
-        "full_width": true
+        "full_width": false
       }
     },
     "16328192199ca25f9a": {
