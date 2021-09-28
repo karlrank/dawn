@@ -5,8 +5,6 @@ var boostPFSFilterConfig = {
 	general: {
 		limit: boostPFSConfig.custom.products_per_page,
 		loadProductFirst: true,
-		numberFilterTree: 2,
-		filterTreeMobileStyle: 'style2'
 	},
 };
 
