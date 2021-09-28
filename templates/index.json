@@ -187,6 +187,22 @@
         "show_rating": false
       }
     },
+    "16328202527d1c0448": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Medium Format Lenses",
+        "collection": "medium-format-film-cameras",
+        "products_to_show": 8,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": true,
+        "show_rating": false
+      }
+    },
     "1631783246bd86182c": {
       "type": "image-with-text",
       "disabled": true,
@@ -357,6 +373,7 @@
     "16328192199ca25f9a",
     "1632819820cfe9c4e7",
     "16328199566df3daf4",
+    "16328202527d1c0448",
     "1631783246bd86182c",
     "1632819349ddf6100e",
     "1632819284873cdad3",
