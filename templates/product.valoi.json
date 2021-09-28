@@ -74,7 +74,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Modular Scanning System",
-            "content": "<p>Start small according to your needs and grow the system as you improve your process. Just what you need, when you need it.<\/p>",
+            "content": "<p>Start small according to your needs and grow the system as you improve your process. Just what you need, when you need it.<\/p><p><a href=\"\/collections\/valoi-360\" title=\"Valoi 360\">See the full system<\/a><\/p>",
             "page": "",
             "icon": "dryer"
           }
@@ -83,7 +83,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Learn Camera Scanning",
-            "content": "<p>VALOI is commited to providing information about our products specifically and camera scanning generally.<\/p><p>Learn More<\/p>",
+            "content": "<p>VALOI is commited to providing information about our products specifically and camera scanning generally.<\/p><p><a href=\"\/pages\/learn-with-valoi\" title=\"Learn with VALOI\">Learn More<\/a><\/p>",
             "page": "",
             "icon": "question_mark"
           }
