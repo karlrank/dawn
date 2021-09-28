@@ -363,6 +363,22 @@
         "description": "",
         "full_width": false
       }
+    },
+    "16328203716b324724": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Large Format Lenses",
+        "collection": "large-format-lenses",
+        "products_to_show": 8,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": false,
+        "show_vendor": true,
+        "show_rating": false
+      }
     }
   },
   "order": [
@@ -377,6 +393,7 @@
     "1631783246bd86182c",
     "1632819349ddf6100e",
     "1632819284873cdad3",
-    "163273752240df21a1"
+    "163273752240df21a1",
+    "16328203716b324724"
   ]
 }
