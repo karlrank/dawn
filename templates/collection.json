@@ -4,7 +4,7 @@
       "type": "main-collection-banner",
       "settings": {
         "show_collection_description": true,
-        "show_collection_image": false
+        "show_collection_image": true
       }
     },
     "product-grid": {
@@ -14,11 +14,11 @@
         "image_ratio": "adapt",
         "show_secondary_image": true,
         "add_image_padding": false,
-        "show_image_outline": true,
+        "show_image_outline": false,
         "show_vendor": true,
-        "show_rating": true,
+        "show_rating": false,
         "enable_filtering": false,
-        "enable_sorting": false,
+        "enable_sorting": true,
         "collapse_on_larger_devices": false
       }
     }
