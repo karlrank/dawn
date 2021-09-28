@@ -6,15 +6,46 @@
         "custom_liquid": "<div class=\"page-width page-width--wide\">\n<style>\n  .breadcrumbs {\n    margin: 0 0 2em;\n  }\n\n  .breadcrumbs__list {\n    list-style-type: none;\n    margin: 0;\n    padding: 0;\n  }\n\n  .breadcrumbs__item {\n    display: inline-block;\n  }\n\n  .breadcrumbs__item:not(:last-child):after {\n    border-style: solid;\n    border-width: .10em .10em 0 0;\n    content: '';\n    display: inline-block;\n    height: .20em;\n    margin: 0 .20em;\n    position: relative;\n    transform: rotate(45deg);\n    vertical-align: middle;\n    width: .20em;\n  }\n\n  .breadcrumbs__link {\n    text-decoration: underline;\n  }\n\n  .breadcrumbs__link[aria-current=\"page\"] {\n    color: inherit;\n    font-weight: normal;\n    text-decoration: none;\n  }\n\n  .breadcrumbs__link[aria-current=\"page\"]:hover,\n  .breadcrumbs__link[aria-current=\"page\"]:focus {\n    text-decoration: underline;\n  }\n<\/style>\n\n{%- unless template == 'index' or template == 'cart' or template == 'list-collections' or template == '404' -%}\n{%- assign t = template | split: '.' | first -%}\n\n<nav class=\"breadcrumbs\" role=\"navigation\" aria-label=\"breadcrumbs\">\n  <ol class=\"breadcrumbs__list\">\n    <li class=\"breadcrumbs__item\">\n      <a class=\"breadcrumbs__link\" href=\"\/\">Home<\/a>\n    <\/li>\n    {%- case t -%}\n      {%- when 'page' -%}\n        <li class=\"breadcrumbs__item\">\n          <a class=\"breadcrumbs__link\" href=\"{{ page.url }}\" aria-current=\"page\">{{ page.title }}<\/a>\n        <\/li>\n      {%- when 'product' -%}\n        {%- if collection.url -%}\n          <li class=\"breadcrumbs__item\">\n            {{ collection.title | link_to: collection.url }}\n          <\/li>\n        {%- endif -%}\n        <li class=\"breadcrumbs__item\">\n          <a class=\"breadcrumbs__link\" href=\"{{ product.url }}\" aria-current=\"page\">{{ product.title }}<\/a>\n        <\/li>\n      {%- when 'collection' and collection.handle -%}\n        {%- if current_tags -%}\n          <li class=\"breadcrumbs__item\">\n            {{ collection.title | link_to: collection.url }}\n          <\/li>\n          <li class=\"breadcrumbs__item\">\n            {%- capture tag_url -%}{{ collection.url }}\/{{ current_tags | join: \"+\"}}{%- endcapture -%}\n            <a class=\"breadcrumbs__link\" href=\"{{ tag_url }}\" aria-current=\"page\">{{ current_tags | join: \" + \"}}<\/a>\n          <\/li>\n        {%- else -%}\n          <li class=\"breadcrumbs__item\">\n            <a class=\"breadcrumbs__link\" href=\"{{ collection.url }}\" aria-current=\"page\">{{ collection.title }}<\/a>\n          <\/li>\n        {%- endif -%}\n      {%- when 'blog' -%}\n        {%- if current_tags -%}\n          <li class=\"breadcrumbs__item\">\n            {{ blog.title | link_to: blog.url }}\n          <\/li>\n          <li class=\"breadcrumbs__item\">\n            {%- capture tag_url -%}{{blog.url}}\/tagged\/{{ current_tags | join: \"+\" }}{%- endcapture -%}\n            <a class=\"breadcrumbs__link\" href=\"{{ tag_url }}\" aria-current=\"page\">{{ current_tags | join: \" + \" }}<\/a>\n          <\/li>\n        {%- else -%}\n          <li class=\"breadcrumbs__item\">\n            <a class=\"breadcrumbs__link\" href=\"{{ blog.url }}\" aria-current=\"page\">{{ blog.title }}<\/a>\n          <\/li>\n        {%- endif -%}\n      {%- when 'article' -%}\n        <li class=\"breadcrumbs__item\">\n          {{ blog.title | link_to: blog.url }}\n        <\/li>\n        <li class=\"breadcrumbs__item\">\n          <a class=\"breadcrumbs__link\" href=\"{{ article.url }}\" aria-current=\"page\">{{ article.title }}<\/a>\n        <\/li>\n      {%- else -%}\n        <li class=\"breadcrumbs__item\">\n          <a class=\"breadcrumbs__link\" href=\"{{ request.path }}\" aria-current=\"page\">{{ page_title }}<\/a>\n        <\/li>\n    {%- endcase -%}\n  <\/ol>\n<\/nav>\n{%- endunless -%}<\/div>"
       }
     },
+    "163282385185599d93": {
+      "type": "rich-text",
+      "blocks": {
+        "163282385185599d93-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "163282385185599d93-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with<strong> your custom<\/strong>ers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "163282385185599d93-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "163282385185599d93-0",
+        "163282385185599d93-1",
+        "163282385185599d93-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
-        "eef5d81b-99be-406b-8d49-804694bc4c77": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{% for tag in product.tags %}\n    {% if tag contains 'System' %}\n        {{ tag  | split:\"-\" | last}} \/\n    {% endif %}\n{% endfor %}\n{{ product.type }}"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -121,7 +152,6 @@
         }
       },
       "block_order": [
-        "eef5d81b-99be-406b-8d49-804694bc4c77",
         "title",
         "d35d56bf-7342-43c4-b640-67be774144a3",
         "f0c9e60b-84e2-4c7b-a294-cab454328d82",
@@ -269,6 +299,7 @@
   },
   "order": [
     "163179108960277131",
+    "163282385185599d93",
     "main",
     "163178438845c86d64",
     "163213238375145c93",
