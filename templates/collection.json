@@ -18,7 +18,7 @@
         "show_vendor": true,
         "show_rating": true,
         "enable_filtering": false,
-        "enable_sorting": true,
+        "enable_sorting": false,
         "collapse_on_larger_devices": false
       }
     }
