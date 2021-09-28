@@ -191,7 +191,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Medium Format Lenses",
-        "collection": "medium-format-film-cameras",
+        "collection": "medium-format-lenses",
         "products_to_show": 8,
         "show_view_all": true,
         "swipe_on_mobile": true,
