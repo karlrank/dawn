@@ -51,6 +51,9 @@
 				{%- render 'boost-pfs-filter-skeleton', type: 'button' -%}
 			</div>
 		</div>
+      <div class="boost-pfs-filter-tree boost-pfs-filter-tree-v" data-is-mobile>
+        {% render 'boost-pfs-filter-skeleton', type: 'filter-tree' %}
+      </div>
 		{%- comment -%} END TOOLBAR TOP MOBILE {%- endcomment -%}
 	</div>
 </div>
@@ -59,7 +62,7 @@
 		<div class="boost-pfs-container-default-box">
 			<div class="boost-pfs-filter-left-col">
 				<div class="boost-pfs-filter-left-col-inner">
-					<div class="boost-pfs-filter-tree boost-pfs-filter-tree-v">
+					<div class="boost-pfs-filter-tree boost-pfs-filter-tree-v" data-is-desktop>
 						{% render 'boost-pfs-filter-skeleton', type: 'filter-tree' %}
 					</div>
 				</div>
