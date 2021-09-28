@@ -257,6 +257,7 @@
     },
     "1632819349ddf6100e": {
       "type": "collection-list",
+      "disabled": true,
       "blocks": {
         "1632819349ddf6100e-0": {
           "type": "featured_collection",
@@ -315,6 +316,7 @@
     },
     "1632819284873cdad3": {
       "type": "collection-list",
+      "disabled": true,
       "blocks": {
         "1632819284873cdad3-0": {
           "type": "featured_collection",
