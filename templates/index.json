@@ -233,6 +233,12 @@
           "settings": {
             "collection": "large-format-lenses"
           }
+        },
+        "e3fa11ab-0fe0-4425-ac96-a3058b9617b9": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "other-lenses"
+          }
         }
       },
       "block_order": [
@@ -240,7 +246,8 @@
         "1632819284873cdad3-1",
         "1632819284873cdad3-2",
         "a1900220-f428-4876-879a-09b7173cca60",
-        "27e6b5e1-3b5d-4687-8312-ec85a94fcd20"
+        "27e6b5e1-3b5d-4687-8312-ec85a94fcd20",
+        "e3fa11ab-0fe0-4425-ac96-a3058b9617b9"
       ],
       "settings": {
         "title": "Lenses",
@@ -248,7 +255,7 @@
         "color_scheme": "background-2",
         "swipe_on_mobile": true,
         "image_padding": false,
-        "show_view_all": true
+        "show_view_all": false
       }
     }
   },
