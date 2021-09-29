@@ -81,7 +81,8 @@
 							media_size: section.settings.image_ratio, show_secondary_image:
 							section.settings.show_secondary_image, add_image_padding:
 							section.settings.add_image_padding, show_vendor:
-							section.settings.show_vendor %}
+							section.settings.show_vendor, show_rating: section.settings.show_rating,
+                            show_price: section.settings.show_collection_prices %}
 						</li>
 						{%- endfor -%}
 					</ul>
@@ -131,6 +132,7 @@ var boostPFSThemeConfig = {
 		products_per_page: {% if section.settings.products_per_page %} {{ section.settings.products_per_page | json }} {% else %} 24 {% endif %},
 		products_per_row: {% if products_per_row %} {{ products_per_row }} {% else %} 4 {% endif %},
 		show_secondary_image: {% if section.settings.show_secondary_image %} {{ section.settings.show_secondary_image }} {% else %} false {% endif %},
+        show_prices: {% if section.settings.show_collection_prices %} {{ section.settings.show_collection_prices }} {% else %} false {% endif %}
 	}
 };
 
@@ -221,6 +223,12 @@ var boostPFSTemplate = {
       "default": false,
       "label": "t:sections.main-collection-product-grid.settings.show_rating.label",
       "info": "t:sections.main-collection-product-grid.settings.show_rating.info"
+    },
+    {
+    "type": "checkbox",
+    "id": "show_collection_prices",
+    "default": true,
+    "label": "t:sections.main-collection-product-grid.settings.show_prices.label"
     },
     {
       "type": "header",
