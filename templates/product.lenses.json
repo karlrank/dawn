@@ -58,8 +58,8 @@
         "9201f616-91de-46a1-910a-4702d782a6ca": {
           "type": "popup",
           "settings": {
-            "text": "Used Item Condition Ratings",
-            "page": "condition-ratings"
+            "text": "Lens Condition Ratings",
+            "page": "lens-condition-ratings"
           }
         },
         "buy_buttons": {
