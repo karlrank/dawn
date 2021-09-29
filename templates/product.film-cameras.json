@@ -58,8 +58,8 @@
         "cd07da4b-ae00-46ee-bf67-5c7799d93921": {
           "type": "popup",
           "settings": {
-            "text": "Used Item Condition Ratings",
-            "page": "condition-ratings"
+            "text": "Camera Condition Ratings",
+            "page": "camera-condition-ratings"
           }
         },
         "buy_buttons": {
