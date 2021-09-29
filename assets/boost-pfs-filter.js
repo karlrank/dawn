@@ -71,7 +71,7 @@ var boostPFSFilterConfig = {
 		// Add Images
 		itemHtml = itemHtml.replace(/{{itemImages}}/g, buildImages(data));
 		// Add Price
-		itemHtml = itemHtml.replace(/{{itemPrice}}/g, buildPrice(data));
+		itemHtml = itemHtml.replace(/{{itemPrice}}/g, boostPFSThemeConfig.custom.show_prices ? buildPrice(data) : '');
 
 		// Add Review
 		if (typeof Integration === 'undefined' ||
