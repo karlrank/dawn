@@ -104,7 +104,7 @@
     "product": {
       "add_to_cart": "Lisää ostoskoriin",
       "description": "Kuvaus",
-      "on_sale": "Alennusmyynti",
+      "on_sale": "ALE",
       "product_variants": "Tuoteversiot",
       "quantity": {
         "label": "Määrä",
