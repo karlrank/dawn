@@ -58,7 +58,7 @@
         "985ce9d5-893d-4074-8433-834645485f1f": {
           "type": "popup",
           "settings": {
-            "text": "Condition Ratings",
+            "text": "Used Item Condition Ratings",
             "page": "condition-ratings"
           }
         },
