@@ -29,7 +29,7 @@
         "tiktok": "TikTok"
       }
     },
-    "continue_shopping": "Jatka ostoksia",
+    "continue_shopping": "Takaisin kauppaan",
     "pagination": {
       "label": "Sivunumerointi",
       "page": "Sivu {{ number }}",
