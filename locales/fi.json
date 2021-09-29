@@ -119,7 +119,7 @@
         "unit_price": "Yksikköhinta"
       },
       "share": "Jaa tämä tuote",
-      "sold_out": "Myyty",
+      "sold_out": "Myyty \/ ei saatavilla",
       "unavailable": "Ei käytettävissä",
       "vendor": "Myyjä",
       "video_exit_message": "{{ title }} avaa koko näytön videon samassa ikkunassa.",
@@ -396,7 +396,7 @@
   "shopify": {
     "checkout": {
       "stock": {
-        "sold_out_label": "Myyty"
+        "sold_out_label": "Myyty \/ ei saatavilla"
       }
     }
   }
