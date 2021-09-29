@@ -117,13 +117,13 @@
     "blocks": {
       "163170712463a93bae": {
         "type": "shopify:\/\/apps\/product-filter-search\/blocks\/boost-pfs\/7fc998ae-a150-4367-bab8-505d8a4503f7",
-        "disabled": false,
+        "disabled": true,
         "settings": {
         }
       },
       "1631707124234727b5": {
         "type": "shopify:\/\/apps\/product-filter-search\/blocks\/boost-pfs-style\/7fc998ae-a150-4367-bab8-505d8a4503f7",
-        "disabled": false,
+        "disabled": true,
         "settings": {
         }
       }
