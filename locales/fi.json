@@ -140,7 +140,10 @@
         "play_model": "Toista 3D Viewer",
         "play_video": "Toista video"
       },
-      "view_full_details": "Näytä kaikki tiedot"
+      "view_full_details": "Näytä kaikki tiedot",
+      "optical_condition_heading": "Optinen kunto: {{ condition }} \/ 5",
+      "mechanical_condition_heading": "Mekaaninen kunto: {{ condition }} \/ 5",
+      "cosmetic_condition_heading": "Kosmeettinen kunto: {{ condition }} \/ 5"
     },
     "modal": {
       "label": "Mediagalleria"
