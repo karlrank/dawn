@@ -395,5 +395,12 @@
       "copy_code_success": "Code copied successfully",
       "print_gift_card": "Print"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "stock": {
+        "sold_out_label": "Sold"
+      }
+    }
   }
 }
