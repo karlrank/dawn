@@ -102,6 +102,13 @@
             "page": "",
             "icon": "eye"
           }
+        },
+        "9201f616-91de-46a1-910a-4702d782a6ca": {
+          "type": "popup",
+          "settings": {
+            "text": "Used Item Condition Ratings",
+            "page": "condition-ratings"
+          }
         }
       },
       "block_order": [
@@ -117,7 +124,8 @@
         "ad4fef74-222f-422b-a2e1-33623ff7b9e6",
         "a4908876-2ec2-4049-8519-f88aac2c716e",
         "0d54122a-b1cd-4ad5-9065-a50ef63c420b",
-        "a41a8e68-deb3-4414-bc77-846ae026a7ec"
+        "a41a8e68-deb3-4414-bc77-846ae026a7ec",
+        "9201f616-91de-46a1-910a-4702d782a6ca"
       ],
       "settings": {
         "enable_sticky_info": true,
