@@ -78,7 +78,7 @@ var boostPFSFilterConfig = {
 			(typeof Integration != 'undefined' &&
 				typeof Integration.hascompileTemplate == 'function' &&
 				!Integration.hascompileTemplate('reviews'))) {
-			itemHtml = itemHtml.replace(/{{itemReviews}}/g, boostPFSThemeConfig.custom.show_rating ? buildReview(data) : '');
+			itemHtml = itemHtml.replace(/{{itemReviews}}/g, buildReview(data));
 		}
 
 		// Add Vendor
