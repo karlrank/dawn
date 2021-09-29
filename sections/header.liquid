@@ -366,9 +366,7 @@
                           {%- else -%}
                             <details>
                               <summary class="header__menu-item link link--text list-menu__item focus-inset caption-large">
-                                <a href="{{ childlink.url }}" class="link link--text focus-inset"{% if childlink.url != '/' and childlink.current %} aria-current="page"{% endif %}>
-                                  <span {%- if childlink.url != '/' and childlink.current  %} class="header__active-menu-item"{% endif %}>{{ childlink.title | escape }}</span>
-                                </a>
+                                {{ childlink.title | escape }}
                                 <span class="header__caret-container">
                                   {% render 'icon-caret' %}
                                 </span>
