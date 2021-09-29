@@ -55,13 +55,6 @@
             "show_cosmetic": false
           }
         },
-        "985ce9d5-893d-4074-8433-834645485f1f": {
-          "type": "popup",
-          "settings": {
-            "text": "Used Item Condition Ratings",
-            "page": "condition-ratings"
-          }
-        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -124,7 +117,6 @@
         "price",
         "f0c9e60b-84e2-4c7b-a294-cab454328d82",
         "8a5e19bd-ec83-4ef2-ad47-9bd4b01b7f5e",
-        "985ce9d5-893d-4074-8433-834645485f1f",
         "quantity_selector",
         "variant_picker",
         "buy_buttons",
