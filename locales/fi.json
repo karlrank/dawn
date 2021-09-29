@@ -143,7 +143,8 @@
       "view_full_details": "Näytä kaikki tiedot",
       "optical_condition_heading": "Optinen kunto: {{ condition }} \/ 5",
       "mechanical_condition_heading": "Mekaaninen kunto: {{ condition }} \/ 5",
-      "cosmetic_condition_heading": "Kosmeettinen kunto: {{ condition }} \/ 5"
+      "cosmetic_condition_heading": "Kosmeettinen kunto: {{ condition }} \/ 5",
+      "not_taxable": "Käytetty tuote, ei sis. alv"
     },
     "modal": {
       "label": "Mediagalleria"
