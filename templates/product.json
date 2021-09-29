@@ -137,22 +137,6 @@
         "custom_liquid": "<div class=\"page-width page-width--narrow\">\n<H2>Description<\/h2><H3>{{ product.title }}<\/h3>{{ product.description }}<\/div>"
       }
     },
-    "1632477375ab581679": {
-      "type": "apps",
-      "blocks": {
-        "089562a3-01ab-41c1-a08b-7ffb15aa8f2c": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "089562a3-01ab-41c1-a08b-7ffb15aa8f2c"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
     "16324019941e428b8f": {
       "type": "multicolumn",
       "blocks": {
@@ -240,7 +224,6 @@
     "163239234053a8c6b7",
     "main",
     "1632393643eca7584e",
-    "1632477375ab581679",
     "16324019941e428b8f",
     "product-recommendations",
     "163239432974b497b2"
