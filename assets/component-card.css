@@ -182,6 +182,7 @@
 
 .card-information__wrapper > .rating {
   margin-top: 0.4rem;
+  color: rgb(var(--color-foreground))
 }
 
 .card-information__wrapper
