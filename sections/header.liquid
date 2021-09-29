@@ -347,14 +347,8 @@
                 <details-disclosure>
                   <details>
                     <summary class="header__menu-item list-menu__item link focus-inset">
-                      <span {%- if link.child_active %} class="header__active-menu-item"{% endif %}>
-                        <a href="{{ link.url }}" class="link link--text focus-inset"{% if link.url != '/' and link.current %} aria-current="page"{% endif %}>
-                          <span {%- if link.url != '/' and link.current  %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
-                        </a>
-                      </span>
-                      <span class="header__caret-container">
-                        {% render 'icon-caret' %}
-                      </span>
+                      <span {%- if link.child_active %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
+                      {% render 'icon-caret' %}
                     </summary>
                     <ul class="header__submenu list-menu list-menu--disclosure caption-large motion-reduce" role="list" tabindex="-1">
                       {%- for childlink in link.links -%}
@@ -366,12 +360,8 @@
                           {%- else -%}
                             <details>
                               <summary class="header__menu-item link link--text list-menu__item focus-inset caption-large">
-                                <a href="{{ childlink.url }}" class="link link--text focus-inset"{% if childlink.url != '/' and childlink.current %} aria-current="page"{% endif %}>
-                                  <span {%- if childlink.url != '/' and childlink.current  %} class="header__active-menu-item"{% endif %}>{{ childlink.title | escape }}</span>
-                                </a>
-                                <span class="header__caret-container">
-                                  {% render 'icon-caret' %}
-                                </span>
+                                {{ childlink.title | escape }}
+                                {% render 'icon-caret' %}
                               </summary>
                               <ul class="header__submenu list-menu motion-reduce">
                                 {%- for grandchildlink in childlink.links -%}
@@ -390,7 +380,7 @@
                   </details>
                 </details-disclosure>
               {%- else -%}
-                <a href="{{ link.url }}" class="header__menu-item list-menu__item link link--text focus-inset"{% if link.current %} aria-current="page"{% endif %}>
+                <a href="{{ link.url }}" class="header__menu-item header__menu-item list-menu__item link link--text focus-inset"{% if link.current %} aria-current="page"{% endif %}>
                   <span {%- if link.current %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
                 </a>
               {%- endif -%}
