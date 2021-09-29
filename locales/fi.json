@@ -177,7 +177,7 @@
       }
     },
     "404": {
-      "title": "Sivua ei löytynyt",
+      "title": "Höh. Sivua ei löytynyt.",
       "subtext": "404"
     }
   },
@@ -387,7 +387,7 @@
       "title": "Tässä on lahjakorttisi ({{ value }}) kauppaan {{ shop }}!",
       "subtext": "Lahjakorttisi",
       "gift_card_code": "Lahjakortin koodi",
-      "shop_link": "Jatka ostoksia",
+      "shop_link": "Takaisin kauppaan",
       "remaining_html": "Jäljellä {{ balance }}",
       "add_to_apple_wallet": "Lisää Apple Walletiin",
       "qr_image_alt": "QR-koodi – lunasta lahjakortti skannaamalla",
@@ -402,6 +402,9 @@
       "stock": {
         "sold_out_label": "Myyty \/ ei saatavilla"
       }
+    },
+    "page_titles": {
+      "not_found": "Höh. Sivua ei löytynyt. "
     }
   }
 }
