@@ -119,7 +119,7 @@
         "unit_price": "Yksikköhinta"
       },
       "share": "Jaa tämä tuote",
-      "sold_out": "Loppuunmyyty",
+      "sold_out": "Myyty",
       "unavailable": "Ei käytettävissä",
       "vendor": "Myyjä",
       "video_exit_message": "{{ title }} avaa koko näytön videon samassa ikkunassa.",
@@ -391,6 +391,13 @@
       "expired": "Vanhentunut",
       "copy_code_success": "Koodin kopioiminen onnistui",
       "print_gift_card": "Tulosta"
+    }
+  },
+  "shopify": {
+    "checkout": {
+      "stock": {
+        "sold_out_label": "Myyty"
+      }
     }
   }
 }
