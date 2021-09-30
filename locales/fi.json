@@ -217,7 +217,7 @@
         "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Kirjaudu sisään<\/a>, jotta voit maksaa kassalla nopeammin."
       },
       "terms_and_conditions_checkbox_label_html": " Olen lukenut ja hyväksyn <a class=\"link underlined-link\" href=\"{{ link }}\">Käyttöehdot<\/a>.",
-      "terms_and_conditions_alert": "Hyväksy Käyttöehdot jatkaaksesi kassalle."
+      "terms_and_conditions_alert": "Hyväksythän Käyttöehdot jatkaaksesi kassalle."
     },
     "footer": {
       "payment": "Maksutavat",
