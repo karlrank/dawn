@@ -428,7 +428,8 @@
         }
       },
       "shipping": {
-        "waiting_on_rate_notice": "Pieni hetki, haetaan toimitustapoja..."
+        "waiting_on_rate_notice": "Pieni hetki, haetaan toimitustapoja...",
+        "title": "Toimitustapa"
       },
       "failed_payment": {
         "payment_not_processed_text": "Sinua ei ole vielä veloitettu. Palaa ostoskoriin ja viimeistele ostoksesi."
