@@ -197,7 +197,7 @@
       "subtotal": "Välisumma",
       "new_subtotal": "Uusi välisumma",
       "note": "Tilauksen erityisohjeet",
-      "checkout": "Maksu kassalle",
+      "checkout": "Kassalle",
       "empty": "Ostoskorisi on tyhjä",
       "cart_error": "Ostoskorisi päivityksessä tapahtui virhe. Yritä uudelleen.",
       "cart_quantity_error_html": "Voit lisätä ostoskoriisi vain [määrä] kappaletta tätä tuotetta.",
