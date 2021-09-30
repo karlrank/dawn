@@ -172,7 +172,7 @@
         "phone": "Puhelinnumero",
         "comment": "Kommentti",
         "send": "Lähetä",
-        "post_success": "Kiitos, että otit yhteyttä. Palaamme asiaan mahdollisimman pian.",
+        "post_success": "Kiitos yhteydenotostasi. Palaamme asiaan mahdollisimman pian.",
         "error_heading": "Hups. Tsekkaa vielä nämä kohdat:"
       }
     },
@@ -416,7 +416,9 @@
         "address_address2_blank": "Syötä osoitetiedot"
       },
       "general": {
-        "continue_to_shipping_method": "Jatka toimitustavan valintaan"
+        "continue_to_shipping_method": "Jatka toimitustavan valintaan",
+        "back_to_shipping_method": "Palaa toimitustapoihin",
+        "back_to_payment_method": "Palaa maksutavan valintaan"
       },
       "review": {
         "blocks": {
@@ -426,6 +428,9 @@
       },
       "shipping": {
         "waiting_on_rate_notice": "Pieni hetki, haetaan toimitustapoja..."
+      },
+      "failed_payment": {
+        "payment_not_processed_text": "Sinua ei ole vielä veloitettu. Palaa ostoskoriin ja viimeistele ostoksesi."
       }
     },
     "page_titles": {
