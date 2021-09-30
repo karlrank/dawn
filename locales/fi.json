@@ -425,7 +425,7 @@
       "review": {
         "blocks": {
           "contact_method_title": "Email",
-          "shipping_method_title": "Toimitustapa",
+          "shipping_method_title": "Toimitus",
           "shipping_address_title": "Osoite"
         }
       },
