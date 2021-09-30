@@ -407,6 +407,13 @@
       },
       "marketing": {
         "accept_marketing_checkbox_label": "Haluan uusimmat tarjoukset ja uutiset sähköpostiin. Kyllä kiitos!"
+      },
+      "contact": {
+        "address2_label": "Osoite",
+        "optional_address2_label": "Osoite"
+      },
+      "field_errors": {
+        "address_address2_blank": "Syötä osoitetiedot"
       }
     },
     "page_titles": {
