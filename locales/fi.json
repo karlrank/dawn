@@ -409,8 +409,8 @@
         "accept_marketing_checkbox_label": "Haluan uusimmat tarjoukset ja uutiset sähköpostiin. Kyllä kiitos!"
       },
       "contact": {
-        "address2_label": "Osoite",
-        "optional_address2_label": "Osoite"
+        "address2_label": "Huoneisto tms.",
+        "optional_address2_label": "Huoneisto tms."
       },
       "field_errors": {
         "address_address2_blank": "Syötä osoitetiedot"
