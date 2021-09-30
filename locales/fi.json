@@ -317,7 +317,7 @@
     "log_out": "Kirjaudu ulos",
     "login_page": {
       "cancel": "Peruuta",
-      "create_account": "Luo tili",
+      "create_account": "Luo käyttäjätili",
       "email": "Sähköposti",
       "forgot_password": "Unohditko salasanasi?",
       "guest_continue": "Jatka",
@@ -343,7 +343,7 @@
       "success": "Olemme lähettäneet sinulle sähköpostiviestin, jossa on salasanan päivityslinkki."
     },
     "register": {
-      "title": "Luo tili",
+      "title": "Luo käyttäjätili",
       "first_name": "Etunimi",
       "last_name": "Sukunimi",
       "email": "Sähköposti",
@@ -404,7 +404,8 @@
       }
     },
     "page_titles": {
-      "not_found": "Höh. Sivua ei löytynyt. "
+      "not_found": "Höh. Sivua ei löytynyt. ",
+      "create_account": "Luo käyttäjätili"
     }
   }
 }
