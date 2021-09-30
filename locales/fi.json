@@ -414,6 +414,9 @@
       },
       "field_errors": {
         "address_address2_blank": "Syötä osoitetiedot"
+      },
+      "general": {
+        "continue_to_shipping_method": "Jatka toimitustavan valintaan"
       }
     },
     "page_titles": {
