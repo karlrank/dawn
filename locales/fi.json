@@ -418,7 +418,8 @@
       "general": {
         "continue_to_shipping_method": "Jatka toimitustavan valintaan",
         "back_to_shipping_method": "Palaa toimitustapoihin",
-        "back_to_payment_method": "Palaa maksutavan valintaan"
+        "back_to_payment_method": "Palaa maksutavan valintaan",
+        "continue_to_payment_method": "Jatka maksutavan valintaan"
       },
       "review": {
         "blocks": {
@@ -434,6 +435,9 @@
       },
       "payment": {
         "title": "Maksutapa"
+      },
+      "processing": {
+        "continue_to_payment_gateway_button_label": "Jatka maksutavan valintaan"
       }
     },
     "page_titles": {
