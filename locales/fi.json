@@ -406,6 +406,11 @@
     "page_titles": {
       "not_found": "Höh. Sivua ei löytynyt. ",
       "create_account": "Luo käyttäjätili"
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "four_hours": "Tervetuloa noutamaan."
+      }
     }
   }
 }
