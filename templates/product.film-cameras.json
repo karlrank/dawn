@@ -96,7 +96,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Fast Shipping",
-            "content": "<p>Flat-Rate Worldwide Shipping<\/p><p>🇫🇮 <strong>Finland <\/strong>5€ | 1-3 days<strong><br\/><\/strong>🇪🇺 <strong>EU<\/strong> 10€ | 1-3 days<br\/>🇺🇸 <strong>USA<\/strong> 20€ (~$24)<strong> <\/strong>| 3-5 days<strong><br\/><\/strong>Most<strong> others<\/strong> 20€ | 3-5 days<\/p><p><a href=\"\/pages\/shipping-price-summary\" target=\"_blank\" title=\"Shipping Price Summary\">See full list<\/a><\/p>",
+            "content": "<p>Flat-Rate Worldwide Shipping<\/p><p>🇫🇮 <strong>Finland <\/strong>5€ | 1-3 days<strong><br\/><\/strong>🇪🇺 <strong>EU<\/strong> 10€ | 1-3 days<br\/>🇺🇸 <strong>USA<\/strong> 20€ (~$24)<strong> <\/strong>| 3-5 days<strong><br\/><\/strong>Most others 20€ | 3-5 days<\/p><p><a href=\"\/pages\/shipping-price-summary\" target=\"_blank\" title=\"Shipping Price Summary\">See full list<\/a><\/p>",
             "page": "",
             "icon": "plane"
           }
