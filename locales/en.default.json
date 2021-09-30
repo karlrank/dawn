@@ -148,6 +148,12 @@
     },
     "modal": {
       "label": "Media gallery"
+    },
+    "tax": {
+      "taxable_property_name": "Tax",
+      "taxable_property_value": "VAT included",
+      "not_taxable_property_name": "Tax",
+      "not_taxable_property_value": "None"
     }
   },
   "templates": {

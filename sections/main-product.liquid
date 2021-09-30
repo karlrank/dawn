@@ -293,6 +293,11 @@
                       {{ form | payment_button }}
                     {%- endif -%}
                   </div>
+                  {% if product.selected_or_first_available_variant.taxable %}
+                    <input id="line-item-property-vat" type="hidden" name="properties[{{ 'products.tax.taxable_property_name' | t | default: 'T' }}]" value="{{ 'products.tax.taxable_property_value' | t | default: 'V'}}">
+                  {% else %}
+                    <input id="line-item-property-vat" type="hidden" name="properties[{{ 'products.tax.not_taxable_property_name' | t | default: 'T'}}]" value="{{ 'products.tax.not_taxable_property_value' | t | default: 'V'}}">
+                  {% endif %}
                 {%- endform -%}
               </product-form>
 
