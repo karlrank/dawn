@@ -422,6 +422,9 @@
         "blocks": {
           "contact_method_title": "Email"
         }
+      },
+      "shipping": {
+        "waiting_on_rate_notice": "Pieni hetki, haetaan toimitustapoja..."
       }
     },
     "page_titles": {
