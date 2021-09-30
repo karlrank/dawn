@@ -76,7 +76,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "True Condition",
-            "content": "<p>Our used item condition ratings are over 99,5% accurate! Our highly skilled technitians use period-appropriate machinery to evaluate an item's true condition.<\/p>",
+            "content": "<p>Our used item condition ratings are over 99,5% accurate! Our highly skilled technicians use period-appropriate machinery to evaluate an item's true condition.<\/p>",
             "page": "",
             "icon": "star"
           }
@@ -85,7 +85,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "14 Day Returns",
-            "content": "<p>Change your mind? Not satisfied? Let us know within 14 days of delivery for a return and refund. <\/p><p><a href=\"\/policies\/refund-policy\" target=\"_blank\" title=\"\/policies\/refund-policy\">Read More<\/a><\/p>",
+            "content": "<p>Change your mind? Not satisfied? Let us know within 14 days of delivery for a return and refund.<\/p><p><a href=\"\/policies\/refund-policy\" target=\"_blank\" title=\"\/policies\/refund-policy\">Read More<\/a><\/p>",
             "page": "",
             "icon": "return"
           }
@@ -94,7 +94,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Fast Shipping",
-            "content": "<p>Flat-Rate <strong>Worldwide <\/strong>Shipping<\/p><p>🇫🇮 <strong>Finland <\/strong>5€ | 1-3 days<strong><br\/><\/strong>🇪🇺 <strong>EU<\/strong> 10€ | 1-3 days<br\/>🇺🇸 <strong>USA<\/strong> 20€ (~$24)<strong> <\/strong>| 3-5 days<strong><br\/><\/strong>Most<strong> others<\/strong> 20€ | 3-5 days<\/p><p><a href=\"\/pages\/shipping-price-summary\" target=\"_blank\" title=\"Shipping Price Summary\">See full list<\/a><\/p>",
+            "content": "<p>Flat-Rate Worldwide Shipping<\/p><p>🇫🇮 <strong>Finland <\/strong>5€ | 1-3 days<strong><br\/><\/strong>🇪🇺 <strong>EU<\/strong> 10€ | 1-3 days<br\/>🇺🇸 <strong>USA<\/strong> 20€ (~$24)<strong> <\/strong>| 3-5 days<strong><br\/><\/strong>Most<strong> others<\/strong> 20€ | 3-5 days<\/p><p><a href=\"\/pages\/shipping-price-summary\" target=\"_blank\" title=\"Shipping Price Summary\">See full list<\/a><\/p>",
             "page": "",
             "icon": "plane"
           }
@@ -103,7 +103,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Actual Item Pictured",
-            "content": "<p>We take the time to photograph every used item. When you buy from us you are getting the item you see in the photos. <\/p>",
+            "content": "<p>We take the time to photograph every used item. When you buy from us you are getting the item you see in the photos.<\/p>",
             "page": "",
             "icon": "eye"
           }
