@@ -431,6 +431,9 @@
       },
       "failed_payment": {
         "payment_not_processed_text": "Sinua ei ole vielä veloitettu. Palaa ostoskoriin ja viimeistele ostoksesi."
+      },
+      "payment": {
+        "title": "Maksutapa"
       }
     },
     "page_titles": {
