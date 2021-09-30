@@ -401,6 +401,9 @@
     "checkout": {
       "stock": {
         "sold_out_label": "Myyty \/ ei saatavilla"
+      },
+      "delivery_options": {
+        "pick_up_in_four_hours": "Tervetuloa noutamaan."
       }
     },
     "page_titles": {
