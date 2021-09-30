@@ -338,7 +338,7 @@
       "none": "Et ole vielä tehnyt tilauksia."
     },
     "recover_password": {
-      "title": "Palauta salasanasi",
+      "title": "Salasanan palautus",
       "subtext": "Lähetämme sinulle sähköpostiviestin salasanan palauttamiseksi",
       "success": "Olemme lähettäneet sinulle sähköpostiviestin, jossa on salasanan päivityslinkki."
     },
