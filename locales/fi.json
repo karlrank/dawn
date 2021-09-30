@@ -420,7 +420,8 @@
       },
       "review": {
         "blocks": {
-          "contact_method_title": "Email"
+          "contact_method_title": "Email",
+          "shipping_method_title": "Toimitustapa"
         }
       },
       "shipping": {
