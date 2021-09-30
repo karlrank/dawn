@@ -417,6 +417,11 @@
       },
       "general": {
         "continue_to_shipping_method": "Jatka toimitustavan valintaan"
+      },
+      "review": {
+        "blocks": {
+          "contact_method_title": "Email"
+        }
       }
     },
     "page_titles": {
