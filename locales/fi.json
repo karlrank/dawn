@@ -410,7 +410,8 @@
       },
       "contact": {
         "address2_label": "Huoneisto tms.",
-        "optional_address2_label": "Huoneisto tms."
+        "optional_address2_label": "Huoneisto tms.",
+        "title": "Asiakastiedot"
       },
       "field_errors": {
         "address_address2_blank": "Syötä osoitetiedot"
