@@ -152,7 +152,9 @@
     },
     "tax": {
       "not_taxable_property_name": " ",
-      "not_taxable_property_value": "Ei sis. alv"
+      "not_taxable_property_value": "Ei sis. alv",
+      "taxable_property_name": " ",
+      "taxable_property_value": "Sis. alv"
     }
   },
   "templates": {
