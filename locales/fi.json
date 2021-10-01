@@ -149,6 +149,10 @@
     },
     "modal": {
       "label": "Mediagalleria"
+    },
+    "tax": {
+      "not_taxable_property_name": " ",
+      "not_taxable_property_value": "Ei sis. alv"
     }
   },
   "templates": {
