@@ -151,7 +151,7 @@
     },
     "tax": {
       "taxable_property_name": "VAT included",
-      "taxable_property_value": "",
+      "taxable_property_value": "for EU buyers",
       "not_taxable_property_name": "VAT",
       "not_taxable_property_value": "0%"
     }
