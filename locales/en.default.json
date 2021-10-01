@@ -150,7 +150,7 @@
       "label": "Media gallery"
     },
     "tax": {
-      "taxable_property_name": "Your countries VAT incl. (EU only).",
+      "taxable_property_name": "Your countries VAT incl.",
       "taxable_property_value": "EU Only.",
       "not_taxable_property_name": "VAT",
       "not_taxable_property_value": "0%"
