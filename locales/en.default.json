@@ -150,7 +150,7 @@
       "label": "Media gallery"
     },
     "tax": {
-      "taxable_property_name": "VAT ",
+      "taxable_property_name": "VAT included",
       "taxable_property_value": "VAT included",
       "not_taxable_property_name": "VAT",
       "not_taxable_property_value": "0%"
