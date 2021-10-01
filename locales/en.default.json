@@ -104,7 +104,7 @@
       "description": "Description",
       "on_sale": "Sale",
       "product_variants": "Product variants",
-      "taxable": "Price includes your countries VAT (EU only).",
+      "taxable": "Your countries VAT incl. (EU only).",
       "not_taxable": "Used item, no deductible VAT.",
       "media": {
         "open_featured_media": "Open featured media in gallery view",
@@ -150,8 +150,8 @@
       "label": "Media gallery"
     },
     "tax": {
-      "taxable_property_name": "VAT included",
-      "taxable_property_value": "for EU buyers",
+      "taxable_property_name": "Your countries VAT incl. (EU only).",
+      "taxable_property_value": "EU Only.",
       "not_taxable_property_name": "VAT",
       "not_taxable_property_value": "0%"
     }
