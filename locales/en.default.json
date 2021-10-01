@@ -153,7 +153,7 @@
       "taxable_property_name": "VAT ",
       "taxable_property_value": "VAT included",
       "not_taxable_property_name": "VAT",
-      "not_taxable_property_value": "None"
+      "not_taxable_property_value": "0%"
     }
   },
   "templates": {
