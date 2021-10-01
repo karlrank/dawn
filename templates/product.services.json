@@ -84,6 +84,7 @@
         },
         "c93981a2-30f3-4294-803c-c2c27ba4890e": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "14 Day Returns",
             "content": "<p>Change your mind? Let us know within 14 days of delivery for a return and refund if you item is unopened.<\/p><p><a href=\"\/policies\/refund-policy\" target=\"_blank\" title=\"\/policies\/refund-policy\">Read More<\/a><\/p>",
@@ -93,6 +94,7 @@
         },
         "e44a2970-017f-4a65-9008-2a056066686c": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Fast Shipping",
             "content": "<p>Flat-Rate Worldwide Shipping<\/p><p>🇫🇮 <strong>Finland<\/strong> 5€ | 1-3 days<strong><br\/><\/strong>🇪🇺 <strong>EU<\/strong> 10€ | 1-3 days<br\/>🇺🇸 <strong>USA<\/strong> 20€ (~$24) | 3-5 days<br\/>Most others 20€ | 3-5 days<\/p><p><a href=\"\/pages\/shipping-price-summary\" target=\"_blank\" title=\"Shipping Price Summary\">See full list<\/a><\/p>",
