@@ -190,6 +190,22 @@
         "swipe_on_mobile": false
       }
     },
+    "1633072662af6d667c": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Scan at Home",
+        "collection": "valoi-360",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": true,
+        "show_rating": false
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -244,6 +260,7 @@
     "1632393643eca7584e",
     "163292242191680787",
     "16324019941e428b8f",
+    "1633072662af6d667c",
     "product-recommendations",
     "163239432974b497b2"
   ]
