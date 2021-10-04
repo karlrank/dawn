@@ -119,7 +119,7 @@
         "de61ca51-50f5-463c-a324-1926a2d0ee86": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "Test: {%- assign product = product.metafields.my_fields -%}\n<a href=\"{{ product.url}}\">Order this product<\/a>"
+            "custom_liquid": "Test: {%- assign product = \nproduct.metafields.my_fields.database_parent -%}\n<a href=\"{{ product.url}}\">Test<\/a>"
           }
         }
       },
