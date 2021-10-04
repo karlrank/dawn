@@ -113,13 +113,7 @@
         "99452d1b-4d7e-4077-a88b-abeded9e84f2": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "Test: {%- assign my_fields = product.metafields.my_fields -%}<div>{{ my_fields.database_parent }}<\/div>"
-          }
-        },
-        "de61ca51-50f5-463c-a324-1926a2d0ee86": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "Test: {%- assign product = \nproduct[section.settings.rating].metafields.my_fields.database_parent -%}\n<a href=\"{{ product.id}}\">{{ product.id}}<\/a>"
+            "custom_liquid": "Test: {%- assign my_fields = product.metafields.my_fields -%}<div>{{ my_fields.database_parent }}\/{{ product.id}}<\/div>"
           }
         }
       },
@@ -138,8 +132,7 @@
         "a4908876-2ec2-4049-8519-f88aac2c716e",
         "0d54122a-b1cd-4ad5-9065-a50ef63c420b",
         "a41a8e68-deb3-4414-bc77-846ae026a7ec",
-        "99452d1b-4d7e-4077-a88b-abeded9e84f2",
-        "de61ca51-50f5-463c-a324-1926a2d0ee86"
+        "99452d1b-4d7e-4077-a88b-abeded9e84f2"
       ],
       "settings": {
         "enable_sticky_info": true,
