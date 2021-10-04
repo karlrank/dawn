@@ -33,7 +33,7 @@
         "99452d1b-4d7e-4077-a88b-abeded9e84f2": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<a href=\"{{product.metafields.my_fields.database_parent.value.url}}\">Read Reviews<\/a>"
+            "custom_liquid": "<div id=\"star-rating\"><a href=\"{{product.metafields.my_fields.database_parent.value.url}}\">Read Reviews<\/a><\/div>"
           }
         },
         "f0c9e60b-84e2-4c7b-a294-cab454328d82": {
