@@ -113,7 +113,7 @@
         "99452d1b-4d7e-4077-a88b-abeded9e84f2": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{%- assign host = product.metafields.my_fields.database_parent -%}\n<span> <b>ID: {{ host.url }}<\/b>\n{{ product.metafields.my_fields.database_parent }}"
+            "custom_liquid": "<span> ID: {{product.metafields.my_fields.database_parent.value.url }}"
           }
         }
       },
