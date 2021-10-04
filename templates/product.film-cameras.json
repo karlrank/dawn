@@ -113,7 +113,7 @@
         "99452d1b-4d7e-4077-a88b-abeded9e84f2": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<href=\"{{shop.url | append: product.metafields.my_fields.database_parent.value.url }}\">{{shop.url}}{{product.metafields.my_fields.database_parent.value.url}}<\/a>\n\n<hr>\n{{ 'shopify' | link_to: 'shop.url | append: product.metafields.my_fields.database_parent.value.url', 'A link to Shopify' }}\n\n<hr>{{product.metafields.my_fields.database_parent.value.url}}"
+            "custom_liquid": "<href=\"{{product.metafields.my_fields.database_parent.value.url}}\">{{shop.url}}{{product.metafields.my_fields.database_parent.value.url}}<\/a>\n\n<hr>\n{{ 'shopify' | link_to: 'shop.url | append: product.metafields.my_fields.database_parent.value.url', 'A link to Shopify' }}\n\n<hr>{{product.metafields.my_fields.database_parent.value.url}}"
           }
         }
       },
