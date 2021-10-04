@@ -30,6 +30,12 @@
             "stars_text_empty": "No reviews"
           }
         },
+        "99452d1b-4d7e-4077-a88b-abeded9e84f2": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<a href=\"{{product.metafields.my_fields.database_parent.value.url}}\">Read Reviews<\/a>"
+          }
+        },
         "f0c9e60b-84e2-4c7b-a294-cab454328d82": {
           "type": "custom_liquid",
           "settings": {
@@ -109,18 +115,13 @@
             "page": "",
             "icon": "eye"
           }
-        },
-        "99452d1b-4d7e-4077-a88b-abeded9e84f2": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<a href=\"{{product.metafields.my_fields.database_parent.value.url}}\">Read Reviews<\/a>"
-          }
         }
       },
       "block_order": [
         "eef5d81b-99be-406b-8d49-804694bc4c77",
         "title",
         "d5d49bcd-b0c0-4d1b-9578-f91dd68601e5",
+        "99452d1b-4d7e-4077-a88b-abeded9e84f2",
         "f0c9e60b-84e2-4c7b-a294-cab454328d82",
         "price",
         "853cea71-8e8d-4b3a-8d41-fda13fdf751d",
@@ -131,8 +132,7 @@
         "ad4fef74-222f-422b-a2e1-33623ff7b9e6",
         "a4908876-2ec2-4049-8519-f88aac2c716e",
         "0d54122a-b1cd-4ad5-9065-a50ef63c420b",
-        "a41a8e68-deb3-4414-bc77-846ae026a7ec",
-        "99452d1b-4d7e-4077-a88b-abeded9e84f2"
+        "a41a8e68-deb3-4414-bc77-846ae026a7ec"
       ],
       "settings": {
         "enable_sticky_info": true,
