@@ -1,5 +1,11 @@
 {
   "sections": {
+    "16334152711e2727b9": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width page-width--wide\">\n<p style=\"color: #b3b3b3\">{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span> ID: {{ current_variant.sku }}<\/span> {% if current_variant.barcode %}{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span>\/ Code: {{ current_variant.barcode }}<\/span><\/p>{% endif %}<\/div>"
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -28,12 +34,6 @@
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": "<a href=\"{{product.metafields.my_fields.database_parent.value.url}}\">Read Reviews<\/a>"
-          }
-        },
-        "f0c9e60b-84e2-4c7b-a294-cab454328d82": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<p style=\"color: #b3b3b3\">{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span> ID: {{ current_variant.sku }}<\/span> {% if current_variant.barcode %}{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span>\/ Code: {{ current_variant.barcode }}<\/span><\/p>{% endif %}"
           }
         },
         "price": {
@@ -116,7 +116,6 @@
         "title",
         "d5d49bcd-b0c0-4d1b-9578-f91dd68601e5",
         "99452d1b-4d7e-4077-a88b-abeded9e84f2",
-        "f0c9e60b-84e2-4c7b-a294-cab454328d82",
         "price",
         "853cea71-8e8d-4b3a-8d41-fda13fdf751d",
         "235b8cd5-c263-4cde-9104-81a9203d4384",
@@ -259,6 +258,7 @@
     }
   },
   "order": [
+    "16334152711e2727b9",
     "main",
     "163178438845c86d64",
     "1632735936daa328ef",
