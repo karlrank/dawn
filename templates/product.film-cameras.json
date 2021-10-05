@@ -23,7 +23,7 @@
         "d5d49bcd-b0c0-4d1b-9578-f91dd68601e5": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
-            "stars_fill_color": "#ffab10",
+            "stars_fill_color": "#027ed2",
             "star_size": 16,
             "text_align": "flex-start",
             "product": "{{ product.metafields.my_fields.database_parent.value }}",
