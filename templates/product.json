@@ -30,12 +30,6 @@
             "stars_text_empty": "No reviews"
           }
         },
-        "c8dbdd94-5d5c-4b28-940d-2dc1b267c8ac": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<p style=\"color: #b3b3b3\">{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span> ID: {{ current_variant.sku }}<\/span> {% if current_variant.barcode %}{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span>\/ Code: {{ current_variant.barcode }}<\/span><\/p>{% endif %}"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -113,7 +107,6 @@
         "96c45658-7a4f-4bbe-8af4-a6f32859a982",
         "title",
         "8c092308-4d1c-4e56-b41c-6399c0c71a31",
-        "c8dbdd94-5d5c-4b28-940d-2dc1b267c8ac",
         "price",
         "f0c9e60b-84e2-4c7b-a294-cab454328d82",
         "8a5e19bd-ec83-4ef2-ad47-9bd4b01b7f5e",
