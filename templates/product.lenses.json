@@ -62,12 +62,6 @@
             "show_dynamic_checkout": true
           }
         },
-        "6e329fbd-c3b0-4cfe-a6f4-9911df60910e": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{% if product.available %}\n\n<div class=\"related-stock\">In-stock and ready to ship.<\/div>\n\n{% else %}\n\n{% endif %}"
-          }
-        },
         "ad4fef74-222f-422b-a2e1-33623ff7b9e6": {
           "type": "collapsible_tab",
           "settings": {
@@ -114,7 +108,6 @@
         "4fc793ac-a118-4f11-a2c8-eaa352ca1d8c",
         "9201f616-91de-46a1-910a-4702d782a6ca",
         "buy_buttons",
-        "6e329fbd-c3b0-4cfe-a6f4-9911df60910e",
         "ad4fef74-222f-422b-a2e1-33623ff7b9e6",
         "a4908876-2ec2-4049-8519-f88aac2c716e",
         "0d54122a-b1cd-4ad5-9065-a50ef63c420b",
