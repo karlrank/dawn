@@ -37,6 +37,12 @@
         "full_width": true
       }
     },
+    "163341534929f4868b": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width page-width--wide\">\n<p style=\"color: #b3b3b3\">{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span> ID: {{ current_variant.sku }}<\/span> {% if current_variant.barcode %}{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span>\/ Code: {{ current_variant.barcode }}<\/span><\/p>{% endif %}<\/div>"
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -57,6 +63,7 @@
         },
         "f0c9e60b-84e2-4c7b-a294-cab454328d82": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<p style=\"color: #b3b3b3\">{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span> ID: {{ current_variant.sku }}<\/span> {% if current_variant.barcode %}{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span>\/ Code: {{ current_variant.barcode }}<\/span><\/p>{% endif %}"
           }
@@ -286,6 +293,7 @@
   },
   "order": [
     "1632824788edf71f2f",
+    "163341534929f4868b",
     "main",
     "163178438845c86d64",
     "163213238375145c93",
