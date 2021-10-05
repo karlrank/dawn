@@ -70,6 +70,7 @@
         },
         "6e329fbd-c3b0-4cfe-a6f4-9911df60910e": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "{% if product.available %}\n\n<div class=\"related-stock\">In-stock and ready to ship.<\/div>\n\n{% else %}\n\n{% endif %}"
           }
