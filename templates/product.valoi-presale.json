@@ -51,17 +51,6 @@
           "settings": {
           }
         },
-        "d35d56bf-7342-43c4-b640-67be774144a3": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
-          "disabled": true,
-          "settings": {
-            "stars_fill_color": "#ffab10",
-            "star_size": 16,
-            "text_align": "flex-start",
-            "product": "{{ product.metafields.my_fields.database_parent.value }}",
-            "stars_text_empty": "No reviews"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -142,7 +131,6 @@
       },
       "block_order": [
         "title",
-        "d35d56bf-7342-43c4-b640-67be774144a3",
         "price",
         "853cea71-8e8d-4b3a-8d41-fda13fdf751d",
         "8a1f013f-3fbd-4ebb-b70b-fd9e114e338b",
@@ -165,56 +153,6 @@
       "type": "custom-liquid",
       "settings": {
         "custom_liquid": "<div class=\"page-width page-width--narrow\">\n<H2>Description<\/h2><H3>{{ product.title }}<\/h3>{{ product.description }}<\/div>"
-      }
-    },
-    "163213238375145c93": {
-      "type": "multicolumn",
-      "disabled": true,
-      "blocks": {
-        "163213238375145c93-0": {
-          "type": "column",
-          "settings": {
-            "title": "Preliminary Check",
-            "text": "<p>Missing parts<\/p><p>External damage<\/p><p>Cover\/leatherette condition<\/p><p>Winding related mechanism functions<\/p><p>Button functions<\/p><p>Lever functions<\/p><p>Electronic connection functions<\/p><p>Self-timer<\/p>"
-          }
-        },
-        "163213238375145c93-1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>This item has been thoroughly inspected by our technicians and assigned the above condition rating based on a 50+ point inspection in the following areas when applicable:<\/p><p><br\/><\/p><p>Cosmetic condition<\/p><p>Shutter speed accuracy<\/p><p>Focusing function<\/p><p>Optical integrity<\/p><p>Metering<\/p><p>Automatic exposure<\/p><p>Viewfinder<\/p><p>Shutter & mirror<\/p><p>Film advance<\/p><p>Light seals \/foams<\/p><p>Batteries<\/p><p>Button, lever, & connection functions<\/p>"
-          }
-        },
-        "c3a5df44-7cfe-4c2b-83dd-a494475f2514": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>General Condition (8)<\/p><p>Lens & Focusing (6)<\/p><p>Viewfinder (5)<\/p><p>Metering (4)<\/p><p>Shutter & Mirror (4)<\/p><p>Film Advance (4)<\/p><p>Light Seals \/Foams (3)<\/p><p>Batteries (2)<\/p><p>Shutter speeds (2)<\/p><p>Other Functions (6)<\/p>"
-          }
-        },
-        "f110b363-3922-4e6a-961e-fdbfb116face": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "163213238375145c93-0",
-        "163213238375145c93-1",
-        "c3a5df44-7cfe-4c2b-83dd-a494475f2514",
-        "f110b363-3922-4e6a-961e-fdbfb116face"
-      ],
-      "settings": {
-        "title": "Quality Control",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "swipe_on_mobile": false
       }
     },
     "16321391205a6cb4a0": {
@@ -289,7 +227,6 @@
     "16334155223f575e74",
     "main",
     "163178438845c86d64",
-    "163213238375145c93",
     "16321391205a6cb4a0",
     "product-recommendations"
   ]
