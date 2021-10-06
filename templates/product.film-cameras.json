@@ -33,7 +33,7 @@
         "99452d1b-4d7e-4077-a88b-abeded9e84f2": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{{product.metafields.my_fields.database_parent | metafield_tag}}\n\n<a href=\"{{product.metafields.my_fields.database_parent.value.url}}\" class=\"link link--text underlined-link\">Read or Write Reviews<\/a>"
+            "custom_liquid": "<a href=\"{{product.metafields.my_fields.database_parent.value.url}}\">Read or Write Reviews<\/a>"
           }
         },
         "price": {
