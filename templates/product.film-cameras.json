@@ -6,6 +6,12 @@
         "custom_liquid": "<div class=\"page-width page-width--wide\">\n<p style=\"color: #b3b3b3\">{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span> ID: {{ current_variant.sku }}<\/span> {% if current_variant.barcode %}{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span>\/ Code: {{ current_variant.barcode }}<\/span><\/p>{% endif %}<\/div>"
       }
     },
+    "1633523067c85ea754": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<a href=\"{{product.metafields.my_fields.database_parent.value.url }}\" class=\"metafield-product_reference\">A<\/a>\n\n<a href=\"{{product.metafields.my_fields.database_parent }}\" class=\"metafield-product_reference\">B <\/a>"
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -260,6 +266,7 @@
   },
   "order": [
     "16334152711e2727b9",
+    "1633523067c85ea754",
     "main",
     "163178438845c86d64",
     "1632735936daa328ef",
