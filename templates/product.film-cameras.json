@@ -22,6 +22,7 @@
         },
         "d5d49bcd-b0c0-4d1b-9578-f91dd68601e5": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+          "disabled": true,
           "settings": {
             "stars_fill_color": "#027ed2",
             "star_size": 16,
@@ -32,6 +33,7 @@
         },
         "99452d1b-4d7e-4077-a88b-abeded9e84f2": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<a href=\"{{ product.metafields.my_fields.database_parent.value.url }}\">Read or Write Reviews<\/a>\n\n{{product.metafields.my_fields.database_parent | metafield_tag }}\n<HR>"
           }
