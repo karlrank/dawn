@@ -23,7 +23,7 @@
         "99452d1b-4d7e-4077-a88b-abeded9e84f2": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{{product.metafields.my_fields.database_parent.value.url}}\n\n<a href=\"{{product.metafields.my_fields.database_parent.value.url}}\">Read or Write Reviews<\/a>\n\n{{product.metafields.my_fields.database_parent | metafield_tag | camera }}"
+            "custom_liquid": "{{product.metafields.my_fields.database_parent.value.url}}\n\n<a href=\"{{product.metafields.my_fields.database_parent.value.url}}\">Read or Write Reviews<\/a>\n\n{{product.metafields.my_fields.database_parent | metafield_tag }}"
           }
         },
         "d5d49bcd-b0c0-4d1b-9578-f91dd68601e5": {
