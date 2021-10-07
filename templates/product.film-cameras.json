@@ -142,6 +142,7 @@
     },
     "1632735936daa328ef": {
       "type": "apps",
+      "disabled": true,
       "blocks": {
         "1f370cfd-d9e9-4585-bfd8-0d05db81017a": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
