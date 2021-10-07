@@ -255,6 +255,12 @@
         "color_scheme": "background-1",
         "layout": "text_first"
       }
+    },
+    "163360176473de069f": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{{ product.metafields.my_fields.database_parent | metafield_tag }}"
+      }
     }
   },
   "order": [
@@ -264,6 +270,7 @@
     "1632735936daa328ef",
     "16321391205a6cb4a0",
     "product-recommendations",
-    "16321339467e367887"
+    "16321339467e367887",
+    "163360176473de069f"
   ]
 }
