@@ -256,12 +256,6 @@
         "color_scheme": "background-1",
         "layout": "text_first"
       }
-    },
-    "1633523067c85ea754": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style scoped>.spr-icon {\n      color: #ffbf03;\n    }\n    a.spr-icon:hover {\n      color: #664c01;\n    }.spr-container {\n    padding: 24px;\n    border-color: #ECECEC;}\n  .spr-review, .spr-form {\n    border-color: #ECECEC;\n  }\n<\/style>\n\n<div class=\"spr-container\">\n  <div class=\"spr-header\">\n    <h2 class=\"spr-header-title\">Kamerastore Visitor Reviews<\/h2><div class=\"spr-summary\">\n\n        <span class=\"spr-starrating spr-summary-starrating\">\n          <i class=\"spr-icon spr-icon-star\"><\/i><i class=\"spr-icon spr-icon-star\"><\/i><i class=\"spr-icon spr-icon-star\"><\/i><i class=\"spr-icon spr-icon-star-half-alt\"><\/i><i class=\"spr-icon spr-icon-star-empty\"><\/i>\n        <\/span>\n        <span class=\"spr-summary-caption\"><span class='spr-summary-actions-togglereviews'>Based on 3 reviews<\/span>\n        <\/span><span class=\"spr-summary-actions\">\n        <a href='#' class='spr-summary-actions-newreview' onclick='SPR.toggleForm(6232864227526);return false'>Write a review<\/a>\n      <\/span>\n    <\/div>\n  <\/div>\n\n  <div class=\"spr-content\">\n    <div class='spr-form' id='form_6232864227526' style='display: none'><\/div>\n    <div class='spr-reviews' id='reviews_6232864227526' ><\/div>\n  <\/div>\n\n<\/div>\n<script type=\"application\/ld+json\">\n      {\n        \"@context\": \"http:\/\/schema.org\/\",\n        \"@type\": \"AggregateRating\",\n        \"reviewCount\": \"3\",\n        \"ratingValue\": \"3.3333333333333335\",\n        \"itemReviewed\": {\n          \"@type\" : \"Product\",\n          \"name\" : \"Olympus XA - Camera\",\n          \"offers\": {\n            \"@type\": \"AggregateOffer\",\n            \"lowPrice\": \"309.15\",\n            \"highPrice\": \"309.15\",\n            \"priceCurrency\": \"EUR\"\n          }\n        }\n      }\n<\/script>"
-      }
     }
   },
   "order": [
@@ -271,7 +265,6 @@
     "1632735936daa328ef",
     "16321391205a6cb4a0",
     "product-recommendations",
-    "16321339467e367887",
-    "1633523067c85ea754"
+    "16321339467e367887"
   ]
 }
