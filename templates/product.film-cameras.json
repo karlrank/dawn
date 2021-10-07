@@ -260,7 +260,7 @@
     "1633523067c85ea754": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{{ product.metafields.test.host }}"
+        "custom_liquid": "{{ product.metafields.my_fields.parent.database_item }}"
       }
     }
   },
