@@ -322,6 +322,12 @@
         "description": "",
         "full_width": false
       }
+    },
+    "16336738395370bc94": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"reputon-google-reviews-widget\" id=\"bf91f8b0-88a8-11eb-9209-f960a060549e\" ><\/div>"
+      }
     }
   },
   "order": [
@@ -336,6 +342,7 @@
     "multi_column",
     "1631783246bd86182c",
     "1632819284873cdad3",
-    "163273752240df21a1"
+    "163273752240df21a1",
+    "16336738395370bc94"
   ]
 }
