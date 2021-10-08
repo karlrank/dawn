@@ -100,7 +100,7 @@
         "c0d021b5-1372-4595-af34-5ff3eb0a4898": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<p class=\"line-item-property__field\">\n  <label>Color Tones<\/label><br>\n  <select id=\"color-tones\" name=\"properties[Color Tones]\">\n    <option value=\"Warm\">Warm<\/option>\n    <option value=\"Neutral\">Neutral<\/option>\n    <option value=\"Cool\">Cool<\/option>\n  <\/select>\n<\/p>"
+            "custom_liquid": "<p class=\"line-item-property__field\">\n  <label>Color Tones<\/label><br>\n  <select id=\"color-tones\" name=\"properties[Color Tones]\">\n    <option value=\"Warm\">Warm<\/option>\n    <option value=\"Neutral\">Neutral<\/option>\n    <option value=\"Cool\">Cool<\/option>\n  <\/select>\n<\/p>\n\n<p class=\"line-item-property__field\">\n  <label>Contrast<\/label><br>\n  <select id=\"contrast\" name=\"properties[Contrast]\">\n    <option value=\"High\">High<\/option>\n    <option value=\"Neutral\">Neutral<\/option>\n    <option value=\"Low\">Low<\/option>\n  <\/select>\n<\/p>\n<p class=\"line-item-property__field\">\n  <label>Brightness<\/label><br>\n  <select id=\"brightness\" name=\"properties[Brightness]\">\n    <option value=\"Bright\">Bright<\/option>\n    <option value=\"Neutral\">Neutral<\/option>\n    <option value=\"Dark\">Dark<\/option>\n  <\/select>\n<\/p>"
           }
         }
       },
