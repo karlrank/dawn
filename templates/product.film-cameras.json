@@ -9,10 +9,17 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "eef5d81b-99be-406b-8d49-804694bc4c77": {
+        "9db62c39-0013-4a33-bd68-184b84c6a144": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% for tag in product.tags %}\n    {% if tag contains 'System' %}\n        {{ tag  | split:\"-\" | last}} \/\n    {% endif %}\n{% endfor %}\n{{ product.type }}"
+            "custom_liquid": "{% for tag in product.tags %}\n    {% if tag contains 'System' %}\n        {{ tag  | split:\"-\" | last}} \/\n    {% endif %}\n{% endfor %}\n {{ product.type }}"
+          }
+        },
+        "eef5d81b-99be-406b-8d49-804694bc4c77": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "{% for tag in product.tags %}\n    {% if tag contains 'System' %}\n        {{ tag  | split:\"-\" | last}} \/\n    {% endif %}\n{% endfor %}\n    {% if product.type != blank %}\n      {% assign type = product.type | handleize %}\n      <p class= \"link\" itemprop=\"brand\">\n      {% if collections[type] != blank %}\n        {{ product.type | link_to: collections[type].url }}\n      {% else %}\n        {{ product.type }}\n      {% endif %}\n      <\/p>\n    {% endif %}"
           }
         },
         "title": {
@@ -119,6 +126,7 @@
         }
       },
       "block_order": [
+        "9db62c39-0013-4a33-bd68-184b84c6a144",
         "eef5d81b-99be-406b-8d49-804694bc4c77",
         "title",
         "d5d49bcd-b0c0-4d1b-9578-f91dd68601e5",
