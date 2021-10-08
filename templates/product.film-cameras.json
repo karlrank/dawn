@@ -75,13 +75,6 @@
             "show_dynamic_checkout": true
           }
         },
-        "6e329fbd-c3b0-4cfe-a6f4-9911df60910e": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "{% for tag in product.tags %}\n    {% if tag contains 'System' %}\n        {{ tag  | split:\"-\" | last}}\n        {% assign type = product.system | handleize %}\n         <p class= \"link\" itemprop=\"brand\">\n      {% if collections[system] != blank %}\n        {{ product.system | link_to: collections[system].url }}\n      {% else %}\n       {% if tag contains 'System' %}\n        {{ tag  | split:\"-\" | last}}\n      {% endif %}\n      <\/p>\n    {% endif %}\n    \n    \n    {% endif %}\n{% endfor %}"
-          }
-        },
         "ad4fef74-222f-422b-a2e1-33623ff7b9e6": {
           "type": "collapsible_tab",
           "settings": {
@@ -120,8 +113,9 @@
         },
         "09a51b4f-ca2b-4f99-a8f5-3621f3aa7732": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
-            "custom_liquid": "<h1 class=\"h4\" itemprop=\"type\">{{ product.type }}<\/h1>\n    {% if product.type != blank %}\n      {% assign type_handle = product.type | handleize %}\n      <p class=\"product-meta\" itemprop=\"brand\">\n      {% if collections[type_handle] != blank %}\n        {{ product.type | link_to: collections[type_handle].url }}\n      {% else %}\n        {{ product.type }}\n      {% endif %}\n      <\/p>\n    {% endif %}"
+            "custom_liquid": "{{ collections | within: product.url }}"
           }
         }
       },
@@ -136,7 +130,6 @@
         "235b8cd5-c263-4cde-9104-81a9203d4384",
         "cd07da4b-ae00-46ee-bf67-5c7799d93921",
         "buy_buttons",
-        "6e329fbd-c3b0-4cfe-a6f4-9911df60910e",
         "ad4fef74-222f-422b-a2e1-33623ff7b9e6",
         "a4908876-2ec2-4049-8519-f88aac2c716e",
         "0d54122a-b1cd-4ad5-9065-a50ef63c420b",
