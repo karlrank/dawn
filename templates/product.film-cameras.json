@@ -19,7 +19,7 @@
           "type": "custom_liquid",
           "disabled": true,
           "settings": {
-            "custom_liquid": "{% for tag in product.tags %}\n    {% if tag contains 'System' %}\n        {{ tag  | split:\"-\" | last}} \/\n    {% endif %}\n{% endfor %}\n    {% if product.type != blank %}\n      {% assign type = product.type | handleize %}\n      <p class= \"link\" itemprop=\"brand\">\n      {% if collections[type] != blank %}\n        {{ product.type | link_to: collections[type].url }}\n      {% else %}\n        {{ product.type }}\n      {% endif %}\n      <\/p>\n    {% endif %}"
+            "custom_liquid": "<br>\n{% for tag in product.tags %}\n    {% if tag contains 'System' %}\n        {{ tag  | split:\"-\" | last}} \/\n    {% endif %}\n{% endfor %}\n    {% if product.type != blank %}\n      {% assign type = product.type | handleize %}\n      <p class= \"link\" itemprop=\"brand\">\n      {% if collections[type] != blank %}\n        {{ product.type | link_to: collections[type].url }}\n      {% else %}\n        {{ product.type }}\n      {% endif %}\n      <\/p>\n    {% endif %}"
           }
         },
         "title": {
@@ -79,7 +79,7 @@
           "type": "custom_liquid",
           "disabled": true,
           "settings": {
-            "custom_liquid": "{% if product.available %}\n\n<div class=\"related-stock\">In-stock and ready to ship.<\/div>\n\n{% else %}\n\n{% endif %}"
+            "custom_liquid": "{% for tag in product.tags %}\n    {% if tag contains 'System' %}\n        {{ tag  | split:\"-\" | last}}\n        {% assign type = product.system | handleize %}\n         <p class= \"link\" itemprop=\"brand\">\n      {% if collections[system] != blank %}\n        {{ product.system | link_to: collections[system].url }}\n      {% else %}\n       {% if tag contains 'System' %}\n        {{ tag  | split:\"-\" | last}}\n      {% endif %}\n      <\/p>\n    {% endif %}\n    \n    \n    {% endif %}\n{% endfor %}"
           }
         },
         "ad4fef74-222f-422b-a2e1-33623ff7b9e6": {
