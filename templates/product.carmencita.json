@@ -42,14 +42,6 @@
             "custom_liquid": "{% if product.selected_or_first_available_variant.taxable %}\n    {{ 'products.product.taxable' | t }}\n{% else %}\n    {{ 'products.product.not_taxable' | t }}\n{% endif %}"
           }
         },
-        "8a5e19bd-ec83-4ef2-ad47-9bd4b01b7f5e": {
-          "type": "condition",
-          "settings": {
-            "show_mechanical": true,
-            "show_optical": true,
-            "show_cosmetic": false
-          }
-        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -110,7 +102,6 @@
         "8c092308-4d1c-4e56-b41c-6399c0c71a31",
         "price",
         "f0c9e60b-84e2-4c7b-a294-cab454328d82",
-        "8a5e19bd-ec83-4ef2-ad47-9bd4b01b7f5e",
         "quantity_selector",
         "variant_picker",
         "buy_buttons",
