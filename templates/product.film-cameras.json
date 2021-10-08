@@ -110,13 +110,6 @@
             "page": "",
             "icon": "eye"
           }
-        },
-        "09a51b4f-ca2b-4f99-a8f5-3621f3aa7732": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "{{ collections | within: product.url }}"
-          }
         }
       },
       "block_order": [
@@ -133,8 +126,7 @@
         "ad4fef74-222f-422b-a2e1-33623ff7b9e6",
         "a4908876-2ec2-4049-8519-f88aac2c716e",
         "0d54122a-b1cd-4ad5-9065-a50ef63c420b",
-        "a41a8e68-deb3-4414-bc77-846ae026a7ec",
-        "09a51b4f-ca2b-4f99-a8f5-3621f3aa7732"
+        "a41a8e68-deb3-4414-bc77-846ae026a7ec"
       ],
       "settings": {
         "enable_sticky_info": true,
