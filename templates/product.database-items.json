@@ -83,7 +83,7 @@
           "type": "custom_liquid",
           "disabled": true,
           "settings": {
-            "custom_liquid": "product.metafields.my_fields.video"
+            "custom_liquid": "{{product.metafields.my_fields.video | metafield_tag}}"
           }
         }
       },
