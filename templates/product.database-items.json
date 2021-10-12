@@ -86,6 +86,15 @@
           "settings": {
             "custom_liquid": "{{product.metafields.my_fields.video | metafield_tag}}"
           }
+        },
+        "587ddfa6-3235-4da0-be5b-d249ecf8991d": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Have one to Sell?",
+            "content": "<p>Do you have a {{ product.title }} you want to sell to us? Fill out our simple form and request a quote from us.<\/p><p><a href=\"https:\/\/app.kamerastore.com\/sell_to_us?language=eng\" target=\"_blank\" title=\"https:\/\/app.kamerastore.com\/sell_to_us?language=eng\"><strong>START QUOTE<\/strong><\/a><\/p>",
+            "page": "",
+            "icon": "price_tag"
+          }
         }
       },
       "block_order": [
@@ -93,7 +102,8 @@
         "title",
         "867d0ead-4562-4c6c-9a1e-c8ae99ea8ee7",
         "86beefb8-b02b-46b4-83e3-883662401da6",
-        "f82f842a-f718-4053-a4ff-b857c079201c"
+        "f82f842a-f718-4053-a4ff-b857c079201c",
+        "587ddfa6-3235-4da0-be5b-d249ecf8991d"
       ],
       "settings": {
         "enable_sticky_info": true,
