@@ -56,7 +56,7 @@
           "type": "text",
           "settings": {
             "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "body"
+            "text_style": "subtitle"
           }
         },
         "title": {
