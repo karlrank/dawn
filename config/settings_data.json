@@ -28,26 +28,15 @@
         "blocks": {
           "2e0296fe-51ad-44a1-93ae-816b91172f02": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
               "text": "Europe’s Film Camera Specialists Since 2010",
-              "color_scheme": "background-1",
-              "link": ""
-            }
-          },
-          "ddf314ab-fce1-4e74-8580-78ec5c1fde51": {
-            "type": "announcement",
-            "disabled": true,
-            "settings": {
-              "text": "Temporary mobile bugs. Try on Desktop if you have issues.",
               "color_scheme": "background-1",
               "link": ""
             }
           }
         },
         "block_order": [
-          "2e0296fe-51ad-44a1-93ae-816b91172f02",
-          "ddf314ab-fce1-4e74-8580-78ec5c1fde51"
+          "2e0296fe-51ad-44a1-93ae-816b91172f02"
         ],
         "settings": {
         }
