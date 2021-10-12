@@ -15,30 +15,52 @@
           "settings": {
             "text": "<p>(in development through early 2022) Soon you can find information about on items, related articles, videos, and statistics. When viewing a certain item you will be able to see if any are available, as well as previosuly sold prices. Reading and writing reviews is avialable now. <strong>Find your favorite items and bookmark the page!<\/strong><\/p>"
           }
-        },
-        "1632821684416a6917-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
         "1632821684416a6917-0",
-        "1632821684416a6917-1",
-        "1632821684416a6917-2"
+        "1632821684416a6917-1"
       ],
       "settings": {
         "color_scheme": "inverse",
         "full_width": true
       }
     },
+    "16340245700ec1844e": {
+      "type": "apps",
+      "blocks": {
+        "b4499b45-1efb-4169-b30f-758cfcd4750f": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+          "disabled": true,
+          "settings": {
+            "stars_fill_color": "#ffab10",
+            "star_size": 15,
+            "text_align": "center",
+            "product": "{{product}}",
+            "stars_text_empty": "No reviews"
+          }
+        }
+      },
+      "block_order": [
+        "b4499b45-1efb-4169-b30f-758cfcd4750f"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
+        "867d0ead-4562-4c6c-9a1e-c8ae99ea8ee7": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+            "stars_fill_color": "#ffab10",
+            "star_size": 20,
+            "text_align": "flex-start",
+            "product": "{{ product }}",
+            "stars_text_empty": "No reviews"
+          }
+        },
         "96c45658-7a4f-4bbe-8af4-a6f32859a982": {
           "type": "custom_liquid",
           "settings": {
@@ -49,22 +71,12 @@
           "type": "title",
           "settings": {
           }
-        },
-        "867d0ead-4562-4c6c-9a1e-c8ae99ea8ee7": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-            "stars_fill_color": "#ffab10",
-            "star_size": 16,
-            "text_align": "flex-start",
-            "product": "{{ product }}",
-            "stars_text_empty": "No reviews"
-          }
         }
       },
       "block_order": [
+        "867d0ead-4562-4c6c-9a1e-c8ae99ea8ee7",
         "96c45658-7a4f-4bbe-8af4-a6f32859a982",
-        "title",
-        "867d0ead-4562-4c6c-9a1e-c8ae99ea8ee7"
+        "title"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -179,6 +191,7 @@
   },
   "order": [
     "1632821684416a6917",
+    "16340245700ec1844e",
     "main",
     "1632393643eca7584e",
     "1632735842bb892edd",
