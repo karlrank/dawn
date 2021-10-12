@@ -67,6 +67,13 @@
             "custom_liquid": "{% for tag in product.tags %}\n    {% if tag contains 'System' %}\n        {{ tag  | split:\"-\" | last}} \/\n    {% endif %}\n{% endfor %}\n{{ product.type }}"
           }
         },
+        "86beefb8-b02b-46b4-83e3-883662401da6": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -76,6 +83,7 @@
       "block_order": [
         "867d0ead-4562-4c6c-9a1e-c8ae99ea8ee7",
         "96c45658-7a4f-4bbe-8af4-a6f32859a982",
+        "86beefb8-b02b-46b4-83e3-883662401da6",
         "title"
       ],
       "settings": {
