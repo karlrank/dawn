@@ -55,7 +55,7 @@
         "86beefb8-b02b-46b4-83e3-883662401da6": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text": "{{ product.metafields.my_fields.year_introduced.value }}",
             "text_style": "subtitle"
           }
         },
