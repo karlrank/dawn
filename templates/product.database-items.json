@@ -112,6 +112,12 @@
             "page": "",
             "icon": "none"
           }
+        },
+        "6503d349-ebc4-4e62-84f6-2f000edec85e": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
         }
       },
       "block_order": [
@@ -122,7 +128,8 @@
         "867d0ead-4562-4c6c-9a1e-c8ae99ea8ee7",
         "f82f842a-f718-4053-a4ff-b857c079201c",
         "587ddfa6-3235-4da0-be5b-d249ecf8991d",
-        "3b0f8873-28a8-4ebf-96c4-c4fbd413b703"
+        "3b0f8873-28a8-4ebf-96c4-c4fbd413b703",
+        "6503d349-ebc4-4e62-84f6-2f000edec85e"
       ],
       "settings": {
         "enable_sticky_info": true,
