@@ -27,22 +27,6 @@
           "settings": {
           }
         },
-        "d5d49bcd-b0c0-4d1b-9578-f91dd68601e5": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-            "stars_fill_color": "#027ed2",
-            "star_size": 16,
-            "text_align": "flex-start",
-            "product": "{{ product.metafields.my_fields.database_parent.value }}",
-            "stars_text_empty": "No reviews"
-          }
-        },
-        "99452d1b-4d7e-4077-a88b-abeded9e84f2": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<a href=\"{{ product.metafields.my_fields.database_parent.value.url }}\" class=\"link link--text underlined-link\">Read or Write Reviews<\/a>"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -54,16 +38,9 @@
             "custom_liquid": "{% if product.selected_or_first_available_variant.taxable %}\n    {{ 'products.product.taxable' | t }}\n{% else %}\n    {{ 'products.product.not_taxable' | t }}\n{% endif %}"
           }
         },
-        "235b8cd5-c263-4cde-9104-81a9203d4384": {
-          "type": "condition",
-          "settings": {
-            "show_mechanical": true,
-            "show_optical": true,
-            "show_cosmetic": false
-          }
-        },
         "cd07da4b-ae00-46ee-bf67-5c7799d93921": {
           "type": "popup",
+          "disabled": true,
           "settings": {
             "text": "Camera Condition Ratings",
             "page": "camera-condition-ratings"
@@ -77,6 +54,7 @@
         },
         "ad4fef74-222f-422b-a2e1-33623ff7b9e6": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "True Condition",
             "content": "<p>Our used item condition ratings are over 99,5% accurate! Our highly skilled technicians use period-appropriate machinery to evaluate an item's true condition.<\/p>",
@@ -86,6 +64,7 @@
         },
         "a4908876-2ec2-4049-8519-f88aac2c716e": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "14 Day Returns",
             "content": "<p>Change your mind? Not satisfied? Let us know within 14 days of delivery for a return and refund.<\/p><p><a href=\"\/policies\/refund-policy\" target=\"_blank\" title=\"\/policies\/refund-policy\">Read More<\/a><\/p>",
@@ -116,11 +95,8 @@
         "9db62c39-0013-4a33-bd68-184b84c6a144",
         "eef5d81b-99be-406b-8d49-804694bc4c77",
         "title",
-        "d5d49bcd-b0c0-4d1b-9578-f91dd68601e5",
-        "99452d1b-4d7e-4077-a88b-abeded9e84f2",
         "price",
         "853cea71-8e8d-4b3a-8d41-fda13fdf751d",
-        "235b8cd5-c263-4cde-9104-81a9203d4384",
         "cd07da4b-ae00-46ee-bf67-5c7799d93921",
         "buy_buttons",
         "ad4fef74-222f-422b-a2e1-33623ff7b9e6",
@@ -159,6 +135,7 @@
     },
     "16321391205a6cb4a0": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "6ac9b599-c067-409f-818e-24aa63217351": {
           "type": "column",
