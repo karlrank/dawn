@@ -1,0 +1,270 @@
+{
+  "sections": {
+    "16334152711e2727b9": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width page-width--wide\">\n<p style=\"color: #b3b3b3\">{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span> ID: {{ current_variant.sku }}<\/span> {% if current_variant.barcode %}{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span>\/ Code: {{ current_variant.barcode }} \/ {{ product.metafields.my_fields.database_parent | metafield_text }}<\/span><\/p>{% endif %}<\/div>"
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "9db62c39-0013-4a33-bd68-184b84c6a144": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% for tag in product.tags %}\n    {% if tag contains 'System' %}\n        {{ tag  | split:\"-\" | last}} \/\n    {% endif %}\n{% endfor %}\n {{ product.type }}"
+          }
+        },
+        "eef5d81b-99be-406b-8d49-804694bc4c77": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<br>\n{% for tag in product.tags %}\n    {% if tag contains 'System' %}\n        {{ tag  | split:\"-\" | last}} \/\n    {% endif %}\n{% endfor %}\n    {% if product.type != blank %}\n      {% assign type = product.type | handleize %}\n      <p class= \"link\" itemprop=\"brand\">\n      {% if collections[type] != blank %}\n        {{ product.type | link_to: collections[type].url }}\n      {% else %}\n        {{ product.type }}\n      {% endif %}\n      <\/p>\n    {% endif %}"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "d5d49bcd-b0c0-4d1b-9578-f91dd68601e5": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+            "stars_fill_color": "#027ed2",
+            "star_size": 16,
+            "text_align": "flex-start",
+            "product": "{{ product.metafields.my_fields.database_parent.value }}",
+            "stars_text_empty": "No reviews"
+          }
+        },
+        "99452d1b-4d7e-4077-a88b-abeded9e84f2": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<a href=\"{{ product.metafields.my_fields.database_parent.value.url }}\" class=\"link link--text underlined-link\">Read or Write Reviews<\/a>"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "853cea71-8e8d-4b3a-8d41-fda13fdf751d": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.selected_or_first_available_variant.taxable %}\n    {{ 'products.product.taxable' | t }}\n{% else %}\n    {{ 'products.product.not_taxable' | t }}\n{% endif %}"
+          }
+        },
+        "235b8cd5-c263-4cde-9104-81a9203d4384": {
+          "type": "condition",
+          "settings": {
+            "show_mechanical": true,
+            "show_optical": true,
+            "show_cosmetic": false
+          }
+        },
+        "cd07da4b-ae00-46ee-bf67-5c7799d93921": {
+          "type": "popup",
+          "settings": {
+            "text": "Camera Condition Ratings",
+            "page": "camera-condition-ratings"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "ad4fef74-222f-422b-a2e1-33623ff7b9e6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "True Condition",
+            "content": "<p>Our used item condition ratings are over 99,5% accurate! Our highly skilled technicians use period-appropriate machinery to evaluate an item's true condition.<\/p>",
+            "page": "",
+            "icon": "star"
+          }
+        },
+        "a4908876-2ec2-4049-8519-f88aac2c716e": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "14 Day Returns",
+            "content": "<p>Change your mind? Not satisfied? Let us know within 14 days of delivery for a return and refund.<\/p><p><a href=\"\/policies\/refund-policy\" target=\"_blank\" title=\"\/policies\/refund-policy\">Read More<\/a><\/p>",
+            "page": "",
+            "icon": "return"
+          }
+        },
+        "0d54122a-b1cd-4ad5-9065-a50ef63c420b": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Fast Shipping",
+            "content": "<p>Flat-Rate Worldwide Shipping<\/p><p>🇫🇮 <strong>Finland<\/strong> 5€ | 1-3 days<strong><br\/><\/strong>🇪🇺 <strong>EU<\/strong> 10€ | 1-3 days<br\/>🇺🇸 <strong>USA<\/strong> 20€ (~$24) | 3-5 days<br\/>Most others 20€ | 3-5 days<\/p><p><a href=\"\/pages\/shipping-price-summary\" target=\"_blank\" title=\"Shipping Price Summary\">See full list<\/a><\/p>",
+            "page": "",
+            "icon": "plane"
+          }
+        },
+        "a41a8e68-deb3-4414-bc77-846ae026a7ec": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Actual Item Pictured",
+            "content": "<p>We take the time to photograph every used item. When you buy from us you are getting the item you see in the photos.<\/p>",
+            "page": "",
+            "icon": "eye"
+          }
+        }
+      },
+      "block_order": [
+        "9db62c39-0013-4a33-bd68-184b84c6a144",
+        "eef5d81b-99be-406b-8d49-804694bc4c77",
+        "title",
+        "d5d49bcd-b0c0-4d1b-9578-f91dd68601e5",
+        "99452d1b-4d7e-4077-a88b-abeded9e84f2",
+        "price",
+        "853cea71-8e8d-4b3a-8d41-fda13fdf751d",
+        "235b8cd5-c263-4cde-9104-81a9203d4384",
+        "cd07da4b-ae00-46ee-bf67-5c7799d93921",
+        "buy_buttons",
+        "ad4fef74-222f-422b-a2e1-33623ff7b9e6",
+        "a4908876-2ec2-4049-8519-f88aac2c716e",
+        "0d54122a-b1cd-4ad5-9065-a50ef63c420b",
+        "a41a8e68-deb3-4414-bc77-846ae026a7ec"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "163178438845c86d64": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width page-width--narrow\">\n<H2>Description<\/h2><H3>{{ product.title }}<\/h3>{{ product.description }}<\/div>"
+      }
+    },
+    "1632735936daa328ef": {
+      "type": "apps",
+      "disabled": true,
+      "blocks": {
+        "1f370cfd-d9e9-4585-bfd8-0d05db81017a": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1f370cfd-d9e9-4585-bfd8-0d05db81017a"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "16321391205a6cb4a0": {
+      "type": "multicolumn",
+      "blocks": {
+        "6ac9b599-c067-409f-818e-24aa63217351": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_0101_Cropped.jpg",
+            "title": "Light Seals",
+            "text": "<p>Light seals, are thin strips of black foam that keep unwanted light from leaking into your camera body. Since they degrade with time, we replace them on every camera that needs it. This keeps your images free of light leaks.<\/p>"
+          }
+        },
+        "16321391205a6cb4a0-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2021-09-20_at_16.36.47_Cropped.png",
+            "title": "Automatic Exposure \/ Metering",
+            "text": "<p>The amount of automatic features in a camera will determine the path of machine testing we must perform. These tests can check light meters and automatic features through a range of exposure values. Calibrated lenses and calibrated light boxes also assist in this process.<\/p>"
+          }
+        },
+        "16321391205a6cb4a0-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2021-09-20_at_16.30.17_Cropped.png",
+            "title": "Shutter Speeds",
+            "text": "<p>We use period-appropriate, professional-grade testing equipment as necessary to accurately assess shutter performance. These machines tell us how long a shutter stays open and whether or not the shutter curtains are moving correctly. We have multiple machines that allow us to test nearly every camera type available.<\/p>"
+          }
+        },
+        "16321391205a6cb4a0-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_0233_Cropped-3.jpg",
+            "title": "Infinity Focusing & Rangefinder Alignment",
+            "text": "<p>Our collimator is used to simulate infinity focus for the purpose of ensuring lens alignment & focus at any distance. We also use a special high-contrast target board to ensure that rangefinders are properly aligned both vertically & horizontally.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "6ac9b599-c067-409f-818e-24aa63217351",
+        "16321391205a6cb4a0-1",
+        "16321391205a6cb4a0-0",
+        "16321391205a6cb4a0-2"
+      ],
+      "settings": {
+        "title": "Film Camera Quality Control",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "secondary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": true,
+        "show_rating": false
+      }
+    },
+    "16321339467e367887": {
+      "type": "image-with-text",
+      "blocks": {
+        "16321339467e367887-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "We Buy Cameras"
+          }
+        },
+        "16321339467e367887-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Do you have unused camera gear laying around? We buy cameras, lenses, and accessories of all ages. Sell for cash or trade-in for something new.<\/p>"
+          }
+        },
+        "16321339467e367887-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "QUOTE REQUEST FORM",
+            "button_link": "shopify:\/\/pages\/sell-or-trade-your-used-camera-gear"
+          }
+        }
+      },
+      "block_order": [
+        "16321339467e367887-0",
+        "16321339467e367887-1",
+        "16321339467e367887-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/minolta-8320-0002.jpg",
+        "height": "small",
+        "color_scheme": "background-1",
+        "layout": "text_first"
+      }
+    }
+  },
+  "order": [
+    "16334152711e2727b9",
+    "main",
+    "163178438845c86d64",
+    "1632735936daa328ef",
+    "16321391205a6cb4a0",
+    "product-recommendations",
+    "16321339467e367887"
+  ]
+}
