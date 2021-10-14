@@ -146,6 +146,13 @@
             "text": "Pop-up link text",
             "page": "company-info"
           }
+        },
+        "8d7c6097-8031-4979-a405-c5ca88251cf4": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "{{ 'shopify' | link_to: 'https:\/\/www.shopify.com', 'A link to Shopify' }}"
+          }
         }
       },
       "block_order": [
@@ -160,7 +167,8 @@
         "3b0f8873-28a8-4ebf-96c4-c4fbd413b703",
         "86beefb8-b02b-46b4-83e3-883662401da6",
         "6503d349-ebc4-4e62-84f6-2f000edec85e",
-        "5fb4fe28-f4d0-45c8-94b5-c3e4adae6ee7"
+        "5fb4fe28-f4d0-45c8-94b5-c3e4adae6ee7",
+        "8d7c6097-8031-4979-a405-c5ca88251cf4"
       ],
       "settings": {
         "enable_sticky_info": true,
