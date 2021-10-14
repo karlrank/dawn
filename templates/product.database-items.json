@@ -168,7 +168,7 @@
         "a689947c-3ccc-4abb-a01b-83f569defd40": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<b>Type:<\/b> {{ product.type }}\n<hr>\n<b>System:<\/b> {{ product.metafields.my_fields.system }}\n<hr>\n{% if product.metafields.my_fields.year_introduced != blank %}\n    <b>Introduced: <\/b>{{ product.metafields.my_fields.year_introduced }}\n<hr>\n{% else %}\nNo Data\n<hr>\n{% endif %}\n<b>Built-in Meter:<\/b> {% if product.metafields.my_fields.built_in_meter == true %}\n  Yes <hr>\n{% elsif product.metafields.my_fields.built_in_meter == false %}\n  No <hr>\n{% else %}\n  No Data <hr>\n{% endif %}\n<b>Battery:<\/b> {{ product.metafields.my_fields.battery }}\n<hr>"
+            "custom_liquid": "<b>Type:<\/b> {{ product.type }}\n<hr>\n<b>System:<\/b> {{ product.metafields.my_fields.system }}\n<hr>\n{% if product.metafields.my_fields.year_introduced != blank %}\n    <b>Introduced: <\/b>{{ product.metafields.my_fields.year_introduced }}\n<hr>\n{% else %}\nNo Data\n<hr>\n{% endif %}\n<b>Built-in Meter:<\/b> {% if product.metafields.my_fields.built_in_meter == true %}\n  Yes <hr>\n{% elsif product.metafields.my_fields.built_in_meter == false %}\n  No <hr>\n{% else %}\n  No Data <hr>\n{% endif %}\n<b>Battery:<\/b> {{ product.metafields.my_fields.battery }}\n<hr>\n<b>Weight:<\/b> {% if product.weight != blank %}\n  {{product.weight}}g <hr>\n{% else %}\n  No Data <hr>\n{% endif %}"
           }
         },
         "6503d349-ebc4-4e62-84f6-2f000edec85e": {
