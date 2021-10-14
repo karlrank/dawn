@@ -149,12 +149,6 @@
             "text_style": "subtitle"
           }
         },
-        "6503d349-ebc4-4e62-84f6-2f000edec85e": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        },
         "5fb4fe28-f4d0-45c8-94b5-c3e4adae6ee7": {
           "type": "popup",
           "disabled": true,
@@ -168,6 +162,12 @@
           "disabled": true,
           "settings": {
             "custom_liquid": "<b>Brand:<\/b> {{ product.vendor }}\n<hr>\n<b>Type:<\/b> {{ product.type }}\n<hr>\n<b>System:<\/b> {{ product.metafields.my_fields.system }}\n<hr>\n<b>Battery:<\/b> {{ product.metafields.my_fields.battery }}\n<hr>\n<b>Built-in Meter:<\/b> {% if product.metafields.my_fields.built_in_meter == true %}\n  Yes\n{% elsif product.metafields.my_fields.built_in_meter == false %}\n  No\n{% else %}\n  No Data\n{% endif %}"
+          }
+        },
+        "6503d349-ebc4-4e62-84f6-2f000edec85e": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
           }
         }
       },
@@ -183,9 +183,9 @@
         "f82f842a-f718-4053-a4ff-b857c079201c",
         "587ddfa6-3235-4da0-be5b-d249ecf8991d",
         "86beefb8-b02b-46b4-83e3-883662401da6",
-        "6503d349-ebc4-4e62-84f6-2f000edec85e",
         "5fb4fe28-f4d0-45c8-94b5-c3e4adae6ee7",
-        "a689947c-3ccc-4abb-a01b-83f569defd40"
+        "a689947c-3ccc-4abb-a01b-83f569defd40",
+        "6503d349-ebc4-4e62-84f6-2f000edec85e"
       ],
       "settings": {
         "enable_sticky_info": true,
