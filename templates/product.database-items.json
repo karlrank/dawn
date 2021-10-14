@@ -101,16 +101,6 @@
             "stars_text_empty": "No reviews"
           }
         },
-        "fb2cdb08-5467-4c5c-82c3-8c0749752c4a": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Basic Details",
-            "content": "<p><strong>Brand<\/strong>: {{ product.vendor }}<\/p><p><strong>Type<\/strong>: Medium Format Film Camera<\/p><p><strong>System<\/strong>: Mamiya 7<\/p>",
-            "page": "",
-            "icon": "none"
-          }
-        },
         "1bc9e71c-c02c-4f2f-a0f5-4b68388fb8a0": {
           "type": "collapsible_tab",
           "disabled": true,
@@ -171,7 +161,6 @@
         "title",
         "96c45658-7a4f-4bbe-8af4-a6f32859a982",
         "867d0ead-4562-4c6c-9a1e-c8ae99ea8ee7",
-        "fb2cdb08-5467-4c5c-82c3-8c0749752c4a",
         "1bc9e71c-c02c-4f2f-a0f5-4b68388fb8a0",
         "df003aaa-a7d1-41bb-af06-506aa736460b",
         "587ddfa6-3235-4da0-be5b-d249ecf8991d",
