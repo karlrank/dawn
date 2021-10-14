@@ -27,6 +27,13 @@
         "full_width": true
       }
     },
+    "1634194655a811a44b": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "{%- assign my_fields = product.metafields.my_fields -%}\n<div class=\"hero\">\n{%- assign image_src = my_fields.brand_logo.value.src -%}\n{{ image_src | img_url: '125' | img_tag }}<\/div>"
+      }
+    },
     "16340245700ec1844e": {
       "type": "apps",
       "blocks": {
@@ -56,6 +63,13 @@
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": "{% if product.metafields.my_fields.year_introduced != blank %}\n    Year Released: <b>{{ product.metafields.my_fields.year_introduced }}<\/b>\n{% else %}\n{% endif %}"
+          }
+        },
+        "8d7c6097-8031-4979-a405-c5ca88251cf4": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "{%- assign my_fields = product.metafields.my_fields -%}\n<div class=\"hero\">\n{%- assign image_src = my_fields.brand_logo.value.src -%}\n{{ image_src | img_url: '125' | img_tag }}<\/div>"
           }
         },
         "title": {
@@ -146,17 +160,11 @@
             "text": "Pop-up link text",
             "page": "company-info"
           }
-        },
-        "8d7c6097-8031-4979-a405-c5ca88251cf4": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "{%- assign my_fields = product.metafields.my_fields -%}\n<div class=\"hero\">\n{%- assign image_src = my_fields.brand_logo.value.src -%}\n{{ image_src | img_url: '125' | img_tag }}<\/div>"
-          }
         }
       },
       "block_order": [
         "adb68119-c110-4444-8e79-22a829981fd4",
+        "8d7c6097-8031-4979-a405-c5ca88251cf4",
         "title",
         "96c45658-7a4f-4bbe-8af4-a6f32859a982",
         "867d0ead-4562-4c6c-9a1e-c8ae99ea8ee7",
@@ -167,8 +175,7 @@
         "3b0f8873-28a8-4ebf-96c4-c4fbd413b703",
         "86beefb8-b02b-46b4-83e3-883662401da6",
         "6503d349-ebc4-4e62-84f6-2f000edec85e",
-        "5fb4fe28-f4d0-45c8-94b5-c3e4adae6ee7",
-        "8d7c6097-8031-4979-a405-c5ca88251cf4"
+        "5fb4fe28-f4d0-45c8-94b5-c3e4adae6ee7"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -283,6 +290,7 @@
   },
   "order": [
     "1632821684416a6917",
+    "1634194655a811a44b",
     "16340245700ec1844e",
     "main",
     "1632393643eca7584e",
