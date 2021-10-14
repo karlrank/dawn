@@ -167,7 +167,7 @@
           "type": "custom_liquid",
           "disabled": true,
           "settings": {
-            "custom_liquid": "<b>Brand:<\/b> {{ product.vendor }}\n<hr>\n<b>Type:<\/b> {{ product.type }}\n<hr>\n<b>System:<\/b> {{ product.metafields.my_fields.system }}"
+            "custom_liquid": "<b>Brand:<\/b> {{ product.vendor }}\n<hr>\n<b>Type:<\/b> {{ product.type }}\n<hr>\n<b>System:<\/b> {{ product.metafields.my_fields.system }}\n<hr>\n<b>Battery:<\/b> {{ product.metafields.my_fields.battery }}"
           }
         }
       },
