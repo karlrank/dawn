@@ -59,18 +59,10 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "77f19eb3-87c5-400d-83c2-ebb140236073": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "3ebdbefb-3dc7-44ed-911d-605cfbcf2237": {
           "type": "custom_liquid",
-          "disabled": true,
           "settings": {
-            "custom_liquid": "<b>Brand:<\/b> {{ product.vendor }}"
+            "custom_liquid": "{{ product.vendor }} \/ {{ product.type }}"
           }
         },
         "adb68119-c110-4444-8e79-22a829981fd4": {
@@ -173,7 +165,6 @@
         }
       },
       "block_order": [
-        "77f19eb3-87c5-400d-83c2-ebb140236073",
         "3ebdbefb-3dc7-44ed-911d-605cfbcf2237",
         "adb68119-c110-4444-8e79-22a829981fd4",
         "8d7c6097-8031-4979-a405-c5ca88251cf4",
