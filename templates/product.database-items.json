@@ -151,7 +151,7 @@
           "type": "custom_liquid",
           "disabled": true,
           "settings": {
-            "custom_liquid": "{{ 'shopify' | link_to: 'https:\/\/www.shopify.com', 'A link to Shopify' }}"
+            "custom_liquid": "{%- assign my_fields = product.metafields.my_fields -%}\n<div class=\"hero\">\n{%- assign image_src = my_fields.brand_logo.value.src -%}\n{{ image_src | img_url: '125' | img_tag }}<\/div>"
           }
         }
       },
