@@ -129,16 +129,6 @@
             "icon": "price_tag"
           }
         },
-        "3b0f8873-28a8-4ebf-96c4-c4fbd413b703": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Finishes",
-            "content": "<p>Champaign, Black, Grey, Gold<\/p>",
-            "page": "",
-            "icon": "none"
-          }
-        },
         "86beefb8-b02b-46b4-83e3-883662401da6": {
           "type": "text",
           "disabled": true,
@@ -172,7 +162,6 @@
         "df003aaa-a7d1-41bb-af06-506aa736460b",
         "f82f842a-f718-4053-a4ff-b857c079201c",
         "587ddfa6-3235-4da0-be5b-d249ecf8991d",
-        "3b0f8873-28a8-4ebf-96c4-c4fbd413b703",
         "86beefb8-b02b-46b4-83e3-883662401da6",
         "6503d349-ebc4-4e62-84f6-2f000edec85e",
         "5fb4fe28-f4d0-45c8-94b5-c3e4adae6ee7"

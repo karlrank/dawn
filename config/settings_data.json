@@ -117,6 +117,12 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "163419899012103d05": {
+        "type": "shopify:\/\/apps\/easy-specification-charts\/blocks\/appembed\/19a6f900-7dd2-4efa-8de5-79b549d1f0c3",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
