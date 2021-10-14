@@ -31,7 +31,7 @@
       "type": "custom-liquid",
       "disabled": true,
       "settings": {
-        "custom_liquid": "{%- assign my_fields = product.metafields.my_fields -%}\n<div class=\"hero\">\n{%- assign image_src = my_fields.brand_logo.value.src -%}\n{{ image_src | img_url: '125' | img_tag }}<\/div>"
+        "custom_liquid": "<div class=\"page-width page-width--wide\">{%- assign my_fields = product.metafields.my_fields -%}\n<div class=\"hero\">\n{%- assign image_src = my_fields.brand_logo.value.src -%}\n{{ image_src | img_url: '125x125' | img_tag }}<\/div><\/div>"
       }
     },
     "16340245700ec1844e": {
