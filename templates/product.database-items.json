@@ -104,53 +104,19 @@
             "icon": "dryer"
           }
         },
-        "df003aaa-a7d1-41bb-af06-506aa736460b": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Requirements for Use:",
-            "content": "<p>You need the following items to start using your {{ product.title }}.<\/p><p>Lens:  <a href=\"\/\" title=\"\/\">Leica M<\/a> mount.<\/p><p>Film: <a href=\"\/\" title=\"\/\">35mm<\/a><\/p><p>Batteries: Not required<\/p>",
-            "page": "",
-            "icon": "check_mark"
-          }
-        },
-        "587ddfa6-3235-4da0-be5b-d249ecf8991d": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Have one to Sell?",
-            "content": "<p>Do you have a {{ product.title }} you want to sell to us? Fill out our simple form and request a quote from us.<\/p><p><a href=\"https:\/\/app.kamerastore.com\/sell_to_us?language=eng\" target=\"_blank\" title=\"https:\/\/app.kamerastore.com\/sell_to_us?language=eng\"><strong>START QUOTE<\/strong><\/a><\/p>",
-            "page": "",
-            "icon": "price_tag"
-          }
-        },
-        "86beefb8-b02b-46b4-83e3-883662401da6": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "What you need to use this camera:",
-            "text_style": "subtitle"
-          }
-        },
-        "5fb4fe28-f4d0-45c8-94b5-c3e4adae6ee7": {
-          "type": "popup",
-          "disabled": true,
-          "settings": {
-            "text": "Pop-up link text",
-            "page": "company-info"
-          }
-        },
         "a689947c-3ccc-4abb-a01b-83f569defd40": {
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": "{% if product.metafields.my_fields.system != blank %}\n<b>System:<\/b> <a href= '\/collections\/\n{{ product.metafields.my_fields.system | handleize }}'>{{ product.metafields.my_fields.system }}<\/a>\n<hr>\n{% else %}\n{% endif %}\n\n\n{% if product.metafields.my_fields.film_format != blank %}\n<b>Film Format:<\/b> <a href= '\/collections\/\n{{ product.metafields.my_fields.film_format | handleize }}'>{{ product.metafields.my_fields.film_format }}<\/a>\n<hr>\n{% else %}\n{% endif %}\n\n\n{% if product.metafields.my_fields.year_introduced != blank %}\n    <b>Introduced: <\/b>{{ product.metafields.my_fields.year_introduced }}\n<hr>\n{% else %}\n{% endif %}\n{% if product.metafields.my_fields.built_in_meter != blank %}\n<b>Built-in Meter:<\/b> {% if product.metafields.my_fields.built_in_meter == true %}\n  Yes <hr>\n{% elsif product.metafields.my_fields.built_in_meter == false %}\n  No <hr>\n{% else %}\n{% endif %}\n{% else %}\n{% endif %}\n {% if product.metafields.my_fields.battery != blank %}\n<b>Battery:<\/b> {{ product.metafields.my_fields.battery }}\n<hr>\n{% else %}\n{% endif %}\n {% if product.variants.first.weight  != 0 %}\n  <b>Weight: <\/b>{{ product.variants.first.weight | weight_with_unit }}\n <hr>\n{% else %}\n{% endif %}"
           }
         },
-        "d93204b2-5ff0-4230-ac6f-1674985e063c": {
-          "type": "custom_liquid",
-          "disabled": true,
+        "587ddfa6-3235-4da0-be5b-d249ecf8991d": {
+          "type": "collapsible_tab",
           "settings": {
-            "custom_liquid": "<a href= '\/collections\/\n{{ product.metafields.my_fields.system | handleize }}'>{{ product.metafields.my_fields.system }}<\/a>"
+            "heading": "Have one to Sell?",
+            "content": "<p>Do you have a {{ product.title }} you want to sell to us? Fill out our simple form and request a quote from us.<\/p><p><a href=\"https:\/\/app.kamerastore.com\/sell_to_us?language=eng\" target=\"_blank\" title=\"https:\/\/app.kamerastore.com\/sell_to_us?language=eng\"><strong>START QUOTE<\/strong><\/a><\/p>",
+            "page": "",
+            "icon": "price_tag"
           }
         }
       },
@@ -161,12 +127,8 @@
         "96c45658-7a4f-4bbe-8af4-a6f32859a982",
         "867d0ead-4562-4c6c-9a1e-c8ae99ea8ee7",
         "1bc9e71c-c02c-4f2f-a0f5-4b68388fb8a0",
-        "df003aaa-a7d1-41bb-af06-506aa736460b",
-        "587ddfa6-3235-4da0-be5b-d249ecf8991d",
-        "86beefb8-b02b-46b4-83e3-883662401da6",
-        "5fb4fe28-f4d0-45c8-94b5-c3e4adae6ee7",
         "a689947c-3ccc-4abb-a01b-83f569defd40",
-        "d93204b2-5ff0-4230-ac6f-1674985e063c"
+        "587ddfa6-3235-4da0-be5b-d249ecf8991d"
       ],
       "settings": {
         "enable_sticky_info": true,
