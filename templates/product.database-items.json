@@ -148,6 +148,7 @@
         },
         "d93204b2-5ff0-4230-ac6f-1674985e063c": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<a href= '\/collections\/\n{{ product.metafields.my_fields.system | handleize }}'>{{ product.metafields.my_fields.system }}<\/a>"
           }
