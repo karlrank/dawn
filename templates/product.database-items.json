@@ -72,13 +72,6 @@
             "custom_liquid": "{% if product.metafields.my_fields.year_introduced != blank %}\n    Year Released: <b>{{ product.metafields.my_fields.year_introduced }}<\/b>\n{% else %}\n{% endif %}"
           }
         },
-        "8d7c6097-8031-4979-a405-c5ca88251cf4": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "{%- assign my_fields = product.metafields.my_fields -%}\n<div class=\"hero\">\n{%- assign image_src = my_fields.brand_logo.value.src -%}\n{{ image_src | img_url: '125' | img_tag }}<\/div>"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -157,7 +150,6 @@
       "block_order": [
         "3ebdbefb-3dc7-44ed-911d-605cfbcf2237",
         "adb68119-c110-4444-8e79-22a829981fd4",
-        "8d7c6097-8031-4979-a405-c5ca88251cf4",
         "title",
         "96c45658-7a4f-4bbe-8af4-a6f32859a982",
         "867d0ead-4562-4c6c-9a1e-c8ae99ea8ee7",
