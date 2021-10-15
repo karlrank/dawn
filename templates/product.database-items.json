@@ -62,7 +62,7 @@
         "3ebdbefb-3dc7-44ed-911d-605cfbcf2237": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{{ product.vendor }} \/ {{ product.type }}"
+            "custom_liquid": "{{ product.vendor }}"
           }
         },
         "adb68119-c110-4444-8e79-22a829981fd4": {
