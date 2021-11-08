@@ -155,7 +155,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Screenshot_2021-09-23_at_16.14.55_Cropped.png",
             "title": "Need help with an order?",
-            "text": "<p>Email: <a href=\"mailto:info@kamerastore.com?subject=Ordering%20inquiry\" target=\"_blank\">info@kamerastore.com<\/a><br\/>or Call: +358 10 2311777<br\/>Weekdays 9:00-17:00 (GMT+3)<\/p>"
+            "text": "<p>Email: <a href=\"mailto:info@kamerastore.com?subject=Ordering%20inquiry\" target=\"_blank\">info@kamerastore.com<\/a><br\/>or Call: +358 10 2311777<br\/>Weekdays 10:00-16:00 (GMT+2)<\/p>"
           }
         }
       },
