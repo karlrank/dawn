@@ -5,6 +5,7 @@
       "blocks": {
         "3c5d6b71-8477-49fe-ba9d-6080a32fa87a": {
           "type": "shopify:\/\/apps\/cross-sell\/blocks\/app-theme\/d57b28bc-34f0-4ebc-b397-9eb9c6ea4220",
+          "disabled": true,
           "settings": {
             "use_recommendations": true,
             "xsrandomize": false,
