@@ -29,6 +29,7 @@
         },
         "f7cfe9c0-dfad-4282-b1b2-139230890f38": {
           "type": "shopify:\/\/apps\/cross-sell\/blocks\/app-general\/d57b28bc-34f0-4ebc-b397-9eb9c6ea4220",
+          "disabled": true,
           "settings": {
             "titleproductpage": "You may also like...",
             "titleproductpagedefault": "Our Bestsellers...",
@@ -37,11 +38,13 @@
         },
         "f09334dd-13cc-43a8-9043-be4f59bf19ad": {
           "type": "shopify:\/\/apps\/cross-sell\/blocks\/app-original\/d57b28bc-34f0-4ebc-b397-9eb9c6ea4220",
+          "disabled": true,
           "settings": {
           }
         },
         "d136c2fd-0365-42be-a1a2-5b922414060c": {
           "type": "shopify:\/\/apps\/cross-sell\/blocks\/app-block\/d57b28bc-34f0-4ebc-b397-9eb9c6ea4220",
+          "disabled": true,
           "settings": {
             "quickview_enabled": true,
             "quick_add_to_cart_enabled": true
