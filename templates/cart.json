@@ -52,6 +52,7 @@
     },
     "1636639818373028dc": {
       "type": "apps",
+      "disabled": true,
       "blocks": {
         "e99466da-02a7-49c8-849a-283d14e62f0b": {
           "type": "shopify:\/\/apps\/zoorix-cross-sell-cart-upsell\/blocks\/zrx-prod-main\/51fffd07-f9df-4d6a-b901-6d14b243dcad",
