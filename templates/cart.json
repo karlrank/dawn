@@ -49,11 +49,34 @@
         "show_vendor": true,
         "show_rating": true
       }
+    },
+    "1636639818373028dc": {
+      "type": "apps",
+      "blocks": {
+        "e99466da-02a7-49c8-849a-283d14e62f0b": {
+          "type": "shopify:\/\/apps\/zoorix-cross-sell-cart-upsell\/blocks\/zrx-prod-main\/51fffd07-f9df-4d6a-b901-6d14b243dcad",
+          "settings": {
+          }
+        },
+        "973194f2-4301-4729-aaec-4fb5c9d46f9d": {
+          "type": "shopify:\/\/apps\/zoorix-cross-sell-cart-upsell\/blocks\/zrx-prod-bottom\/51fffd07-f9df-4d6a-b901-6d14b243dcad",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "e99466da-02a7-49c8-849a-283d14e62f0b",
+        "973194f2-4301-4729-aaec-4fb5c9d46f9d"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "cart-items",
     "cart-footer",
-    "featured-products"
+    "featured-products",
+    "1636639818373028dc"
   ]
 }
