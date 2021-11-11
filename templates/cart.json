@@ -72,12 +72,29 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "16366400276c96b943": {
+      "type": "apps",
+      "blocks": {
+        "743f6bec-3a39-49cb-9ae0-8048997bda66": {
+          "type": "shopify:\/\/apps\/ultimate-trust-badges\/blocks\/widget\/163a9b59-0ec2-4cb7-bf5c-31408b4a9420",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "743f6bec-3a39-49cb-9ae0-8048997bda66"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "cart-items",
     "cart-footer",
     "featured-products",
-    "1636639818373028dc"
+    "1636639818373028dc",
+    "16366400276c96b943"
   ]
 }
