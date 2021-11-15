@@ -257,30 +257,6 @@
         "color_scheme": "background-1",
         "layout": "text_first"
       }
-    },
-    "16369741323791f11e": {
-      "type": "apps",
-      "blocks": {
-        "fa1b3aa4-d967-4b28-9173-65e913cba37e": {
-          "type": "shopify:\/\/apps\/cross-sell\/blocks\/app-original\/d57b28bc-34f0-4ebc-b397-9eb9c6ea4220",
-          "settings": {
-          }
-        },
-        "f2377390-bd33-4bd3-bdd4-7bea9c47cd36": {
-          "type": "shopify:\/\/apps\/cross-sell\/blocks\/app-block\/d57b28bc-34f0-4ebc-b397-9eb9c6ea4220",
-          "settings": {
-            "quickview_enabled": true,
-            "quick_add_to_cart_enabled": true
-          }
-        }
-      },
-      "block_order": [
-        "fa1b3aa4-d967-4b28-9173-65e913cba37e",
-        "f2377390-bd33-4bd3-bdd4-7bea9c47cd36"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
@@ -290,7 +266,6 @@
     "1632735936daa328ef",
     "16321391205a6cb4a0",
     "product-recommendations",
-    "16321339467e367887",
-    "16369741323791f11e"
+    "16321339467e367887"
   ]
 }
