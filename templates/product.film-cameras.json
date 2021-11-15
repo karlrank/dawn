@@ -212,6 +212,7 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "image_ratio": "adapt",
@@ -264,10 +265,18 @@
           "type": "shopify:\/\/apps\/cross-sell\/blocks\/app-original\/d57b28bc-34f0-4ebc-b397-9eb9c6ea4220",
           "settings": {
           }
+        },
+        "f2377390-bd33-4bd3-bdd4-7bea9c47cd36": {
+          "type": "shopify:\/\/apps\/cross-sell\/blocks\/app-block\/d57b28bc-34f0-4ebc-b397-9eb9c6ea4220",
+          "settings": {
+            "quickview_enabled": true,
+            "quick_add_to_cart_enabled": true
+          }
         }
       },
       "block_order": [
-        "fa1b3aa4-d967-4b28-9173-65e913cba37e"
+        "fa1b3aa4-d967-4b28-9173-65e913cba37e",
+        "f2377390-bd33-4bd3-bdd4-7bea9c47cd36"
       ],
       "settings": {
         "include_margins": true
