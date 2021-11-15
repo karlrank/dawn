@@ -227,54 +227,6 @@
         "color_scheme": "background-1",
         "layout": "image_first"
       }
-    },
-    "1636973819f9a73dee": {
-      "type": "apps",
-      "blocks": {
-        "1e04c06f-8a25-4e52-aeea-cb8de03c4a65": {
-          "type": "shopify:\/\/apps\/cross-sell\/blocks\/app-original\/d57b28bc-34f0-4ebc-b397-9eb9c6ea4220",
-          "settings": {
-          }
-        },
-        "c7a30c9b-3f89-4796-9aba-4212de5533db": {
-          "type": "shopify:\/\/apps\/cross-sell\/blocks\/app-block\/d57b28bc-34f0-4ebc-b397-9eb9c6ea4220",
-          "settings": {
-            "quickview_enabled": true,
-            "quick_add_to_cart_enabled": true
-          }
-        },
-        "2852cabc-2ff8-4361-9828-7a5bdfef3dcd": {
-          "type": "shopify:\/\/apps\/cross-sell\/blocks\/app-theme\/d57b28bc-34f0-4ebc-b397-9eb9c6ea4220",
-          "settings": {
-            "use_recommendations": false,
-            "xsrandomize": false,
-            "xsdisplayvendor": true,
-            "xsdisplaysalebadge": true,
-            "xsdisplaycompareatprice": true,
-            "xsmustbeavailable": false,
-            "xshideifincart": false,
-            "xsdisplaypricevarieslabel": true,
-            "from_label": "From",
-            "hide_prices": false,
-            "carousel_enabled": false,
-            "carousel_auto_play": false,
-            "carousel_page_dots": false,
-            "image_width": "",
-            "image_height": "",
-            "font_family": "helvetica_n4",
-            "font_size": "",
-            "font_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "1e04c06f-8a25-4e52-aeea-cb8de03c4a65",
-        "c7a30c9b-3f89-4796-9aba-4212de5533db",
-        "2852cabc-2ff8-4361-9828-7a5bdfef3dcd"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
@@ -284,7 +236,6 @@
     "163292242191680787",
     "16324019941e428b8f",
     "product-recommendations",
-    "163239432974b497b2",
-    "1636973819f9a73dee"
+    "163239432974b497b2"
   ]
 }
