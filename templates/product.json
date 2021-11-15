@@ -227,6 +227,25 @@
         "color_scheme": "background-1",
         "layout": "image_first"
       }
+    },
+    "1636973819f9a73dee": {
+      "type": "apps",
+      "blocks": {
+        "7e8dbd19-7a7b-4f1f-9b83-af065f835e19": {
+          "type": "shopify:\/\/apps\/cross-sell\/blocks\/app-general\/d57b28bc-34f0-4ebc-b397-9eb9c6ea4220",
+          "settings": {
+            "titleproductpage": "You may also like...",
+            "titleproductpagedefault": "Our Bestsellers...",
+            "titlecheckoutpage": "Before you checkout, have you considered..."
+          }
+        }
+      },
+      "block_order": [
+        "7e8dbd19-7a7b-4f1f-9b83-af065f835e19"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -236,6 +255,7 @@
     "163292242191680787",
     "16324019941e428b8f",
     "product-recommendations",
-    "163239432974b497b2"
+    "163239432974b497b2",
+    "1636973819f9a73dee"
   ]
 }
