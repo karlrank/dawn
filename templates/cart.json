@@ -53,7 +53,7 @@
         "add_image_padding": false,
         "show_image_outline": true,
         "show_vendor": true,
-        "show_rating": true
+        "show_rating": false
       }
     },
     "1636639818373028dc": {
