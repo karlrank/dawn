@@ -1,0 +1,76 @@
+{
+  "sections": {
+    "163274530333c96e90": {
+      "type": "image-banner",
+      "blocks": {
+        "163274530333c96e90-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Valoi 360",
+            "heading_size": "medium"
+          }
+        },
+        "163274530333c96e90-1": {
+          "type": "text",
+          "settings": {
+            "text": "Change the way you scan your film to save time and money by jumping into the future of film scanning."
+          }
+        },
+        "163274530333c96e90-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "About the VALOI System",
+            "button_link_1": "shopify:\/\/pages\/about-valoi",
+            "button_style_secondary_1": false,
+            "button_label_2": "What is camera scanning?",
+            "button_link_2": "shopify:\/\/pages\/what-is-camera-scanning",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "163274530333c96e90-0",
+        "163274530333c96e90-1",
+        "163274530333c96e90-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DSC6451_export.jpg",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": true
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 24,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_filtering": false,
+        "enable_sorting": true,
+        "collapse_on_larger_devices": false
+      }
+    }
+  },
+  "order": [
+    "163274530333c96e90",
+    "banner",
+    "product-grid"
+  ]
+}
