@@ -6,24 +6,24 @@
         "163274530333c96e90-0": {
           "type": "heading",
           "settings": {
-            "heading": "Valoi 360",
+            "heading": "Camera Rescue",
             "heading_size": "medium"
           }
         },
         "163274530333c96e90-1": {
           "type": "text",
           "settings": {
-            "text": "Change the way you scan your film to save time and money by jumping into the future of film scanning."
+            "text": "Right now, we need to rescue the old cameras more than we need to make new cameras."
           }
         },
         "163274530333c96e90-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "About the VALOI System",
-            "button_link_1": "shopify:\/\/pages\/about-valoi",
+            "button_label_1": "About Camera Rescue",
+            "button_link_1": "https:\/\/camerarescue.org\/crew\/",
             "button_style_secondary_1": false,
-            "button_label_2": "What is camera scanning?",
-            "button_link_2": "shopify:\/\/pages\/what-is-camera-scanning",
+            "button_label_2": "",
+            "button_link_2": "",
             "button_style_secondary_2": true
           }
         }
@@ -62,6 +62,7 @@
         "show_image_outline": true,
         "show_vendor": true,
         "show_rating": false,
+        "show_collection_prices": true,
         "enable_filtering": false,
         "enable_sorting": true,
         "collapse_on_larger_devices": false
