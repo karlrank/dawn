@@ -1,7 +1,43 @@
 {
   "sections": {
+    "163715637672ee2874": {
+      "type": "image-with-text",
+      "blocks": {
+        "16371563761f101b4d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "VALOI 360"
+          }
+        },
+        "16371563761f101b4d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Change the way you scan your film to save time and money by jumping into the future of film scanning.<\/p>"
+          }
+        },
+        "16371563761f101b4d-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "What is camera scanning?",
+            "button_link": "shopify:\/\/pages\/what-is-camera-scanning"
+          }
+        }
+      },
+      "block_order": [
+        "16371563761f101b4d-0",
+        "16371563761f101b4d-1",
+        "16371563761f101b4d-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/flatness.jpg",
+        "height": "adapt",
+        "color_scheme": "background-2",
+        "layout": "image_first"
+      }
+    },
     "163274530333c96e90": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "163274530333c96e90-0": {
           "type": "heading",
@@ -62,6 +98,7 @@
         "show_image_outline": true,
         "show_vendor": true,
         "show_rating": false,
+        "show_collection_prices": true,
         "enable_filtering": false,
         "enable_sorting": true,
         "collapse_on_larger_devices": false
@@ -69,6 +106,7 @@
     }
   },
   "order": [
+    "163715637672ee2874",
     "163274530333c96e90",
     "banner",
     "product-grid"
