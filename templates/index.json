@@ -48,7 +48,7 @@
       "type": "custom-liquid",
       "disabled": true,
       "settings": {
-        "custom_liquid": "<div class=\"page-width page-width--wide link\">\n<a href=\"\/collections\/canon-ef\">Canon EF<\/a>\n({{ collections['canon-ef'].all_products_count }})<\/div>"
+        "custom_liquid": "<div class=\"page-width page-width--wide link\">\n<p color:!important;\n<a href=\"\/collections\/canon-ef\">Canon EF<\/a>\n({{ collections['canon-ef'].all_products_count }})<\/div>\n\n<div class=\"page-width page-width--wide link\">\n<p color:!important;\n<a href=\"\/collections\/canon-ef\">Canon EF-S<\/a>\n({{ collections['canon-ef-s'].all_products_count }})<\/div>\n\n<div class=\"page-width page-width--wide link\">\n<p color:!important;\n<a href=\"\/collections\/canon-ef\">Canon FD<\/a>\n({{ collections['canon-fd'].all_products_count }})<\/div>\n\n<div class=\"page-width page-width--wide link\">\n<p color:!important;\n<a href=\"\/collections\/canon-ef\">Contax G<\/a>\n({{ collections['contax-g'].all_products_count }})<\/div>"
       }
     },
     "featured_products": {
