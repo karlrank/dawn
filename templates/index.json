@@ -48,7 +48,7 @@
       "type": "custom-liquid",
       "disabled": true,
       "settings": {
-        "custom_liquid": "okok\n\n{{ collections['leica-m'].all_products_count }}\n{{ link.collection['leica-m'] }}"
+        "custom_liquid": "<a href=\"\/collections\/canon-ef\"><span class=\"pill\">Canon EF <\/span><\/a>\n({{ collections['canon-ef'].all_products_count }})"
       }
     },
     "featured_products": {
