@@ -48,7 +48,7 @@
       "type": "custom-liquid",
       "disabled": true,
       "settings": {
-        "custom_liquid": "OK\n{{ collection.products_count }}\n\n\n{{ collections['leica-m'].title | link }}\n\nOK\n{% assign collection_handle = 'leica-m' %}\n{% for products in collections[collection_handle].count %}\n    Do your stuff\n{% endfor %}"
+        "custom_liquid": "OK\n\n{{ collections['leica-m'].all_products_count }}"
       }
     },
     "featured_products": {
