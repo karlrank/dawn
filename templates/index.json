@@ -48,7 +48,7 @@
       "type": "custom-liquid",
       "disabled": true,
       "settings": {
-        "custom_liquid": "OK\n\n{{ collections['leica-m'].all_products_count }}"
+        "custom_liquid": "okok\n\n{{ collections['leica-m'].all_products_count }}\n{{ link.collection['leica-m'] }}"
       }
     },
     "featured_products": {
