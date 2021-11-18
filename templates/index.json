@@ -44,6 +44,13 @@
         "show_text_below": false
       }
     },
+    "1637242258da800a0c": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "OK{{ collection.leica_m_products_count }}"
+      }
+    },
     "featured_products": {
       "type": "featured-collection",
       "settings": {
@@ -332,6 +339,7 @@
   },
   "order": [
     "image_banner",
+    "1637242258da800a0c",
     "featured_products",
     "1632470234f73d3bc0",
     "16328192199ca25f9a",
