@@ -48,7 +48,7 @@
       "type": "custom-liquid",
       "disabled": true,
       "settings": {
-        "custom_liquid": "<div class=\"page-width page-width--wide link\">\n<a href=\"\/collections\/canon-ef\"><span class=\"pill\">Canon EF <\/span><\/a>\n({{ collections['canon-ef'].all_products_count }})<\/div>"
+        "custom_liquid": "<div class=\"page-width page-width--wide link\">\n<a href=\"\/collections\/canon-ef\">Canon EF<\/a>\n({{ collections['canon-ef'].all_products_count }})<\/div>"
       }
     },
     "featured_products": {
