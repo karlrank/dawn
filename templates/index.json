@@ -51,19 +51,19 @@
         "16373073973428c45e-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text"
+            "heading": "Green Week!"
           }
         },
         "16373073973428c45e-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": "<p>Kamerastore is having its biggest sale of the year. That’s right, it’s Green Week! This week of sale is meant to celebrate the circular economy and includes deep discounts on every used item in the store.<\/p>"
           }
         },
         "16373073973428c45e-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "Get those fucking deals",
             "button_link": ""
           }
         }
@@ -74,6 +74,7 @@
         "16373073973428c45e-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Green_Week_Smooth_BG_2x3_2_copy.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
