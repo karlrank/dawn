@@ -44,6 +44,51 @@
         "show_text_below": false
       }
     },
+    "1637307166369201ab": {
+      "type": "image-banner",
+      "disabled": true,
+      "blocks": {
+        "1637307166f0c7aa1c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "help",
+            "heading_size": "medium"
+          }
+        },
+        "1637307166f0c7aa1c-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "1637307166f0c7aa1c-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1637307166f0c7aa1c-0",
+        "1637307166f0c7aa1c-1",
+        "1637307166f0c7aa1c-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/11.18.21_-_Green_Week_Banner.png",
+        "adapt_height_first_image": true,
+        "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "1637242258da800a0c": {
       "type": "custom-liquid",
       "disabled": true,
@@ -339,6 +384,7 @@
   },
   "order": [
     "image_banner",
+    "1637307166369201ab",
     "1637242258da800a0c",
     "featured_products",
     "1632470234f73d3bc0",
