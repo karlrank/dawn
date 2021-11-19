@@ -38,9 +38,9 @@
             "type": "announcement",
             "disabled": true,
             "settings": {
-              "text": "Welcome to our store",
-              "color_scheme": "accent-1",
-              "link": ""
+              "text": "Green Week 2021 - Up to 70% Off Site-wide! Details here!",
+              "color_scheme": "accent-2",
+              "link": "shopify:\/\/pages\/green-week-2021"
             }
           }
         },
