@@ -51,7 +51,7 @@
         "16373073973428c45e-0": {
           "type": "heading",
           "settings": {
-            "heading": "Green Week!"
+            "heading": "Green Week 2021"
           }
         },
         "16373073973428c45e-1": {
@@ -64,7 +64,7 @@
           "type": "button",
           "settings": {
             "button_label": "Click here for deals!",
-            "button_link": ""
+            "button_link": "shopify:\/\/pages\/green-week-2021"
           }
         }
       },
