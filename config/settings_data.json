@@ -32,7 +32,7 @@
             "type": "announcement",
             "settings": {
               "text": "Green Week 2021 - Up to 70% Off! Details here!",
-              "color_scheme": "accent-2",
+              "color_scheme": "accent-1",
               "link": "shopify:\/\/pages\/green-week-2021"
             }
           },
