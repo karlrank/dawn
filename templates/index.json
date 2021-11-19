@@ -57,13 +57,13 @@
         "16373073973428c45e-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Kamerastore is having its biggest sale of the year. That’s right, it’s Green Week! This week of sale is meant to celebrate the circular economy and includes deep discounts on every used item in the store.<\/p>"
+            "text": "<p>Kamerastore is having its <a href=\"\/collections\/all-items\" title=\"All Items\">biggest sale of the year<\/a>. That’s right, it’s Green Week! This week of sale is meant to celebrate the circular economy and includes deep discounts on every used item in the store.<\/p>"
           }
         },
         "16373073973428c45e-2": {
           "type": "button",
           "settings": {
-            "button_label": "Click here for deals!",
+            "button_label": "Click here for details!",
             "button_link": "shopify:\/\/pages\/green-week-2021"
           }
         }
