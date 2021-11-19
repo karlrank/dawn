@@ -4,7 +4,7 @@
     "colors_accent_1": "#4ab6ff",
     "gradient_accent_1": "linear-gradient(141deg, rgba(74, 182, 255, 1), rgba(43, 194, 250, 1) 100%)",
     "colors_accent_2": "rgba(0,0,0,0)",
-    "gradient_accent_2": "linear-gradient(141deg, rgba(160, 205, 24, 1), rgba(56, 250, 43, 1) 100%)",
+    "gradient_accent_2": "linear-gradient(141deg, rgba(104, 144, 3, 1), rgba(128, 177, 4, 1) 100%)",
     "colors_text": "#121212",
     "colors_outline_button_labels": "#027ed2",
     "colors_background_1": "#ffffff",
@@ -26,14 +26,6 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
-          "2e0296fe-51ad-44a1-93ae-816b91172f02": {
-            "type": "announcement",
-            "settings": {
-              "text": "Europe’s Film Camera Specialists Since 2010",
-              "color_scheme": "background-1",
-              "link": ""
-            }
-          },
           "0af81d21-32d5-4b2f-bef0-5d51bb9973ed": {
             "type": "announcement",
             "disabled": true,
@@ -42,11 +34,19 @@
               "color_scheme": "accent-2",
               "link": "shopify:\/\/pages\/green-week-2021"
             }
+          },
+          "2e0296fe-51ad-44a1-93ae-816b91172f02": {
+            "type": "announcement",
+            "settings": {
+              "text": "Europe’s Film Camera Specialists Since 2010",
+              "color_scheme": "background-1",
+              "link": ""
+            }
           }
         },
         "block_order": [
-          "2e0296fe-51ad-44a1-93ae-816b91172f02",
-          "0af81d21-32d5-4b2f-bef0-5d51bb9973ed"
+          "0af81d21-32d5-4b2f-bef0-5d51bb9973ed",
+          "2e0296fe-51ad-44a1-93ae-816b91172f02"
         ],
         "settings": {
         }
