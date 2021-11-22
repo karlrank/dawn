@@ -3,8 +3,8 @@
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#4ab6ff",
     "gradient_accent_1": "linear-gradient(141deg, rgba(74, 182, 255, 1), rgba(43, 194, 250, 1) 100%)",
-    "colors_accent_2": "#6ed400",
-    "gradient_accent_2": "linear-gradient(141deg, rgba(104, 144, 3, 1), rgba(128, 177, 4, 1) 100%)",
+    "colors_accent_2": "#88bd00",
+    "gradient_accent_2": "linear-gradient(141deg, rgba(136, 189, 0, 1), rgba(136, 189, 0, 1) 100%)",
     "colors_text": "#121212",
     "colors_outline_button_labels": "#027ed2",
     "colors_background_1": "#ffffff",
@@ -32,7 +32,7 @@
             "type": "announcement",
             "settings": {
               "text": "Green Week 2021 - Up to 70% Off! Details here!",
-              "color_scheme": "accent-1",
+              "color_scheme": "accent-2",
               "link": "shopify:\/\/pages\/green-week-2021"
             }
           },
