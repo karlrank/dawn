@@ -1,0 +1,172 @@
+{% assign ssw_manual_uninstall = shop.metafields.ssw['manual_uninstall'] | plus: 0 %}
+{% assign ssw_script_tags_allowed = shop.metafields.ssw['script_tags_allowed'] | plus: 0 %}
+{% if content_for_header contains 'ssw-empty.js' or ssw_manual_uninstall == 1 or ssw_script_tags_allowed != 1 %}
+  {% if product %}
+    {% assign ssw_review_enabled = 1 %}
+    {% if shop.metafields.ssw['review_enabled'] %}
+      {% assign ssw_review_enabled = shop.metafields.ssw['review_enabled'] | plus: 0 %}
+    {% endif %}
+    {% assign ssw_questions_enabled = 0 %}
+    {% if shop.metafields.ssw['questions_enabled'] %}
+      {% assign ssw_questions_enabled = shop.metafields.ssw['questions_enabled'] | plus: 0 %}
+    {% endif %}
+    {% assign ssw_unite_reviews = 0 %}
+    {% if shop.metafields.ssw['unite_reviews'] %}
+      {% assign ssw_unite_reviews = shop.metafields.ssw['unite_reviews'] | plus: 0 %}
+    {% endif %}
+    <div id="ssw-avg-rate-profile-html" class="gw-hide" data-product-id="{{ product.id }}">
+      {% assign ssw_reviews_widget_show = 0 %}
+      {% if shop.metafields.ssw.settings %}
+         {% assign ssw_reviews_widget_show = shop.metafields.ssw['settings'].reviews_widget_show | plus: 0 %}
+      {% endif %}
+
+      {% if ssw_review_enabled == 1 %}
+        {% assign ssw_count_rate = 0 %}
+        {% assign ssw_avg_rate = 0 %}
+        {% assign ssw_rate_data_key = 'review' %}
+        {% if ssw_unite_reviews == 1 %}
+          {% if shop.metafields.ssw['unite_product_ids'] %}
+            {% assign ssw_unite_product_ids = shop.metafields.ssw['unite_product_ids'] | split: ',' %}
+            {% assign unite_product_id = product.id | downcase %}
+            {% if ssw_unite_product_ids contains unite_product_id %}
+              {% assign ssw_rate_data_key = 'unite_review' %}
+            {% endif %}
+          {% endif %}
+        {% endif %}
+        {% if product.metafields.ssw[ssw_rate_data_key] %}
+          {% assign ssw_count_rate = product.metafields.ssw[ssw_rate_data_key].count | plus: 0 %}
+          {% assign ssw_avg_rate = product.metafields.ssw[ssw_rate_data_key].avg | plus: 0 %}
+          {% assign ssw_product_id = product.id %}
+          {% if product.metafields.ssw[ssw_rate_data_key].product_id %}
+            {% assign ssw_product_id = product.metafields.ssw[ssw_rate_data_key].product_id | plus: 0 %}
+          {% endif %}
+          {% if ssw_product_id != product.id %}
+            {% assign ssw_count_rate  = 0 %}
+            {% assign ssw_avg_rate = 0 %}
+          {% endif %}
+        {% endif %}
+
+        {% if ssw_reviews_widget_show == 1 %}
+          <div class="ssw-stars ssw-stars-large">
+            {% if ssw_count_rate == 0 %}
+              {% for i in (1..5) %}
+                <i class="ssw-icon-star-empty"></i>
+              {% endfor %}
+            {% else %}
+              {% assign ssw_j = ssw_avg_rate | floor %}
+              {% for i in (1..ssw_j) %}
+                <i class="ssw-icon-star"></i>
+              {% endfor %}
+              {% assign ssw_rate_last_star = 5 | minus:ssw_avg_rate %}
+              {% assign ssw_y = ssw_rate_last_star | floor %}
+              {% assign ssw_x = ssw_avg_rate | minus:ssw_j %}
+              {% if ssw_x > 0.74 %}
+                <i class="ssw-icon-star"></i>
+              {% else %}
+                {% if ssw_x > 0.24 %}
+                  <i class="ssw-icon-star-half-alt"></i>
+                {% else %}
+                  {% if ssw_x > 0 %}
+                    {% assign ssw_y = ssw_y | plus:1 %}
+                  {% endif %}
+                {% endif %}
+              {% endif %}
+              {% for i in (1..ssw_y) %}
+                <i class="ssw-icon-star-empty"></i>
+              {% endfor %}
+            {% endif %}
+            <span class="ssw-review-count">
+                {% if ssw_count_rate == 0 %}
+                  {{ 'socialshopwave.write_a_review' | t }}
+                {% else %}
+                  {% if ssw_count_rate == 1 %}
+                    {{ 'socialshopwave.quantity_review2' | t: ssw_count_rate: ssw_count_rate }}
+                  {% else %}
+                    {{ 'socialshopwave.quantity_reviews2' | t: ssw_count_rate: ssw_count_rate }}
+                  {% endif %}
+                {% endif %}
+              </span>
+          </div>
+        {% endif %}
+      {% endif %}
+      {% if ssw_questions_enabled == 1 and ssw_review_enabled == 1 %}
+        <div class="ssw-question-count">
+          {% if ssw_reviews_widget_show == 1 %}
+            <span class="ssw-rq-divider">|</span>
+          {% endif %}
+
+          <span>
+          {% assign ssw_question_count = 0 %}
+            {% if product.metafields.ssw.question %}
+              {% assign ssw_question_count_key = 'question' %}
+            {% else %}
+              {% assign ssw_question_count_key = product.id | append: '_question_count' %}
+            {% endif %}
+            {% if product.metafields.ssw[ssw_question_count_key] %}
+              {% assign ssw_product_id = product.id %}
+              {% if ssw_question_count_key contains 'question_count' %}
+                {% assign ssw_question_count = product.metafields.ssw[ssw_question_count_key] %}
+              {% else %}
+                {% assign ssw_question_count = product.metafields.ssw[ssw_question_count_key].count | plus: 0 %}
+                {% assign ssw_product_id = product.metafields.ssw[ssw_question_count_key].product_id | plus: 0 %}
+              {% endif %}
+              {% if ssw_product_id != product.id %}
+                {% assign ssw_question_count = 0 %}
+              {% endif %}
+            {% endif %}
+            {% if ssw_question_count == 0 %}
+              <i class="ssw-icon-chat"></i>{{ 'socialshopwave.ask_question' | t }}
+            {% else %}
+              {% if ssw_question_count == 1 %}
+                <i class="ssw-icon-chat"></i>{{ 'socialshopwave.quantity_question' | t: ssw_question_count: ssw_question_count }}
+                {% else %}
+                <i class="ssw-icon-chat"></i>{{ 'socialshopwave.quantity_questions' | t: ssw_question_count: ssw_question_count }}
+              {% endif %}
+            {% endif %}
+          </span>
+        </div>
+      {% endif %}
+      <div class="ssw-clearfix"></div>
+    </div>
+    <style>
+        .gw-hide {
+            display: none;
+        }
+    </style>
+    <script type="text/javascript" defer>
+        if (typeof sswRun === 'function') {
+            sswRun(function () {
+                Ssw.gwAssetsManifestLoader.requireByKey("review.critical.css", "STYLE");
+                    ssw('#ssw-avg-rate-profile-html').removeClass('gw-hide');
+                ssw('#ssw-avg-rate-profile-html .ssw-stars, #ssw-avg-rate-profile-html .ssw-question-count').click(function () {
+                    if (ssw('#ssw-widget-recommends-html').length > 0) {
+                        ssw('html, body').animate({scrollTop : ssw("#ssw-widget-recommends-html").offset().top - 40 }, 500);
+                        var $self = ssw(this);
+                        sswAddEventListener('reviewWidgetLoaded', function() {clickButton($self)});
+                    }
+                });
+            });
+            function clickButton($element) {
+                if ($element.hasClass('ssw-stars')) {
+                    if (ssw('.ssw-nav > li[data-content="#ssw-reviews-content"]').length) {
+                        ssw('.ssw-nav > li[data-content="#ssw-reviews-content"]').click();
+                    }
+                    if (ssw("#add_recommend").length) {
+                        ssw("#add_recommend").click();
+                    }
+                } else if ($element.hasClass('ssw-question-count')) {
+                    if (ssw('.ssw-nav > li[data-content="#ssw-questions-content"]').length || ssw('.ssw-photo-layout__main')) {
+                        ssw('.ssw-nav > li[data-content="#ssw-questions-content"]').click();
+                        if (ssw("a.ssw-ask-question-link.btn.button").length) {
+                            ssw("a.ssw-ask-question-link.btn.button").click();
+                        }
+                        if (ssw('.ssw-ask-question-button').length) {
+                            ssw('.ssw-ask-question-button').click();
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+  {% endif %}
+{% endif %}
