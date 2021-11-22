@@ -56,6 +56,7 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-2",
+          "logo": "shopify:\/\/shop_images\/Kamerastore_Logo.png",
           "logo_width": 120,
           "logo_position": "top-center",
           "menu": "main-menu",
