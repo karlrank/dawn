@@ -1858,7 +1858,8 @@ input[type='checkbox'] {
   .header--top-center {
     grid-template-areas:
       'left-icon heading icons'
-      'navigation navigation navigation';
+      'navigation navigation navigation'
+      'search search search';
   }
 
   .header--middle-left .header__inline-menu {
@@ -1983,8 +1984,9 @@ menu-drawer + .header__search {
 }
 
 .header > .header__search {
-  grid-area: left-icon;
+  grid-area: search;
   justify-self: start;
+  margin-bottom: 1rem;
 }
 
 .header:not(.header--has-menu) * > .header__search {
@@ -2004,6 +2006,15 @@ menu-drawer + .header__search {
   display: inline-flex;
 }
 
+.header > .search-modal__content {
+  padding: 0;
+}
+
+div.boost-pfs-search-suggestion-wrapper ul.boost-pfs-search-suggestion {
+/*boost-pfs-search-suggestion-has-products boost-pfs-search-suggestion-has-suggestion-block{*/
+  transform: translateX(-25%);
+}
+
 @media screen and (min-width: 990px) {
   .header:not(.header--top-center) * > .header__search,
   .header--top-center > .header__search {
@@ -2014,6 +2025,11 @@ menu-drawer + .header__search {
   .header--top-center * > .header__search {
     display: none;
   }
+
+  /*.header > .search-modal__content {*/
+  /*  !*display: none;*!*/
+  /*  background-color: red;*/
+  /*}*/
 }
 
 .no-js .predictive-search {
@@ -2273,4 +2289,35 @@ details-disclosure > details {
   background: var(--color-background);
   background: var(--gradient-background);
   background-attachment: fixed;
+}
+
+
+.tagcloud .pill {
+  line-height: 270%;
+  padding: 4px 14px;
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 0;
+  text-decoration: none;
+  margin-right: 6px;
+  white-space: nowrap;
+
+  transition: all 0.2s ease-in-out;
+
+  background-color: rgb(var(--color-base-accent-1));
+  color: rgb(var(--color-base-solid-button-labels));
+}
+
+.tagcloud .pill:hover {
+  /*background-color: darken($colorBorder, 5%);*/
+  /*box-shadow: 0 0 0 0.2rem rgba(var(--color-button),var(--color-base-accent-1));*/
+  box-shadow: 0 0 0 0.2rem rgba(var(--color-base-accent-1), var(--alpha-button-border));
+}
+
+.tagcloud .pill.important {
+  background-color: rgb(var(--color-base-accent-2));
+}
+
+.tagcloud .pill.important:hover {
+  box-shadow: 0 0 0 0.2rem rgba(var(--color-base-accent-2), var(--alpha-button-border));
 }

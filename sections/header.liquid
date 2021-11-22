@@ -242,21 +242,21 @@
     {%- endif -%}
 
     {%- if section.settings.logo_position == 'top-center' or section.settings.menu == blank -%}
-      <details-modal class="header__search">
-        <details>
-          <summary class="header__icon header__icon--search header__icon--summary link link--text focus-inset modal__toggle" aria-haspopup="dialog" aria-label="{{ 'general.search.search' | t }}">
-            <span>
-              <svg class="modal__toggle-open icon icon-search" aria-hidden="true" focusable="false" role="presentation">
-                <use href="#icon-search">
-              </svg>
-              <svg class="modal__toggle-close icon icon-close" aria-hidden="true" focusable="false" role="presentation">
-                <use href="#icon-close">
-              </svg>
-            </span>
-          </summary>
-          <div class="search-modal modal__content" role="dialog" aria-modal="true" aria-label="{{ 'general.search.search' | t }}">
-            <div class="modal-overlay"></div>
-            <div class="search-modal__content" tabindex="-1">
+      {% comment %}<details-modal class="header__search">{% endcomment %}
+        {% comment %}<details>{% endcomment %}
+          {% comment %}<summary class="header__icon header__icon--search header__icon--summary link link--text focus-inset modal__toggle" aria-haspopup="dialog" aria-label="{{ 'general.search.search' | t }}">{% endcomment %}
+            {% comment %}<span>{% endcomment %}
+              {% comment %}<svg class="modal__toggle-open icon icon-search" aria-hidden="true" focusable="false" role="presentation">{% endcomment %}
+                {% comment %}<use href="#icon-search">{% endcomment %}
+              {% comment %}</svg>{% endcomment %}
+              {% comment %}<svg class="modal__toggle-close icon icon-close" aria-hidden="true" focusable="false" role="presentation">{% endcomment %}
+                {% comment %}<use href="#icon-close">{% endcomment %}
+              {% comment %}</svg>{% endcomment %}
+            {% comment %}</span>{% endcomment %}
+          {% comment %}</summary>{% endcomment %}
+          {% comment %}<div class="search-modal modal__content" role="dialog" aria-modal="true" aria-label="{{ 'general.search.search' | t }}">{% endcomment %}
+            {% comment %}<div class="modal-overlay"></div>{% endcomment %}
+            <div class="search-modal__content header__search" tabindex="-1">
               {%- if settings.predictive_search_enabled -%}
                 <predictive-search class="search-modal__form" data-loading-text="{{ 'accessibility.loading' | t }}">
               {%- endif -%}
@@ -305,15 +305,15 @@
               {%- if settings.predictive_search_enabled -%}
                 </predictive-search>
               {%- endif -%} 
-              <button type="button" class="modal__close-button link link--text focus-inset" aria-label="{{ 'accessibility.close' | t }}">
-                <svg class="icon icon-close" aria-hidden="true" focusable="false" role="presentation">
-                  <use href="#icon-close">
-                </svg>
-              </button>
+              {% comment %}<button type="button" class="modal__close-button link link--text focus-inset" aria-label="{{ 'accessibility.close' | t }}">{% endcomment %}
+                {% comment %}<svg class="icon icon-close" aria-hidden="true" focusable="false" role="presentation">{% endcomment %}
+                  {% comment %}<use href="#icon-close">{% endcomment %}
+                {% comment %}</svg>{% endcomment %}
+              {% comment %}</button>{% endcomment %}
             </div>
-          </div>
-        </details>
-      </details-modal>
+          {% comment %}</div>{% endcomment %}
+        {% comment %}</details>{% endcomment %}
+      {% comment %}</details-modal>{% endcomment %}
     {%- endif -%}
 
     {%- if request.page_type == 'index' -%}
