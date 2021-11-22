@@ -105,7 +105,7 @@
       "on_sale": "Sale",
       "product_variants": "Product variants",
       "taxable": "Your countries VAT incl. (EU only).",
-      "not_taxable": "Price is as shown. No deductible VAT for second hand goods (Margin scheme taxation)",
+      "not_taxable": "Price is as shown. No deductible VAT for second hand goods (Margin scheme taxation).",
       "media": {
         "open_featured_media": "Open featured media in gallery view",
         "open_media": "Open media {{ index }} in gallery view",
