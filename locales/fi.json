@@ -407,7 +407,8 @@
   "shopify": {
     "checkout": {
       "stock": {
-        "sold_out_label": "Myyty \/ ei saatavilla"
+        "sold_out_label": "Myyty \/ ei saatavilla",
+        "items_unavailable_notice": "Osa tuotteista ei ole enää saatavilla tai ne ovat varattuna toiselle asiakkaalle."
       },
       "delivery_options": {
         "pick_up_in_four_hours": "Tervetuloa noutamaan."
