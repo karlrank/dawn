@@ -2010,11 +2010,6 @@ menu-drawer + .header__search {
   padding: 0;
 }
 
-div.boost-pfs-search-suggestion-wrapper ul.boost-pfs-search-suggestion {
-/*boost-pfs-search-suggestion-has-products boost-pfs-search-suggestion-has-suggestion-block{*/
-  transform: translateX(-25%);
-}
-
 @media screen and (min-width: 990px) {
   .header:not(.header--top-center) * > .header__search,
   .header--top-center > .header__search {
@@ -2026,10 +2021,10 @@ div.boost-pfs-search-suggestion-wrapper ul.boost-pfs-search-suggestion {
     display: none;
   }
 
-  /*.header > .search-modal__content {*/
-  /*  !*display: none;*!*/
-  /*  background-color: red;*/
-  /*}*/
+  div.boost-pfs-search-suggestion-wrapper ul.boost-pfs-search-suggestion {
+    /*boost-pfs-search-suggestion-has-products boost-pfs-search-suggestion-has-suggestion-block{*/
+    transform: translateX(-25%);
+  }
 }
 
 .no-js .predictive-search {
