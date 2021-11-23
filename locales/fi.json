@@ -144,7 +144,7 @@
       "optical_condition_heading": "Optinen kunto: {{ condition }} \/ 5",
       "mechanical_condition_heading": "Mekaaninen kunto: {{ condition }} \/ 5",
       "cosmetic_condition_heading": "Kosmeettinen kunto: {{ condition }} \/ 5",
-      "not_taxable": "Voittomarginaalijärjestelmä – käytetyt tavarat. Hinta ei sisällä vähennettävää arvonlisäveroa.",
+      "not_taxable": "Hinta ei sisällä vähennettävää arvonlisäveroa. (Voittomarginaalijärjestelmä – käytetyt tavarat.)",
       "taxable": "Sis. alv (tilausmaan mukaan)."
     },
     "modal": {
@@ -152,7 +152,7 @@
     },
     "tax": {
       "not_taxable_property_name": " ",
-      "not_taxable_property_value": "Voittomarginaalijärjestelmä – käytetyt tavarat. Hinta ei sisällä vähennettävää arvonlisäveroa.",
+      "not_taxable_property_value": "Hinta ei sisällä vähennettävää arvonlisäveroa. (Voittomarginaalijärjestelmä – käytetyt tavarat.)",
       "taxable_property_name": " ",
       "taxable_property_value": "Sis. alv (EU)"
     }
