@@ -89,7 +89,21 @@
       <div class="card-information__wrapper">
         {%- if show_vendor -%}
           <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
-          <div class="caption-with-letter-spacing light">{{ product_card_product.vendor }}</div>
+          <div class="caption-with-letter-spacing light">
+              {% for t in product_card_product.tags %}
+                  {% assign prefix = t | slice: 0, 7 %}
+                  {% if prefix == 'System-' and t != 'System-Not Defined' %}
+                    {% assign product_system = t | slice: 7, 57 %}
+                  {% endif %}
+              {% endfor %}
+
+              {% if product_system %}
+                  <span>{{ product_system }}</span>
+              {% else %}
+                  <span>{{ product_card_product.vendor }}</span>
+              {% endif %}
+              <span></span>
+          </div>
         {%- endif -%}
 
         {%- if product_card_product.featured_media -%}
