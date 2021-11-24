@@ -47,9 +47,8 @@
         },
         "70a5fd6b-8b3d-43fe-a0aa-6d58cef2731c": {
           "type": "custom_liquid",
-          "disabled": true,
           "settings": {
-            "custom_liquid": "We have {{ current_variant.inventory_quantity }} in stock.\n\n <div id=\"variant-inventory\" class=\"{% unless current_variant.available %} hide {% endunless %}\">\n              {% if current_variant.inventory_management == \"shopify\" and current_variant.inventory_policy != \"continue\" %}\n              We have {{ current_variant.inventory_quantity }} in stock.\n              {% else %}\n              This product is available.\n              {% endif %}\n            <\/div>"
+            "custom_liquid": "<div id=\"variant-inventory\">\n{% if product.variants.first.inventory_management == \"shopify\" and product.variants.first.inventory_quantity > 0 %}\nWe currently have {{ product.variants.first.inventory_quantity }} in stock.\n{% endif %}\n<\/div>\n\n\n{{ variant.inventory.quantity }}"
           }
         },
         "235b8cd5-c263-4cde-9104-81a9203d4384": {
