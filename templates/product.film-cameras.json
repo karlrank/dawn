@@ -34,6 +34,12 @@
             "custom_liquid": "<a href=\"{{ product.metafields.my_fields.database_parent.value.url }}\" class=\"link link--text underlined-link\">Read or Write Reviews<\/a>"
           }
         },
+        "70a5fd6b-8b3d-43fe-a0aa-6d58cef2731c": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div id=\"variant-inventory\">\n{% if product.variants.first.inventory_management == \"shopify\" and product.variants.first.inventory_quantity > 0 %}\nIn stock \/ {{ product.variants.first.inventory_quantity }} available\n{% endif %}\n<\/div>\n\n\n{{ variant.inventory.quantity }}"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -43,12 +49,6 @@
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": "{% if product.selected_or_first_available_variant.taxable %}\n    {{ 'products.product.taxable' | t }}\n{% else %}\n    {{ 'products.product.not_taxable' | t }}\n{% endif %}"
-          }
-        },
-        "70a5fd6b-8b3d-43fe-a0aa-6d58cef2731c": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div id=\"variant-inventory\">\n{% if product.variants.first.inventory_management == \"shopify\" and product.variants.first.inventory_quantity > 0 %}\nWe currently have {{ product.variants.first.inventory_quantity }} in stock.\n{% endif %}\n<\/div>\n\n\n{{ variant.inventory.quantity }}"
           }
         },
         "235b8cd5-c263-4cde-9104-81a9203d4384": {
@@ -114,9 +114,9 @@
         "eef5d81b-99be-406b-8d49-804694bc4c77",
         "title",
         "99452d1b-4d7e-4077-a88b-abeded9e84f2",
+        "70a5fd6b-8b3d-43fe-a0aa-6d58cef2731c",
         "price",
         "853cea71-8e8d-4b3a-8d41-fda13fdf751d",
-        "70a5fd6b-8b3d-43fe-a0aa-6d58cef2731c",
         "235b8cd5-c263-4cde-9104-81a9203d4384",
         "cd07da4b-ae00-46ee-bf67-5c7799d93921",
         "buy_buttons",
