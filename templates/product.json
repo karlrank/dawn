@@ -20,6 +20,12 @@
           "settings": {
           }
         },
+        "15e3737c-101f-4a6c-881e-db6e0d4c56da": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div id=\"variant-inventory\">\n{% if product.variants.first.inventory_management == \"shopify\" and product.variants.first.inventory_quantity > 0 %}\nIn stock \/ {{ product.variants.first.inventory_quantity }} available\n{% endif %}\n<\/div>"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -103,6 +109,7 @@
       "block_order": [
         "96c45658-7a4f-4bbe-8af4-a6f32859a982",
         "title",
+        "15e3737c-101f-4a6c-881e-db6e0d4c56da",
         "price",
         "f0c9e60b-84e2-4c7b-a294-cab454328d82",
         "8a5e19bd-ec83-4ef2-ad47-9bd4b01b7f5e",
