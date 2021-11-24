@@ -37,7 +37,7 @@
         "70a5fd6b-8b3d-43fe-a0aa-6d58cef2731c": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div id=\"variant-inventory\">\n{% if product.variants.first.inventory_management == \"shopify\" and product.variants.first.inventory_quantity > 0 %}\nIn stock \/ {{ product.variants.first.inventory_quantity }} available\n{% endif %}\n<\/div>\n\n\n{{ variant.inventory.quantity }}"
+            "custom_liquid": "<div id=\"variant-inventory\">\n{% if product.selected_or_first_available_variant.inventory_management == \"shopify\" and product.selected_or_first_available_variant.inventory_quantity> 0 %}\nIn stock \/ {{product.selected_or_first_available_variant.inventory_quantity}} available\n{% endif %}\n<\/div>"
           }
         },
         "price": {
