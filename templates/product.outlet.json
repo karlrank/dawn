@@ -27,6 +27,12 @@
           "settings": {
           }
         },
+        "671ba54b-0342-4dd7-bdfe-26cccec6c528": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div id=\"variant-inventory\">\n{% if product.variants.first.inventory_management == \"shopify\" and product.variants.first.inventory_quantity > 0 %}\nIn stock \/ {{ product.variants.first.inventory_quantity }} available\n{% endif %}\n<\/div>"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -95,6 +101,7 @@
         "9db62c39-0013-4a33-bd68-184b84c6a144",
         "eef5d81b-99be-406b-8d49-804694bc4c77",
         "title",
+        "671ba54b-0342-4dd7-bdfe-26cccec6c528",
         "price",
         "853cea71-8e8d-4b3a-8d41-fda13fdf751d",
         "cd07da4b-ae00-46ee-bf67-5c7799d93921",
@@ -119,16 +126,6 @@
     "1632735936daa328ef": {
       "type": "apps",
       "disabled": true,
-      "blocks": {
-        "1f370cfd-d9e9-4585-bfd8-0d05db81017a": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "1f370cfd-d9e9-4585-bfd8-0d05db81017a"
-      ],
       "settings": {
         "include_margins": true
       }
