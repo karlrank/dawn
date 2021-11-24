@@ -84,11 +84,16 @@ var boostPFSFilterConfig = {
 		// Add Vendor
 		itemHtml = itemHtml.replace(/{{itemVendor}}/g, buildVendor(data));
 
+		let productSystem = data.tags.find(t => t.startsWith('System-') && t !== 'System-Not Defined');
+		if (productSystem) {
+			productSystem = productSystem.slice(7, 57);
+		}
+
 		// Add main attribute (Always put at the end of this function)
 		itemHtml = itemHtml.replace(/{{itemId}}/g, data.id);
 		itemHtml = itemHtml.replace(/{{itemTitle}}/g, data.title);
 		itemHtml = itemHtml.replace(/{{itemHandle}}/g, data.handle);
-		itemHtml = itemHtml.replace(/{{itemVendorLabel}}/g, data.vendor);
+		itemHtml = itemHtml.replace(/{{itemVendorLabel}}/g, productSystem || data.vendor);
 		itemHtml = itemHtml.replace(/{{itemUrl}}/g, Utils.buildProductItemUrl(data));
 		return itemHtml;
 	};
