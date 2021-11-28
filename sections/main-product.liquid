@@ -31,9 +31,9 @@
         {% endif %}
       {% endfor %}
       {% comment %}TODO: Make configurable, omit parts? {% endcomment %}
-      {% if category %}<a href="/collections/{{ category | downcase | replace: "/", "" | replace: "  ", "" | replace: " ", "-" }}" class="link">{{ category }}</a> ›{% endif %}
-      {% if sub_category %}<a href="/collections/{{ sub_category | downcase| replace: "/", "" | replace: "  ", "" | replace: " ", "-" }}" class="link">{{ sub_category }}</a> ›{% endif %}
-      <a href="/collections/{{ product.type | downcase | replace: "/", "" | replace: "  ", "" | replace: " ", "-" }}" class="link">{{ product.type }}</a> ›
+      {% if category %}<a href="/collections/{{ category | downcase | replace: "/", "" | replace: "  ", " " | replace: " ", "-" }}" class="link">{{ category }}</a> ›{% endif %}
+      {% if sub_category %}<a href="/collections/{{ sub_category | downcase| replace: "/", "" | replace: "  ", " " | replace: " ", "-" }}" class="link">{{ sub_category }}</a> ›{% endif %}
+      <a href="/collections/{{ product.type | downcase | replace: "/", "" | replace: "  ", " " | replace: " ", "-" }}" class="link">{{ product.type }}</a> ›
       <a href="{{ product.url }}" class="link">{{ product.title }}</a>
     </div>
   {% endif %}
@@ -417,7 +417,7 @@
                     {% assign product_system = t | slice: 7, 57 %}
                   {% endif %}
                 {% endfor %}
-                <a href="/collections/{{ product_system | downcase | replace: "/", "" | replace: "  ", "" | replace: " ", "-" }}" class="link">
+                <a href="/collections/{{ product_system | downcase | replace: "/", "" | replace: "  ", " " | replace: " ", "-" }}" class="link">
                   {{ product_system }}
                 </a>
               {% endif  %}
@@ -427,7 +427,7 @@
               {% endif %}
 
               {% if block.settings.show_type %}
-                <a href="/collections/{{ product.type | downcase | replace: "/", "" | replace: "  ", "" | replace: " ", "-" }}" class="link">
+                <a href="/collections/{{ product.type | downcase | replace: "/", "" | replace: "  ", " " | replace: " ", "-" }}" class="link">
                   {{ product.type }}
                 </a>
               {% endif  %}
