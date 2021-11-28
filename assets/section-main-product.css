@@ -277,6 +277,10 @@ a.product__text {
   margin-top: -1.5rem;
 }
 
+.product__system_and_type-container + .product__title {
+  margin-top: 0;
+}
+
 .product__text.caption-with-letter-spacing + .product__title {
   margin-top: 0;
 }
@@ -834,5 +838,8 @@ a.product__text {
 
 .product__info-wrapper .product__tax-info {
   font-size: 0.875rem;
+}
 
+.product__breadcrumbs-container {
+  margin-bottom: 1rem;
 }

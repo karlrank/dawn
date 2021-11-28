@@ -18,6 +18,25 @@
 {%- endif -%}
 
 <section class="page-width">
+  {% if section.settings.show_breadcrumbs %}
+    <div class="product__breadcrumbs-container">
+      {% for t in product.tags %}
+        {% assign parts = t | split: '-'%}
+        {% assign prefix = parts | first %}
+        {% assign value = parts | last %}
+        {% if prefix == 'Category'%}
+          {% assign category = value %}
+        {% elsif prefix == 'SubCategory' %}
+          {% assign sub_category = value %}
+        {% endif %}
+      {% endfor %}
+      {% comment %}TODO: Make configurable, omit parts? {% endcomment %}
+      {% if category %}<a href="/collections/{{ category | downcase | replace: " ", "-" }}" class="link">{{ category }}</a> ›{% endif %}
+      {% if sub_category %}<a href="/collections/{{ sub_category | downcase | replace: " ", "-" }}" class="link">{{ sub_category }}</a> ›{% endif %}
+      <a href="/collections/{{ product.type | downcase | replace: " ", "-" }}" class="link">{{ product.type }}</a> ›
+      <a href="{{ product.url }}" class="link">{{ product.title }}</a>
+    </div>
+  {% endif %}
   <div class="product grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
     <div class="grid__item product__media-wrapper">
       <slider-component class="slider-mobile-gutter">
@@ -389,7 +408,7 @@
               </ul>
             {% endif %}
           {%- when 'system_and_type' -%}
-            <div>
+            <div class="product__system_and_type-container">
               {% if block.settings.show_system %}
                 {% assign product_system = product.vendor %}
                 {% for t in product.tags %}
@@ -398,7 +417,9 @@
                     {% assign product_system = t | slice: 7, 57 %}
                   {% endif %}
                 {% endfor %}
-                {{ product_system }}
+                <a href="/collections/{{ product_system | downcase | replace: " ", "-" }}" class="link">
+                  {{ product_system }}
+                </a>
               {% endif  %}
 
               {% if block.settings.show_system and block.settings.show_type %}
@@ -406,7 +427,9 @@
               {% endif %}
 
               {% if block.settings.show_type %}
-                {{ product.type }}
+                <a href="/collections/{{ product.type | downcase | replace: " ", "-" }}" class="link">
+                  {{ product.type }}
+                </a>
               {% endif  %}
             </div>
           {%- endcase -%}
@@ -893,6 +916,12 @@
           "default": true
         }
       ]
+    },
+    {
+      "type": "breadcrumbs",
+      "name": "t:sections.main-product.blocks.breadcrumbs.name",
+      "limit": 1,
+      "settings": []
     }
   ],
   "settings": [
@@ -918,6 +947,12 @@
       "id": "enable_video_looping",
       "default": false,
       "label": "t:sections.main-product.settings.enable_video_looping.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_breadcrumbs",
+      "default": true,
+      "label": "t:sections.main-product.settings.show_breadcrumbs.label"
     }
   ]
 }
