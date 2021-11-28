@@ -90,6 +90,7 @@
         {%- if show_vendor -%}
           <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
           <div class="caption-with-letter-spacing light">
+              {% assign product_system = product_card_product.vendor %}
               {% for t in product_card_product.tags %}
                   {% assign prefix = t | slice: 0, 7 %}
                   {% if prefix == 'System-' and t != 'System-Not Defined' %}
@@ -97,11 +98,7 @@
                   {% endif %}
               {% endfor %}
 
-              {% if product_system %}
-                  <span>{{ product_system }}</span>
-              {% else %}
-                  <span>{{ product_card_product.vendor }}</span>
-              {% endif %}
+              <span>{{ product_system }}</span>
               <span></span>
           </div>
         {%- endif -%}
