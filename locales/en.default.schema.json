@@ -1501,6 +1501,17 @@
               "label": "Show cosmetic condition"
             }
           }
+        },
+        "system_and_type": {
+          "name": "System & type",
+          "settings": {
+            "show_system": {
+              "label": "Show system"
+            },
+            "show_type": {
+              "label": "Show type"
+            }
+          }
         }
       },
       "settings": {

@@ -388,6 +388,27 @@
                 {%- endif -%}
               </ul>
             {% endif %}
+          {%- when 'system_and_type' -%}
+            <div>
+              {% if block.settings.show_system %}
+                {% assign product_system = product.vendor %}
+                {% for t in product.tags %}
+                  {% assign prefix = t | slice: 0, 7 %}
+                  {% if prefix == 'System-' and t != 'System-Not Defined' %}
+                    {% assign product_system = t | slice: 7, 57 %}
+                  {% endif %}
+                {% endfor %}
+                {{ product_system }}
+              {% endif  %}
+
+              {% if block.settings.show_system and block.settings.show_type %}
+                /
+              {% endif %}
+
+              {% if block.settings.show_type %}
+                {{ product.type }}
+              {% endif  %}
+            </div>
           {%- endcase -%}
         {%- endfor -%}
       </div>
@@ -850,6 +871,25 @@
           "type": "checkbox",
           "id": "show_cosmetic",
           "label": "t:sections.main-product.blocks.condition.settings.show_cosmetic.label",
+          "default": true
+        }
+      ]
+    },
+    {
+      "type": "system_and_type",
+      "name": "t:sections.main-product.blocks.system_and_type.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "show_system",
+          "label": "t:sections.main-product.blocks.system_and_type.settings.show_system.label",
+          "default": true
+        },
+        {
+          "type": "checkbox",
+          "id": "show_type",
+          "label": "t:sections.main-product.blocks.system_and_type.settings.show_type.label",
           "default": true
         }
       ]
