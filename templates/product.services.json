@@ -9,26 +9,16 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "96c45658-7a4f-4bbe-8af4-a6f32859a982": {
-          "type": "custom_liquid",
+        "a78a2903-07a1-4535-a7f3-ae0c9369d1d5": {
+          "type": "system_and_type",
           "settings": {
-            "custom_liquid": "{% for tag in product.tags %}\n    {% if tag contains 'System' %}\n        {{ tag  | split:\"-\" | last}} \/\n    {% endif %}\n{% endfor %}\n{{ product.type }}"
+            "show_system": true,
+            "show_type": true
           }
         },
         "title": {
           "type": "title",
           "settings": {
-          }
-        },
-        "8c092308-4d1c-4e56-b41c-6399c0c71a31": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
-          "disabled": true,
-          "settings": {
-            "stars_fill_color": "#ffab10",
-            "star_size": 16,
-            "text_align": "flex-start",
-            "product": "{{ product.metafields.my_fields.database_parent.value }}",
-            "stars_text_empty": "No reviews"
           }
         },
         "price": {
@@ -99,9 +89,8 @@
         }
       },
       "block_order": [
-        "96c45658-7a4f-4bbe-8af4-a6f32859a982",
+        "a78a2903-07a1-4535-a7f3-ae0c9369d1d5",
         "title",
-        "8c092308-4d1c-4e56-b41c-6399c0c71a31",
         "price",
         "f0c9e60b-84e2-4c7b-a294-cab454328d82",
         "8a5e19bd-ec83-4ef2-ad47-9bd4b01b7f5e",
@@ -115,7 +104,8 @@
       "settings": {
         "enable_sticky_info": true,
         "hide_variants": false,
-        "enable_video_looping": false
+        "enable_video_looping": false,
+        "show_breadcrumbs": true
       }
     },
     "1632393643eca7584e": {
@@ -126,16 +116,6 @@
     },
     "163292242191680787": {
       "type": "apps",
-      "blocks": {
-        "78592cdb-700e-4f1f-88b1-538b5c2d02c0": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "78592cdb-700e-4f1f-88b1-538b5c2d02c0"
-      ],
       "settings": {
         "include_margins": true
       }
