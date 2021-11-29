@@ -9,17 +9,11 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "9db62c39-0013-4a33-bd68-184b84c6a144": {
-          "type": "custom_liquid",
+        "5875f51c-da6b-4990-b273-8ddfdb2d7397": {
+          "type": "system_and_type",
           "settings": {
-            "custom_liquid": "{% for tag in product.tags %}\n    {% if tag contains 'System' %}\n        {{ tag  | split:\"-\" | last}} \/\n    {% endif %}\n{% endfor %}\n {{ product.type }}"
-          }
-        },
-        "eef5d81b-99be-406b-8d49-804694bc4c77": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "<br>\n{% for tag in product.tags %}\n    {% if tag contains 'System' %}\n        {{ tag  | split:\"-\" | last}} \/\n    {% endif %}\n{% endfor %}\n    {% if product.type != blank %}\n      {% assign type = product.type | handleize %}\n      <p class= \"link\" itemprop=\"brand\">\n      {% if collections[type] != blank %}\n        {{ product.type | link_to: collections[type].url }}\n      {% else %}\n        {{ product.type }}\n      {% endif %}\n      <\/p>\n    {% endif %}"
+            "show_system": true,
+            "show_type": true
           }
         },
         "title": {
@@ -110,8 +104,7 @@
         }
       },
       "block_order": [
-        "9db62c39-0013-4a33-bd68-184b84c6a144",
-        "eef5d81b-99be-406b-8d49-804694bc4c77",
+        "5875f51c-da6b-4990-b273-8ddfdb2d7397",
         "title",
         "99452d1b-4d7e-4077-a88b-abeded9e84f2",
         "70a5fd6b-8b3d-43fe-a0aa-6d58cef2731c",
@@ -128,7 +121,8 @@
       "settings": {
         "enable_sticky_info": true,
         "hide_variants": false,
-        "enable_video_looping": false
+        "enable_video_looping": false,
+        "show_breadcrumbs": true
       }
     },
     "163178438845c86d64": {
