@@ -2,6 +2,7 @@
   "sections": {
     "163282385185599d93": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "163282385185599d93-0": {
           "type": "heading",
@@ -146,7 +147,8 @@
       "settings": {
         "enable_sticky_info": true,
         "hide_variants": false,
-        "enable_video_looping": false
+        "enable_video_looping": false,
+        "show_breadcrumbs": true
       }
     },
     "163178438845c86d64": {
