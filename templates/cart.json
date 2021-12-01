@@ -6,6 +6,23 @@
         "include_margins": true
       }
     },
+    "16383634315b405a7a": {
+      "type": "apps",
+      "blocks": {
+        "7c920d46-0432-4971-bd96-2b21113477fc": {
+          "type": "shopify:\/\/apps\/shipping-rates-cart-calculator\/blocks\/free-shipping-bar\/6fdcf202-26c0-4288-be36-8b389f5d262c",
+          "settings": {
+            "include_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "7c920d46-0432-4971-bd96-2b21113477fc"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "cart-items": {
       "type": "main-cart-items",
       "settings": {
@@ -66,6 +83,7 @@
   },
   "order": [
     "16366400276c96b943",
+    "16383634315b405a7a",
     "cart-items",
     "cart-footer",
     "featured-products",
