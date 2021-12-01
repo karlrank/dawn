@@ -1,11 +1,5 @@
 {
   "sections": {
-    "16366400276c96b943": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
-    },
     "16383634315b405a7a": {
       "type": "apps",
       "blocks": {
@@ -82,7 +76,6 @@
     }
   },
   "order": [
-    "16366400276c96b943",
     "16383634315b405a7a",
     "cart-items",
     "cart-footer",
