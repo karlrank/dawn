@@ -30,11 +30,10 @@
         "blocks": {
           "0af81d21-32d5-4b2f-bef0-5d51bb9973ed": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "Green Week (ENDS MONDAY NIGHT) - Up to 70% Off!",
-              "color_scheme": "accent-2",
-              "link": "shopify:\/\/pages\/green-week-2021"
+              "text": "430 new listings! (Updated Dec. 3rd.)",
+              "color_scheme": "inverse",
+              "link": "shopify:\/\/collections\/all-items"
             }
           },
           "2e0296fe-51ad-44a1-93ae-816b91172f02": {
