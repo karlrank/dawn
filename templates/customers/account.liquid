@@ -112,12 +112,12 @@
       <a href="{{ routes.account_addresses_url }}">
         {{ 'customer.account.view_addresses' | t }} ({{ customer.addresses_count }})
       </a>
-    </div>
+    
 
   
     
     <!-- Begin Exemptify account page VAT ID validation -->
-  <br><div>
+  <div>
         {{ "//www.modules4u.biz/shopify/exemptify/js/validate_vat_v1.js.php?shop=kameratori-en.myshopify.com" | script_tag }}
         <div><div><h2>EU Vat Id</h2></div>
             <input type="text" placeholder="EU VAT Id" id="VatId" name="VatId" maxlength="20" style="max-width:160px;">
@@ -130,5 +130,6 @@
           </div>
       </div>
 <!-- End Exemptify account page VAT ID validation -->
+    </div>
     </div>
 </div>
