@@ -115,4 +115,19 @@
     </div>
 
   </div>
+    
+    <!-- Begin Exemptify account page VAT ID validation -->
+  <div>
+        {{ "//www.modules4u.biz/shopify/exemptify/js/validate_vat_v1.js.php?shop=kameratori-en.myshopify.com" | script_tag }}
+        <div><div><h2>EU Vat Id</h2></div>
+            <input type="text" placeholder="EU VAT Id" id="VatId" name="VatId" maxlength="20" style="max-width:160px;">
+          <div id="ValidStatus"><img id="StatusImg" width="28"></div>
+        <div id="ErrMsg"></div>   
+            <input id="CustomerId" type="hidden" value="{{ customer.id }}">
+            <input id="ShopCtyId" type="hidden" value="{{ shop.metafields['exemptify']['country'] }}">              
+            <input id="VatIdSubmit" type="button" value="Save VAT ID">
+            <input id="DeleteId" type="button" value="Delete ID">      
+          </div>
+      </div>
+<!-- End Exemptify account page VAT ID validation -->
 </div>
