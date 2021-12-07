@@ -147,22 +147,6 @@
 
 <script>(() => {const previewKey = 'docapp-shipping-test'; const urlParams = new URLSearchParams(window.location.search); if (urlParams.get(previewKey)) {window.sessionStorage.setItem(previewKey, JSON.stringify({active: true, integrationId: urlParams.get('docapp-shipping-inst-test')}));}})();</script>
 
-  <!-- Begin Exemptify messages, code copied pasted by Jordan, Dec 7 2021 -->
-  <script>
-  var m4u_invalid_id = "{{ shop.metafields['exemptify']['m4u_invalid_id'] }}";
-  var m4u_vies_down = "{{ shop.metafields['exemptify']['m4u_vies_down'] }}";
-  var m4u_validated = "{{ shop.metafields['exemptify']['m4u_validated'] }}";
-  var m4u_deleted = "{{ shop.metafields['exemptify']['m4u_deleted'] }}";
-  var m4u_no_country = "{{ shop.metafields['exemptify']['m4u_no_country'] }}";
-  var m4u_same_country = "{{ shop.metafields['exemptify']['m4u_same_country'] }}";
-  var m4u_format_error = "{{ shop.metafields['exemptify']['m4u_format_error'] }}";
-  var m4u_ptxt = "{{ shop.metafields['exemptify']['inc_display_text'] }}";
-  var m4u_ex_vat_postfix_txt = "{{ shop.metafields['exemptify']['exc_display_text'] }}";
-  </script>
-  <!-- End Exemptify messages -->
-<!-- Begin Exemptify price display -->
-  <script async src="//www.modules4u.biz/shopify/exemptify/js/fix_prices_v1.js.php?shop=kameratori-en.myshopify.com{{ shop.metafields['exemptify']['price_qs'] }}&tax_included={{ cart.taxes_included  }}&customer_exempt={{ customer.tax_exempt }}"></script>
-<!-- End Exemptify price display -->
     
   </head>
 
