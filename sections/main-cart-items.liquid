@@ -252,6 +252,20 @@
 
     <p class="visually-hidden" id="cart-live-region-text" aria-live="polite" role="status"></p>
     <p class="visually-hidden" id="shopping-cart-line-item-status" aria-live="polite" aria-hidden="true" role="status">{{ 'accessibility.loading' | t }}</p>
+    <!-- Begin Exemptify cart page VAT ID validation, added by Jordan December 7 2021 -->
+  <div>
+        <script src="//www.modules4u.biz/shopify/exemptify/js/validate_vat_v1.js.php?shop=kameratori-en.myshopify.com{{ shop.metafields['exemptify']['price_qs'] }}"></script>
+        
+        <div><div><h2>EU Vat Id</h2></div>
+        <div>(VAT will be deducted at payment step)</div>
+            <input type="text" placeholder="EU VAT Id" id="VatId" name="attributes[vat-id]" value="{{ cart.attributes.vat-id }}" maxlength="20" style="max-width:160px;">
+          <div id="ValidStatus"><img id="StatusImg" width="28"></div>
+        <div id="ErrMsg"></div>   
+            <input id="CustomerId" type="hidden" value="{{ customer.id }}">
+            <input id="ShopCtyId" type="hidden" value="{{ shop.metafields['exemptify']['country'] }}">                 
+          </div>
+      </div>
+<!-- End Exemptify cart page VAT ID validation -->
   </form>
 </cart-items>
 
