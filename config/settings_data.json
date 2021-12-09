@@ -28,22 +28,12 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
-          "addeb940-eafc-4f65-958a-bf0878825909": {
+          "f5339d86-43f7-4ee3-9ac1-592a33f97720": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "Closed Monday Dec 6th for Finnish Independence Day. Order shipping resumes Tuesday.",
+              "text": "The Camera Rescue OUTLET is HERE!",
               "color_scheme": "accent-1",
-              "link": ""
-            }
-          },
-          "0af81d21-32d5-4b2f-bef0-5d51bb9973ed": {
-            "type": "announcement",
-            "disabled": true,
-            "settings": {
-              "text": "430 new listings! (Updated Dec. 3rd.)",
-              "color_scheme": "inverse",
-              "link": "shopify:\/\/collections\/all-items"
+              "link": "https:\/\/beta.kamerastore.com\/collections\/outlet"
             }
           },
           "2e0296fe-51ad-44a1-93ae-816b91172f02": {
@@ -56,8 +46,7 @@
           }
         },
         "block_order": [
-          "addeb940-eafc-4f65-958a-bf0878825909",
-          "0af81d21-32d5-4b2f-bef0-5d51bb9973ed",
+          "f5339d86-43f7-4ee3-9ac1-592a33f97720",
           "2e0296fe-51ad-44a1-93ae-816b91172f02"
         ],
         "settings": {
