@@ -39,6 +39,7 @@
           },
           "0af81d21-32d5-4b2f-bef0-5d51bb9973ed": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "430 new listings! (Updated Dec. 3rd.)",
               "color_scheme": "inverse",
