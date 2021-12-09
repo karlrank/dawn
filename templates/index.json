@@ -90,8 +90,8 @@
     "featured_products": {
       "type": "featured-collection",
       "settings": {
-        "title": "Newly Listed",
-        "collection": "all-items",
+        "title": "Camera Rescue",
+        "collection": "camera-rescue",
         "products_to_show": 12,
         "show_view_all": true,
         "swipe_on_mobile": true,
