@@ -141,6 +141,7 @@
     },
     "16328192199ca25f9a": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Film Cameras",
         "collection": "film-cameras",
@@ -157,6 +158,7 @@
     },
     "1632819820cfe9c4e7": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "SLR & DSLR Lenses",
         "collection": "slr-dslr-lenses",
@@ -179,6 +181,7 @@
     },
     "16328199566df3daf4": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Rangefinder Lenses",
         "collection": "rangefinder-lenses",
@@ -195,6 +198,7 @@
     },
     "16328202527d1c0448": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Medium Format Lenses",
         "collection": "medium-format-lenses",
@@ -211,6 +215,7 @@
     },
     "16328203716b324724": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Large Format Lenses",
         "collection": "large-format-lenses",
