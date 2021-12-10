@@ -462,6 +462,13 @@
       "pick_up_time": {
         "four_hours": "Tervetuloa noutamaan."
       }
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "in_stock": "Saatavilla"
+        }
+      }
     }
   },
   "socialshopwave": {
