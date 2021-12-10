@@ -428,7 +428,9 @@
         "continue_to_shipping_method": "Jatka toimitustavan valintaan",
         "back_to_shipping_method": "Palaa toimitustapoihin",
         "back_to_payment_method": "Palaa maksutavan valintaan",
-        "continue_to_payment_method": "Jatka maksutavan valintaan"
+        "continue_to_payment_method": "Jatka maksutavan valintaan",
+        "autocomplete_single_item": "1 tuote saatavilla",
+        "autocomplete_multi_item": "{{number}} tuotetta saatavilla"
       },
       "review": {
         "blocks": {
