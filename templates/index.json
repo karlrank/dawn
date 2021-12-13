@@ -104,7 +104,6 @@
     },
     "16328192199ca25f9a": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "Film Cameras",
         "collection": "film-cameras",
@@ -134,6 +133,63 @@
         "show_image_outline": false,
         "show_vendor": true,
         "show_rating": false
+      }
+    },
+    "1632819284873cdad3": {
+      "type": "collection-list",
+      "blocks": {
+        "1632819284873cdad3-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "slr-dslr-lenses"
+          }
+        },
+        "1632819284873cdad3-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mirrorless-lenses"
+          }
+        },
+        "1632819284873cdad3-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "rangefinder-lenses"
+          }
+        },
+        "a1900220-f428-4876-879a-09b7173cca60": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "medium-format-lenses"
+          }
+        },
+        "27e6b5e1-3b5d-4687-8312-ec85a94fcd20": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "large-format-lenses"
+          }
+        },
+        "e3fa11ab-0fe0-4425-ac96-a3058b9617b9": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "other-lenses"
+          }
+        }
+      },
+      "block_order": [
+        "1632819284873cdad3-0",
+        "1632819284873cdad3-1",
+        "1632819284873cdad3-2",
+        "a1900220-f428-4876-879a-09b7173cca60",
+        "27e6b5e1-3b5d-4687-8312-ec85a94fcd20",
+        "e3fa11ab-0fe0-4425-ac96-a3058b9617b9"
+      ],
+      "settings": {
+        "title": "Lenses",
+        "image_ratio": "adapt",
+        "color_scheme": "background-2",
+        "swipe_on_mobile": true,
+        "image_padding": false,
+        "show_view_all": false
       }
     },
     "16336738395370bc94": {
@@ -273,66 +329,9 @@
         "layout": "image_first"
       }
     },
-    "1632819284873cdad3": {
-      "type": "collection-list",
-      "disabled": true,
-      "blocks": {
-        "1632819284873cdad3-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "slr-dslr-lenses"
-          }
-        },
-        "1632819284873cdad3-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "mirrorless-lenses"
-          }
-        },
-        "1632819284873cdad3-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "rangefinder-lenses"
-          }
-        },
-        "a1900220-f428-4876-879a-09b7173cca60": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "medium-format-lenses"
-          }
-        },
-        "27e6b5e1-3b5d-4687-8312-ec85a94fcd20": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "large-format-lenses"
-          }
-        },
-        "e3fa11ab-0fe0-4425-ac96-a3058b9617b9": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "other-lenses"
-          }
-        }
-      },
-      "block_order": [
-        "1632819284873cdad3-0",
-        "1632819284873cdad3-1",
-        "1632819284873cdad3-2",
-        "a1900220-f428-4876-879a-09b7173cca60",
-        "27e6b5e1-3b5d-4687-8312-ec85a94fcd20",
-        "e3fa11ab-0fe0-4425-ac96-a3058b9617b9"
-      ],
-      "settings": {
-        "title": "Lenses",
-        "image_ratio": "adapt",
-        "color_scheme": "background-2",
-        "swipe_on_mobile": true,
-        "image_padding": false,
-        "show_view_all": false
-      }
-    },
     "163273752240df21a1": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "Kamerastore on Youtube",
         "cover_image": "shopify:\/\/shop_images\/maxresdefaultdf.jpg",
@@ -349,13 +348,13 @@
     "1632470234f73d3bc0",
     "16328192199ca25f9a",
     "1632819820cfe9c4e7",
+    "1632819284873cdad3",
     "16336738395370bc94",
     "16328199566df3daf4",
     "16328202527d1c0448",
     "16328203716b324724",
     "multi_column",
     "1631783246bd86182c",
-    "1632819284873cdad3",
     "163273752240df21a1"
   ]
 }
