@@ -2,7 +2,6 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -45,42 +44,6 @@
         "show_text_below": false
       }
     },
-    "16373073976a28921f": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "16373073973428c45e-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Green Week 2021"
-          }
-        },
-        "16373073973428c45e-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We are having our <a href=\"\/collections\/all-items\" title=\"All Items\">biggest sale of the year<\/a>. That’s right, it’s Green Week! This week of sale is meant to celebrate the circular economy and includes deep discounts on every used item in the store.<\/p>"
-          }
-        },
-        "16373073973428c45e-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Click here for details!",
-            "button_link": "shopify:\/\/pages\/green-week-2021"
-          }
-        }
-      },
-      "block_order": [
-        "16373073973428c45e-0",
-        "16373073973428c45e-1",
-        "16373073973428c45e-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Green_Week_Smooth_BG_2x3_2_copy.jpg",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first"
-      }
-    },
     "1637242258da800a0c": {
       "type": "custom-liquid",
       "disabled": true,
@@ -91,8 +54,8 @@
     "featured_products": {
       "type": "featured-collection",
       "settings": {
-        "title": "Camera Rescue",
-        "collection": "camera-rescue",
+        "title": "Most Recent Additions",
+        "collection": "all-items",
         "products_to_show": 12,
         "show_view_all": true,
         "swipe_on_mobile": true,
@@ -381,7 +344,6 @@
   },
   "order": [
     "image_banner",
-    "16373073976a28921f",
     "1637242258da800a0c",
     "featured_products",
     "1632470234f73d3bc0",
