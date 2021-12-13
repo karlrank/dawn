@@ -407,6 +407,9 @@
       "stock": {
         "sold_out_label": "Sold",
         "items_unavailable_notice": "Some items are no longer available OR have been reserved for another customer."
+      },
+      "delivery_options": {
+        "pick_up_in_four_hours": "You will get an email when your order is ready for pickup. "
       }
     }
   },
