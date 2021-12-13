@@ -30,10 +30,11 @@
         "blocks": {
           "f5339d86-43f7-4ee3-9ac1-592a33f97720": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "11 Years of Kamerastore! 11% off Site-wide!",
               "color_scheme": "accent-2",
-              "link": "https:\/\/beta.kamerastore.com\/collections\/outlet"
+              "link": "shopify:\/\/collections\/all-items"
             }
           },
           "2e0296fe-51ad-44a1-93ae-816b91172f02": {
