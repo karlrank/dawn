@@ -51,57 +51,6 @@
         "custom_liquid": "<div class=\"tagcloud page-width page-width--wide\">\n\t<a class=\"pill\" href=\"\/collections\/canon-ef\">Canon EF ({{ collections['canon-ef'].all_products_count }})<\/a>\n\t<a class=\"pill\" href=\"\/collections\/canon-ef-s\">Canon EF-S ({{ collections['canon-ef-s'].all_products_count }})<\/a>\n\t<a class=\"pill important\" href=\"\/collections\/canon-fd\">Canon FD ({{ collections['canon-fd'].all_products_count }})<\/a>\n\t<a class=\"pill\" href=\"\/collections\/contax-g\">Contax G ({{ collections['contax-g'].all_products_count }})<\/a>\n\t<a class=\"pill\" href=\"\/collections\/contax-yashica\">Contax\/Yashica ({{ collections['contax-yashica'].all_products_count }})<\/a>\n\t<a class=\"pill\" href=\"\/collections\/fuji-x\">Fuji X ({{ collections['fuji-x'].all_products_count }})<\/a>\n\t<a class=\"pill\" href=\"\/collections\/hasselblad-h\">Hasselblad H ({{ collections['hasselblad-h'].all_products_count }})<\/a>\n\t<a class=\"pill important\" href=\"\/collections\/hasselblad-v\">Hasselblad V ({{ collections['hasselblad-v'].all_products_count }})<\/a>\n\t<a class=\"pill important\" href=\"\/collections\/leica-m\">Leica M ({{ collections['leica-m'].all_products_count }})<\/a>\n\t<a class=\"pill\" href=\"\/collections\/leica-ltm-m39\">LTM\/M39 ({{ collections['leica-ltm-m39'].all_products_count }})<\/a>\n\t<a class=\"pill\" href=\"\/collections\/leica-r\">Leica R ({{ collections['leica-r'].all_products_count }})<\/a>\n\t<a class=\"pill\" href=\"\/collections\/mamiya-645\">Mamiya 645 ({{ collections['mamiya-645'].all_products_count }})<\/a>\n\t<a class=\"pill\" href=\"\/collections\/mamiya-rb67\">Mamiya RB67 ({{ collections['mamiya-rb67'].all_products_count }})<\/a>\n\t<a class=\"pill\" href=\"\/collections\/mamiya-rz67\">Mamiya RZ67 ({{ collections['mamiya-rz67'].all_products_count }})<\/a>\n\t<a class=\"pill\" href=\"\/collections\/minolta-af\">Minolta AF ({{ collections['minolta-af'].all_products_count }})<\/a>\n\t<a class=\"pill\" href=\"\/collections\/minolta-md-sr-mount\">Minolta MD\/SR ({{ collections['minolta-md-sr-mount'].all_products_count }})<\/a>\n\n\n<a class=\"pill\" href=\"\/collections\/nikon-dx\">Nikon DX ({{ collections['nikon-dx'].all_products_count }})<\/a>\n\n<a class=\"pill important\" href=\"\/collections\/nikon-f\">Nikon F ({{ collections['nikon-f'].all_products_count }})<\/a>\n\n<a class=\"pill\" href=\"\/collections\/micro-four-thirds-m4-3\">M4\/3 ({{ collections['micro-four-thirds'].all_products_count }})<\/a>\n\n<a class=\"pill important\" href=\"\/collections\/olympus-om\">Olympus OM ({{ collections['olympus-om'].all_products_count }})<\/a>\n\n<a class=\"pill\" href=\"\/collections\/pentax-645\">Pentax 645 ({{ collections['pentax-645'].all_products_count }})<\/a>\n\n<a class=\"pill\" href=\"\/collections\/pentax-6x7\">Pentax 6x7 ({{ collections['pentax-6x7'].all_products_count }})<\/a>\n\n<a class=\"pill important\" href=\"\/collections\/pentax-K\">Pentax K ({{ collections['pentax-k'].all_products_count }})<\/a>\n\n<a class=\"pill\" href=\"\/collections\/m42\">M42 ({{ collections['m42'].all_products_count }})<\/a>\n\n\n<a class=\"pill\" href=\"\/collections\/sony-a\">Sony A({{ collections['sony-a'].all_products_count }})<\/a>\n\n<a class=\"pill\" href=\"\/collections\/sony-e\">Sony E({{ collections['sony-e'].all_products_count }})<\/a>\n\n<a class=\"pill important\" href=\"\/collections\/sony-fe\">Sony FE({{ collections['sony-fe'].all_products_count }})<\/a>\n\n<\/div>"
       }
     },
-    "featured_products": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Most Recent Additions",
-        "collection": "all-items",
-        "products_to_show": 12,
-        "show_view_all": true,
-        "swipe_on_mobile": true,
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "add_image_padding": false,
-        "show_image_outline": false,
-        "show_vendor": true,
-        "show_rating": false
-      }
-    },
-    "1632470234f73d3bc0": {
-      "type": "rich-text",
-      "blocks": {
-        "1632470234f73d3bc0-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Quality Used Products",
-            "heading_size": "h1"
-          }
-        },
-        "1632470234f73d3bc0-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Much like aperture, ISO, and shutter speed must work together to create a balanced image, offering quality used products requires a harmony between testing machinery, purpose-built tools, & knowledgeable technicians.<\/p>"
-          }
-        },
-        "1632470234f73d3bc0-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "About Us",
-            "button_link": "shopify:\/\/pages\/about-kamerastore",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "1632470234f73d3bc0-0",
-        "1632470234f73d3bc0-1",
-        "1632470234f73d3bc0-2"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": false
-      }
-    },
     "16328192199ca25f9a": {
       "type": "featured-collection",
       "settings": {
@@ -118,13 +67,13 @@
         "show_rating": false
       }
     },
-    "1632819820cfe9c4e7": {
+    "featured_products": {
       "type": "featured-collection",
       "disabled": true,
       "settings": {
-        "title": "SLR & DSLR Lenses",
-        "collection": "slr-dslr-lenses",
-        "products_to_show": 8,
+        "title": "Most Recent Additions",
+        "collection": "all-items",
+        "products_to_show": 12,
         "show_view_all": true,
         "swipe_on_mobile": true,
         "image_ratio": "adapt",
@@ -190,6 +139,58 @@
         "swipe_on_mobile": true,
         "image_padding": false,
         "show_view_all": false
+      }
+    },
+    "1632470234f73d3bc0": {
+      "type": "rich-text",
+      "blocks": {
+        "1632470234f73d3bc0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Quality Used Products",
+            "heading_size": "h1"
+          }
+        },
+        "1632470234f73d3bc0-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Much like aperture, ISO, and shutter speed must work together to create a balanced image, offering quality used products requires a harmony between testing machinery, purpose-built tools, & knowledgeable technicians.<\/p>"
+          }
+        },
+        "1632470234f73d3bc0-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "About Us",
+            "button_link": "shopify:\/\/pages\/about-kamerastore",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1632470234f73d3bc0-0",
+        "1632470234f73d3bc0-1",
+        "1632470234f73d3bc0-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": false
+      }
+    },
+    "1632819820cfe9c4e7": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "SLR & DSLR Lenses",
+        "collection": "slr-dslr-lenses",
+        "products_to_show": 8,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": false,
+        "show_vendor": true,
+        "show_rating": false
       }
     },
     "16336738395370bc94": {
@@ -344,11 +345,11 @@
   "order": [
     "image_banner",
     "1637242258da800a0c",
-    "featured_products",
-    "1632470234f73d3bc0",
     "16328192199ca25f9a",
-    "1632819820cfe9c4e7",
+    "featured_products",
     "1632819284873cdad3",
+    "1632470234f73d3bc0",
+    "1632819820cfe9c4e7",
     "16336738395370bc94",
     "16328199566df3daf4",
     "16328202527d1c0448",
