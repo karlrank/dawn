@@ -52,6 +52,12 @@
           "settings": {
           }
         },
+        "6e329fbd-c3b0-4cfe-a6f4-9911df60910e": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "Ships from: Tampere, Finland"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -78,13 +84,6 @@
           "type": "variant_picker",
           "settings": {
             "picker_type": "button"
-          }
-        },
-        "6e329fbd-c3b0-4cfe-a6f4-9911df60910e": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "{% if product.available %}\n\n<div class=\"related-stock\">In-stock and ready to ship.<\/div>\n\n{% else %}\n\n{% endif %}"
           }
         },
         "f8b9a89d-8fdd-4b79-b6e1-80fbde58346d": {
@@ -133,12 +132,12 @@
       },
       "block_order": [
         "title",
+        "6e329fbd-c3b0-4cfe-a6f4-9911df60910e",
         "price",
         "853cea71-8e8d-4b3a-8d41-fda13fdf751d",
         "8a1f013f-3fbd-4ebb-b70b-fd9e114e338b",
         "buy_buttons",
         "80fbe6e3-0e56-4ee6-be9c-6a5e5c5f985c",
-        "6e329fbd-c3b0-4cfe-a6f4-9911df60910e",
         "f8b9a89d-8fdd-4b79-b6e1-80fbde58346d",
         "a5a11cfe-80a9-4294-953b-395acd66d02f",
         "a4908876-2ec2-4049-8519-f88aac2c716e",
