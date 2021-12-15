@@ -17,15 +17,15 @@
             "show_type": true
           }
         },
-        "title": {
-          "type": "title",
-          "settings": {
-          }
-        },
         "74fe16dc-fae7-4902-b96b-a73338f83400": {
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": "<p style=\"color: #b3b3b3\">{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span> ID: {{ current_variant.sku }}<\/span> {% if current_variant.barcode %}{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span>\/ Code: {{ current_variant.barcode }}  {{ product.metafields.my_fields.database_parent | metafield_text }}<\/span><\/p>{% endif %}"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
           }
         },
         "94c18297-7071-4788-a294-49e32bd91e32": {
@@ -125,8 +125,8 @@
       },
       "block_order": [
         "5875f51c-da6b-4990-b273-8ddfdb2d7397",
-        "title",
         "74fe16dc-fae7-4902-b96b-a73338f83400",
+        "title",
         "94c18297-7071-4788-a294-49e32bd91e32",
         "70a5fd6b-8b3d-43fe-a0aa-6d58cef2731c",
         "price",
