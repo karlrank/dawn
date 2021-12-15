@@ -13,7 +13,7 @@
           "type": "system_and_type",
           "settings": {
             "show_system": true,
-            "show_type": true
+            "show_type": false
           }
         },
         "title": {
@@ -24,7 +24,7 @@
         "15e3737c-101f-4a6c-881e-db6e0d4c56da": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div id=\"variant-inventory\">\n{% if product.selected_or_first_available_variant.inventory_management == \"shopify\" and product.selected_or_first_available_variant.inventory_quantity> 0 %}\nIn stock \/ {{product.selected_or_first_available_variant.inventory_quantity}} available\n{% endif %}\n<\/div>"
+            "custom_liquid": "<p>Ships from: {% if product.tags contains 'From-Kameratori' %}\n          \nTampere, Finland<\/p>\n{% elsif product.tags contains 'From-Fototapio' %}\n          \nEspoo, Finland      \n{% else %}\nTampere, Finland\n{% endif %}\n\n{% comment %}\nNow section two\n{% endcomment %}\n\n<div id=\"variant-inventory\">\n{% if product.selected_or_first_available_variant.inventory_management == \"shopify\" and product.selected_or_first_available_variant.inventory_quantity> 0 %}\nIn stock: <b>{{product.selected_or_first_available_variant.inventory_quantity}}<\/b> available\n{% endif %}\n<\/div>"
           }
         },
         "price": {
@@ -35,7 +35,7 @@
         "f0c9e60b-84e2-4c7b-a294-cab454328d82": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.selected_or_first_available_variant.taxable %}\n    {{ 'products.product.taxable' | t }}\n{% else %}\n    {{ 'products.product.not_taxable' | t }}\n{% endif %}"
+            "custom_liquid": "<p style=\"color: #ababab\">{% if product.selected_or_first_available_variant.taxable %}\n    {{ 'products.product.taxable' | t }}\n{% else %}\n    {{ 'products.product.not_taxable' | t }}\n{% endif %}"
           }
         },
         "8a5e19bd-ec83-4ef2-ad47-9bd4b01b7f5e": {
