@@ -2,7 +2,6 @@
   "sections": {
     "163179108960277131": {
       "type": "custom-liquid",
-      "disabled": true,
       "settings": {
         "custom_liquid": "<div class=\"page-width page-width--wide\">\n<p style=\"color: #b3b3b3\">{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span> ID: {{ current_variant.sku }}<\/span> {% if current_variant.barcode %}{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span>\/ Code: {{ current_variant.barcode }} {{ product.metafields.my_fields.database_parent | metafield_text }}<\/span><\/p>{% endif %}<\/div>"
       }
@@ -35,12 +34,6 @@
             "custom_liquid": "<p>Ships from: {% if product.tags contains 'From-Kameratori' %}\n          \nTampere, Finland<\/p>\n{% elsif product.tags contains 'From-Fototapio' %}\n          \nEspoo, Finland      \n{% else %}\n  Thank you for your order!\n{% endif %}\n\n{% comment %}\nNow section two\n{% endcomment %}\n\n<div id=\"variant-inventory\">\n{% if product.selected_or_first_available_variant.inventory_management == \"shopify\" and product.selected_or_first_available_variant.inventory_quantity> 0 %}\nIn stock: <b>{{product.selected_or_first_available_variant.inventory_quantity}}<\/b> available\n{% endif %}\n<\/div>"
           }
         },
-        "198beecb-190c-4425-9293-704f2023f39c": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div id=\"variant-inventory\">\n{% if product.selected_or_first_available_variant.inventory_management == \"shopify\" and product.selected_or_first_available_variant.inventory_quantity> 0 %}\nIn stock \/ {{product.selected_or_first_available_variant.inventory_quantity}} available\n{% endif %}\n<\/div>"
-          }
-        },
         "241631da-98aa-4528-be61-73d8d8c6b988": {
           "type": "custom_liquid",
           "disabled": true,
@@ -56,7 +49,7 @@
         "853cea71-8e8d-4b3a-8d41-fda13fdf751d": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<p style=\"color: #ababab\">{% if product.selected_or_first_available_variant.taxable %}\n    {{ 'products.product.taxable' | t }}\n{% else %}\n    Price as shown. No deductible VAT. \n{% endif %}<\/p>"
+            "custom_liquid": "<p style=\"color: #ababab\">{% if product.selected_or_first_available_variant.taxable %}\n    {{ 'products.product.taxable' | t }}\n{% else %}\n    {{ 'products.product.not_taxable' | t }} \n{% endif %}<\/p>"
           }
         },
         "buy_buttons": {
@@ -122,7 +115,6 @@
         "title",
         "f31b7dfa-1442-440b-a6cf-d02d51705e75",
         "817cc5e0-8d41-4dfb-882c-edf5b52df75e",
-        "198beecb-190c-4425-9293-704f2023f39c",
         "241631da-98aa-4528-be61-73d8d8c6b988",
         "price",
         "853cea71-8e8d-4b3a-8d41-fda13fdf751d",
