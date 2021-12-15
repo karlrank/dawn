@@ -320,6 +320,8 @@
                 {%- endform -%}
               </product-form>
 
+              {% comment %}Karl: Commented out by request from Jordan because feature unreliable{% endcomment %}
+              {% comment %}
               {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
 
               {%- assign pick_up_availabilities = product.selected_or_first_available_variant.store_availabilities | where: 'pick_up_enabled', true -%}
@@ -340,6 +342,7 @@
                   </pickup-availability-preview>
                 </template>
               </pickup-availability>
+              {% endcomment %}
             </div>
 
             <script src="{{ 'pickup-availability.js' | asset_url }}" defer="defer"></script>
