@@ -471,7 +471,7 @@
       }
     },
     "errors": {
-      "reset_password_html": "Vaikuttaa siltä, että sinulla on jo olemassaolevat tunnukset. Voit kirjautua sisään <a href=\"\/account\/login\">Login<\/a> tai <a href=\"\/account\/login#recover\">palauttaa salasanasi.<\/a>."
+      "reset_password_html": "Vaikuttaa siltä, että sinulla on jo olemassaolevat tunnukset. Voit <a href=\"\/account\/login\">kirjautua sisään<\/a> tai <a href=\"\/account\/login#recover\">palauttaa salasanasi<\/a>."
     }
   },
   "socialshopwave": {
