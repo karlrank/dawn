@@ -28,17 +28,28 @@
             "custom_liquid": "<p style=\"color: #b3b3b3\">{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span> ID: {{ current_variant.sku }}<\/span> {% if current_variant.barcode %}{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span>\/ Code: {{ current_variant.barcode }}  {{ product.metafields.my_fields.database_parent | metafield_text }}<\/span><\/p>{% endif %}"
           }
         },
-        "70a5fd6b-8b3d-43fe-a0aa-6d58cef2731c": {
+        "94c18297-7071-4788-a294-49e32bd91e32": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div id=\"variant-inventory\">\n{% if product.selected_or_first_available_variant.inventory_management == \"shopify\" and product.selected_or_first_available_variant.inventory_quantity> 0 %}\nIn stock \/ {{product.selected_or_first_available_variant.inventory_quantity}} available\n{% endif %}\n<\/div>"
+            "custom_liquid": "<p>Ships from: {% if product.tags contains 'From-Kameratori' %}\n          \nTampere, Finland<\/p>\n{% elsif product.tags contains 'From-Fototapio' %}\n          \nEspoo, Finland      \n{% else %}\n  Thank you for your order!\n{% endif %}\n\n{% comment %}\nNow section two\n{% endcomment %}\n\n<div id=\"variant-inventory\">\n{% if product.selected_or_first_available_variant.inventory_management == \"shopify\" and product.selected_or_first_available_variant.inventory_quantity> 0 %}\nIn stock: <b>{{product.selected_or_first_available_variant.inventory_quantity}}<\/b> available\n{% endif %}\n\n<\/div>"
           }
         },
-        "94c18297-7071-4788-a294-49e32bd91e32": {
+        "70a5fd6b-8b3d-43fe-a0aa-6d58cef2731c": {
           "type": "custom_liquid",
           "disabled": true,
           "settings": {
-            "custom_liquid": "<p>Ships from: {% if product.tags contains 'From-Kameratori' %}\n          \nTampere, Finland<\/p>\n{% elsif product.tags contains 'From-Fototapio' %}\n          \nEspoo, Finland      \n{% else %}\n  Thank you for your order!\n{% endif %}"
+            "custom_liquid": "<div id=\"variant-inventory\">\n{% if product.selected_or_first_available_variant.inventory_management == \"shopify\" and product.selected_or_first_available_variant.inventory_quantity> 0 %}\nIn stock: <b>{{product.selected_or_first_available_variant.inventory_quantity}}<\/b> available\n{% endif %}\n\n<\/div>"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "853cea71-8e8d-4b3a-8d41-fda13fdf751d": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p style=\"color: #ababab\">{% if product.selected_or_first_available_variant.taxable %}\n    {{ 'products.product.taxable' | t }}\n{% else %}\n    Price as shown. No deductible VAT. \n{% endif %}<\/p>"
           }
         },
         "99452d1b-4d7e-4077-a88b-abeded9e84f2": {
@@ -48,21 +59,16 @@
             "custom_liquid": "<a href=\"{{ product.metafields.my_fields.database_parent.value.url }}\" class=\"link link--text underlined-link\">Read or Write Reviews<\/a>"
           }
         },
-        "price": {
-          "type": "price",
-          "settings": {
-          }
-        },
         "9d66b712-a629-4e73-b08f-5cf06d7db17e": {
           "type": "description",
           "disabled": true,
           "settings": {
           }
         },
-        "853cea71-8e8d-4b3a-8d41-fda13fdf751d": {
-          "type": "custom_liquid",
+        "buy_buttons": {
+          "type": "buy_buttons",
           "settings": {
-            "custom_liquid": "{% if product.selected_or_first_available_variant.taxable %}\n    {{ 'products.product.taxable' | t }}\n{% else %}\n    {{ 'products.product.not_taxable' | t }}\n{% endif %}"
+            "show_dynamic_checkout": false
           }
         },
         "235b8cd5-c263-4cde-9104-81a9203d4384": {
@@ -78,12 +84,6 @@
           "settings": {
             "text": "Camera Condition Ratings",
             "page": "camera-condition-ratings"
-          }
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false
           }
         },
         "ad4fef74-222f-422b-a2e1-33623ff7b9e6": {
@@ -127,15 +127,15 @@
         "5875f51c-da6b-4990-b273-8ddfdb2d7397",
         "title",
         "74fe16dc-fae7-4902-b96b-a73338f83400",
-        "70a5fd6b-8b3d-43fe-a0aa-6d58cef2731c",
         "94c18297-7071-4788-a294-49e32bd91e32",
-        "99452d1b-4d7e-4077-a88b-abeded9e84f2",
+        "70a5fd6b-8b3d-43fe-a0aa-6d58cef2731c",
         "price",
-        "9d66b712-a629-4e73-b08f-5cf06d7db17e",
         "853cea71-8e8d-4b3a-8d41-fda13fdf751d",
+        "99452d1b-4d7e-4077-a88b-abeded9e84f2",
+        "9d66b712-a629-4e73-b08f-5cf06d7db17e",
+        "buy_buttons",
         "235b8cd5-c263-4cde-9104-81a9203d4384",
         "cd07da4b-ae00-46ee-bf67-5c7799d93921",
-        "buy_buttons",
         "ad4fef74-222f-422b-a2e1-33623ff7b9e6",
         "a4908876-2ec2-4049-8519-f88aac2c716e",
         "0d54122a-b1cd-4ad5-9065-a50ef63c420b",
