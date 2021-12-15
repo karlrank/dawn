@@ -9,12 +9,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "96c45658-7a4f-4bbe-8af4-a6f32859a982": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{% for tag in product.tags %}\n    {% if tag contains 'System' %}\n        {{ tag  | split:\"-\" | last}} \/\n    {% endif %}\n{% endfor %}\n{{ product.type }}"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -103,7 +97,6 @@
         }
       },
       "block_order": [
-        "96c45658-7a4f-4bbe-8af4-a6f32859a982",
         "title",
         "d2f0204f-1c5f-46fd-81d6-a9e4069c2ae4",
         "price",
