@@ -60,7 +60,7 @@
         "853cea71-8e8d-4b3a-8d41-fda13fdf751d": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.selected_or_first_available_variant.taxable %}\n    {{ 'products.product.taxable' | t }}\n{% else %}\n    {{ 'products.product.not_taxable' | t }}\n{% endif %}"
+            "custom_liquid": "<p style=\"color: #ababab\">{% if product.selected_or_first_available_variant.taxable %}\n    {{ 'products.product.taxable' | t }}\n{% else %}\n    Price as shown. No deductible VAT. \n{% endif %}<\/p>"
           }
         },
         "8a1f013f-3fbd-4ebb-b70b-fd9e114e338b": {
