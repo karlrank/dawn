@@ -34,6 +34,13 @@
             "custom_liquid": "<div id=\"variant-inventory\">\n{% if product.selected_or_first_available_variant.inventory_management == \"shopify\" and product.selected_or_first_available_variant.inventory_quantity> 0 %}\nIn stock \/ {{product.selected_or_first_available_variant.inventory_quantity}} available\n{% endif %}\n<\/div>"
           }
         },
+        "94c18297-7071-4788-a294-49e32bd91e32": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<p>Ships from: {% if product.tags contains 'From-Kameratori' %}\n          \nTampere, Finland<\/p>\n{% elsif product.tags contains 'From-Fototapio' %}\n          \nEspoo, Finland      \n{% else %}\n  Thank you for your order!\n{% endif %}"
+          }
+        },
         "99452d1b-4d7e-4077-a88b-abeded9e84f2": {
           "type": "custom_liquid",
           "disabled": true,
@@ -121,6 +128,7 @@
         "title",
         "74fe16dc-fae7-4902-b96b-a73338f83400",
         "70a5fd6b-8b3d-43fe-a0aa-6d58cef2731c",
+        "94c18297-7071-4788-a294-49e32bd91e32",
         "99452d1b-4d7e-4077-a88b-abeded9e84f2",
         "price",
         "9d66b712-a629-4e73-b08f-5cf06d7db17e",
