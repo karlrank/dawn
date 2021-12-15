@@ -416,6 +416,9 @@
       "pick_up_time": {
         "four_hours": "You will get an email when your order is ready for pickup. "
       }
+    },
+    "errors": {
+      "reset_password_html": "It seems you already made an account here, you can simply <a href=\"\/account\/login\">login<\/a> or <a href=\"\/account\/login#recover\">reset your password<\/a>"
     }
   },
   "socialshopwave": {
