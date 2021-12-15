@@ -418,7 +418,7 @@
       }
     },
     "errors": {
-      "reset_password_html": "It seems you already made an account here, you can simply <a href=\"\/account\/login\">login<\/a> or <a href=\"\/account\/login#recover\">reset your password<\/a>"
+      "reset_password_html": "It seems you already made an account here and do not need to create a new one, you can simply <a href=\"\/account\/login\">Login<\/a> or <a href=\"\/account\/login#recover\">reset your password<\/a>."
     }
   },
   "socialshopwave": {
