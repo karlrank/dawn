@@ -48,6 +48,13 @@
             "show_dynamic_checkout": false
           }
         },
+        "60478f14-689d-44eb-b06c-7525ecd07f62": {
+          "type": "text",
+          "settings": {
+            "text": "This service is perfomed by Carmencita Film Lab in Valencia, Spain. Please scroll down to read more.",
+            "text_style": "body"
+          }
+        },
         "4c9ef1cc-f6f3-4512-940d-96c0a632b68d": {
           "type": "collapsible_tab",
           "disabled": true,
@@ -94,6 +101,7 @@
         "quantity_selector",
         "variant_picker",
         "buy_buttons",
+        "60478f14-689d-44eb-b06c-7525ecd07f62",
         "4c9ef1cc-f6f3-4512-940d-96c0a632b68d",
         "c93981a2-30f3-4294-803c-c2c27ba4890e",
         "e44a2970-017f-4a65-9008-2a056066686c",
