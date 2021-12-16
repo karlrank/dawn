@@ -411,7 +411,8 @@
         "items_unavailable_notice": "Osa tuotteista ei ole enää saatavilla tai ne ovat varattuna toiselle asiakkaalle."
       },
       "delivery_options": {
-        "pick_up_in_four_hours": "Saat meiltä sähköpostia kun tilauksesi on valmis noudettavaksi."
+        "pick_up_in_four_hours": "Saat meiltä sähköpostia kun tilauksesi on valmis noudettavaksi.",
+        "pick_up": "Nouto"
       },
       "marketing": {
         "accept_marketing_checkbox_label": "Haluan uusimmat tarjoukset ja uutiset sähköpostiin. Kyllä kiitos!"
