@@ -5,6 +5,7 @@
       "blocks": {
         "7c920d46-0432-4971-bd96-2b21113477fc": {
           "type": "shopify:\/\/apps\/shipping-rates-cart-calculator\/blocks\/free-shipping-bar\/6fdcf202-26c0-4288-be36-8b389f5d262c",
+          "disabled": true,
           "settings": {
             "include_padding": false
           }
