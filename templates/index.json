@@ -230,8 +230,8 @@
     "1632819820cfe9c4e7": {
       "type": "featured-collection",
       "settings": {
-        "title": "35mm Film",
-        "collection": "35mm-film",
+        "title": "Popular Films in-stock now",
+        "collection": "popular-film-in-stock",
         "products_to_show": 8,
         "show_view_all": true,
         "swipe_on_mobile": true,
