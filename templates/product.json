@@ -49,6 +49,12 @@
             "picker_type": "button"
           }
         },
+        "8147fef3-f897-408d-b34f-f23460eed6c9": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% capture the_snippet_fave %}{% render 'socialshopwave-widget-fave' %}{% endcapture %}{% unless the_snippet_fave contains 'Liquid error' %}{{ the_snippet_fave }}{% endunless %}"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -120,6 +126,7 @@
         "f0c9e60b-84e2-4c7b-a294-cab454328d82",
         "quantity_selector",
         "variant_picker",
+        "8147fef3-f897-408d-b34f-f23460eed6c9",
         "buy_buttons",
         "8a5e19bd-ec83-4ef2-ad47-9bd4b01b7f5e",
         "521f634c-528e-4400-a277-1e91dfb3c5d4",
