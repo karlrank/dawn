@@ -3,16 +3,16 @@
     "1640071353d17b2452": {
       "type": "featured-collection",
       "settings": {
-        "title": "Holiday Discounts on Santa Film",
+        "title": "SANTA Black & White Film",
         "collection": "santa-film",
         "products_to_show": 4,
-        "show_view_all": true,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
+        "show_view_all": false,
+        "swipe_on_mobile": true,
+        "image_ratio": "square",
         "show_secondary_image": false,
         "add_image_padding": false,
         "show_image_outline": true,
-        "show_vendor": false,
+        "show_vendor": true,
         "show_rating": false
       }
     },
