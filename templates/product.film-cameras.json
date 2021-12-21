@@ -64,6 +64,11 @@
             "show_dynamic_checkout": false
           }
         },
+        "34795cce-fb27-4925-bc47-0277e0172fac": {
+          "type": "shopify:\/\/apps\/growave-loyalty-wishlist-3\/blocks\/block.product.faveButton\/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
+          "settings": {
+          }
+        },
         "235b8cd5-c263-4cde-9104-81a9203d4384": {
           "type": "condition",
           "settings": {
@@ -126,6 +131,7 @@
         "99452d1b-4d7e-4077-a88b-abeded9e84f2",
         "9d66b712-a629-4e73-b08f-5cf06d7db17e",
         "buy_buttons",
+        "34795cce-fb27-4925-bc47-0277e0172fac",
         "235b8cd5-c263-4cde-9104-81a9203d4384",
         "cd07da4b-ae00-46ee-bf67-5c7799d93921",
         "ad4fef74-222f-422b-a2e1-33623ff7b9e6",
