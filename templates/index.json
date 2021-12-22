@@ -1,5 +1,11 @@
 {
   "sections": {
+    "16336738395370bc94": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"reputon-google-reviews-widget\" id=\"bf91f8b0-88a8-11eb-9209-f960a060549e\" ><\/div>"
+      }
+    },
     "1640071353d17b2452": {
       "type": "featured-collection",
       "settings": {
@@ -243,12 +249,6 @@
         "show_rating": false
       }
     },
-    "16336738395370bc94": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"reputon-google-reviews-widget\" id=\"bf91f8b0-88a8-11eb-9209-f960a060549e\" ><\/div>"
-      }
-    },
     "16328199566df3daf4": {
       "type": "featured-collection",
       "disabled": true,
@@ -379,20 +379,10 @@
         "color_scheme": "background-1",
         "layout": "image_first"
       }
-    },
-    "163273752240df21a1": {
-      "type": "video",
-      "disabled": true,
-      "settings": {
-        "heading": "Kamerastore on Youtube",
-        "cover_image": "shopify:\/\/shop_images\/maxresdefaultdf.jpg",
-        "video_url": "https:\/\/youtu.be\/YSohN-YTLeE",
-        "description": "",
-        "full_width": false
-      }
     }
   },
   "order": [
+    "16336738395370bc94",
     "1640071353d17b2452",
     "image_banner",
     "1639403030b964d166",
@@ -402,12 +392,10 @@
     "1632819284873cdad3",
     "1632470234f73d3bc0",
     "1632819820cfe9c4e7",
-    "16336738395370bc94",
     "16328199566df3daf4",
     "16328202527d1c0448",
     "16328203716b324724",
     "multi_column",
-    "1631783246bd86182c",
-    "163273752240df21a1"
+    "1631783246bd86182c"
   ]
 }
