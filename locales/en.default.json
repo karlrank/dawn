@@ -411,8 +411,8 @@
       "delivery_options": {
         "pick_up_in_four_hours": "You will get an email when your order is ready for pickup. "
       },
-      "general": {
-        "pay_now_button_label": "TEST"
+      "payment": {
+        "title": "TESTT"
       }
     },
     "store_availability": {
