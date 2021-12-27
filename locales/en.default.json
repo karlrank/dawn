@@ -412,7 +412,7 @@
         "pick_up_in_four_hours": "You will get an email when your order is ready for pickup. "
       },
       "payment": {
-        "title": "TESTT"
+        "title": "Payment Options"
       }
     },
     "store_availability": {
