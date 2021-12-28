@@ -412,7 +412,8 @@
         "pick_up_in_four_hours": "You will get an email when your order is ready for pickup. "
       },
       "payment": {
-        "title": "Payment Options"
+        "title": "Payment Options",
+        "card_security_notice": "Select \"Paytrail\" for Finnish payment methods (Online banks & mobile payments). All transactions are secure and encrypted. "
       }
     },
     "store_availability": {
