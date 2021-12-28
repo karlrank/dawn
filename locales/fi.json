@@ -449,7 +449,8 @@
         "payment_not_processed_text": "Sinua ei ole vielä veloitettu. Palaa ostoskoriin ja viimeistele ostoksesi."
       },
       "payment": {
-        "title": "Maksutapa"
+        "title": "Maksutapa",
+        "card_security_notice": "Verkkopankki- ja mobiilimaksutavat löytyvät Paytrail-painikkeen takaa. Kaikki tapahtumat ovat turvallisia ja salattuja."
       },
       "processing": {
         "continue_to_payment_gateway_button_label": "Jatka maksutavan valintaan"
