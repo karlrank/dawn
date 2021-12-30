@@ -61,7 +61,7 @@
           "type": "shopify:\/\/apps\/back-in-stock-restock-alerts\/blocks\/product-restore-email\/b190bced-3b7b-47da-a05f-6ea4821c3a77",
           "settings": {
             "em_email_inline_button_display": true,
-            "em_email_float_button_display": false,
+            "em_email_float_button_display": true,
             "em_email_button_color": "#FFFFFF",
             "em_email_button_background": "#333333",
             "em_email_button_content": "EMAIL ME WHEN AVAILABLE",
