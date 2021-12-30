@@ -1,27 +1,5 @@
 {
   "sections": {
-    "16336738395370bc94": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"reputon-google-reviews-widget\" id=\"bf91f8b0-88a8-11eb-9209-f960a060549e\" ><\/div>"
-      }
-    },
-    "1640071353d17b2452": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "SANTA Film Discounts 🎄 Limited time only",
-        "collection": "santa-film",
-        "products_to_show": 4,
-        "show_view_all": false,
-        "swipe_on_mobile": true,
-        "image_ratio": "square",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": true,
-        "show_rating": false
-      }
-    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -66,6 +44,22 @@
         "show_text_below": false
       }
     },
+    "1640071353d17b2452": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "SANTA Film Discounts 🎄 Limited time only",
+        "collection": "santa-film",
+        "products_to_show": 4,
+        "show_view_all": false,
+        "swipe_on_mobile": true,
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": true,
+        "show_rating": false
+      }
+    },
     "1639403030b964d166": {
       "type": "image-with-text",
       "blocks": {
@@ -99,6 +93,12 @@
         "height": "adapt",
         "color_scheme": "accent-2",
         "layout": "image_first"
+      }
+    },
+    "16336738395370bc94": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"reputon-google-reviews-widget\" id=\"bf91f8b0-88a8-11eb-9209-f960a060549e\" ><\/div>"
       }
     },
     "1637242258da800a0c": {
@@ -382,10 +382,10 @@
     }
   },
   "order": [
-    "16336738395370bc94",
-    "1640071353d17b2452",
     "image_banner",
+    "1640071353d17b2452",
     "1639403030b964d166",
+    "16336738395370bc94",
     "1637242258da800a0c",
     "16328192199ca25f9a",
     "featured_products",
