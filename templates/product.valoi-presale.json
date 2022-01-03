@@ -76,6 +76,7 @@
         },
         "6f50b370-ca2b-479e-ab82-460ca482b922": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<p><span style=\"color: #FF4C5A;\"><strong>This item is on pre-order and will ship after the 1st of November. Items ordered together will also ship together. <\/strong><\/span><\/p>"
           }
