@@ -28,14 +28,6 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
-          "f5339d86-43f7-4ee3-9ac1-592a33f97720": {
-            "type": "announcement",
-            "settings": {
-              "text": "Hurry! 11% OFF ends January 2nd. Over 1500 items already sold!",
-              "color_scheme": "accent-2",
-              "link": "shopify:\/\/collections\/all-items"
-            }
-          },
           "2e0296fe-51ad-44a1-93ae-816b91172f02": {
             "type": "announcement",
             "settings": {
@@ -46,7 +38,6 @@
           }
         },
         "block_order": [
-          "f5339d86-43f7-4ee3-9ac1-592a33f97720",
           "2e0296fe-51ad-44a1-93ae-816b91172f02"
         ],
         "settings": {

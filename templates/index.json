@@ -44,57 +44,6 @@
         "show_text_below": false
       }
     },
-    "1640071353d17b2452": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "SANTA Film Discounts 🎄 Limited time only",
-        "collection": "santa-film",
-        "products_to_show": 4,
-        "show_view_all": false,
-        "swipe_on_mobile": true,
-        "image_ratio": "square",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": true,
-        "show_rating": false
-      }
-    },
-    "1639403030b964d166": {
-      "type": "image-with-text",
-      "blocks": {
-        "1639403030e7184ac3-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "11 Years of Kamerastore!"
-          }
-        },
-        "1639403030e7184ac3-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>It's our birthday! As a treat, we're giving you 11% off all items! Click the link below for more information!<\/p>"
-          }
-        },
-        "1639403030e7184ac3-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "11 Years of Kamerastore!",
-            "button_link": "https:\/\/beta.kamerastore.com\/pages\/11-years-of-kamerastore"
-          }
-        }
-      },
-      "block_order": [
-        "1639403030e7184ac3-0",
-        "1639403030e7184ac3-1",
-        "1639403030e7184ac3-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/11YearsCB-3116_copy.jpg",
-        "height": "adapt",
-        "color_scheme": "accent-2",
-        "layout": "image_first"
-      }
-    },
     "16336738395370bc94": {
       "type": "custom-liquid",
       "settings": {
@@ -383,8 +332,6 @@
   },
   "order": [
     "image_banner",
-    "1640071353d17b2452",
-    "1639403030b964d166",
     "16336738395370bc94",
     "1637242258da800a0c",
     "16328192199ca25f9a",
