@@ -44,6 +44,22 @@
         "show_text_below": false
       }
     },
+    "featured_products": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Newly Listed",
+        "collection": "all-items",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": false,
+        "show_vendor": true,
+        "show_rating": false
+      }
+    },
     "16336738395370bc94": {
       "type": "custom-liquid",
       "settings": {
@@ -63,23 +79,6 @@
         "title": "Film Cameras",
         "collection": "film-cameras",
         "products_to_show": 8,
-        "show_view_all": true,
-        "swipe_on_mobile": true,
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "add_image_padding": false,
-        "show_image_outline": false,
-        "show_vendor": true,
-        "show_rating": false
-      }
-    },
-    "featured_products": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Most Recent Additions",
-        "collection": "all-items",
-        "products_to_show": 12,
         "show_view_all": true,
         "swipe_on_mobile": true,
         "image_ratio": "adapt",
@@ -332,10 +331,10 @@
   },
   "order": [
     "image_banner",
+    "featured_products",
     "16336738395370bc94",
     "1637242258da800a0c",
     "16328192199ca25f9a",
-    "featured_products",
     "1632819284873cdad3",
     "1632470234f73d3bc0",
     "1632819820cfe9c4e7",
