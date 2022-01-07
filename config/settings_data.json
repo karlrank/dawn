@@ -28,6 +28,14 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
+          "614b6402-cf94-491a-b085-b08f80102db2": {
+            "type": "announcement",
+            "settings": {
+              "text": "NEW GEAR now being listed to beta.kamerastore.com",
+              "color_scheme": "inverse",
+              "link": "https:\/\/beta.kamerastore.com\/collections\/all-items"
+            }
+          },
           "2e0296fe-51ad-44a1-93ae-816b91172f02": {
             "type": "announcement",
             "settings": {
@@ -38,6 +46,7 @@
           }
         },
         "block_order": [
+          "614b6402-cf94-491a-b085-b08f80102db2",
           "2e0296fe-51ad-44a1-93ae-816b91172f02"
         ],
         "settings": {
