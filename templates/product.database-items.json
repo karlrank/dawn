@@ -50,13 +50,6 @@
             "text_style": "body"
           }
         },
-        "630170a4-891c-4adc-9e5b-984494792005": {
-          "type": "system_and_type",
-          "settings": {
-            "show_system": true,
-            "show_type": false
-          }
-        },
         "adb68119-c110-4444-8e79-22a829981fd4": {
           "type": "custom_liquid",
           "disabled": true,
@@ -64,23 +57,16 @@
             "custom_liquid": "{% if product.metafields.my_fields.year_introduced != blank %}\n    Year Released: <b>{{ product.metafields.my_fields.year_introduced }}<\/b>\n{% else %}\n{% endif %}"
           }
         },
+        "630170a4-891c-4adc-9e5b-984494792005": {
+          "type": "system_and_type",
+          "settings": {
+            "show_system": true,
+            "show_type": false
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
-          }
-        },
-        "dad5252a-ea2f-41eb-9032-44ceb98da4ec": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "Database ID: {{ current_variant.sku }}"
-          }
-        },
-        "4e918713-5981-4190-b2c4-9b3c6e7198b5": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Database ID",
-            "text_style": "uppercase"
           }
         },
         "4f02ba8c-c1c7-411f-a26f-78e48f91628e": {
@@ -91,6 +77,12 @@
             "text_align": "flex-start",
             "product": "{{product}}",
             "stars_text_empty": "No reviews"
+          }
+        },
+        "dad5252a-ea2f-41eb-9032-44ceb98da4ec": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "Database ID:{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span> {{ current_variant.sku }}<\/span>"
           }
         },
         "96c45658-7a4f-4bbe-8af4-a6f32859a982": {
@@ -110,13 +102,6 @@
             "icon": "dryer"
           }
         },
-        "a689947c-3ccc-4abb-a01b-83f569defd40": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "{% if product.metafields.my_fields.system != blank %}\n<b>System:<\/b> <a href= '\/collections\/\n{{ product.metafields.my_fields.system | handleize }}'>{{ product.metafields.my_fields.system }}<\/a>\n<hr>\n{% else %}\n{% endif %}\n\n\n{% if product.metafields.my_fields.film_format != blank %}\n<b>Film Format:<\/b> <a href= '\/collections\/\n{{ product.metafields.my_fields.film_format | handleize }}'>{{ product.metafields.my_fields.film_format }}<\/a>\n<hr>\n{% else %}\n{% endif %}\n\n\n{% if product.metafields.my_fields.year_introduced != blank %}\n    <b>Introduced: <\/b>{{ product.metafields.my_fields.year_introduced }}\n<hr>\n{% else %}\n{% endif %}\n{% if product.metafields.my_fields.built_in_meter != blank %}\n<b>Built-in Meter:<\/b> {% if product.metafields.my_fields.built_in_meter == true %}\n  Yes <hr>\n{% elsif product.metafields.my_fields.built_in_meter == false %}\n  No <hr>\n{% else %}\n{% endif %}\n{% else %}\n{% endif %}\n {% if product.metafields.my_fields.battery != blank %}\n<b>Battery:<\/b> {{ product.metafields.my_fields.battery }}\n<hr>\n{% else %}\n{% endif %}\n {% if product.variants.first.weight  != 0 %}\n  <b>Weight: <\/b>{{ product.variants.first.weight | weight_with_unit }}\n <hr>\n{% else %}\n{% endif %}"
-          }
-        },
         "587ddfa6-3235-4da0-be5b-d249ecf8991d": {
           "type": "collapsible_tab",
           "settings": {
@@ -129,15 +114,13 @@
       },
       "block_order": [
         "2bb10445-ce46-48e1-b3f7-e303f109e201",
-        "630170a4-891c-4adc-9e5b-984494792005",
         "adb68119-c110-4444-8e79-22a829981fd4",
+        "630170a4-891c-4adc-9e5b-984494792005",
         "title",
-        "dad5252a-ea2f-41eb-9032-44ceb98da4ec",
-        "4e918713-5981-4190-b2c4-9b3c6e7198b5",
         "4f02ba8c-c1c7-411f-a26f-78e48f91628e",
+        "dad5252a-ea2f-41eb-9032-44ceb98da4ec",
         "96c45658-7a4f-4bbe-8af4-a6f32859a982",
         "1bc9e71c-c02c-4f2f-a0f5-4b68388fb8a0",
-        "a689947c-3ccc-4abb-a01b-83f569defd40",
         "587ddfa6-3235-4da0-be5b-d249ecf8991d"
       ],
       "settings": {
