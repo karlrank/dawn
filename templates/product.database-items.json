@@ -120,6 +120,13 @@
           "settings": {
             "custom_liquid": "WE BUY  {{product.vendor}} {{product.type}}"
           }
+        },
+        "e219a1fc-1ee3-4a6d-b930-58d0a71bff0a": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "{% if collections.canon-fd.products.size > 0 %}\n\n{% for product in collections.canon-fd.products %}\n\n  <li>\n  <img src=\"{{ product.featured_image | product_img_url: 'medium' }}\" alt=\"{{ product.title | escape  }}\" \/>    \n  <a class=\"shop-now\" href=\"{{ product.url }}\">{{ product.title | escape  }}<\/a>                              \n  <\/li>  \n\n{% endfor %}\n\n{% endif %}"
+          }
         }
       },
       "block_order": [
@@ -133,7 +140,8 @@
         "96c45658-7a4f-4bbe-8af4-a6f32859a982",
         "587ddfa6-3235-4da0-be5b-d249ecf8991d",
         "0a9a6be0-2265-416b-b0f3-048e7cfb2dab",
-        "7e4478e8-83f8-4946-b146-0594dc094db3"
+        "7e4478e8-83f8-4946-b146-0594dc094db3",
+        "e219a1fc-1ee3-4a6d-b930-58d0a71bff0a"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -270,6 +278,12 @@
         "color_scheme": "background-1",
         "layout": "image_first"
       }
+    },
+    "16418166733e02f313": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if collections.canon-fd.products.size > 0 %}\n\n{% for product in collections.canon-fd.products %}\n\n  <li>\n {{ product.price | money  }}    \n  <a class=\"shop-now\" href=\"{{ product.url }}\">{{ product.title | escape  }}<\/a>                              \n  <\/li>  \n\n{% endfor %}\n\n{% endif %}"
+      }
     }
   },
   "order": [
@@ -282,6 +296,7 @@
     "164181547500ac863d",
     "16324019941e428b8f",
     "product-recommendations",
-    "163239432974b497b2"
+    "163239432974b497b2",
+    "16418166733e02f313"
   ]
 }
