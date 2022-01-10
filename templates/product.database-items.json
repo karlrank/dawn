@@ -5,16 +5,15 @@
       "blocks": {
         "1632821684416a6917-0": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "heading": "Gear Database",
+            "heading": "Database",
             "heading_size": "h1"
           }
         },
         "1632821684416a6917-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Gear Database: <\/strong>(in development through early 2022) Soon you can find information about on items, related articles, videos, and statistics. When viewing a certain item you will be able to see if any are available, as well as previosuly sold prices. Reading and writing reviews is avialable now.<\/p>"
+            "text": "<p>You are viewing a database entry for the {{ product.title }}. You can see info about this item, see if currently have one for sale, and offer to sell one to us.<\/p>"
           }
         }
       },
