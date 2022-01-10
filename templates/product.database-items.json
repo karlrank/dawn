@@ -72,7 +72,7 @@
         "dad5252a-ea2f-41eb-9032-44ceb98da4ec": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "Database ID: {{product.sku}}"
+            "custom_liquid": "Database ID: {{ current_variant.sku }}"
           }
         },
         "4e918713-5981-4190-b2c4-9b3c6e7198b5": {
