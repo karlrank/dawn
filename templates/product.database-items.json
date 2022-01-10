@@ -101,10 +101,24 @@
         "587ddfa6-3235-4da0-be5b-d249ecf8991d": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Have one to Sell?",
+            "heading": "Sell or Trade you {{ product.vendor }} gear",
             "content": "<p>Do you have a {{ product.title }} you want to sell to us? Fill out our simple form and request a quote from us.<\/p><p><a href=\"https:\/\/app.kamerastore.com\/sell_to_us?language=eng\" target=\"_blank\" title=\"https:\/\/app.kamerastore.com\/sell_to_us?language=eng\"><strong>START QUOTE<\/strong><\/a><\/p>",
             "page": "",
             "icon": "price_tag"
+          }
+        },
+        "0a9a6be0-2265-416b-b0f3-048e7cfb2dab": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "7e4478e8-83f8-4946-b146-0594dc094db3": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "WE BUY  {{product.vendor}} {{product.type}}"
           }
         }
       },
@@ -117,7 +131,9 @@
         "ad7d62cd-e49d-4dfe-af6b-9718e42e3d39",
         "dad5252a-ea2f-41eb-9032-44ceb98da4ec",
         "96c45658-7a4f-4bbe-8af4-a6f32859a982",
-        "587ddfa6-3235-4da0-be5b-d249ecf8991d"
+        "587ddfa6-3235-4da0-be5b-d249ecf8991d",
+        "0a9a6be0-2265-416b-b0f3-048e7cfb2dab",
+        "7e4478e8-83f8-4946-b146-0594dc094db3"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -130,6 +146,22 @@
       "type": "custom-liquid",
       "settings": {
         "custom_liquid": "<div class=\"page-width page-width--narrow\">\n<H2><\/h2><H3>Database Description<\/h3>{{ product.description }}<\/div>"
+      }
+    },
+    "164181547500ac863d": {
+      "type": "apps",
+      "blocks": {
+        "693087d9-7e13-478d-bca3-07d219475577": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "693087d9-7e13-478d-bca3-07d219475577"
+      ],
+      "settings": {
+        "include_margins": true
       }
     },
     "1632735842bb892edd": {
@@ -227,6 +259,7 @@
     "16340245700ec1844e",
     "main",
     "1632393643eca7584e",
+    "164181547500ac863d",
     "1632735842bb892edd",
     "16324019941e428b8f",
     "product-recommendations",
