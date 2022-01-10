@@ -2,6 +2,7 @@
   "sections": {
     "1632821684416a6917": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "1632821684416a6917-0": {
           "type": "heading",
@@ -42,6 +43,13 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "2bb10445-ce46-48e1-b3f7-e303f109e201": {
+          "type": "text",
+          "settings": {
+            "text": "You are viewing a database entry for the {{ product.title }}. You can see info about this item, see if we have one for sale, or offer to sell one to us.",
+            "text_style": "body"
+          }
+        },
         "630170a4-891c-4adc-9e5b-984494792005": {
           "type": "system_and_type",
           "settings": {
@@ -93,6 +101,7 @@
         }
       },
       "block_order": [
+        "2bb10445-ce46-48e1-b3f7-e303f109e201",
         "630170a4-891c-4adc-9e5b-984494792005",
         "adb68119-c110-4444-8e79-22a829981fd4",
         "title",
