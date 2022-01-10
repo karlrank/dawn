@@ -44,6 +44,7 @@
       "blocks": {
         "2bb10445-ce46-48e1-b3f7-e303f109e201": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Kamerastore Database for: {{ product.title }}. You can see info about this item, see if we have one for sale, or offer to sell one to us.",
             "text_style": "body"
@@ -66,6 +67,16 @@
         "title": {
           "type": "title",
           "settings": {
+          }
+        },
+        "4f02ba8c-c1c7-411f-a26f-78e48f91628e": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+            "stars_fill_color": "#ffc00d",
+            "star_size": 18,
+            "text_align": "flex-start",
+            "product": "{{product}}",
+            "stars_text_empty": "No reviews"
           }
         },
         "96c45658-7a4f-4bbe-8af4-a6f32859a982": {
@@ -104,6 +115,7 @@
         "630170a4-891c-4adc-9e5b-984494792005",
         "adb68119-c110-4444-8e79-22a829981fd4",
         "title",
+        "4f02ba8c-c1c7-411f-a26f-78e48f91628e",
         "96c45658-7a4f-4bbe-8af4-a6f32859a982",
         "1bc9e71c-c02c-4f2f-a0f5-4b68388fb8a0",
         "a689947c-3ccc-4abb-a01b-83f569defd40",
