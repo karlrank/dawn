@@ -165,6 +165,13 @@
           "settings": {
             "custom_liquid": "{% if collections.canon-fd.products.size > 0 %}\n\n{% for product in collections.canon-fd.products %}\n\n  <li>\n  <img src=\"{{ product.featured_image | product_img_url: 'medium' }}\" alt=\"{{ product.title | escape  }}\" \/>    \n  <a class=\"shop-now\" href=\"{{ product.url }}\">{{ product.title | escape  }}<\/a>                              \n  <\/li>  \n\n{% endfor %}\n\n{% endif %}"
           }
+        },
+        "a3cb6eca-9940-423b-9cf0-17e30a157d36": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "{{ product.metafields.my_fields.database_parent | metafield_tag }}"
+          }
         }
       },
       "block_order": [
@@ -179,7 +186,8 @@
         "587ddfa6-3235-4da0-be5b-d249ecf8991d",
         "0a9a6be0-2265-416b-b0f3-048e7cfb2dab",
         "7e4478e8-83f8-4946-b146-0594dc094db3",
-        "e219a1fc-1ee3-4a6d-b930-58d0a71bff0a"
+        "e219a1fc-1ee3-4a6d-b930-58d0a71bff0a",
+        "a3cb6eca-9940-423b-9cf0-17e30a157d36"
       ],
       "settings": {
         "enable_sticky_info": true,
