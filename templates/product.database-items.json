@@ -46,7 +46,7 @@
         "2bb10445-ce46-48e1-b3f7-e303f109e201": {
           "type": "text",
           "settings": {
-            "text": "You are viewing a database entry for the {{ product.title }}. You can see info about this item, see if we have one for sale, or offer to sell one to us.",
+            "text": "Kamerastore Database for: {{ product.title }}. You can see info about this item, see if we have one for sale, or offer to sell one to us.",
             "text_style": "body"
           }
         },
