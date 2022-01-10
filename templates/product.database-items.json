@@ -141,9 +141,15 @@
         },
         "a3cb6eca-9940-423b-9cf0-17e30a157d36": {
           "type": "custom_liquid",
-          "disabled": true,
           "settings": {
             "custom_liquid": "{{ product.metafields.my_fields.database_parent | metafield_tag }}"
+          }
+        },
+        "4e4045a3-722f-4fe1-9855-925c5e3bad8e": {
+          "type": "text",
+          "settings": {
+            "text": "Text block",
+            "text_style": "body"
           }
         }
       },
@@ -160,7 +166,8 @@
         "0a9a6be0-2265-416b-b0f3-048e7cfb2dab",
         "7e4478e8-83f8-4946-b146-0594dc094db3",
         "e219a1fc-1ee3-4a6d-b930-58d0a71bff0a",
-        "a3cb6eca-9940-423b-9cf0-17e30a157d36"
+        "a3cb6eca-9940-423b-9cf0-17e30a157d36",
+        "4e4045a3-722f-4fe1-9855-925c5e3bad8e"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -298,6 +305,12 @@
         "layout": "image_first"
       }
     },
+    "1641818602d53ec253": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<ul class=\"recommended-products\">\n  {% if product.metafields.my_fields.database_parent != blank %}\n\n\n    {% assign children =  product.metafields.my_fields.database_parent.value %}\n    <li>\n      <a href=\"{{ children.url }}\" target=\"_blank\">\n        <img src=\"{{ children.featured_image | img_url: '100x' }}\">\n        <div>\n          <p>{{ children.title }}<\/p>\n          <p class=\"uaf__price\">{{children.price | money }}<\/p>\n        <\/div>\n       <\/a>\n      <\/li>\n  {% endif %}\n<\/ul>"
+      }
+    },
     "16418166733e02f313": {
       "type": "custom-liquid",
       "settings": {
@@ -316,6 +329,7 @@
     "16324019941e428b8f",
     "product-recommendations",
     "163239432974b497b2",
+    "1641818602d53ec253",
     "16418166733e02f313"
   ]
 }
