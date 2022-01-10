@@ -46,7 +46,7 @@
           "type": "system_and_type",
           "settings": {
             "show_system": true,
-            "show_type": true
+            "show_type": false
           }
         },
         "adb68119-c110-4444-8e79-22a829981fd4": {
