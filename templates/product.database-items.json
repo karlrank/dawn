@@ -37,33 +37,6 @@
         "full_width": true
       }
     },
-    "1632821684416a6917": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "1632821684416a6917-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Product Database",
-            "heading_size": "h1"
-          }
-        },
-        "1632821684416a6917-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>You are viewing a database entry for the {{ product.title }}. <\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1632821684416a6917-0",
-        "1632821684416a6917-1"
-      ],
-      "settings": {
-        "color_scheme": "inverse",
-        "full_width": true
-      }
-    },
     "1634194655a811a44b": {
       "type": "custom-liquid",
       "disabled": true,
@@ -334,7 +307,6 @@
   },
   "order": [
     "1641816962ad3e2698",
-    "1632821684416a6917",
     "1634194655a811a44b",
     "16340245700ec1844e",
     "main",
