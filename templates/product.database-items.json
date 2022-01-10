@@ -2,19 +2,18 @@
   "sections": {
     "1632821684416a6917": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "1632821684416a6917-0": {
           "type": "heading",
           "settings": {
-            "heading": "Database",
+            "heading": "Product Database",
             "heading_size": "h1"
           }
         },
         "1632821684416a6917-1": {
           "type": "text",
           "settings": {
-            "text": "<p>You are viewing a database entry for the {{ product.title }}. You can see info about this item, see if currently have one for sale, and offer to sell one to us.<\/p>"
+            "text": "<p>You are viewing a database entry for the {{ product.title }}. <\/p>"
           }
         }
       },
