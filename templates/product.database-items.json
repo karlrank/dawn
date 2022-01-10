@@ -69,6 +69,20 @@
           "settings": {
           }
         },
+        "dad5252a-ea2f-41eb-9032-44ceb98da4ec": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "Database ID: {{product.sku}}"
+          }
+        },
+        "4e918713-5981-4190-b2c4-9b3c6e7198b5": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Database ID",
+            "text_style": "uppercase"
+          }
+        },
         "4f02ba8c-c1c7-411f-a26f-78e48f91628e": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
@@ -81,12 +95,14 @@
         },
         "96c45658-7a4f-4bbe-8af4-a6f32859a982": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "{% if product.metafields.my_fields.system != blank %}\n<b>System:<\/b> <a href= '\/collections\/\n{{ product.metafields.my_fields.system | handleize }}'>{{ product.metafields.my_fields.system }}<\/a>\n<hr>\n{% else %}\n{% endif %}"
           }
         },
         "1bc9e71c-c02c-4f2f-a0f5-4b68388fb8a0": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Compatible Lenses",
             "content": "",
@@ -96,6 +112,7 @@
         },
         "a689947c-3ccc-4abb-a01b-83f569defd40": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "{% if product.metafields.my_fields.system != blank %}\n<b>System:<\/b> <a href= '\/collections\/\n{{ product.metafields.my_fields.system | handleize }}'>{{ product.metafields.my_fields.system }}<\/a>\n<hr>\n{% else %}\n{% endif %}\n\n\n{% if product.metafields.my_fields.film_format != blank %}\n<b>Film Format:<\/b> <a href= '\/collections\/\n{{ product.metafields.my_fields.film_format | handleize }}'>{{ product.metafields.my_fields.film_format }}<\/a>\n<hr>\n{% else %}\n{% endif %}\n\n\n{% if product.metafields.my_fields.year_introduced != blank %}\n    <b>Introduced: <\/b>{{ product.metafields.my_fields.year_introduced }}\n<hr>\n{% else %}\n{% endif %}\n{% if product.metafields.my_fields.built_in_meter != blank %}\n<b>Built-in Meter:<\/b> {% if product.metafields.my_fields.built_in_meter == true %}\n  Yes <hr>\n{% elsif product.metafields.my_fields.built_in_meter == false %}\n  No <hr>\n{% else %}\n{% endif %}\n{% else %}\n{% endif %}\n {% if product.metafields.my_fields.battery != blank %}\n<b>Battery:<\/b> {{ product.metafields.my_fields.battery }}\n<hr>\n{% else %}\n{% endif %}\n {% if product.variants.first.weight  != 0 %}\n  <b>Weight: <\/b>{{ product.variants.first.weight | weight_with_unit }}\n <hr>\n{% else %}\n{% endif %}"
           }
@@ -115,6 +132,8 @@
         "630170a4-891c-4adc-9e5b-984494792005",
         "adb68119-c110-4444-8e79-22a829981fd4",
         "title",
+        "dad5252a-ea2f-41eb-9032-44ceb98da4ec",
+        "4e918713-5981-4190-b2c4-9b3c6e7198b5",
         "4f02ba8c-c1c7-411f-a26f-78e48f91628e",
         "96c45658-7a4f-4bbe-8af4-a6f32859a982",
         "1bc9e71c-c02c-4f2f-a0f5-4b68388fb8a0",
