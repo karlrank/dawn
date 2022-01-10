@@ -79,6 +79,12 @@
             "stars_text_empty": "No reviews"
           }
         },
+        "ad7d62cd-e49d-4dfe-af6b-9718e42e3d39": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if collection.next_product %}\n  {{ 'Next product' | link_to: collection.next_product.url, collection.next_product.title }}\n{% endif %}"
+          }
+        },
         "dad5252a-ea2f-41eb-9032-44ceb98da4ec": {
           "type": "custom_liquid",
           "settings": {
@@ -90,16 +96,6 @@
           "disabled": true,
           "settings": {
             "custom_liquid": "{% if product.metafields.my_fields.system != blank %}\n<b>System:<\/b> <a href= '\/collections\/\n{{ product.metafields.my_fields.system | handleize }}'>{{ product.metafields.my_fields.system }}<\/a>\n<hr>\n{% else %}\n{% endif %}"
-          }
-        },
-        "1bc9e71c-c02c-4f2f-a0f5-4b68388fb8a0": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Compatible Lenses",
-            "content": "",
-            "page": "contact",
-            "icon": "dryer"
           }
         },
         "587ddfa6-3235-4da0-be5b-d249ecf8991d": {
@@ -118,9 +114,9 @@
         "630170a4-891c-4adc-9e5b-984494792005",
         "title",
         "4f02ba8c-c1c7-411f-a26f-78e48f91628e",
+        "ad7d62cd-e49d-4dfe-af6b-9718e42e3d39",
         "dad5252a-ea2f-41eb-9032-44ceb98da4ec",
         "96c45658-7a4f-4bbe-8af4-a6f32859a982",
-        "1bc9e71c-c02c-4f2f-a0f5-4b68388fb8a0",
         "587ddfa6-3235-4da0-be5b-d249ecf8991d"
       ],
       "settings": {
