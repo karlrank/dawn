@@ -1,7 +1,45 @@
 {
   "sections": {
+    "1641816962ad3e2698": {
+      "type": "rich-text",
+      "blocks": {
+        "16418169621e3e0468-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Kamerastore Product Database",
+            "heading_size": "h2"
+          }
+        },
+        "16418169621e3e0468-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "16418169621e3e0468-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16418169621e3e0468-0",
+        "16418169621e3e0468-1",
+        "16418169621e3e0468-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
     "1632821684416a6917": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "1632821684416a6917-0": {
           "type": "heading",
@@ -287,6 +325,7 @@
     }
   },
   "order": [
+    "1641816962ad3e2698",
     "1632821684416a6917",
     "1634194655a811a44b",
     "16340245700ec1844e",
