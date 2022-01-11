@@ -145,7 +145,7 @@
         "82004e4e-d026-4c02-b9ee-21d1643d0fa5": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<a href=\"https:\/\/www.w3schools.com\/\">Check is Available<\/a>"
+            "custom_liquid": "<a href=\"https:\/\/\">Check is Available<\/a>\n\nhttps:\/\/beta.kamerastore.com\/search?q=weiz&options%5Bprefix%5D=last"
           }
         }
       },
