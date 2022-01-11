@@ -2,6 +2,7 @@
   "sections": {
     "1641816962ad3e2698": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "16418169621e3e0468-0": {
           "type": "heading",
@@ -70,6 +71,13 @@
         "title": {
           "type": "title",
           "settings": {
+          }
+        },
+        "56d3d8ad-8dcb-4146-bf63-5a3a9862d94b": {
+          "type": "text",
+          "settings": {
+            "text": "Kamerastore Product Database",
+            "text_style": "uppercase"
           }
         },
         "4f02ba8c-c1c7-411f-a26f-78e48f91628e": {
@@ -153,6 +161,7 @@
         "adb68119-c110-4444-8e79-22a829981fd4",
         "630170a4-891c-4adc-9e5b-984494792005",
         "title",
+        "56d3d8ad-8dcb-4146-bf63-5a3a9862d94b",
         "4f02ba8c-c1c7-411f-a26f-78e48f91628e",
         "7e4478e8-83f8-4946-b146-0594dc094db3",
         "dad5252a-ea2f-41eb-9032-44ceb98da4ec",
