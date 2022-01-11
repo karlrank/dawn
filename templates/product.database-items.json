@@ -85,7 +85,7 @@
         "7e4478e8-83f8-4946-b146-0594dc094db3": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{%- assign current_variant = product.selected_or_first_available_variant -%}<span>\n<b>Item:<\/b>  {{product.title}}<\/span>\n<be>\n<b>Type:<\/b> {{product.type}}\n<br>\n<b>Database ID:<\/b> {{ current_variant.sku | upcase}}\n<\/span>"
+            "custom_liquid": "{%- assign current_variant = product.selected_or_first_available_variant -%}<span>\n<b>Item:<\/b>  {{product.title}}<\/span>\n<be>\n<b>Type:<\/b> {{product.type}}\n<br>\n<b>Database ID:<\/b> {{ current_variant.sku | upcase}}\n<br>\n<\/span>"
           }
         },
         "dad5252a-ea2f-41eb-9032-44ceb98da4ec": {
@@ -97,6 +97,7 @@
         },
         "2bb10445-ce46-48e1-b3f7-e303f109e201": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Kamerastore Database for the {{ product.title }}. You can see info about this item, if we have one for sale, or offer to sell one to us.",
             "text_style": "body"
@@ -140,6 +141,13 @@
           "settings": {
             "custom_liquid": "{{ product.metafields.my_fields.database_parent | metafield_tag }}"
           }
+        },
+        "7d983aca-264b-468a-a9fb-7a08f97e8331": {
+          "type": "popup",
+          "settings": {
+            "text": "Sell This Item",
+            "page": "sell-or-trade-your-used-camera-gear"
+          }
         }
       },
       "block_order": [
@@ -154,7 +162,8 @@
         "587ddfa6-3235-4da0-be5b-d249ecf8991d",
         "0a9a6be0-2265-416b-b0f3-048e7cfb2dab",
         "e219a1fc-1ee3-4a6d-b930-58d0a71bff0a",
-        "a3cb6eca-9940-423b-9cf0-17e30a157d36"
+        "a3cb6eca-9940-423b-9cf0-17e30a157d36",
+        "7d983aca-264b-468a-a9fb-7a08f97e8331"
       ],
       "settings": {
         "enable_sticky_info": true,
