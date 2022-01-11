@@ -135,18 +135,17 @@
             "custom_liquid": "{% if collections.canon-fd.products.size > 0 %}\n\n{% for product in collections.canon-fd.products %}\n\n  <li>\n  <img src=\"{{ product.featured_image | product_img_url: 'medium' }}\" alt=\"{{ product.title | escape  }}\" \/>    \n  <a class=\"shop-now\" href=\"{{ product.url }}\">{{ product.title | escape  }}<\/a>                              \n  <\/li>  \n\n{% endfor %}\n\n{% endif %}"
           }
         },
-        "a3cb6eca-9940-423b-9cf0-17e30a157d36": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "{{ product.metafields.my_fields.database_parent | metafield_tag }}"
-          }
-        },
         "7d983aca-264b-468a-a9fb-7a08f97e8331": {
           "type": "popup",
           "settings": {
             "text": "Sell This Item",
             "page": "sell-or-trade-your-used-camera-gear"
+          }
+        },
+        "82004e4e-d026-4c02-b9ee-21d1643d0fa5": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "Check if available"
           }
         }
       },
@@ -162,8 +161,8 @@
         "587ddfa6-3235-4da0-be5b-d249ecf8991d",
         "0a9a6be0-2265-416b-b0f3-048e7cfb2dab",
         "e219a1fc-1ee3-4a6d-b930-58d0a71bff0a",
-        "a3cb6eca-9940-423b-9cf0-17e30a157d36",
-        "7d983aca-264b-468a-a9fb-7a08f97e8331"
+        "7d983aca-264b-468a-a9fb-7a08f97e8331",
+        "82004e4e-d026-4c02-b9ee-21d1643d0fa5"
       ],
       "settings": {
         "enable_sticky_info": true,
