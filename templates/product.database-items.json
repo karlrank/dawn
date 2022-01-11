@@ -306,7 +306,7 @@
     "16418166733e02f313": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% if collections.canon-fd.products.size > 0 %}\n\n{% for product in collections.canon-fd.products %}\n\n  <li>\n {{ product.price | money  }}    \n  <a class=\"shop-now\" href=\"{{ product.url }}\">{{ product.title | escape  }}<\/a>                              \n  <\/li>  \n\n{% endfor %}\n\n{% endif %}"
+        "custom_liquid": "my_fields.collection_system"
       }
     }
   },
