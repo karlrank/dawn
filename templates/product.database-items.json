@@ -177,31 +177,6 @@
         "custom_liquid": "<div class=\"page-width page-width--narrow\">\n<H2><\/h2><H3>Database Description<\/h3>{{ product.description }}<\/div>"
       }
     },
-    "164181596016bc8b98": {
-      "type": "multicolumn",
-      "blocks": {
-        "16418159605b46a504-2": {
-          "type": "column",
-          "settings": {
-            "title": "{{ product.metafields.my_fields.system.value }}",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "16418159605b46a504-2"
-      ],
-      "settings": {
-        "title": "Multicolumn",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "swipe_on_mobile": false
-      }
-    },
     "164181547500ac863d": {
       "type": "apps",
       "blocks": {
@@ -307,7 +282,6 @@
     "16340245700ec1844e",
     "main",
     "1632393643eca7584e",
-    "164181596016bc8b98",
     "164181547500ac863d",
     "16324019941e428b8f",
     "product-recommendations",
