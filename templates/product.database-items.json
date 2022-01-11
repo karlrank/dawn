@@ -96,13 +96,6 @@
             "custom_liquid": "{%- assign current_variant = product.selected_or_first_available_variant -%}\n<b>Item:<\/b>  {{product.title}}\n<br>\n<b>Type:<\/b> {{product.type}}\n<br>\n<b>Database ID:<\/b> {{ current_variant.sku | upcase}}\n<br>\n<\/span>"
           }
         },
-        "dad5252a-ea2f-41eb-9032-44ceb98da4ec": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "Database ID:{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span> {{ current_variant.sku }}<\/span>"
-          }
-        },
         "2bb10445-ce46-48e1-b3f7-e303f109e201": {
           "type": "text",
           "disabled": true,
@@ -164,7 +157,6 @@
         "56d3d8ad-8dcb-4146-bf63-5a3a9862d94b",
         "4f02ba8c-c1c7-411f-a26f-78e48f91628e",
         "7e4478e8-83f8-4946-b146-0594dc094db3",
-        "dad5252a-ea2f-41eb-9032-44ceb98da4ec",
         "2bb10445-ce46-48e1-b3f7-e303f109e201",
         "96c45658-7a4f-4bbe-8af4-a6f32859a982",
         "587ddfa6-3235-4da0-be5b-d249ecf8991d",
