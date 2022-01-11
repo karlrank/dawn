@@ -52,12 +52,6 @@
             "custom_liquid": "<a href=\"{{ product.metafields.my_fields.database_parent.value.url }}\" class=\"link link--text underlined-link\">Read or Write Reviews<\/a>"
           }
         },
-        "9d66b712-a629-4e73-b08f-5cf06d7db17e": {
-          "type": "description",
-          "disabled": true,
-          "settings": {
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -124,7 +118,6 @@
         "price",
         "853cea71-8e8d-4b3a-8d41-fda13fdf751d",
         "99452d1b-4d7e-4077-a88b-abeded9e84f2",
-        "9d66b712-a629-4e73-b08f-5cf06d7db17e",
         "buy_buttons",
         "235b8cd5-c263-4cde-9104-81a9203d4384",
         "cd07da4b-ae00-46ee-bf67-5c7799d93921",
