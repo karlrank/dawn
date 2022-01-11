@@ -306,7 +306,7 @@
     "16418166733e02f313": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "my_fields.collection_system"
+        "custom_liquid": "Link to collection from product system name metafield:\n<a href= '\/collections\/\n{{ product.metafields.my_fields.system | handleize }}'>{{ product.metafields.my_fields.system }}<\/a>\nmy_fields.collection_system"
       }
     }
   },
