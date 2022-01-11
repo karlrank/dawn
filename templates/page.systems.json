@@ -20,47 +20,47 @@
             "collection": "canon-ef"
           }
         },
-        "1641899748289fa938-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
         "1641899748289fa938-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
-          }
-        },
-        "69a7b008-128f-4f45-8f5b-7fd2820d59b4": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
+            "collection": "canon-fd"
           }
         },
         "462985a2-f6c4-4616-9cde-e91bd8708db0": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "leica-m"
+          }
+        },
+        "69a7b008-128f-4f45-8f5b-7fd2820d59b4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "m42"
+          }
+        },
+        "1641899748289fa938-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "nikon-f"
           }
         },
         "bc288246-3e35-48b0-ac86-d43787cdd9c3": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "pentax-k"
           }
         }
       },
       "block_order": [
         "1641899748289fa938-0",
-        "1641899748289fa938-1",
         "1641899748289fa938-2",
-        "69a7b008-128f-4f45-8f5b-7fd2820d59b4",
         "462985a2-f6c4-4616-9cde-e91bd8708db0",
+        "69a7b008-128f-4f45-8f5b-7fd2820d59b4",
+        "1641899748289fa938-1",
         "bc288246-3e35-48b0-ac86-d43787cdd9c3"
       ],
       "settings": {
-        "title": "Collections",
+        "title": "Popular Systems",
         "image_ratio": "square",
         "color_scheme": "background-1",
         "swipe_on_mobile": false,
