@@ -82,8 +82,15 @@
             "stars_text_empty": "No reviews"
           }
         },
+        "7e4478e8-83f8-4946-b146-0594dc094db3": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{%- assign current_variant = product.selected_or_first_available_variant -%}<span>\n<b>Item:<\/b>  {{product.title}}<\/span>\n<be>\n<b>Type:<\/b> {{product.type}}\n<br>\n<b>Database ID:<\/b> {{ current_variant.sku | upcase}}\n<\/span>"
+          }
+        },
         "dad5252a-ea2f-41eb-9032-44ceb98da4ec": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "Database ID:{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span> {{ current_variant.sku }}<\/span>"
           }
@@ -91,18 +98,20 @@
         "2bb10445-ce46-48e1-b3f7-e303f109e201": {
           "type": "text",
           "settings": {
-            "text": "Kamerastore Database for: {{ product.title }}. You can see info about this item, see if we have one for sale, or offer to sell one to us.",
+            "text": "Kamerastore Database for the {{ product.title }}. You can see info about this item, if we have one for sale, or offer to sell one to us.",
             "text_style": "body"
           }
         },
         "96c45658-7a4f-4bbe-8af4-a6f32859a982": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "{% if product.metafields.my_fields.system != blank %}\n<b>System:<\/b> <a href= '\/collections\/\n{{ product.metafields.my_fields.system | handleize }}'>{{ product.metafields.my_fields.system }}<\/a>\n<hr>\n{% else %}\n{% endif %}"
           }
         },
         "587ddfa6-3235-4da0-be5b-d249ecf8991d": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Sell or Trade you {{ product.vendor }} gear",
             "content": "<p>Do you have a {{ product.title }} you want to sell to us? Fill out our simple form and request a quote from us.<\/p><p><a href=\"https:\/\/app.kamerastore.com\/sell_to_us?language=eng\" target=\"_blank\" title=\"https:\/\/app.kamerastore.com\/sell_to_us?language=eng\"><strong>START QUOTE<\/strong><\/a><\/p>",
@@ -112,15 +121,10 @@
         },
         "0a9a6be0-2265-416b-b0f3-048e7cfb2dab": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "",
             "text_style": "body"
-          }
-        },
-        "7e4478e8-83f8-4946-b146-0594dc094db3": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{%- assign current_variant = product.selected_or_first_available_variant -%}<span>\n<b>Item:<\/b>  {{product.title}}<\/span>\n<be>\n<b>Type:<\/b> {{product.type}}\n<br>\n<b>Database ID:<\/b> {{ current_variant.sku | upcase}}\n<\/span>"
           }
         },
         "e219a1fc-1ee3-4a6d-b930-58d0a71bff0a": {
@@ -136,13 +140,6 @@
           "settings": {
             "custom_liquid": "{{ product.metafields.my_fields.database_parent | metafield_tag }}"
           }
-        },
-        "4e4045a3-722f-4fe1-9855-925c5e3bad8e": {
-          "type": "text",
-          "settings": {
-            "text": "Text block",
-            "text_style": "body"
-          }
         }
       },
       "block_order": [
@@ -150,15 +147,14 @@
         "630170a4-891c-4adc-9e5b-984494792005",
         "title",
         "4f02ba8c-c1c7-411f-a26f-78e48f91628e",
+        "7e4478e8-83f8-4946-b146-0594dc094db3",
         "dad5252a-ea2f-41eb-9032-44ceb98da4ec",
         "2bb10445-ce46-48e1-b3f7-e303f109e201",
         "96c45658-7a4f-4bbe-8af4-a6f32859a982",
         "587ddfa6-3235-4da0-be5b-d249ecf8991d",
         "0a9a6be0-2265-416b-b0f3-048e7cfb2dab",
-        "7e4478e8-83f8-4946-b146-0594dc094db3",
         "e219a1fc-1ee3-4a6d-b930-58d0a71bff0a",
-        "a3cb6eca-9940-423b-9cf0-17e30a157d36",
-        "4e4045a3-722f-4fe1-9855-925c5e3bad8e"
+        "a3cb6eca-9940-423b-9cf0-17e30a157d36"
       ],
       "settings": {
         "enable_sticky_info": true,
