@@ -467,6 +467,12 @@
         "name": "Custom Liquid"
       }
     },
+    "product-items-in-stock": {
+      "name": "Product Items in Stock",
+      "presets": {
+        "name": "Product Items in Stock"
+      }
+    },
     "featured-blog": {
       "name": "Blog posts",
       "settings": {

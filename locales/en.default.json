@@ -146,6 +146,9 @@
       "mechanical_condition_heading": "Mechanics: {{ condition }} \/ 5",
       "cosmetic_condition_heading": "Cosmetics: {{ condition }} \/ 5"
     },
+    "database": {
+      "none_available": "No items available currently."
+    },
     "modal": {
       "label": "Media gallery"
     },

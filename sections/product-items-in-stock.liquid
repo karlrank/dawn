@@ -1,0 +1,66 @@
+
+<noscript>{{ 'component-card.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'component-product-grid.css' | asset_url | stylesheet_tag }}</noscript>
+
+<section class="page-width">
+  {% assign current_product = product %}
+
+  {% for tag in product.tags %}
+    {% if tag contains "_gid-" %}
+      {% assign group_id = tag | slice: 5, 4 %}
+    {% endif %}
+  {% endfor %}
+
+  {% if group_id %}
+    {% for collection in product.collections %}
+      {% if collection.metafields.kameratori.group_id == group_id and collection.products_count > 0 %}
+        <h2>Available: {{ product.title }}</h2>
+
+        {% assign product_displayed = false %}
+        {% assign available_products = 1 %}
+
+        <ul class="grid grid--2-col product-grid grid--4-col-desktop grid--quarter-max" role="list">
+          {% for product in collection.products %}
+            {% unless product.handle == current_product.handle or product.tags contains 'item-database' %}
+              {% if product.available %}
+                <li class="grid__item">
+                  {% render 'product-card',
+                          product_card_product: product,
+                          media_size: 'adapt',
+                          show_secondary_image: false,
+                          add_image_padding: false,
+                          show_vendor: true,
+                          show_image_outline: true,
+                          show_rating: false,
+                          show_price: true
+                  %}
+                </li>
+                {% assign product_displayed = true %}
+              {% endif %}
+            {% endunless %}
+          {% endfor %}
+        </ul>
+
+        {% unless product_displayed %}
+          <strong>{{ 'products.database.none_available' | t }}</strong>
+        {% endunless %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+
+</section>
+
+
+{% schema %}
+{
+  "name": "t:sections.product-items-in-stock.name",
+  "tag": "section",
+  "class": "spaced-section",
+  "settings": [],
+  "presets": [
+    {
+      "name": "t:sections.product-items-in-stock.presets.name"
+    }
+  ]
+}
+{% endschema %}
