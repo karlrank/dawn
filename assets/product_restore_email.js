@@ -318,7 +318,7 @@
         //当前被选中的variant
 
         // API接口部分URL  【测试服】
-        let baseUrl = 'http://emailnoticeapi.sealapps.com/';
+        let baseUrl = 'https://emailnoticeapi.sealapps.com/';
         // 获取shopId
         let shopId = "";
         if (ShopifyAnalytics.lib == null || ShopifyAnalytics.lib == "" || ShopifyAnalytics.lib == undefined) {
@@ -509,7 +509,7 @@
             if(enableInlineBtn){
                 let mountInlineBtn = ` 
                 <div id="product-restore-email" style=" margin: ${inlineBtnMargin} ; margin-top:10px">
-                    <button type="button" class="email-me-button" style="text-align:center; width:  ${inlineBtnWidth} ; margin-top:0; display:none; color: ${inlineFontColor} ; background-color:  ${inlineBtnColor} ; height:${inlineBtnHeight} ; border-radius: ${btnRadius} ; font-size: ${btnFontSize} ; font-weight: ${btnFontWeight};">
+                    <button type="button" class="email-me-button" style="text-align:center; width:  ${inlineBtnWidth} ; margin-top:0; color: ${inlineFontColor} ; background-color:  ${inlineBtnColor} ; height:${inlineBtnHeight} ; border-radius: ${btnRadius} ; font-size: ${btnFontSize} ; font-weight: ${btnFontWeight};">
                         ${inlineBtnValue}
                     </button>
                 </div>`
@@ -967,6 +967,7 @@
                     outline: none;
                     height: 44px;
                     color: #000;
+                    background: #fff;
                 }
                 
                 input::-webkit-input-placeholder{
