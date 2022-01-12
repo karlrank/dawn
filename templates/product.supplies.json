@@ -32,6 +32,12 @@
             "custom_liquid": "<p style=\"color: #ababab\">{% if product.selected_or_first_available_variant.taxable %}\n    {{ 'products.product.taxable' | t }}\n{% else %}\n    {{ 'products.product.not_taxable' | t }}\n{% endif %}"
           }
         },
+        "d031b056-55bf-4778-a201-0c5d8ab0e178": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% unless product.selected_or_first_available_variant.inventory_management == null %}\nAvailable Stock\n          {% if template == \"supplies\" %}{% assign inventory = product.metafields.tomit_inventory %}{% if inventory.inventory_json.size > 0 %}<script>document.addEventListener('tomitLoaded', function(e) { tomitProductInventoryInfo.productJson = `{{inventory.inventory_json | json}}`; });<\/script>{% endif %}{% endif %}\n          \n          \n          <div id=\"inventoryLocationInformation\">\n              <span class=\"inventoryLocationLoading\"><\/span>\n          <\/div>\n{% endunless %}"
+          }
+        },
         "8a5e19bd-ec83-4ef2-ad47-9bd4b01b7f5e": {
           "type": "condition",
           "disabled": true,
@@ -84,12 +90,6 @@
             "show_dynamic_checkout": false
           }
         },
-        "d031b056-55bf-4778-a201-0c5d8ab0e178": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{% unless product.selected_or_first_available_variant.inventory_management == null %}\nAvailable Stock\n          {% if template == \"supplies\" %}{% assign inventory = product.metafields.tomit_inventory %}{% if inventory.inventory_json.size > 0 %}<script>document.addEventListener('tomitLoaded', function(e) { tomitProductInventoryInfo.productJson = `{{inventory.inventory_json | json}}`; });<\/script>{% endif %}{% endif %}\n          \n          \n          <div id=\"inventoryLocationInformation\">\n              <span class=\"inventoryLocationLoading\"><\/span>\n          <\/div>\n{% endunless %}"
-          }
-        },
         "4c9ef1cc-f6f3-4512-940d-96c0a632b68d": {
           "type": "collapsible_tab",
           "disabled": true,
@@ -134,12 +134,12 @@
         "d2f0204f-1c5f-46fd-81d6-a9e4069c2ae4",
         "price",
         "f0c9e60b-84e2-4c7b-a294-cab454328d82",
+        "d031b056-55bf-4778-a201-0c5d8ab0e178",
         "8a5e19bd-ec83-4ef2-ad47-9bd4b01b7f5e",
         "quantity_selector",
         "variant_picker",
         "ec88d254-bbe8-4b70-a8ba-4e63f56ef136",
         "buy_buttons",
-        "d031b056-55bf-4778-a201-0c5d8ab0e178",
         "4c9ef1cc-f6f3-4512-940d-96c0a632b68d",
         "c93981a2-30f3-4294-803c-c2c27ba4890e",
         "e44a2970-017f-4a65-9008-2a056066686c",
