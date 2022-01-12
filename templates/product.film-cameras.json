@@ -40,16 +40,16 @@
           "settings": {
           }
         },
-        "d5caab0f-8084-4d2c-9f50-f4478f12dbeb": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{% unless product.selected_or_first_available_variant.inventory_management == null %}\nAvailable Stock\n          {% if template == \"supplies\" %}{% assign inventory = product.metafields.tomit_inventory %}{% if inventory.inventory_json.size > 0 %}<script>document.addEventListener('tomitLoaded', function(e) { tomitProductInventoryInfo.productJson = `{{inventory.inventory_json | json}}`; });<\/script>{% endif %}{% endif %}\n          \n          \n          <div id=\"inventoryLocationInformation\">\n              <span class=\"inventoryLocationLoading\"><\/span>\n          <\/div>\n{% endunless %}"
-          }
-        },
         "853cea71-8e8d-4b3a-8d41-fda13fdf751d": {
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": "<p style=\"color: #ababab\">{% if product.selected_or_first_available_variant.taxable %}\n    {{ 'products.product.taxable' | t }}\n{% else %}\n    {{ 'products.product.not_taxable' | t }}\n{% endif %}"
+          }
+        },
+        "d5caab0f-8084-4d2c-9f50-f4478f12dbeb": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% unless product.selected_or_first_available_variant.inventory_management == null %}\nAvailable Stock\n          {% if template == \"supplies\" %}{% assign inventory = product.metafields.tomit_inventory %}{% if inventory.inventory_json.size > 0 %}<script>document.addEventListener('tomitLoaded', function(e) { tomitProductInventoryInfo.productJson = `{{inventory.inventory_json | json}}`; });<\/script>{% endif %}{% endif %}\n          \n          \n          <div id=\"inventoryLocationInformation\">\n              <span class=\"inventoryLocationLoading\"><\/span>\n          <\/div>\n{% endunless %}"
           }
         },
         "99452d1b-4d7e-4077-a88b-abeded9e84f2": {
@@ -123,8 +123,8 @@
         "title",
         "94c18297-7071-4788-a294-49e32bd91e32",
         "price",
-        "d5caab0f-8084-4d2c-9f50-f4478f12dbeb",
         "853cea71-8e8d-4b3a-8d41-fda13fdf751d",
+        "d5caab0f-8084-4d2c-9f50-f4478f12dbeb",
         "99452d1b-4d7e-4077-a88b-abeded9e84f2",
         "buy_buttons",
         "235b8cd5-c263-4cde-9104-81a9203d4384",
