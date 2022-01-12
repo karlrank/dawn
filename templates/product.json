@@ -23,6 +23,7 @@
         },
         "15e3737c-101f-4a6c-881e-db6e0d4c56da": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<p>Ships from: {% if product.tags contains 'From-Kameratori' %}\n          \nTampere, Finland<\/p>\n{% elsif product.tags contains 'From-Fototapio' %}\n          \nEspoo, Finland      \n{% else %}\nTampere, Finland\n{% endif %}\n\n{% comment %}\nNow section two\n{% endcomment %}\n\n<div id=\"variant-inventory\">\n{% if product.selected_or_first_available_variant.inventory_management == \"shopify\" and product.selected_or_first_available_variant.inventory_quantity> 0 %}\nIn stock: <b>{{product.selected_or_first_available_variant.inventory_quantity}}<\/b> available\n{% endif %}\n<\/div>"
           }
@@ -30,6 +31,12 @@
         "price": {
           "type": "price",
           "settings": {
+          }
+        },
+        "dcdc883c-ccee-421d-85a2-40dd62b3af08": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% unless product.selected_or_first_available_variant.inventory_management == null %}\nAvailable Stock\n          {% if template == \"supplies\" %}{% assign inventory = product.metafields.tomit_inventory %}{% if inventory.inventory_json.size > 0 %}<script>document.addEventListener('tomitLoaded', function(e) { tomitProductInventoryInfo.productJson = `{{inventory.inventory_json | json}}`; });<\/script>{% endif %}{% endif %}\n          \n          \n          <div id=\"inventoryLocationInformation\">\n              <span class=\"inventoryLocationLoading\"><\/span>\n          <\/div>\n{% endunless %}"
           }
         },
         "f0c9e60b-84e2-4c7b-a294-cab454328d82": {
@@ -118,6 +125,7 @@
         "title",
         "15e3737c-101f-4a6c-881e-db6e0d4c56da",
         "price",
+        "dcdc883c-ccee-421d-85a2-40dd62b3af08",
         "f0c9e60b-84e2-4c7b-a294-cab454328d82",
         "quantity_selector",
         "variant_picker",
