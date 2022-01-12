@@ -23,6 +23,7 @@
         },
         "671ba54b-0342-4dd7-bdfe-26cccec6c528": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<p>Ships from: {% if product.tags contains 'From-Kameratori' %}\n          \nTampere, Finland<\/p>\n{% elsif product.tags contains 'From-Fototapio' %}\n          \nEspoo, Finland      \n{% else %}\nTampere, Finland\n{% endif %}\n\n{% comment %}\nNow section two\n{% endcomment %}\n\n<div id=\"variant-inventory\">\n{% if product.selected_or_first_available_variant.inventory_management == \"shopify\" and product.selected_or_first_available_variant.inventory_quantity> 0 %}\nIn stock: <b>{{product.selected_or_first_available_variant.inventory_quantity}}<\/b> available\n{% endif %}\n<\/div>"
           }
@@ -36,6 +37,12 @@
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": "<p style=\"color: #ababab\">{% if product.selected_or_first_available_variant.taxable %}\n    {{ 'products.product.taxable' | t }}\n{% else %}\n    {{ 'products.product.not_taxable' | t }}\n{% endif %}"
+          }
+        },
+        "85bf0b82-285a-410a-8971-33e8b9107421": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% unless product.selected_or_first_available_variant.inventory_management == null %}\nAvailable Stock\n          {% if template == \"supplies\" %}{% assign inventory = product.metafields.tomit_inventory %}{% if inventory.inventory_json.size > 0 %}<script>document.addEventListener('tomitLoaded', function(e) { tomitProductInventoryInfo.productJson = `{{inventory.inventory_json | json}}`; });<\/script>{% endif %}{% endif %}\n          \n          \n          <div id=\"inventoryLocationInformation\">\n              <span class=\"inventoryLocationLoading\"><\/span>\n          <\/div>\n{% endunless %}"
           }
         },
         "cd07da4b-ae00-46ee-bf67-5c7799d93921": {
@@ -97,6 +104,7 @@
         "671ba54b-0342-4dd7-bdfe-26cccec6c528",
         "price",
         "853cea71-8e8d-4b3a-8d41-fda13fdf751d",
+        "85bf0b82-285a-410a-8971-33e8b9107421",
         "cd07da4b-ae00-46ee-bf67-5c7799d93921",
         "buy_buttons",
         "ad4fef74-222f-422b-a2e1-33623ff7b9e6",
