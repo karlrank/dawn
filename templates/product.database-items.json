@@ -2,7 +2,6 @@
   "sections": {
     "1641816962ad3e2698": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "16418169621e3e0468-0": {
           "type": "heading",
@@ -34,7 +33,7 @@
         "16418169621e3e0468-2"
       ],
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "full_width": true
       }
     },
