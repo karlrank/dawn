@@ -9,7 +9,7 @@
     "colors_outline_button_labels": "#027ed2",
     "colors_background_1": "#ffffff",
     "colors_background_2": "#f7f7f7",
-    "type_header_font": "chivo_n4",
+    "type_header_font": "nunito_n6",
     "type_body_font": "assistant_n4",
     "sale_badge_color_scheme": "accent-2",
     "accent_icons": "text",
@@ -20,10 +20,12 @@
     "predictive_search_show_vendor": true,
     "predictive_search_show_price": true,
     "favicon": "shopify:\/\/shop_images\/logo_Favicon_7dd0f763-39b2-4a59-9bfd-111df8ca1db4.png",
+    "currency_code_enabled": true,
     "checkout_logo_image": "shopify:\/\/shop_images\/Kamerastore_Logo.png",
     "checkout_logo_position": "center",
     "checkout_logo_size": "small",
     "checkout_body_background_color": "#ffffff",
+    "checkout_error_color": "#ffc315",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
