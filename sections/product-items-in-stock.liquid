@@ -7,7 +7,7 @@
 
   {% for tag in product.tags %}
     {% if tag contains "_gid-" %}
-      {% assign group_id = tag | slice: 5, 4 %}
+      {% assign group_id = tag | slice: 5, 8 %}
     {% endif %}
   {% endfor %}
 
