@@ -26,6 +26,12 @@
           "settings": {
           }
         },
+        "f0c9e60b-84e2-4c7b-a294-cab454328d82": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p style=\"color: #ababab\">{% if product.selected_or_first_available_variant.taxable %}\n    {{ 'products.product.taxable' | t }}\n{% else %}\n    {{ 'products.product.not_taxable' | t }}\n{% endif %}<\/p>"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -62,10 +68,10 @@
             "em_email_success_frame_content": "We will send you an email when this product is back in stock."
           }
         },
-        "f0c9e60b-84e2-4c7b-a294-cab454328d82": {
+        "ff1bb9c6-eb65-4ae0-a2ab-b42152660aae": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<p style=\"color: #ababab\">{% if product.selected_or_first_available_variant.taxable %}\n    {{ 'products.product.taxable' | t }}\n{% else %}\n    {{ 'products.product.not_taxable' | t }}\n{% endif %}<\/p><p>\nWe do not ship from Helsinki. If your film order is greater than stock in Tampere, expect a week shipping delay while we transfer inventory. <\/p>"
+            "custom_liquid": "<p>\nWe do not ship from Helsinki. If your film order is greater than stock in Tampere, expect a week shipping delay while we transfer inventory. <\/p>"
           }
         },
         "d031b056-55bf-4778-a201-0c5d8ab0e178": {
@@ -137,9 +143,10 @@
         "title",
         "d2f0204f-1c5f-46fd-81d6-a9e4069c2ae4",
         "price",
+        "f0c9e60b-84e2-4c7b-a294-cab454328d82",
         "buy_buttons",
         "ec88d254-bbe8-4b70-a8ba-4e63f56ef136",
-        "f0c9e60b-84e2-4c7b-a294-cab454328d82",
+        "ff1bb9c6-eb65-4ae0-a2ab-b42152660aae",
         "d031b056-55bf-4778-a201-0c5d8ab0e178",
         "8a5e19bd-ec83-4ef2-ad47-9bd4b01b7f5e",
         "quantity_selector",
