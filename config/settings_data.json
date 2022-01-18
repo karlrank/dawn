@@ -42,7 +42,7 @@
           "e27c5c07-a2d9-44ec-8733-18238392d531": {
             "type": "announcement",
             "settings": {
-              "text": "Instructions for importing orders your old orders",
+              "text": "Instructions for importing your old orders",
               "color_scheme": "inverse",
               "link": "shopify:\/\/pages\/move-you-kamerastore-data-to-our-new-site"
             }
