@@ -6,7 +6,7 @@
         "16418169621e3e0468-0": {
           "type": "heading",
           "settings": {
-            "heading": "Kamerastore Product Database",
+            "heading": "Kamerastore Product Database (Beta)",
             "heading_size": "h2"
           }
         },
@@ -79,16 +79,6 @@
             "text_style": "uppercase"
           }
         },
-        "4f02ba8c-c1c7-411f-a26f-78e48f91628e": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-            "stars_fill_color": "#ffc00d",
-            "star_size": 18,
-            "text_align": "flex-start",
-            "product": "{{product}}",
-            "stars_text_empty": "No reviews"
-          }
-        },
         "7e4478e8-83f8-4946-b146-0594dc094db3": {
           "type": "custom_liquid",
           "settings": {
@@ -154,7 +144,6 @@
         "630170a4-891c-4adc-9e5b-984494792005",
         "title",
         "56d3d8ad-8dcb-4146-bf63-5a3a9862d94b",
-        "4f02ba8c-c1c7-411f-a26f-78e48f91628e",
         "7e4478e8-83f8-4946-b146-0594dc094db3",
         "2bb10445-ce46-48e1-b3f7-e303f109e201",
         "96c45658-7a4f-4bbe-8af4-a6f32859a982",
@@ -184,16 +173,6 @@
     },
     "164181547500ac863d": {
       "type": "apps",
-      "blocks": {
-        "693087d9-7e13-478d-bca3-07d219475577": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "693087d9-7e13-478d-bca3-07d219475577"
-      ],
       "settings": {
         "include_margins": true
       }
