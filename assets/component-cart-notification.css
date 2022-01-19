@@ -110,3 +110,6 @@
   display: inline-block;
   margin: 0;
 }
+
+{{ comment }} added by Jordan Jan 19 2022, hide checkout button which bypasses cart {{ endcomment }}
+.cart-notification__links form#cart {display: none;}
