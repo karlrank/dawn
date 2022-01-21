@@ -9,6 +9,11 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "9311f051-a2ee-4e66-ae3e-e987a89784e5": {
+          "type": "shopify:\/\/apps\/growave-loyalty-wishlist-3\/blocks\/block.product.reviewAvgProfile\/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
+          "settings": {
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -47,7 +52,7 @@
             "em_email_button_hover_color": "#202223",
             "em_email_button_background": "#333333",
             "em_email_button_hover_background": "#444444",
-            "em_email_button_border_color": "transparent",
+            "em_email_button_border_color": "rgba(0,0,0,0)",
             "em_email_button_hover_animation": false,
             "em_email_button_content": "EMAIL ME WHEN AVAILABLE",
             "font_size": 14,
@@ -57,12 +62,11 @@
             "em_email_button_font_weight": "inherit",
             "em_email_float_button_top": 0,
             "em_show_powered_by": "block",
-            "em_email_popup_btn_color": "#333333",
-            "em_email_popup_btn_font_color": "#ffffff",
             "em_email_popup_btn_value": "EMAIL ME WHEN AVAILABLE",
             "em_email_popup_header_text": "EMAIL ME WHEN AVAILABLE",
             "em_email_popup_footer_text": "We will notify you when this product is back in stock. We will not share your email address with anybody.",
             "em_email_popup_validation_text": "* Your email address is invalid.",
+            "em_email_popup_subscribed_text": "* You have already subscribed this product.",
             "em_email_popup_placeholder_text": "Email address...",
             "em_email_success_frame_title": "Successfully subscribed!",
             "em_email_success_frame_content": "We will send you an email when this product is back in stock."
@@ -140,6 +144,7 @@
         }
       },
       "block_order": [
+        "9311f051-a2ee-4e66-ae3e-e987a89784e5",
         "title",
         "d2f0204f-1c5f-46fd-81d6-a9e4069c2ae4",
         "price",
