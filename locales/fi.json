@@ -475,6 +475,9 @@
     },
     "errors": {
       "reset_password_html": "Vaikuttaa siltä, että sinulla on jo olemassaolevat tunnukset. Voit <a href=\"\/account\/login\">kirjautua sisään<\/a> tai <a href=\"\/account\/login#recover\">palauttaa salasanasi<\/a>."
+    },
+    "links": {
+      "powered_by_shopify": "."
     }
   },
   "socialshopwave": {
