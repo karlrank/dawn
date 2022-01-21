@@ -9,7 +9,7 @@
       "login_form_submit": "Lähetä",
       "modal": "Salasanaikkuna",
       "admin_link_html": "Oletko kaupan omistaja? <a href=\"\/admin\" class=\"link underlined-link\">Kirjaudu sisään tästä<\/a>",
-      "powered_by_shopify_html": "Tämän kaupan alustana on {{ shopify }}"
+      "powered_by_shopify_html": "This shop will be powered by {{ shopify }}"
     },
     "social": {
       "alt_text": {
