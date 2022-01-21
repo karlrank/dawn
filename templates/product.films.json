@@ -176,6 +176,22 @@
     },
     "163292242191680787": {
       "type": "apps",
+      "blocks": {
+        "d0dcf828-82cb-41a2-ae34-e594d5ad2246": {
+          "type": "shopify:\/\/apps\/growave-loyalty-wishlist-3\/blocks\/block.index.ReviewsSlider\/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
+          "settings": {
+          }
+        },
+        "90343d2a-b185-4b69-8e1c-274562d9f126": {
+          "type": "shopify:\/\/apps\/growave-loyalty-wishlist-3\/blocks\/block.product.reviewWidget\/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "d0dcf828-82cb-41a2-ae34-e594d5ad2246",
+        "90343d2a-b185-4b69-8e1c-274562d9f126"
+      ],
       "settings": {
         "include_margins": true
       }
