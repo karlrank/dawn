@@ -4,7 +4,7 @@
       "type": "main-blog",
       "settings": {
         "show_image": true,
-        "show_date": false,
+        "show_date": true,
         "show_author": false
       }
     }
