@@ -3,7 +3,10 @@ var boostPFSInstantSearchConfig = {
 	search: {
 		//suggestionMode: 'test',
 		//suggestionPosition: 'left'
-	}
+	},
+    general:{
+      useShopifyRouteForMultiLanguageURL: true
+    }
 };
 
 (function() {
