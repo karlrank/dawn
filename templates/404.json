@@ -1,10 +1,67 @@
 {
   "sections": {
     "main": {
-      "type": "main-404"
+      "type": "main-404",
+      "settings": {
+      }
+    },
+    "16430946322a93d2ce": {
+      "type": "rich-text",
+      "blocks": {
+        "1643094632964de2b4-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "1643094632964de2b4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We have updated our website, some items have moved. <\/p>"
+          }
+        },
+        "1643094632964de2b4-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1643094632964de2b4-0",
+        "1643094632964de2b4-1",
+        "1643094632964de2b4-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1643098395207aed50": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Latest items added to our shop",
+        "collection": "all-items",
+        "products_to_show": 12,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16430946322a93d2ce",
+    "1643098395207aed50"
   ]
 }
