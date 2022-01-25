@@ -4,7 +4,7 @@
     "theme": "Dawn STABLE",
     "primaryLocale": "en"
   },
-  "tsPublished": 1643116889,
+  "tsPublished": 1643117011,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -24,7 +24,7 @@
         "en": "We respect your privacy"
       },
       "consentText": {
-        "en": "This website uses cookies to ensure you get the best experience."
+        "en": "Our website uses cookies to ensure you get the best experience."
       },
       "dismissButtonText": {
         "en": "Ok"
@@ -36,7 +36,7 @@
         "en": "Preferences"
       },
       "allowButtonText": {
-        "en": "Accept"
+        "en": "Ok"
       },
       "denyButtonText": {
         "en": "Decline"
@@ -277,7 +277,7 @@
       "href": "https:\/\/kamerastore.com\/pages\/privacy-policy",
       "close": "&#10005;",
       "target": "",
-      "logo": "<img class=\"cc-banner-logo\" style=\"height: 40px;\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0521\/9496\/7750\/t\/14\/assets\/pandectes-logo.png?v=1643116419\" \/>"
+      "logo": "<img class=\"cc-banner-logo\" style=\"height: 30px;\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0521\/9496\/7750\/t\/14\/assets\/pandectes-logo.png?v=1643116419\" \/>"
     },
     "window": "<div role=\"dialog\" aria-live=\"polite\" aria-label=\"cookieconsent\" aria-describedby=\"cookieconsent:desc\" id=\"pandectes-banner\" class=\"cc-window-wrapper cc-top-wrapper\"><div class=\"pd-cookie-banner-window cc-window {{classes}}\"><!--googleoff: all-->{{children}}<!--googleon: all--><\/div><\/div>",
     "compliance": {
