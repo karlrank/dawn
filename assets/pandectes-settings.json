@@ -4,7 +4,7 @@
     "theme": "Dawn STABLE",
     "primaryLocale": "en"
   },
-  "tsPublished": 1643117011,
+  "tsPublished": 1643117104,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -299,9 +299,9 @@
     ]
   },
   "geolocation": {
-    "brOnly": false,
-    "caOnly": false,
-    "euOnly": false
+    "brOnly": true,
+    "caOnly": true,
+    "euOnly": true
   },
   "dsr": {
     "guestsSupport": false,
