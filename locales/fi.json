@@ -454,6 +454,9 @@
       },
       "processing": {
         "continue_to_payment_gateway_button_label": "Jatka maksutavan valintaan"
+      },
+      "shop_policies": {
+        "shipping_policy": "Postitus"
       }
     },
     "page_titles": {
