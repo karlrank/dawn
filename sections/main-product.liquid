@@ -86,6 +86,11 @@
       {%- endif -%}
     </div>
     <div class="product__info-wrapper grid__item">
+      {% comment %} added by jordan  https://support.yotpo.com/en/article/shopify-installing-yotpo {% endcomment %}
+      <div class="yotpo bottomLine"
+data-product-id="{{ product.id }}">
+</div>
+       {% comment %} END added by jordan {% endcomment %}
       <div id="ProductInfo-{{ section.id }}" class="product__info-container{% if section.settings.enable_sticky_info %} product__info-container--sticky{% endif %}">
         {%- assign product_form_id = 'product-form-' | append: section.id -%}
 
