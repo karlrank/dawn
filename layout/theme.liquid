@@ -163,6 +163,13 @@
     {% if template == "product" %}{% assign inventory = product.metafields.tomit_inventory %}{% if inventory.size > 0 %}<script>document.addEventListener('tomitLoaded', function(e) { tomitProductInventoryInfo.productJson = `{{inventory.inventory_json | json}}`; });</script>{% endif %}{% endif %}
     
   {% comment %}end of code from JORDAN {% endcomment %}
+    
+    {% comment %}Code added by JORDAN required JS for yotpo reviews {% endcomment %}
+    <script type="text/javascript">
+(function e(){var e=document.createElement("script");e.type="text/javascript",e.async=true,e.src="//staticw2.yotpo.com/###APP_KEY###/widget.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})();
+</script>
+    {% comment %}END code added by JORDAN required JS for yotpo reviews {% endcomment %}
+    
   </head>
 
   <body class="gradient">
