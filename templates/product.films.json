@@ -9,14 +9,15 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "9311f051-a2ee-4e66-ae3e-e987a89784e5": {
-          "type": "shopify:\/\/apps\/growave-loyalty-wishlist-3\/blocks\/block.product.reviewAvgProfile\/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
-          "settings": {
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
+          }
+        },
+        "2841657a-4a27-442f-89be-3e4fe7e36b0b": {
+          "type": "shopify:\/\/apps\/yotpo-product-reviews-photos\/blocks\/star-rating\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
           }
         },
         "d2f0204f-1c5f-46fd-81d6-a9e4069c2ae4": {
@@ -131,21 +132,11 @@
             "page": "",
             "icon": "plane"
           }
-        },
-        "d77e20c7-084d-471a-954d-4bc9d03753ea": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Actual Item Pictured",
-            "content": "<p>We take the time to photograph every used item. When you buy from us you are getting the item you see in the photos.<\/p>",
-            "page": "",
-            "icon": "eye"
-          }
         }
       },
       "block_order": [
-        "9311f051-a2ee-4e66-ae3e-e987a89784e5",
         "title",
+        "2841657a-4a27-442f-89be-3e4fe7e36b0b",
         "d2f0204f-1c5f-46fd-81d6-a9e4069c2ae4",
         "price",
         "f0c9e60b-84e2-4c7b-a294-cab454328d82",
@@ -158,8 +149,7 @@
         "variant_picker",
         "4c9ef1cc-f6f3-4512-940d-96c0a632b68d",
         "c93981a2-30f3-4294-803c-c2c27ba4890e",
-        "e44a2970-017f-4a65-9008-2a056066686c",
-        "d77e20c7-084d-471a-954d-4bc9d03753ea"
+        "e44a2970-017f-4a65-9008-2a056066686c"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -177,20 +167,15 @@
     "163292242191680787": {
       "type": "apps",
       "blocks": {
-        "d0dcf828-82cb-41a2-ae34-e594d5ad2246": {
-          "type": "shopify:\/\/apps\/growave-loyalty-wishlist-3\/blocks\/block.index.ReviewsSlider\/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
+        "269a3a32-edda-4b50-bf63-752b6afd6026": {
+          "type": "shopify:\/\/apps\/yotpo-product-reviews-photos\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
           "settings": {
-          }
-        },
-        "90343d2a-b185-4b69-8e1c-274562d9f126": {
-          "type": "shopify:\/\/apps\/growave-loyalty-wishlist-3\/blocks\/block.product.reviewWidget\/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
-          "settings": {
+            "product": "{{product}}"
           }
         }
       },
       "block_order": [
-        "d0dcf828-82cb-41a2-ae34-e594d5ad2246",
-        "90343d2a-b185-4b69-8e1c-274562d9f126"
+        "269a3a32-edda-4b50-bf63-752b6afd6026"
       ],
       "settings": {
         "include_margins": true
