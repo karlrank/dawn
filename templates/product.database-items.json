@@ -82,7 +82,7 @@
         "7e4478e8-83f8-4946-b146-0594dc094db3": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{%- assign current_variant = product.selected_or_first_available_variant -%}\n<b>Item:<\/b>  {{product.title}}\n<br>\n<b>Type:<\/b> {{product.type}}\n<br>\n<b>Database ID:<\/b> {{ current_variant.sku | upcase}}\n<br>\n<\/span>"
+            "custom_liquid": "<p>{%- assign current_variant = product.selected_or_first_available_variant -%}\n<b>Item:<\/b>  {{product.title}}\n<br>\n<b>Type:<\/b> {{product.type}}\n<br>\n<b>Database ID:<\/b> {{ current_variant.sku | upcase}}\n<br>\n<\/span><\/p>"
           }
         },
         "2bb10445-ce46-48e1-b3f7-e303f109e201": {
