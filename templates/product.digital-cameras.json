@@ -46,6 +46,12 @@
             "custom_liquid": "<p style=\"color: #ababab\">{% if product.selected_or_first_available_variant.taxable %}\n    {{ 'products.product.taxable' | t }}\n{% else %}\n    {{ 'products.product.not_taxable' | t }}\n{% endif %}<\/p>"
           }
         },
+        "83754794-92b8-452f-98b4-999eea3e6967": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p>{%- assign current_variant = product.selected_or_first_available_variant -%}\n\n{% if product.metafields.kameratori.shutter_count and product.metafields.kameratori.shutter_count != \"\" %}\n  Shutter Count:  <b>{{product.metafields.kameratori.shutter_count}}<\/b><br>\n{% else %}\n{% endif %}\n\n\n{% if product.metafields.kameratori.sensor_cleaned == true %}\n  Sensor Cleaned: <b>Yes<\/b><br>\n{% elsif product.metafields.kameratori.sensor_cleaned == false %}\n Sensor Cleaned: <b>No<\/b><br>\n{% else %}\n{% endif %}\n\n\n{% if product.metafields.kameratori.settings_reset == true %}\n  Settings Reset: <b>Yes<\/b><br>\n{% elsif product.metafields.kameratori.settings_reset == false %}\n  No\n{% else %}\n{% endif %}\n\n\n{% if product.metafields.kameratori.firmware_updated == true %}\n  Firmware Updated <b>Yes<\/b><br>\n{% elsif product.metafields.kameratori.firmware_updated == false %}\n Firmware Updated: <b>Yes<\/b><br>\n{% else %}\n{% endif %}<\/p>"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -71,12 +77,6 @@
             "show_mechanical": true,
             "show_optical": true,
             "show_cosmetic": false
-          }
-        },
-        "83754794-92b8-452f-98b4-999eea3e6967": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<p>{%- assign current_variant = product.selected_or_first_available_variant -%}\n\n{% if product.metafields.kameratori.shutter_count and product.metafields.kameratori.shutter_count != \"\" %}\n  Shutter Count:  <b>{{product.metafields.kameratori.shutter_count}}<\/b><br>\n{% else %}\n{% endif %}\n\n\n{% if product.metafields.kameratori.sensor_cleaned == true %}\n  Sensor Cleaned: <b>Yes<\/b><br>\n{% elsif product.metafields.kameratori.sensor_cleaned == false %}\n Sensor Cleaned: <b>No<\/b><br>\n{% else %}\n{% endif %}\n\n\n{% if product.metafields.kameratori.settings_reset == true %}\n  Settings Reset: <b>Yes<\/b><br>\n{% elsif product.metafields.kameratori.settings_reset == false %}\n  No\n{% else %}\n{% endif %}\n\n\n{% if product.metafields.kameratori.firmware_updated == true %}\n  Firmware Updated <b>Yes<\/b><br>\n{% elsif product.metafields.kameratori.firmware_updated == false %}\n Firmware Updated: <b>Yes<\/b><br>\n{% else %}\n{% endif %}<\/p>"
           }
         },
         "cd07da4b-ae00-46ee-bf67-5c7799d93921": {
@@ -130,11 +130,11 @@
         "94c18297-7071-4788-a294-49e32bd91e32",
         "price",
         "853cea71-8e8d-4b3a-8d41-fda13fdf751d",
+        "83754794-92b8-452f-98b4-999eea3e6967",
         "buy_buttons",
         "d5caab0f-8084-4d2c-9f50-f4478f12dbeb",
         "99452d1b-4d7e-4077-a88b-abeded9e84f2",
         "235b8cd5-c263-4cde-9104-81a9203d4384",
-        "83754794-92b8-452f-98b4-999eea3e6967",
         "cd07da4b-ae00-46ee-bf67-5c7799d93921",
         "ad4fef74-222f-422b-a2e1-33623ff7b9e6",
         "a4908876-2ec2-4049-8519-f88aac2c716e",
