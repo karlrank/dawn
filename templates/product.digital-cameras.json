@@ -28,13 +28,6 @@
           "settings": {
           }
         },
-        "83754794-92b8-452f-98b4-999eea3e6967": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "<p>{%- assign current_variant = product.selected_or_first_available_variant -%}\n\n{% if product.metafields.kameratori.shutter_count and product.metafields.kameratori.shutter_count != \"\" %}\n  Shutter Count:  <b>{{product.metafields.kameratori.shutter_count}}<\/b><br>\n{% else %}\n{% endif %}\n\n\n{% if product.metafields.kameratori.sensor_cleaned == true %}\n  Sensor Cleaned: <b>Yes<\/b><br>\n{% elsif product.metafields.kameratori.sensor_cleaned == false %}\n Sensor Cleaned: <b>No<\/b><br>\n{% else %}\n{% endif %}\n\n\n{% if product.metafields.kameratori.settings_reset == true %}\n  Settings Reset: <b>Yes<\/b><br>\n{% elsif product.metafields.kameratori.settings_reset == false %}\n  No\n{% else %}\n{% endif %}\n\n\n{% if product.metafields.kameratori.firmware_updated == true %}\n  Firmware Updated <b>Yes<\/b><br>\n{% elsif product.metafields.kameratori.firmware_updated == false %}\n Firmware Updated: <b>Yes<\/b><br>\n{% else %}\n{% endif %}\n\n{% if product.metafields.kameratori.batteries and product.metafields.kameratori.batteries != \"\" %}\n  Battery:  <b>{{product.metafields.kameratori.batteries}}<\/b><br>\n{% else %}\n{% endif %}"
-          }
-        },
         "94c18297-7071-4788-a294-49e32bd91e32": {
           "type": "custom_liquid",
           "disabled": true,
@@ -57,6 +50,12 @@
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": false
+          }
+        },
+        "83754794-92b8-452f-98b4-999eea3e6967": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p>{%- assign current_variant = product.selected_or_first_available_variant -%}\n\n{% if product.metafields.kameratori.shutter_count and product.metafields.kameratori.shutter_count != \"\" %}\n  Shutter Count:  <b>{{product.metafields.kameratori.shutter_count}}<\/b><br>\n{% else %}\n{% endif %}\n\n\n{% if product.metafields.kameratori.sensor_cleaned == true %}\n  Sensor Cleaned: <b>Yes<\/b><br>\n{% elsif product.metafields.kameratori.sensor_cleaned == false %}\n Sensor Cleaned: <b>No<\/b><br>\n{% else %}\n{% endif %}\n\n\n{% if product.metafields.kameratori.settings_reset == true %}\n  Settings Reset: <b>Yes<\/b><br>\n{% elsif product.metafields.kameratori.settings_reset == false %}\n  No\n{% else %}\n{% endif %}\n\n\n{% if product.metafields.kameratori.firmware_updated == true %}\n  Firmware Updated <b>Yes<\/b><br>\n{% elsif product.metafields.kameratori.firmware_updated == false %}\n Firmware Updated: <b>Yes<\/b><br>\n{% else %}\n{% endif %}<\/p>"
           }
         },
         "d5caab0f-8084-4d2c-9f50-f4478f12dbeb": {
@@ -128,11 +127,11 @@
         "5875f51c-da6b-4990-b273-8ddfdb2d7397",
         "74fe16dc-fae7-4902-b96b-a73338f83400",
         "title",
-        "83754794-92b8-452f-98b4-999eea3e6967",
         "94c18297-7071-4788-a294-49e32bd91e32",
         "price",
         "853cea71-8e8d-4b3a-8d41-fda13fdf751d",
         "buy_buttons",
+        "83754794-92b8-452f-98b4-999eea3e6967",
         "d5caab0f-8084-4d2c-9f50-f4478f12dbeb",
         "99452d1b-4d7e-4077-a88b-abeded9e84f2",
         "235b8cd5-c263-4cde-9104-81a9203d4384",
