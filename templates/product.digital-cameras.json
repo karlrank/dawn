@@ -32,7 +32,7 @@
           "type": "custom_liquid",
           "disabled": true,
           "settings": {
-            "custom_liquid": "<p>{%- assign current_variant = product.selected_or_first_available_variant -%}<b>Settings Reset:<\/b>  {{ product.metafields.kameratori.settings_reset }}<br><b>Firmware Updated<\/b> {{ product.metafields.kameratori.firmware_updated }}<br><b>Database ID:<\/b> {{ current_variant.sku | upcase}}\\n<br><\/span><\/p>\n\n{{ product.metafields.kameratori.shutter_count }}\n\n{{ product.metafields.kameratori.settings_reset }}"
+            "custom_liquid": "<p>{%- assign current_variant = product.selected_or_first_available_variant -%}<b>Settings Reset:<\/b>  {{ product.metafields.kameratori.settings_reset }}<br><b>Firmware Updated<\/b> {{ product.metafields.kameratori.firmware_updated }}<br><b>Database ID:<\/b> {{ product.metafields.kameratori.sensor_cleaned }}<br>\n<b>Shutter Count:<\/b> {{ product.metafields.kameratori.shutter_count }}\n<\/span><\/p>"
           }
         },
         "94c18297-7071-4788-a294-49e32bd91e32": {
