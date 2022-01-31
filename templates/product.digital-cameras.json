@@ -62,7 +62,7 @@
           "type": "custom_liquid",
           "disabled": true,
           "settings": {
-            "custom_liquid": "<a href=\"{{ product.metafields.my_fields.database_parent.value.url }}\" class=\"link link--text underlined-link\">Read or Write Reviews<\/a>"
+            "custom_liquid": "<a href=\"{{ product.metafields.my_fields.database_parent.value.url }}\" class=\"link link--text underlined-link\">Read or Write Reviews<\/a>\n\n\n{{ product.metafields.kameratori.shutter_count }}"
           }
         },
         "235b8cd5-c263-4cde-9104-81a9203d4384": {
