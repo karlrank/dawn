@@ -55,6 +55,7 @@
             "em_email_popup_footer_text": "We will notify you when this product is back in stock. We will not share your email address with anybody.",
             "em_email_popup_validation_text": "* Your email address is invalid.",
             "em_email_popup_subscribed_text": "* You have already subscribed this product.",
+            "em_email_popup_name_placeholder_text": "Your name",
             "em_email_popup_placeholder_text": "Email address...",
             "em_email_success_frame_title": "Successfully subscribed!",
             "em_email_success_frame_content": "We will send you an email when this product is back in stock."
@@ -62,6 +63,7 @@
         },
         "ff1bb9c6-eb65-4ae0-a2ab-b42152660aae": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<p>\nWe do not ship from Helsinki. If your film order is greater than stock in Tampere, expect a week shipping delay while we transfer inventory. <\/p>"
           }
