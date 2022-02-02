@@ -54,6 +54,7 @@ predictive-search[loading] .predictive-search {
   align-items: center;
   width: calc(100% - 4rem);
   color: rgba(var(--color-foreground), 0.7);
+    border-radius: 30px;
 }
 
 predictive-search .spinner {
