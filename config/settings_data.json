@@ -69,11 +69,11 @@
         "settings": {
           "color_scheme": "background-2",
           "logo": "shopify:\/\/shop_images\/Kamerastore_Logo.png",
-          "logo_width": 120,
+          "logo_width": 140,
           "logo_position": "top-center",
           "menu": "main-menu",
           "show_line_separator": true,
-          "enable_sticky_header": false
+          "enable_sticky_header": true
         }
       },
       "footer": {
