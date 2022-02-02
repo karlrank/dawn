@@ -14,11 +14,17 @@
           "settings": {
           }
         },
+        "e0f82966-d310-471f-857d-848cf0e76820": {
+          "type": "text",
+          "settings": {
+            "text": "<b>This item only ships to Finland. <\/b>Due to DHL regulations we cannot ship this outside of the country.",
+            "text_style": "body"
+          }
+        },
         "d2f0204f-1c5f-46fd-81d6-a9e4069c2ae4": {
           "type": "custom_liquid",
-          "disabled": true,
           "settings": {
-            "custom_liquid": "<p>Ships from: {% if product.tags contains 'From-Kameratori' %}\n          \nTampere, Finland<\/p>\n{% elsif product.tags contains 'From-Fototapio' %}\n          \nEspoo, Finland      \n{% else %}\nTampere, Finland\n{% endif %}\n\n{% comment %}\nNow section two\n{% endcomment %}\n\n<div id=\"variant-inventory\">\n{% if product.selected_or_first_available_variant.inventory_management == \"shopify\" and product.selected_or_first_available_variant.inventory_quantity> 0 %}\nIn stock: <b>{{product.selected_or_first_available_variant.inventory_quantity}}<\/b> available\n{% endif %}\n<\/div>"
+            "custom_liquid": ""
           }
         },
         "price": {
@@ -64,9 +70,14 @@
             "em_email_inline_button_display": true,
             "em_email_float_button_display": false,
             "em_email_button_color": "#ffffff",
+            "em_email_button_hover_color": "#202223",
             "em_email_button_background": "#333333",
+            "em_email_button_hover_background": "#444444",
+            "em_email_button_border_color": "transparent",
+            "em_email_button_hover_animation": false,
             "em_email_button_content": "EMAIL ME WHEN AVAILABLE",
             "font_size": 14,
+            "margin_top": 10,
             "border_radius": 2,
             "em_email_button_font_family": "inherit",
             "em_email_button_font_weight": "inherit",
@@ -76,6 +87,8 @@
             "em_email_popup_header_text": "EMAIL ME WHEN AVAILABLE",
             "em_email_popup_footer_text": "We will notify you when this product is back in stock. We will not share your email address with anybody.",
             "em_email_popup_validation_text": "* Your email address is invalid.",
+            "em_email_popup_subscribed_text": "* You have already subscribed this product.",
+            "em_email_popup_name_placeholder_text": "Your name",
             "em_email_popup_placeholder_text": "Email address...",
             "em_email_success_frame_title": "Successfully subscribed!",
             "em_email_success_frame_content": "We will send you an email when this product is back in stock."
@@ -128,6 +141,7 @@
       },
       "block_order": [
         "title",
+        "e0f82966-d310-471f-857d-848cf0e76820",
         "d2f0204f-1c5f-46fd-81d6-a9e4069c2ae4",
         "price",
         "f0c9e60b-84e2-4c7b-a294-cab454328d82",
