@@ -14,12 +14,6 @@
           "settings": {
           }
         },
-        "3fcfd2be-57f3-4db6-b051-c892e03c2a73": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<style>\n.restricted {\n  background-color: #FEF7EA;\n  color: #3E4447;\n  padding-left: 15px;\n  padding-right: 15px;\n  border: 2px solid #F6DFBB;\n  margin: 0px;\n  border-radius: 5px;\n}\n<\/style>\n<\/head>\n<body>\n\n<div class=\"restricted\">\n<h3><\/h3>\n<p><u>This item only ships to Finland!<\/u> Due to DHL regulations we cannot ship this outside of the country.<\/p>\n<\/div>"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -49,6 +43,12 @@
           "type": "variant_picker",
           "settings": {
             "picker_type": "button"
+          }
+        },
+        "3fcfd2be-57f3-4db6-b051-c892e03c2a73": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n.restricted {\n  background-color: #FEF7EA;\n  color: #3E4447;\n  padding-left: 15px;\n  padding-right: 15px;\n  border: 2px solid #F6DFBB;\n  margin: 0px;\n  border-radius: 5px;\n}\n<\/style>\n<\/head>\n<body>\n\n<div class=\"restricted\">\n<h3><\/h3>\n<p><u>This item only ships to Finland!<\/u> Due to DHL regulations we cannot ship this outside of the country.<\/p>\n<\/div>"
           }
         },
         "ec88d254-bbe8-4b70-a8ba-4e63f56ef136": {
@@ -114,12 +114,12 @@
       },
       "block_order": [
         "title",
-        "3fcfd2be-57f3-4db6-b051-c892e03c2a73",
         "price",
         "f0c9e60b-84e2-4c7b-a294-cab454328d82",
         "8a5e19bd-ec83-4ef2-ad47-9bd4b01b7f5e",
         "quantity_selector",
         "variant_picker",
+        "3fcfd2be-57f3-4db6-b051-c892e03c2a73",
         "ec88d254-bbe8-4b70-a8ba-4e63f56ef136",
         "buy_buttons",
         "d031b056-55bf-4778-a201-0c5d8ab0e178",
