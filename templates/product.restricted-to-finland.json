@@ -17,7 +17,7 @@
         "e0f82966-d310-471f-857d-848cf0e76820": {
           "type": "text",
           "settings": {
-            "text": "<b>This item only ships to Finland. <\/b>Due to DHL regulations we cannot ship this outside of the country.",
+            "text": "<style>.myDiv {  border: 5px outset red;  background-color: red;   text-align: center;}<\/style><div>  <h2>This is a heading in a div element<\/h2>  <p>This is some text in a div element.<\/p>\n<\/div><b>This item only ships to Finland. <\/b>Due to DHL regulations we cannot ship this outside of the country.",
             "text_style": "body"
           }
         },
