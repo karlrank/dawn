@@ -14,10 +14,16 @@
           "settings": {
           }
         },
+        "3fcfd2be-57f3-4db6-b051-c892e03c2a73": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n.restricted {\n  background-color: tomato;\n  color: white;\n  border: 2px solid black;\n  margin: 0px;\n  padding: 20px;\n}\n<\/style>\n<\/head>\n<body>\n\n<div class=\"restricted\">\n<h2>London<\/h2>\n<p>London is the capital of England.<\/p>\n<\/div>"
+          }
+        },
         "e0f82966-d310-471f-857d-848cf0e76820": {
           "type": "text",
           "settings": {
-            "text": "<style>.myDiv {  border: 5px outset red;  background-color: red;   text-align: center;}<\/style><div>  <h2>This is a heading in a div element<\/h2>  <p>This is some text in a div element.<\/p>\n<\/div><b>This item only ships to Finland. <\/b>Due to DHL regulations we cannot ship this outside of the country.",
+            "text": "  This is a heading in a div element  This is some text in a div element.This item only ships to Finland. Due to DHL regulations we cannot ship this outside of the country.",
             "text_style": "body"
           }
         },
@@ -73,7 +79,7 @@
             "em_email_button_hover_color": "#202223",
             "em_email_button_background": "#333333",
             "em_email_button_hover_background": "#444444",
-            "em_email_button_border_color": "transparent",
+            "em_email_button_border_color": "rgba(0,0,0,0)",
             "em_email_button_hover_animation": false,
             "em_email_button_content": "EMAIL ME WHEN AVAILABLE",
             "font_size": 14,
@@ -131,6 +137,7 @@
       },
       "block_order": [
         "title",
+        "3fcfd2be-57f3-4db6-b051-c892e03c2a73",
         "e0f82966-d310-471f-857d-848cf0e76820",
         "d2f0204f-1c5f-46fd-81d6-a9e4069c2ae4",
         "price",
