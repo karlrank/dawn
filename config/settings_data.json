@@ -34,7 +34,7 @@
             "type": "announcement",
             "disabled": true,
             "settings": {
-              "text": "Instructions for importing your old orders",
+              "text": "Welcome to the New Kamerastore! Click here for more info & to import old orders!",
               "color_scheme": "inverse",
               "link": "shopify:\/\/pages\/move-you-kamerastore-data-to-our-new-site"
             }
