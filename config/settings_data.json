@@ -42,18 +42,9 @@
           "e27c5c07-a2d9-44ec-8733-18238392d531": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to the New Kamerastore! Click here for more information & to import your old orders!",
+              "text": "Instructions for importing your old orders",
               "color_scheme": "inverse",
               "link": "shopify:\/\/pages\/move-you-kamerastore-data-to-our-new-site"
-            }
-          },
-          "ffb573a0-894f-4166-ae94-4f084dbfb4a6": {
-            "type": "announcement",
-            "disabled": true,
-            "settings": {
-              "text": "We're Hiring! Click here to view our Open Positions!",
-              "color_scheme": "accent-1",
-              "link": "shopify:\/\/pages\/were-hiring-2022"
             }
           },
           "2e0296fe-51ad-44a1-93ae-816b91172f02": {
@@ -68,7 +59,6 @@
         "block_order": [
           "614b6402-cf94-491a-b085-b08f80102db2",
           "e27c5c07-a2d9-44ec-8733-18238392d531",
-          "ffb573a0-894f-4166-ae94-4f084dbfb4a6",
           "2e0296fe-51ad-44a1-93ae-816b91172f02"
         ],
         "settings": {
