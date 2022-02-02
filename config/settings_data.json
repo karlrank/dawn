@@ -41,11 +41,10 @@
           },
           "e27c5c07-a2d9-44ec-8733-18238392d531": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "We're Hiring! Click to see Open Positions!",
-              "color_scheme": "accent-1",
-              "link": "shopify:\/\/pages\/were-hiring-2022"
+              "text": "Instructions for importing your old orders",
+              "color_scheme": "inverse",
+              "link": "shopify:\/\/pages\/move-you-kamerastore-data-to-our-new-site"
             }
           },
           "2e0296fe-51ad-44a1-93ae-816b91172f02": {
