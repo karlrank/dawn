@@ -17,7 +17,7 @@
         "3fcfd2be-57f3-4db6-b051-c892e03c2a73": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<style>\n.restricted {\n  background-color: tomato;\n  color: white;\n  border: 2px solid black;\n  margin: 0px;\n  padding: 20px;\n}\n<\/style>\n<\/head>\n<body>\n\n<div class=\"restricted\">\n<h2>London<\/h2>\n<p>London is the capital of England.<\/p>\n<\/div>"
+            "custom_liquid": "<style>\n.restricted {\n  background-color: #ffffe7;\n  color: black;\n  border: 2px solid #F1C232;\n  margin: 0px;\n  padding: 20px;\n}\n<\/style>\n<\/head>\n<body>\n\n<div class=\"restricted\">\n<h3>INFO!<\/h3>\n<p>Finland-only Delivery<\/p>\n<\/div>"
           }
         },
         "e0f82966-d310-471f-857d-848cf0e76820": {
