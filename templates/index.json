@@ -37,7 +37,7 @@
         "image": "shopify:\/\/shop_images\/canon--0017.jpg",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
-        "show_text_box": true,
+        "show_text_box": false,
         "image_overlay_opacity": 50,
         "color_scheme": "background-2",
         "stack_images_on_mobile": false,
