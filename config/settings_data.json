@@ -30,15 +30,6 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
-          "e27c5c07-a2d9-44ec-8733-18238392d531": {
-            "type": "announcement",
-            "disabled": true,
-            "settings": {
-              "text": "Welcome to the New Kamerastore! Click here for more info & to import old orders!",
-              "color_scheme": "inverse",
-              "link": "shopify:\/\/pages\/move-you-kamerastore-data-to-our-new-site"
-            }
-          },
           "2e0296fe-51ad-44a1-93ae-816b91172f02": {
             "type": "announcement",
             "settings": {
@@ -54,12 +45,21 @@
               "color_scheme": "background-1",
               "link": "\/policies\/shipping-policy"
             }
+          },
+          "39d85c5b-b96e-42e4-b90d-5d4e816742eb": {
+            "type": "announcement",
+            "disabled": true,
+            "settings": {
+              "text": "Europe's Film Camera Specialists since 2010",
+              "color_scheme": "background-2",
+              "link": "shopify:\/\/pages\/about-kamerastore"
+            }
           }
         },
         "block_order": [
-          "e27c5c07-a2d9-44ec-8733-18238392d531",
           "2e0296fe-51ad-44a1-93ae-816b91172f02",
-          "4c1a92eb-53d3-4f1d-ad29-76811ffcecfe"
+          "4c1a92eb-53d3-4f1d-ad29-76811ffcecfe",
+          "39d85c5b-b96e-42e4-b90d-5d4e816742eb"
         ],
         "settings": {
         }
