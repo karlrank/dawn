@@ -4,7 +4,7 @@
     "theme": "Dawn STABLE",
     "primaryLocale": "en"
   },
-  "tsPublished": 1643871339,
+  "tsPublished": 1643871428,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -682,7 +682,7 @@
           "da": "Sporingspræferencer.",
           "en": "Tracking preferences.",
           "es": "Preferencias de seguimiento.",
-          "fi": "Seurantaasetukset.",
+          "fi": "Seuranta-asetukset.",
           "fr": "Préférences de suivi.",
           "sv": "Spårningspreferenser."
         }
