@@ -4,7 +4,7 @@
     "theme": "Dawn STABLE",
     "primaryLocale": "en"
   },
-  "tsPublished": 1643871243,
+  "tsPublished": 1643871339,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -109,7 +109,7 @@
         "da": "Vi bruger cookies til at optimere webstedets funktionalitet, analysere ydelsen og give dig en personlig oplevelse. Nogle cookies er afgørende for at få hjemmesiden til at fungere og fungere korrekt. Disse cookies kan ikke deaktiveres. I dette vindue kan du styre din præference for cookies.",
         "en": "We use cookies to optimize website functionality, analyze the performance, and provide personalized experience to you. Some cookies are essential to make the website operate and function correctly. Those cookies cannot be disabled. In this window you can manage your preference of cookies.",
         "es": "Usamos cookies para optimizar la funcionalidad del sitio web, analizar el rendimiento y brindarle una experiencia personalizada. Algunas cookies son esenciales para que el sitio web funcione y funcione correctamente. Esas cookies no se pueden desactivar. En esta ventana puede administrar su preferencia de cookies.",
-        "fi": "Käytämme evästeitä verkkosivuston toimivuuden optimoimiseksi, suorituskyvyn analysoimiseksi ja henkilökohtaisen kokemuksen tarjoamiseksi sinulle. Jotkut evästeet ovat välttämättömiä, jotta verkkosivusto toimii ja toimii oikein. Näitä evästeitä ei voi poistaa käytöstä. Tässä ikkunassa voit hallita evästeasetuksiasi.",
+        "fi": "Käytämme evästeitä verkkosivuston toimivuuden optimoimiseksi ja suorituskyvyn analysoimiseksi. Jotkin evästeet ovat välttämättömiä, jotta verkkosivusto toimii oikein. Näitä evästeitä ei voi poistaa käytöstä. Voit hallita evästeasetuksiasi tässä ikkunassa.",
         "fr": "Nous utilisons des cookies pour optimiser les fonctionnalités du site Web, analyser les performances et vous offrir une expérience personnalisée. Certains cookies sont indispensables au bon fonctionnement et au bon fonctionnement du site. Ces cookies ne peuvent pas être désactivés. Dans cette fenêtre, vous pouvez gérer votre préférence de cookies.",
         "sv": "Vi använder cookies för att optimera webbplatsens funktionalitet, analysera prestanda och ge dig personlig upplevelse. Vissa kakor är viktiga för att webbplatsen ska fungera och fungera korrekt. Dessa cookies kan inte inaktiveras. I det här fönstret kan du hantera dina preferenser för cookies."
       },
