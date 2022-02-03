@@ -1,10 +1,10 @@
 {
   "store": {
-    "plan": "basic",
+    "plan": "plus",
     "theme": "Dawn STABLE",
     "primaryLocale": "en"
   },
-  "tsPublished": 1643117104,
+  "tsPublished": 1643870071,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
