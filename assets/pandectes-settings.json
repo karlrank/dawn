@@ -4,7 +4,7 @@
     "theme": "Dawn STABLE",
     "primaryLocale": "en"
   },
-  "tsPublished": 1643871764,
+  "tsPublished": 1643871865,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -255,7 +255,7 @@
         "da": "Disse cookies gør det muligt for os at overvåge og forbedre vores websteds ydeevne. For eksempel giver de os mulighed for at tælle besøg, identificere trafikkilder og se, hvilke dele af webstedet der er mest populære.",
         "en": "These cookies enable us to monitor and improve the performance of our website. For example, they allow us to count visits, identify traffic sources and see which parts of the site are most popular.",
         "es": "Estas cookies nos permiten monitorear y mejorar el rendimiento de nuestro sitio web. Por ejemplo, nos permiten contar las visitas, identificar las fuentes de tráfico y ver qué partes del sitio son más populares.",
-        "fi": "Näiden evästeiden avulla voimme seurata ja parantaa verkkosivustomme suorituskykyä. Niiden avulla voimme esimerkiksi laskea käyntejä, tunnistaa liikenteen lähteet ja nähdä, mitkä sivuston osat ovat suosituimpia.",
+        "fi": "Näiden evästeiden avulla voimme seurata ja parantaa verkkosivustomme suorituskykyä. Voimme esimerkiksi laskea käyntejä, tunnistaa liikenteen lähteet ja nähdä, mitkä sivuston osat ovat suosituimpia.",
         "fr": "Ces cookies nous permettent de surveiller et d&#39;améliorer les performances de notre site Web. Par exemple, ils nous permettent de compter les visites, d&#39;identifier les sources de trafic et de voir quelles parties du site sont les plus populaires.",
         "sv": "Dessa cookies gör att vi kan övervaka och förbättra prestandan på vår webbplats. Till exempel tillåter de oss att räkna besök, identifiera trafikkällor och se vilka delar av webbplatsen som är mest populära."
       },
