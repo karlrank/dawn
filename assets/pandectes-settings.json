@@ -4,229 +4,574 @@
     "theme": "Dawn STABLE",
     "primaryLocale": "en"
   },
-  "tsPublished": 1643870071,
+  "tsPublished": 1643870191,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
     "showDateGenerated": false
   },
   "language": {
-    "languageMode": "Single",
+    "languageMode": "Multilingual",
     "fallbackLanguage": "en",
     "languageDetection": "browser",
     "languagesSupported": [
-
+      "da",
+      "fi",
+      "fr",
+      "es",
+      "sv",
+      "no"
     ]
   },
   "texts": {
     "managed": {
       "headerText": {
-        "en": "We respect your privacy"
+        "da": "Vi respekterer dit privatliv",
+        "en": "We respect your privacy",
+        "es": "respetamos tu privacidad",
+        "fi": "Kunnioitamme yksityisyyttäsi",
+        "fr": "Nous respectons votre vie privée",
+        "sv": "Vi respekterar din integritet"
       },
       "consentText": {
-        "en": "Our website uses cookies to ensure you get the best experience."
+        "da": "Dette websted bruger cookies for at sikre, at du får den bedste oplevelse.",
+        "en": "Our website uses cookies to ensure you get the best experience.",
+        "es": "Este sitio web utiliza cookies para garantizar que obtenga la mejor experiencia.",
+        "fi": "Tämä sivusto käyttää evästeitä parhaan käyttökokemuksen varmistamiseksi.",
+        "fr": "Ce site utilise des cookies pour vous garantir la meilleure expérience.",
+        "sv": "Denna webbplats använder cookies för att säkerställa att du får den bästa upplevelsen."
       },
       "dismissButtonText": {
-        "en": "Ok"
+        "da": "Okay",
+        "en": "Ok",
+        "es": "OK",
+        "fi": "Ok",
+        "fr": "D'accord",
+        "sv": "Ok"
       },
       "linkText": {
-        "en": "Learn more"
+        "da": "Lær mere",
+        "en": "Learn more",
+        "es": "Aprende más",
+        "fi": "Lisätietoja",
+        "fr": "Apprendre encore plus",
+        "sv": "Läs mer"
       },
       "preferencesButtonText": {
-        "en": "Preferences"
+        "da": "Præferencer",
+        "en": "Preferences",
+        "es": "Preferencias",
+        "fi": "Asetukset",
+        "fr": "Préférences",
+        "sv": "Preferenser"
       },
       "allowButtonText": {
-        "en": "Ok"
+        "da": "Acceptere",
+        "en": "Ok",
+        "es": "Aceptar",
+        "fi": "Hyväksyä",
+        "fr": "J'accepte",
+        "sv": "Acceptera"
       },
       "denyButtonText": {
-        "en": "Decline"
+        "da": "Nedgang",
+        "en": "Decline",
+        "es": "Disminución",
+        "fi": "Hylkää",
+        "fr": "Déclin",
+        "sv": "Nedgång"
       },
       "leaveSiteButtonText": {
-        "en": "Leave this site"
+        "da": "Forlad dette websted",
+        "en": "Leave this site",
+        "es": "Salir de este sitio",
+        "fi": "Jätä tämä sivusto",
+        "fr": "Quitter ce site",
+        "sv": "Lämna denna webbplats"
       },
       "cookiePolicyText": {
-        "en": "Cookie policy"
+        "da": "Cookiepolitik",
+        "en": "Cookie policy",
+        "es": "Política de cookies",
+        "fi": "Evästekäytäntö",
+        "fr": "Politique de cookies",
+        "sv": "Cookiepolicy"
       },
       "preferencesPopupTitleText": {
-        "en": "Manage consent preferences"
+        "da": "Administrer samtykkeindstillinger",
+        "en": "Manage consent preferences",
+        "es": "Gestionar las preferencias de consentimiento",
+        "fi": "Hallitse suostumusasetuksia",
+        "fr": "Gérer les préférences de consentement",
+        "sv": "Hantera samtyckeinställningar"
       },
       "preferencesPopupIntroText": {
-        "en": "We use cookies to optimize website functionality, analyze the performance, and provide personalized experience to you. Some cookies are essential to make the website operate and function correctly. Those cookies cannot be disabled. In this window you can manage your preference of cookies."
+        "da": "Vi bruger cookies til at optimere webstedets funktionalitet, analysere ydelsen og give dig en personlig oplevelse. Nogle cookies er afgørende for at få hjemmesiden til at fungere og fungere korrekt. Disse cookies kan ikke deaktiveres. I dette vindue kan du styre din præference for cookies.",
+        "en": "We use cookies to optimize website functionality, analyze the performance, and provide personalized experience to you. Some cookies are essential to make the website operate and function correctly. Those cookies cannot be disabled. In this window you can manage your preference of cookies.",
+        "es": "Usamos cookies para optimizar la funcionalidad del sitio web, analizar el rendimiento y brindarle una experiencia personalizada. Algunas cookies son esenciales para que el sitio web funcione y funcione correctamente. Esas cookies no se pueden desactivar. En esta ventana puede administrar su preferencia de cookies.",
+        "fi": "Käytämme evästeitä verkkosivuston toimivuuden optimoimiseksi, suorituskyvyn analysoimiseksi ja henkilökohtaisen kokemuksen tarjoamiseksi sinulle. Jotkut evästeet ovat välttämättömiä, jotta verkkosivusto toimii ja toimii oikein. Näitä evästeitä ei voi poistaa käytöstä. Tässä ikkunassa voit hallita evästeasetuksiasi.",
+        "fr": "Nous utilisons des cookies pour optimiser les fonctionnalités du site Web, analyser les performances et vous offrir une expérience personnalisée. Certains cookies sont indispensables au bon fonctionnement et au bon fonctionnement du site. Ces cookies ne peuvent pas être désactivés. Dans cette fenêtre, vous pouvez gérer votre préférence de cookies.",
+        "sv": "Vi använder cookies för att optimera webbplatsens funktionalitet, analysera prestanda och ge dig personlig upplevelse. Vissa kakor är viktiga för att webbplatsen ska fungera och fungera korrekt. Dessa cookies kan inte inaktiveras. I det här fönstret kan du hantera dina preferenser för cookies."
       },
       "preferencesPopupCloseButtonText": {
-        "en": "Close"
+        "da": "Tæt",
+        "en": "Close",
+        "es": "Cerrar",
+        "fi": "kiinni",
+        "fr": "proche",
+        "sv": "Stänga"
       },
       "preferencesPopupAcceptAllButtonText": {
-        "en": "Accept all"
+        "da": "Accepter alle",
+        "en": "Accept all",
+        "es": "Aceptar todo",
+        "fi": "Hyväksy kaikki",
+        "fr": "Accepter tout",
+        "sv": "Acceptera alla"
       },
       "preferencesPopupRejectAllButtonText": {
-        "en": "Reject all"
+        "da": "Afvis alle",
+        "en": "Reject all",
+        "es": "Rechazar todo",
+        "fi": "Hylkää kaikki",
+        "fr": "Tout rejeter",
+        "sv": "Avvisa alla"
       },
       "preferencesPopupSaveButtonText": {
-        "en": "Save preferences"
+        "da": "Gem præferencer",
+        "en": "Save preferences",
+        "es": "Guardar preferencias",
+        "fi": "Tallenna asetukset",
+        "fr": "Enregistrer les préférences",
+        "sv": "Spara inställningar"
       },
       "accessSectionTitleText": {
-        "en": "Data portability"
+        "da": "Dataportabilitet",
+        "en": "Data portability",
+        "es": "Portabilidad de datos",
+        "fi": "Tietojen siirrettävyys",
+        "fr": "Portabilité des données",
+        "sv": "Dataportabilitet"
       },
       "accessSectionParagraphText": {
-        "en": "You have the right to request access to your data at any time."
+        "da": "Du har til enhver tid ret til at få adgang til dine data.",
+        "en": "You have the right to request access to your data at any time.",
+        "es": "Tiene derecho a poder acceder a sus datos en cualquier momento.",
+        "fi": "Sinulla on oikeus päästä käsiksi tietoihisi milloin tahansa.",
+        "fr": "Vous avez le droit de pouvoir accéder à vos données à tout moment.",
+        "sv": "Du har rätt att när som helst få tillgång till dina uppgifter."
       },
       "rectificationSectionTitleText": {
-        "en": "Data Rectification"
+        "da": "Rettelse af data",
+        "en": "Data Rectification",
+        "es": "Rectificación de datos",
+        "fi": "Tietojen oikaisu",
+        "fr": "Rectification des données",
+        "sv": "Rättelse av data"
       },
       "rectificationSectionParagraphText": {
-        "en": "You have the right to request your data to be updated whenever you think it is appropriate."
+        "da": "Du har ret til at anmode om, at dine data opdateres, når du synes, det er passende.",
+        "en": "You have the right to request your data to be updated whenever you think it is appropriate.",
+        "es": "Tienes derecho a solicitar la actualización de tus datos siempre que lo creas oportuno.",
+        "fi": "Sinulla on oikeus pyytää tietojesi päivittämistä aina, kun pidät sitä tarpeellisena.",
+        "fr": "Vous avez le droit de demander la mise à jour de vos données chaque fois que vous le jugez approprié.",
+        "sv": "Du har rätt att begära att dina uppgifter uppdateras när du tycker att det är lämpligt."
       },
       "erasureSectionTitleText": {
-        "en": "Right to be forgotten"
+        "da": "Ret til at blive glemt",
+        "en": "Right to be forgotten",
+        "es": "Derecho al olvido",
+        "fi": "Oikeus tulla unohdetuksi",
+        "fr": "Droit à l'oubli",
+        "sv": "Rätt att bli bortglömd"
       },
       "erasureSectionParagraphText": {
-        "en": "You have the right to ask all your data to be erased. After that, you will no longer be able to access your account."
+        "da": "Du har ret til at bede alle dine data om at blive slettet. Derefter har du ikke længere adgang til din konto.",
+        "en": "You have the right to ask all your data to be erased. After that, you will no longer be able to access your account.",
+        "es": "Tiene derecho a solicitar la eliminación de todos sus datos. Después de eso, ya no podrá acceder a su cuenta.",
+        "fi": "Sinulla on oikeus pyytää, että kaikki tietosi poistetaan. Tämän jälkeen et voi enää käyttää tiliäsi.",
+        "fr": "Vous avez le droit de demander que toutes vos données soient effacées. Après cela, vous ne pourrez plus accéder à votre compte.",
+        "sv": "Du har rätt att be alla dina data raderas. Efter det kommer du inte längre att kunna komma åt ditt konto."
       }
     },
     "categories": {
       "strictlyNecessaryCookiesTitleText": {
-        "en": "Strictly necessary cookies"
+        "da": "Strengt nødvendige cookies",
+        "en": "Strictly necessary cookies",
+        "es": "Cookies estrictamente necesarias",
+        "fi": "Ehdottomasti välttämättömät evästeet",
+        "fr": "Cookies strictement nécessaires",
+        "sv": "Strikt nödvändiga kakor"
       },
       "functionalityCookiesTitleText": {
-        "en": "Functional cookies"
+        "da": "Funktionelle cookies",
+        "en": "Functional cookies",
+        "es": "Cookies funcionales",
+        "fi": "Toiminnalliset evästeet",
+        "fr": "Cookies fonctionnels",
+        "sv": "Funktionella kakor"
       },
       "performanceCookiesTitleText": {
-        "en": "Performance cookies"
+        "da": "Ydelsescookies",
+        "en": "Performance cookies",
+        "es": "Cookies de rendimiento",
+        "fi": "Suorituskykyevästeet",
+        "fr": "Cookies de performances",
+        "sv": "Prestandakakor"
       },
       "targetingCookiesTitleText": {
-        "en": "Targeting cookies"
+        "da": "Målretning af cookies",
+        "en": "Targeting cookies",
+        "es": "Orientación de cookies",
+        "fi": "Kohdistusevästeet",
+        "fr": "Ciblage des cookies",
+        "sv": "Inriktningskakor"
       },
       "unclassifiedCookiesTitleText": {
-        "en": "Unclassified cookies"
+        "da": "Uklassificerede cookies",
+        "en": "Unclassified cookies",
+        "es": "Cookies sin clasificar",
+        "fi": "Luokittelemattomat evästeet",
+        "fr": "Cookies non classés",
+        "sv": "Oklassificerade cookies"
       },
       "strictlyNecessaryCookiesDescriptionText": {
-        "en": "These cookies are essential in order to enable you to move around the website and use its features, such as accessing secure areas of the website. The website cannot function properly without these cookies."
+        "da": "Disse cookies er afgørende for, at du kan flytte rundt på webstedet og bruge dets funktioner, f.eks. Adgang til sikre områder på webstedet. Websitet kan ikke fungere korrekt uden disse cookies.",
+        "en": "These cookies are essential in order to enable you to move around the website and use its features, such as accessing secure areas of the website. The website cannot function properly without these cookies.",
+        "es": "Estas cookies son esenciales para permitirle moverse por el sitio web y utilizar sus funciones, como acceder a áreas seguras del sitio web. El sitio web no puede funcionar correctamente sin estas cookies.",
+        "fi": "Nämä evästeet ovat välttämättömiä, jotta voit liikkua verkkosivustolla ja käyttää sen ominaisuuksia, kuten pääsyä verkkosivuston suojattuihin alueisiin. Verkkosivusto ei voi toimia kunnolla ilman näitä evästeitä.",
+        "fr": "Ces cookies sont essentiels pour vous permettre de vous déplacer sur le site Web et d'utiliser ses fonctionnalités, telles que l'accès aux zones sécurisées du site Web. Le site Web ne peut pas fonctionner correctement sans ces cookies.",
+        "sv": "Dessa cookies är viktiga för att du ska kunna flytta runt på webbplatsen och använda dess funktioner, till exempel att komma åt säkra områden på webbplatsen. Webbplatsen kan inte fungera korrekt utan dessa cookies."
       },
       "functionalityCookiesDescriptionText": {
-        "en": "These cookies enable the site to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly."
+        "da": "Disse cookies gør det muligt for webstedet at levere forbedret funktionalitet og personalisering. De kan angives af os eller af tredjepartsudbydere, hvis tjenester vi har tilføjet til vores sider. Hvis du ikke tillader disse cookies, fungerer nogle eller alle disse tjenester muligvis ikke korrekt.",
+        "en": "These cookies enable the site to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.",
+        "es": "Estas cookies permiten que el sitio proporcione una funcionalidad y personalización mejoradas. Pueden ser establecidos por nosotros o por proveedores externos cuyos servicios hemos agregado a nuestras páginas. Si no permite estas cookies, es posible que algunos o todos estos servicios no funcionen correctamente.",
+        "fi": "Nämä evästeet antavat sivustolle mahdollisuuden parantaa toimintoja ja personointia. Voimme asettaa ne itse tai kolmannen osapuolen palveluntarjoajat, joiden palvelut olemme lisänneet sivuillemme. Jos et salli näitä evästeitä, jotkut tai kaikki näistä palveluista eivät ehkä toimi oikein.",
+        "fr": "Ces cookies permettent au site de fournir des fonctionnalités et une personnalisation améliorées. Ils peuvent être définis par nous ou par des fournisseurs tiers dont nous avons ajouté les services à nos pages. Si vous n'autorisez pas ces cookies, certains ou tous ces services peuvent ne pas fonctionner correctement.",
+        "sv": "Dessa cookies gör det möjligt för webbplatsen att tillhandahålla förbättrad funktionalitet och anpassning. De kan ställas in av oss eller av tredjepartsleverantörer vars tjänster vi har lagt till på våra sidor. Om du inte tillåter dessa kakor kanske vissa eller alla av dessa tjänster inte fungerar korrekt."
       },
       "performanceCookiesDescriptionText": {
-        "en": "These cookies enable us to monitor and improve the performance of our website. For example, they allow us to count visits, identify traffic sources and see which parts of the site are most popular."
+        "da": "Disse cookies gør det muligt for os at overvåge og forbedre vores websteds ydeevne. For eksempel giver de os mulighed for at tælle besøg, identificere trafikkilder og se, hvilke dele af webstedet der er mest populære.",
+        "en": "These cookies enable us to monitor and improve the performance of our website. For example, they allow us to count visits, identify traffic sources and see which parts of the site are most popular.",
+        "es": "Estas cookies nos permiten monitorear y mejorar el rendimiento de nuestro sitio web. Por ejemplo, nos permiten contar las visitas, identificar las fuentes de tráfico y ver qué partes del sitio son más populares.",
+        "fi": "Näiden evästeiden avulla voimme seurata ja parantaa verkkosivustomme suorituskykyä. Niiden avulla voimme esimerkiksi laskea käyntejä, tunnistaa liikenteen lähteet ja nähdä, mitkä sivuston osat ovat suosituimpia.",
+        "fr": "Ces cookies nous permettent de surveiller et d&#39;améliorer les performances de notre site Web. Par exemple, ils nous permettent de compter les visites, d&#39;identifier les sources de trafic et de voir quelles parties du site sont les plus populaires.",
+        "sv": "Dessa cookies gör att vi kan övervaka och förbättra prestandan på vår webbplats. Till exempel tillåter de oss att räkna besök, identifiera trafikkällor och se vilka delar av webbplatsen som är mest populära."
       },
       "targetingCookiesDescriptionText": {
-        "en": "These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites.    They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising."
+        "da": "Disse cookies kan blive sat via vores websted af vores annoncepartnere. De kan bruges af disse virksomheder til at opbygge en profil af dine interesser og vise dig relevante annoncer på andre websteder. De gemmer ikke direkte personlige oplysninger, men er baseret på entydigt at identificere din browser og internet -enhed. Hvis du ikke tillader disse cookies, vil du opleve mindre målrettet annoncering.",
+        "en": "These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites.    They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.",
+        "es": "Nuestros socios publicitarios pueden establecer estas cookies a través de nuestro sitio. Estas empresas pueden utilizarlos para crear un perfil de sus intereses y mostrarle anuncios relevantes en otros sitios. No almacenan directamente información personal, sino que se basan en la identificación única de su navegador y dispositivo de Internet. Si no permite estas cookies, experimentará publicidad menos dirigida.",
+        "fi": "Mainostajamme voivat asettaa nämä evästeet sivustollamme. Nämä yritykset voivat käyttää niitä rakentaakseen kiinnostuksen kohteidesi profiilin ja näyttääkseen sinulle osuvia mainoksia muilla sivustoilla. Ne eivät tallenna suoraan henkilökohtaisia tietoja, mutta perustuvat selaimen ja Internet -laitteen yksilölliseen tunnistamiseen. Jos et salli näitä evästeitä, kohdistat vähemmän mainontaa.",
+        "fr": "Ces cookies peuvent être installés via notre site par nos partenaires publicitaires. Ils peuvent être utilisés par ces sociétés pour établir un profil de vos intérêts et vous montrer des publicités pertinentes sur d&#39;autres sites. Ils ne stockent pas directement d&#39;informations personnelles, mais sont basés sur l&#39;identification unique de votre navigateur et de votre appareil Internet. Si vous n&#39;autorisez pas ces cookies, vous bénéficierez d&#39;une publicité moins ciblée.",
+        "sv": "Dessa cookies kan sättas via vår webbplats av våra reklampartners. De kan användas av dessa företag för att skapa en profil av dina intressen och visa relevanta annonser på andra webbplatser. De lagrar inte direkt personlig information, men är baserade på att identifiera din webbläsare och internetenhet på ett unikt sätt. Om du inte tillåter dessa cookies kommer du att uppleva mindre riktad reklam."
       },
       "unclassifiedCookiesDescriptionText": {
-        "en": "Unclassified cookies are cookies that we are in the process of classifying, together with the providers of individual cookies."
+        "da": "Uklassificerede cookies er cookies, som vi er i gang med at klassificere sammen med udbyderne af individuelle cookies.",
+        "en": "Unclassified cookies are cookies that we are in the process of classifying, together with the providers of individual cookies.",
+        "es": "Las cookies no clasificadas son cookies que estamos en proceso de clasificar, junto con los proveedores de cookies individuales.",
+        "fi": "Luokittelemattomat evästeet ovat evästeitä, joita luokittelemme parhaillaan yhdessä yksittäisten evästeiden tarjoajien kanssa.",
+        "fr": "Les cookies non classés sont des cookies que nous sommes en train de classer avec les fournisseurs de cookies individuels.",
+        "sv": "Oklassificerade cookies är cookies som vi håller på att klassificera tillsammans med leverantörerna av enskilda cookies."
       }
     },
     "auto": {
       "declName": {
-        "en": "Name"
+        "da": "Navn",
+        "en": "Name",
+        "es": "Nombre",
+        "fi": "Nimi",
+        "fr": "Nom",
+        "sv": "namn"
       },
       "declPath": {
-        "en": "Path"
+        "da": "Sti",
+        "en": "Path",
+        "es": "Sendero",
+        "fi": "Polku",
+        "fr": "Chemin",
+        "sv": "Väg"
       },
       "declType": {
-        "en": "Type"
+        "da": "Type",
+        "en": "Type",
+        "es": "Escribe",
+        "fi": "Tyyppi",
+        "fr": "Taper",
+        "sv": "Typ"
       },
       "declDomain": {
-        "en": "Domain"
+        "da": "Domæne",
+        "en": "Domain",
+        "es": "Dominio",
+        "fi": "Verkkotunnus",
+        "fr": "Domaine",
+        "sv": "Domän"
       },
       "declPurpose": {
-        "en": "Purpose"
+        "da": "Formål",
+        "en": "Purpose",
+        "es": "Objetivo",
+        "fi": "Tarkoitus",
+        "fr": "But",
+        "sv": "Ändamål"
       },
       "declProvider": {
-        "en": "Provider"
+        "da": "Udbyder",
+        "en": "Provider",
+        "es": "Proveedor",
+        "fi": "Palveluntarjoaja",
+        "fr": "Fournisseur",
+        "sv": "Leverantör"
       },
       "declRetention": {
-        "en": "Retention"
+        "da": "Tilbageholdelse",
+        "en": "Retention",
+        "es": "Retencion",
+        "fi": "Säilyttäminen",
+        "fr": "Rétention",
+        "sv": "Bibehållande"
       },
       "declFirstParty": {
-        "en": "First-party"
+        "da": "Første fest",
+        "en": "First-party",
+        "es": "Primera fiesta",
+        "fi": "Ensimmäiset juhlat",
+        "fr": "Première fête",
+        "sv": "Första fest"
       },
       "declThirdParty": {
-        "en": "Third-party"
+        "da": "Tredje part",
+        "en": "Third-party",
+        "es": "Tercero",
+        "fi": "Kolmas osapuoli",
+        "fr": "Tierce personne",
+        "sv": "Tredje part"
       },
       "cookiesDetailsText": {
-        "en": "Cookies details"
+        "da": "Cookies detaljer",
+        "en": "Cookies details",
+        "es": "Detalles de las cookies",
+        "fi": "Evästeiden tiedot",
+        "fr": "Détails des cookies",
+        "sv": "Information om cookies"
       },
       "preferencesPopupAlwaysAllowedText": {
-        "en": "Always allowed"
+        "da": "Altid tilladt",
+        "en": "Always allowed",
+        "es": "Siempre permitido",
+        "fi": "aina sallittu",
+        "fr": "Toujours permis",
+        "sv": "alltid tillåtet"
       },
       "submitButton": {
-        "en": "Submit"
+        "da": "Indsend",
+        "en": "Submit",
+        "es": "Enviar",
+        "fi": "Lähetä",
+        "fr": "Soumettre",
+        "sv": "Skicka in"
       },
       "submittingButton": {
-        "en": "Submitting..."
+        "da": "Indsender ...",
+        "en": "Submitting...",
+        "es": "Sumisión...",
+        "fi": "Lähetetään ...",
+        "fr": "Soumission...",
+        "sv": "Skickar ..."
       },
       "cancelButton": {
-        "en": "Cancel"
+        "da": "Afbestille",
+        "en": "Cancel",
+        "es": "Cancelar",
+        "fi": "Peruuttaa",
+        "fr": "Annuler",
+        "sv": "Avbryt"
       },
       "guestsSupportInfoText": {
-        "en": "Please login with your customer account to further proceed."
+        "da": "Log ind med din kundekonto for at fortsætte.",
+        "en": "Please login with your customer account to further proceed.",
+        "es": "Inicie sesión con su cuenta de cliente para continuar.",
+        "fi": "Kirjaudu sisään asiakastililläsi jatkaaksesi.",
+        "fr": "Veuillez vous connecter avec votre compte client pour continuer.",
+        "sv": "Logga in med ditt kundkonto för att fortsätta."
       },
       "guestsSupportEmailPlaceholder": {
-        "en": "E-mail address"
+        "da": "Email adresse",
+        "en": "E-mail address",
+        "es": "Dirección de correo electrónico",
+        "fi": "Sähköpostiosoite",
+        "fr": "Adresse e-mail",
+        "sv": "E-postadress"
       },
       "guestsSupportEmailValidationError": {
-        "en": "Email is not valid"
+        "da": "E -mail er ikke gyldig",
+        "en": "Email is not valid",
+        "es": "El correo no es válido",
+        "fi": "Sähköpostiosoite ei kelpaa",
+        "fr": "L'email n'est pas valide",
+        "sv": "E-post är inte giltig"
       },
       "guestsSupportEmailSuccessTitle": {
-        "en": "Thank you for your request"
+        "da": "Tak for din anmodning",
+        "en": "Thank you for your request",
+        "es": "gracias por tu solicitud",
+        "fi": "Kiitos pyynnöstäsi",
+        "fr": "Merci pour votre requête",
+        "sv": "Tack för din förfrågan"
       },
       "guestsSupportEmailFailureTitle": {
-        "en": "A problem occurred"
+        "da": "Der opstod et problem",
+        "en": "A problem occurred",
+        "es": "Ocurrió un problema",
+        "fi": "Tapahtui ongelma",
+        "fr": "Un problème est survenu",
+        "sv": "Ett problem uppstod"
       },
       "guestsSupportEmailSuccessMessage": {
-        "en": "If you are registered as a customer of this store, you will soon receive an email with instructions on how to proceed."
+        "da": "Hvis du er registreret som kunde i denne butik, modtager du snart en e -mail med instruktioner om, hvordan du fortsætter.",
+        "en": "If you are registered as a customer of this store, you will soon receive an email with instructions on how to proceed.",
+        "es": "Si está registrado como cliente de esta tienda, pronto recibirá un correo electrónico con instrucciones sobre cómo proceder.",
+        "fi": "Jos olet rekisteröitynyt tämän myymälän asiakkaaksi, saat pian sähköpostiviestin, jossa on ohjeet jatkamisesta.",
+        "fr": "Si vous êtes inscrit en tant que client de ce magasin, vous recevrez bientôt un e-mail avec des instructions sur la marche à suivre.",
+        "sv": "Om du är registrerad som kund i den här butiken får du snart ett mejl med instruktioner om hur du går tillväga."
       },
       "guestsSupportEmailFailureMessage": {
-        "en": "Your request was not submitted. Please try again and if problem persists, contact store owner for assistance."
+        "da": "Din anmodning blev ikke sendt. Prøv igen, og kontakt problemet, hvis problemet fortsætter, for at få hjælp.",
+        "en": "Your request was not submitted. Please try again and if problem persists, contact store owner for assistance.",
+        "es": "Su solicitud no fue enviada. Vuelva a intentarlo y, si el problema persiste, comuníquese con el propietario de la tienda para obtener ayuda.",
+        "fi": "Pyyntöäsi ei lähetetty. Yritä uudelleen ja jos ongelma jatkuu, ota yhteyttä myymälän omistajaan.",
+        "fr": "Votre demande n'a pas été soumise. Veuillez réessayer et si le problème persiste, contactez le propriétaire du magasin pour obtenir de l'aide.",
+        "sv": "Din begäran skickades inte. Försök igen och om problemet kvarstår, kontakta butiksägaren för hjälp."
       },
       "confirmationSuccessTitle": {
-        "en": "Your request is verified"
+        "da": "Din anmodning er bekræftet",
+        "en": "Your request is verified",
+        "es": "Tu solicitud está verificada",
+        "fi": "Pyyntösi on vahvistettu",
+        "fr": "Votre demande est vérifiée",
+        "sv": "Din begäran har verifierats"
       },
       "confirmationFailureTitle": {
-        "en": "A problem occurred"
+        "da": "Der opstod et problem",
+        "en": "A problem occurred",
+        "es": "Ocurrió un problema",
+        "fi": "Tapahtui ongelma",
+        "fr": "Un problème est survenu",
+        "sv": "Ett problem uppstod"
       },
       "confirmationSuccessMessage": {
-        "en": "We will soon get back to you as to your request."
+        "da": "Vi vender snart tilbage til dig angående din anmodning.",
+        "en": "We will soon get back to you as to your request.",
+        "es": "Pronto nos comunicaremos con usted en cuanto a su solicitud.",
+        "fi": "Palaamme sinulle pian pyyntösi suhteen.",
+        "fr": "Nous reviendrons rapidement vers vous quant à votre demande.",
+        "sv": "Vi återkommer snart till dig angående din begäran."
       },
       "confirmationFailureMessage": {
-        "en": "Your request was not verified. Please try again and if problem persists, contact store owner for assistance"
+        "da": "Din anmodning blev ikke bekræftet. Prøv igen, og kontakt problemet, hvis problemet fortsætter, for at få hjælp",
+        "en": "Your request was not verified. Please try again and if problem persists, contact store owner for assistance",
+        "es": "Su solicitud no fue verificada. Vuelva a intentarlo y, si el problema persiste, comuníquese con el propietario de la tienda para obtener ayuda.",
+        "fi": "Pyyntöäsi ei vahvistettu. Yritä uudelleen. Jos ongelma jatkuu, ota yhteyttä myymälän omistajaan",
+        "fr": "Votre demande n'a pas été vérifiée. Veuillez réessayer et si le problème persiste, contactez le propriétaire du magasin pour obtenir de l'aide",
+        "sv": "Din begäran verifierades inte. Försök igen och kontakta butiksägaren för att få hjälp om problemet kvarstår"
       },
       "consentSectionTitleText": {
-        "en": "Cookie policy consent"
+        "da": "Samtykke til cookiepolitik",
+        "en": "Cookie policy consent",
+        "es": "Consentimiento de la política de cookies",
+        "fi": "Evästekäytännön suostumus",
+        "fr": "Consentement à la politique de cookies",
+        "sv": "Samtycke för cookiepolicy"
       },
       "consentSectionNoConsentText": {
-        "en": "You have not consented to the cookies policy of this website."
+        "da": "Du har ikke givet samtykke til cookiepolitikken på dette websted.",
+        "en": "You have not consented to the cookies policy of this website.",
+        "es": "No ha dado su consentimiento a la política de cookies de este sitio web.",
+        "fi": "Et ole suostunut tämän verkkosivuston evästekäytäntöön.",
+        "fr": "Vous n'avez pas consenti à la politique de cookies de ce site Web.",
+        "sv": "Du har inte godkänt cookiepolicyn för denna webbplats."
       },
       "consentSectionConsentedText": {
-        "en": "You consented to the cookies policy of this website on"
+        "da": "Du har givet samtykke til cookiepolitikken på dette websted den",
+        "en": "You consented to the cookies policy of this website on",
+        "es": "Usted dio su consentimiento a la política de cookies de este sitio web en",
+        "fi": "Hyväksyit tämän verkkosivuston evästekäytännön",
+        "fr": "Vous avez consenti à la politique de cookies de ce site Web sur",
+        "sv": "Du har samtyckt till cookiespolicyn för denna webbplats den"
       },
       "consentSectionChangeConsentActionText": {
-        "en": "Revoke consent"
+        "da": "Tilbagekald samtykke",
+        "en": "Revoke consent",
+        "es": "Revocar el consentimiento",
+        "fi": "Peruuta suostumus",
+        "fr": "Révoquer le consentement",
+        "sv": "Återkalla samtycke"
       },
       "accessSectionGDPRRequestsActionText": {
-        "en": "Data subject requests"
+        "da": "Anmodninger fra den registrerede",
+        "en": "Data subject requests",
+        "es": "Solicitudes de sujetos de datos",
+        "fi": "Rekisteröidyn pyynnöt",
+        "fr": "Demandes des personnes concernées",
+        "sv": "Begäran av registrerade"
       },
       "accessSectionAccountInfoActionText": {
-        "en": "Personal data"
+        "da": "Personlig data",
+        "en": "Personal data",
+        "es": "Información personal",
+        "fi": "Henkilökohtaiset tiedot",
+        "fr": "Données personnelles",
+        "sv": "Personlig information"
       },
       "accessSectionOrdersRecordsActionText": {
-        "en": "Orders"
+        "da": "Ordre:% s",
+        "en": "Orders",
+        "es": "Pedidos",
+        "fi": "Tilaukset",
+        "fr": "Ordres",
+        "sv": "Order"
       },
       "accessSectionDownloadReportActionText": {
-        "en": "Request export"
+        "da": "Download alt",
+        "en": "Request export",
+        "es": "Descargar todo",
+        "fi": "Lataa kaikki",
+        "fr": "Tout télécharger",
+        "sv": "Ladda ner allt"
       },
       "rectificationCommentPlaceholder": {
-        "en": "Describe what you want to be updated"
+        "da": "Beskriv, hvad du vil have opdateret",
+        "en": "Describe what you want to be updated",
+        "es": "Describe lo que quieres que se actualice",
+        "fi": "Kuvaile, mitä haluat päivittää",
+        "fr": "Décrivez ce que vous souhaitez mettre à jour",
+        "sv": "Beskriv vad du vill uppdatera"
       },
       "rectificationCommentValidationError": {
-        "en": "Comment is required"
+        "da": "Kommentar er påkrævet",
+        "en": "Comment is required",
+        "es": "Se requiere comentario",
+        "fi": "Kommentti vaaditaan",
+        "fr": "Un commentaire est requis",
+        "sv": "Kommentar krävs"
       },
       "rectificationSectionEditAccountActionText": {
-        "en": "Request an update"
+        "da": "Anmod om en opdatering",
+        "en": "Request an update",
+        "es": "Solicita una actualización",
+        "fi": "Pyydä päivitystä",
+        "fr": "Demander une mise à jour",
+        "sv": "Begär en uppdatering"
       },
       "erasureSectionRequestDeletionActionText": {
-        "en": "Request personal data deletion"
+        "da": "Anmod om sletning af personoplysninger",
+        "en": "Request personal data deletion",
+        "es": "Solicitar la eliminación de datos personales",
+        "fi": "Pyydä henkilötietojen poistamista",
+        "fr": "Demander la suppression des données personnelles",
+        "sv": "Begär radering av personuppgifter"
       }
     }
   },
@@ -334,7 +679,12 @@
         "firstParty": true,
         "retention": "1 year(s)",
         "purpose": {
-          "en": "Tracking preferences."
+          "da": "Sporingspræferencer.",
+          "en": "Tracking preferences.",
+          "es": "Preferencias de seguimiento.",
+          "fi": "Seurantaasetukset.",
+          "fr": "Préférences de suivi.",
+          "sv": "Spårningspreferenser."
         }
       },
       {
@@ -345,7 +695,12 @@
         "firstParty": true,
         "retention": "Session",
         "purpose": {
-          "en": "Used in connection with checkout."
+          "da": "Anvendes i forbindelse med kassen.",
+          "en": "Used in connection with checkout.",
+          "es": "Se utiliza en relación con el pago.",
+          "fi": "Käytetään kassan yhteydessä.",
+          "fr": "Utilisé en relation avec le paiement.",
+          "sv": "Används i samband med kassan."
         }
       },
       {
@@ -356,7 +711,12 @@
         "firstParty": true,
         "retention": "1 year(s)",
         "purpose": {
-          "en": "Used for managing customer privacy settings."
+          "da": "Bruges til at administrere kunders privatlivsindstillinger.",
+          "en": "Used for managing customer privacy settings.",
+          "es": "Se utiliza para administrar la configuración de privacidad del cliente.",
+          "fi": "Käytetään asiakkaiden tietosuoja-asetusten hallintaan.",
+          "fr": "Utilisé pour gérer les paramètres de confidentialité des clients.",
+          "sv": "Används för att hantera kunders integritetsinställningar."
         }
       },
       {
@@ -367,7 +727,12 @@
         "firstParty": true,
         "retention": "1 year(s)",
         "purpose": {
-          "en": "Used for managing customer privacy settings."
+          "da": "Bruges til at administrere kunders privatlivsindstillinger.",
+          "en": "Used for managing customer privacy settings.",
+          "es": "Se utiliza para administrar la configuración de privacidad del cliente.",
+          "fi": "Käytetään asiakkaiden tietosuoja-asetusten hallintaan.",
+          "fr": "Utilisé pour gérer les paramètres de confidentialité des clients.",
+          "sv": "Används för att hantera kunders integritetsinställningar."
         }
       },
       {
@@ -378,7 +743,12 @@
         "firstParty": true,
         "retention": "1 year(s)",
         "purpose": {
-          "en": "Used for managing customer privacy settings."
+          "da": "Bruges til at administrere kunders privatlivsindstillinger.",
+          "en": "Used for managing customer privacy settings.",
+          "es": "Se utiliza para administrar la configuración de privacidad del cliente.",
+          "fi": "Käytetään asiakkaiden tietosuoja-asetusten hallintaan.",
+          "fr": "Utilisé pour gérer les paramètres de confidentialité des clients.",
+          "sv": "Används för att hantera kunders integritetsinställningar."
         }
       },
       {
@@ -389,7 +759,12 @@
         "firstParty": true,
         "retention": "1 year(s)",
         "purpose": {
-          "en": "Shopify analytics."
+          "da": "Shopify-analyse.",
+          "en": "Shopify analytics.",
+          "es": "Análisis de Shopify.",
+          "fi": "Shopify-analytiikka.",
+          "fr": "Analyses Shopify.",
+          "sv": "Shopify-analys."
         }
       },
       {
@@ -400,7 +775,12 @@
         "firstParty": true,
         "retention": "1 year(s)",
         "purpose": {
-          "en": "Used in connection with navigation through a storefront."
+          "da": "Anvendes i forbindelse med navigation gennem en butiksfacade.",
+          "en": "Used in connection with navigation through a storefront.",
+          "es": "Se utiliza en relación con la navegación a través de un escaparate.",
+          "fi": "Käytetään liikkeen läpi navigoinnin yhteydessä.",
+          "fr": "Utilisé en relation avec la navigation dans une vitrine.",
+          "sv": "Används i samband med navigering genom ett skyltfönster."
         }
       }
     ],
@@ -413,7 +793,12 @@
         "firstParty": true,
         "retention": "1 year(s)",
         "purpose": {
-          "en": "Used for the functionality of the cookies consent banner."
+          "da": "Bruges til funktionaliteten af cookies samtykke banner.",
+          "en": "Used for the functionality of the cookies consent banner.",
+          "es": "Se utiliza para la funcionalidad del banner de consentimiento de cookies.",
+          "fi": "Käytetään evästeiden suostumusbannerin toimintaan.",
+          "fr": "Utilisé pour la fonctionnalité de la bannière de consentement aux cookies.",
+          "sv": "Används för funktionaliteten av cookies samtyckes banner."
         }
       },
       {
@@ -424,7 +809,12 @@
         "firstParty": true,
         "retention": "1 year(s)",
         "purpose": {
-          "en": ""
+          "da": "Anvendes i forbindelse med kundelogin.",
+          "en": "",
+          "es": "Se utiliza en relación con el inicio de sesión del cliente.",
+          "fi": "Käytetään asiakkaan kirjautumisen yhteydessä.",
+          "fr": "Utilisé en relation avec la connexion client.",
+          "sv": "Används i samband med kundinloggning."
         }
       }
     ],
@@ -437,7 +827,12 @@
         "firstParty": true,
         "retention": "1 year(s)",
         "purpose": {
-          "en": "Shopify analytics relating to marketing & referrals."
+          "da": "Shopify-analyse vedrørende markedsføring og henvisninger.",
+          "en": "Shopify analytics relating to marketing & referrals.",
+          "es": "Análisis de Shopify relacionados con marketing y referencias.",
+          "fi": "Shopifyn markkinointiin ja viittauksiin liittyvä analytiikka.",
+          "fr": "Analyses Shopify relatives au marketing et aux références.",
+          "sv": "Shopify-analyser relaterade till marknadsföring och hänvisningar."
         }
       },
       {
@@ -448,7 +843,12 @@
         "firstParty": true,
         "retention": "1 year(s)",
         "purpose": {
-          "en": "Cookie is placed by Google Analytics to count and track pageviews."
+          "da": "Cookie placeres af Google Analytics for at tælle og spore sidevisninger.",
+          "en": "Cookie is placed by Google Analytics to count and track pageviews.",
+          "es": "Google Analytics coloca una cookie para contar y realizar un seguimiento de las páginas vistas.",
+          "fi": "Google Analytics asettaa evästeen sivun katseluiden laskemiseen ja seurantaan.",
+          "fr": "Le cookie est placé par Google Analytics pour compter et suivre les pages vues.",
+          "sv": "Cookie placeras av Google Analytics för att räkna och spåra sidvisningar."
         }
       },
       {
@@ -459,7 +859,12 @@
         "firstParty": true,
         "retention": "1 year(s)",
         "purpose": {
-          "en": "Shopify analytics relating to marketing & referrals."
+          "da": "Shopify-analyse vedrørende markedsføring og henvisninger.",
+          "en": "Shopify analytics relating to marketing & referrals.",
+          "es": "Análisis de Shopify relacionados con marketing y referencias.",
+          "fi": "Shopifyn markkinointiin ja viittauksiin liittyvä analytiikka.",
+          "fr": "Analyses Shopify relatives au marketing et aux références.",
+          "sv": "Shopify-analyser relaterade till marknadsföring och hänvisningar."
         }
       },
       {
@@ -470,7 +875,12 @@
         "firstParty": true,
         "retention": "1 year(s)",
         "purpose": {
-          "en": "Shopify analytics."
+          "da": "Shopify-analyse.",
+          "en": "Shopify analytics.",
+          "es": "Análisis de Shopify.",
+          "fi": "Shopify-analytiikka.",
+          "fr": "Analyses Shopify.",
+          "sv": "Shopify-analys."
         }
       },
       {
@@ -481,7 +891,12 @@
         "firstParty": true,
         "retention": "1 year(s)",
         "purpose": {
-          "en": "Shopify analytics."
+          "da": "Shopify-analyse.",
+          "en": "Shopify analytics.",
+          "es": "Análisis de Shopify.",
+          "fi": "Shopify-analytiikka.",
+          "fr": "Analyses Shopify.",
+          "sv": "Shopify-analys."
         }
       },
       {
@@ -492,7 +907,12 @@
         "firstParty": true,
         "retention": "1 year(s)",
         "purpose": {
-          "en": "Shopify analytics."
+          "da": "Shopify-analyse.",
+          "en": "Shopify analytics.",
+          "es": "Análisis de Shopify.",
+          "fi": "Shopify-analytiikka.",
+          "fr": "Analyses Shopify.",
+          "sv": "Shopify-analys."
         }
       },
       {
@@ -503,7 +923,12 @@
         "firstParty": true,
         "retention": "1 year(s)",
         "purpose": {
-          "en": "Cookie is set by Google Analytics with unknown functionality"
+          "da": "Cookie indstilles af Google Analytics med ukendt funktionalitet",
+          "en": "Cookie is set by Google Analytics with unknown functionality",
+          "es": "La cookie está configurada por Google Analytics con funcionalidad desconocida",
+          "fi": "Google Analytics asettaa evästeen tuntemattomilla toiminnoilla",
+          "fr": "Le cookie est défini par Google Analytics avec une fonctionnalité inconnue",
+          "sv": "Cookie ställs in av Google Analytics med okänd funktionalitet"
         }
       },
       {
@@ -514,7 +939,12 @@
         "firstParty": true,
         "retention": "1 year(s)",
         "purpose": {
-          "en": "Cookie is placed by Google Analytics to filter requests from bots."
+          "da": "Cookie placeres af Google Analytics for at filtrere anmodninger fra bots.",
+          "en": "Cookie is placed by Google Analytics to filter requests from bots.",
+          "es": "Google Analytics coloca una cookie para filtrar las solicitudes de los bots.",
+          "fi": "Google Analytics asettaa evästeen suodattamaan pyyntöjä roboteista.",
+          "fr": "Le cookie est placé par Google Analytics pour filtrer les requêtes des bots.",
+          "sv": "Cookie placeras av Google Analytics för att filtrera förfrågningar från bots."
         }
       },
       {
@@ -525,7 +955,12 @@
         "firstParty": true,
         "retention": "1 year(s)",
         "purpose": {
-          "en": "Tracks landing pages."
+          "da": "Sporer landingssider.",
+          "en": "Tracks landing pages.",
+          "es": "Realiza un seguimiento de las páginas de destino.",
+          "fi": "Seuraa aloitussivuja.",
+          "fr": "Suit les pages de destination.",
+          "sv": "Spårar målsidor."
         }
       },
       {
@@ -536,7 +971,12 @@
         "firstParty": true,
         "retention": "1 year(s)",
         "purpose": {
-          "en": "Tracks landing pages."
+          "da": "Sporer landingssider.",
+          "en": "Tracks landing pages.",
+          "es": "Realiza un seguimiento de las páginas de destino.",
+          "fi": "Seuraa aloitussivuja.",
+          "fr": "Suit les pages de destination.",
+          "sv": "Spårar målsidor."
         }
       },
       {
@@ -547,7 +987,12 @@
         "firstParty": true,
         "retention": "1 year(s)",
         "purpose": {
-          "en": "Shopify analytics."
+          "da": "Shopify-analyse.",
+          "en": "Shopify analytics.",
+          "es": "Análisis de Shopify.",
+          "fi": "Shopify-analytiikka.",
+          "fr": "Analyses Shopify.",
+          "sv": "Shopify-analys."
         }
       }
     ],
@@ -560,7 +1005,12 @@
         "firstParty": true,
         "retention": "1 year(s)",
         "purpose": {
-          "en": "Tracks when someone clicks through a Klaviyo email to your website"
+          "da": "Sporer, når nogen klikker gennem en Klaviyo-e-mail til din hjemmeside",
+          "en": "Tracks when someone clicks through a Klaviyo email to your website",
+          "es": "Rastrea cuando alguien hace clic a través de un correo electrónico de Klaviyo a su sitio web",
+          "fi": "Seuraa, kun joku napsauttaa Klaviyo-sähköpostia verkkosivustollesi",
+          "fr": "Suit quand quelqu'un clique sur un e-mail Klaviyo vers votre site Web.",
+          "sv": "Spårar när någon klickar sig igenom ett Klaviyo-e-postmeddelande till din webbplats"
         }
       },
       {
@@ -571,7 +1021,12 @@
         "firstParty": true,
         "retention": "1 year(s)",
         "purpose": {
-          "en": "Cookie is placed by Google Tag Manager to track conversions."
+          "da": "Cookie placeres af Google Tag Manager for at spore konverteringer.",
+          "en": "Cookie is placed by Google Tag Manager to track conversions.",
+          "es": "Google Tag Manager coloca una cookie para realizar un seguimiento de las conversiones.",
+          "fi": "Google Tag Manager asettaa evästeen seuraamaan konversioita.",
+          "fr": "Le cookie est placé par Google Tag Manager pour suivre les conversions.",
+          "sv": "Cookie placeras av Google Tag Manager för att spåra konverteringar."
         }
       },
       {
@@ -582,7 +1037,12 @@
         "firstParty": true,
         "retention": "1 year(s)",
         "purpose": {
-          "en": "Cookie is placed by Facebook to track visits across websites."
+          "da": "Cookie placeres af Facebook for at spore besøg på tværs af websteder.",
+          "en": "Cookie is placed by Facebook to track visits across websites.",
+          "es": "Facebook coloca una cookie para rastrear las visitas a través de los sitios web.",
+          "fi": "Facebook asettaa evästeen seuraamaan vierailuja eri verkkosivustoilla.",
+          "fr": "Le cookie est placé par Facebook pour suivre les visites sur les sites Web.",
+          "sv": "Cookie placeras av Facebook för att spåra besök på webbplatser."
         }
       }
     ],
