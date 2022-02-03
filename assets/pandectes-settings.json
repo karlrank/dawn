@@ -4,7 +4,7 @@
     "theme": "Dawn STABLE",
     "primaryLocale": "en"
   },
-  "tsPublished": 1643871428,
+  "tsPublished": 1643871617,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -247,7 +247,7 @@
         "da": "Disse cookies gør det muligt for webstedet at levere forbedret funktionalitet og personalisering. De kan angives af os eller af tredjepartsudbydere, hvis tjenester vi har tilføjet til vores sider. Hvis du ikke tillader disse cookies, fungerer nogle eller alle disse tjenester muligvis ikke korrekt.",
         "en": "These cookies enable the site to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.",
         "es": "Estas cookies permiten que el sitio proporcione una funcionalidad y personalización mejoradas. Pueden ser establecidos por nosotros o por proveedores externos cuyos servicios hemos agregado a nuestras páginas. Si no permite estas cookies, es posible que algunos o todos estos servicios no funcionen correctamente.",
-        "fi": "Nämä evästeet antavat sivustolle mahdollisuuden parantaa toimintoja ja personointia. Voimme asettaa ne itse tai kolmannen osapuolen palveluntarjoajat, joiden palvelut olemme lisänneet sivuillemme. Jos et salli näitä evästeitä, jotkut tai kaikki näistä palveluista eivät ehkä toimi oikein.",
+        "fi": "Nämä evästeet antavat sivustolle mahdollisuuden parantaa toimintoja ja personointia. Evästeet on asetettu joko meidän tai kolmannen osapuolen palveluntarjoajan toimesta. Jos et salli näitä evästeitä, jotkut näistä palveluista eivät ehkä toimi oikein.",
         "fr": "Ces cookies permettent au site de fournir des fonctionnalités et une personnalisation améliorées. Ils peuvent être définis par nous ou par des fournisseurs tiers dont nous avons ajouté les services à nos pages. Si vous n'autorisez pas ces cookies, certains ou tous ces services peuvent ne pas fonctionner correctement.",
         "sv": "Dessa cookies gör det möjligt för webbplatsen att tillhandahålla förbättrad funktionalitet och anpassning. De kan ställas in av oss eller av tredjepartsleverantörer vars tjänster vi har lagt till på våra sidor. Om du inte tillåter dessa kakor kanske vissa eller alla av dessa tjänster inte fungerar korrekt."
       },
