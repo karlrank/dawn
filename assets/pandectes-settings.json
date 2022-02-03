@@ -4,7 +4,7 @@
     "theme": "Dawn STABLE",
     "primaryLocale": "en"
   },
-  "tsPublished": 1643870567,
+  "tsPublished": 1643871243,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -37,7 +37,7 @@
         "da": "Dette websted bruger cookies for at sikre, at du får den bedste oplevelse.",
         "en": "Our website uses cookies to ensure you get the best experience.",
         "es": "Este sitio web utiliza cookies para garantizar que obtenga la mejor experiencia.",
-        "fi": "Tämä sivusto käyttää evästeitä parhaan käyttökokemuksen varmistamiseksi.",
+        "fi": "Hei! Sivustomme käyttää evästeitä.",
         "fr": "Ce site utilise des cookies pour vous garantir la meilleure expérience.",
         "sv": "Denna webbplats använder cookies för att säkerställa att du får den bästa upplevelsen."
       },
@@ -69,7 +69,7 @@
         "da": "Acceptere",
         "en": "Ok",
         "es": "Aceptar",
-        "fi": "Hyväksyä",
+        "fi": "Hyväksy",
         "fr": "J'accepte",
         "sv": "Acceptera"
       },
@@ -117,7 +117,7 @@
         "da": "Tæt",
         "en": "Close",
         "es": "Cerrar",
-        "fi": "kiinni",
+        "fi": "Sulje",
         "fr": "proche",
         "sv": "Stänga"
       },
