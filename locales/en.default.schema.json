@@ -1483,6 +1483,9 @@
             },
             "page": {
               "label": "Page"
+            },
+            "show_button": {
+              "label": "Show as button"
             }
           }
         },
