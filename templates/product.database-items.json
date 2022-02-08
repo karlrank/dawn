@@ -129,7 +129,8 @@
           "type": "popup",
           "settings": {
             "text": "Sell This Item",
-            "page": "sell-or-trade-your-used-camera-gear"
+            "page": "sell-or-trade-your-used-camera-gear",
+            "show_button": true
           }
         },
         "82004e4e-d026-4c02-b9ee-21d1643d0fa5": {
