@@ -49,7 +49,7 @@
         "83754794-92b8-452f-98b4-999eea3e6967": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<p>{%- assign current_variant = product.selected_or_first_available_variant -%}\n\n{% if product.metafields.kameratori.shutter_count and product.metafields.kameratori.shutter_count != \"\" %}\n  Shutter Count:  <b>{{product.metafields.kameratori.shutter_count}}<\/b><br>\n{% else %}\n{% endif %}\n\n\n{% if product.metafields.kameratori.sensor_cleaned == true %}\n  Sensor Cleaned: <b>Yes<\/b><br>\n{% else %}\n{% endif %}\n\n\n{% if product.metafields.kameratori.settings_reset == true %}\n  Settings Reset: <b>Yes<\/b><br>\n{% else %}\n{% endif %}\n\n\n{% if product.metafields.kameratori.firmware_updated == true %}\n  Firmware Updated: <b>Yes<\/b><br>\n{% else %}\n{% endif %}\n\n{% if product.metafields.kameratori.batteries %}\n  Battery: \n  {% for battery in product.metafields.kameratori.batteries.value %}\n   <b> {{battery}}<\/b>\n    {% if forloop.last != true %}, {% endif %}\n  {% endfor %}\n{% endif %}\n<\/p>"
+            "custom_liquid": "<p>{%- assign current_variant = product.selected_or_first_available_variant -%}\n\n{% if product.metafields.kameratori.shutter_count and product.metafields.kameratori.shutter_count != \"\" %}\n  Shutter Count:  <b>{{product.metafields.kameratori.shutter_count}}<\/b><br>\n{% else %}\n{% endif %}\n\n\n{% if product.metafields.kameratori.sensor_cleaned == true %}\n  Sensor Cleaned: <b>Yes<\/b><br>\n{% else %}\n{% endif %}\n\n\n{% if product.metafields.kameratori.settings_reset == true %}\n  Settings Reset: <b>Yes<\/b><br>\n{% else %}\n{% endif %}\n\n\n{% if product.metafields.kameratori.firmware_updated == true %}\n  Firmware Updated: <b>Yes<\/b><br>\n{% else %}\n{% endif %}\n\n{% if product.metafields.kameratori.batteries and product.metafields.kameratori.batteries.value.size > 0 %}\n  Battery: \n  {% for battery in product.metafields.kameratori.batteries.value %}\n   <b> {{battery}}<\/b>\n    {% if forloop.last != true %}, {% endif %}\n  {% endfor %}\n{% endif %}\n<\/p>"
           }
         },
         "buy_buttons": {
@@ -83,7 +83,8 @@
           "type": "popup",
           "settings": {
             "text": "Camera Condition Ratings",
-            "page": "camera-condition-ratings"
+            "page": "camera-condition-ratings",
+            "show_button": false
           }
         },
         "ad4fef74-222f-422b-a2e1-33623ff7b9e6": {
