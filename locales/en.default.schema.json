@@ -468,7 +468,7 @@
       }
     },
     "product-items-in-stock": {
-      "name": "Product Items in Stock",
+      "name": "Product Items in Stock [DB pages only]",
       "presets": {
         "name": "Product Items in Stock"
       }
