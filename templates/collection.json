@@ -21,7 +21,7 @@
         "enable_filtering": false,
         "enable_sorting": true,
         "collapse_on_larger_devices": false,
-        "display_database_products": false
+        "display_database_products": true
       }
     }
   },
