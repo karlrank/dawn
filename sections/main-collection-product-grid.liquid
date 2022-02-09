@@ -76,14 +76,17 @@
                   		{% if collection.products_count == 4 %} grid--4-col-desktop{% else %} grid--3-col-tablet grid--one-third-max grid--4-col-desktop grid--quarter-max{% endif %}
                 		{% endif %}">
 						{%- for product in collection.products -%}
-						<li class="grid__item">
-							{% render 'product-card', product_card_product: product,
-							media_size: section.settings.image_ratio, show_secondary_image:
-							section.settings.show_secondary_image, add_image_padding:
-							section.settings.add_image_padding, show_vendor:
-							section.settings.show_vendor, show_rating: section.settings.show_rating,
-                            show_price: section.settings.show_collection_prices %}
-						</li>
+                            {%- if section.settings.display_database_products == false and product.tags contains 'item-database' -%}
+                            {%- else -%}
+                                <li class="grid__item">
+                                    {% render 'product-card', product_card_product: product,
+                                    media_size: section.settings.image_ratio, show_secondary_image:
+                                    section.settings.show_secondary_image, add_image_padding:
+                                    section.settings.add_image_padding, show_vendor:
+                                    section.settings.show_vendor, show_rating: section.settings.show_rating,
+                                    show_price: section.settings.show_collection_prices %}
+                                </li>
+                            {%- endif -%}
 						{%- endfor -%}
 					</ul>
 				</div>
@@ -133,7 +136,8 @@ var boostPFSThemeConfig = {
 		products_per_row: {% if products_per_row %} {{ products_per_row }} {% else %} 4 {% endif %},
 		show_secondary_image: {% if section.settings.show_secondary_image %} {{ section.settings.show_secondary_image }} {% else %} false {% endif %},
         show_prices: {% if section.settings.show_collection_prices %} {{ section.settings.show_collection_prices }} {% else %} false {% endif %},
-        show_product_review: {% if section.settings.show_rating %} {{ section.settings.show_rating }} {% else %} false {% endif %}
+        show_product_review: {% if section.settings.show_rating %} {{ section.settings.show_rating }} {% else %} false {% endif %},
+        display_database_products: {{ section.settings.display_database_products }},
 	}
 };
 
@@ -253,6 +257,12 @@ var boostPFSTemplate = {
       "id": "collapse_on_larger_devices",
       "default": false,
       "label": "t:sections.main-collection-product-grid.settings.collapse_on_larger_devices.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "display_database_products",
+      "default": true,
+      "label": "t:sections.main-collection-product-grid.settings.display_database_products.label"
     }
   ]
 }
