@@ -136,7 +136,7 @@
         "82004e4e-d026-4c02-b9ee-21d1643d0fa5": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<a href=\"\/search?q={%- assign current_variant = product.selected_or_first_available_variant -%} {{ current_variant.sku}}&options%5Bprefix%5D=last\">Check if Available<\/a>"
+            "custom_liquid": "<a class=\"button\" style=\"margin-left: 0.5rem;\" href=\"\/search?q={{ product.selected_or_first_available_variant.sku}}&options%5Bprefix%5D=last\">Check if Available<\/a>"
           }
         }
       },
