@@ -52,6 +52,13 @@ var boostPFSFilterConfig = {
 		// Customize API data to get the Shopify data
 		data = prepareShopifyData(data);
 
+
+		if (boostPFSThemeConfig.custom.hasOwnProperty('display_database_products') &&
+			boostPFSThemeConfig.custom.display_database_products == false &&
+		    data.tags.includes('item-database')) {
+			return '';
+		}
+
 		// Get Template
 		var itemHtml = boostPFSTemplate.productGridItemHtml;
 		// Add Custom class
