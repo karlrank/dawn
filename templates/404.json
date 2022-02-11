@@ -2,8 +2,7 @@
   "sections": {
     "main": {
       "type": "main-404",
-      "settings": {
-      }
+      "settings": {}
     },
     "16430946322a93d2ce": {
       "type": "rich-text",

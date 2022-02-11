@@ -17,6 +17,7 @@
 <noscript>{{ "component-badge.css" | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ "component-rte.css" | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ "component-pagination.css" | asset_url | stylesheet_tag}}</noscript>
+{%- assign boost_in_collection_search = boost_settings | split: 'enableCollectionSearch":' | last | split: ',"' | first | strip -%}
 
 {%- paginate collection.products by section.settings.products_per_page -%}
 <div class="collection page-width collection-filters" id="main-collection-filters" data-id="{{ section.id }}">
@@ -68,6 +69,9 @@
 				</div>
 			</div>
 			<div class="boost-pfs-filter-right-col">
+                <div class="boost-pfs-in-collection-search">
+                  {% render 'boost-pfs-filter-skeleton', width: 4 %}
+                </div>
 				<div class="product-grid negative-margin">
 					<ul id="main-collection-product-grid" data-id="{{ section.id }}" class="
 						boost-pfs-filter-products
