@@ -49,8 +49,7 @@
       "blocks": {
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "6e329fbd-c3b0-4cfe-a6f4-9911df60910e": {
           "type": "custom_liquid",
@@ -60,8 +59,7 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "853cea71-8e8d-4b3a-8d41-fda13fdf751d": {
           "type": "custom_liquid",
@@ -71,8 +69,7 @@
         },
         "8a1f013f-3fbd-4ebb-b70b-fd9e114e338b": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",

@@ -18,8 +18,7 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "f31b7dfa-1442-440b-a6cf-d02d51705e75": {
           "type": "custom_liquid",
@@ -44,8 +43,7 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "853cea71-8e8d-4b3a-8d41-fda13fdf751d": {
           "type": "custom_liquid",

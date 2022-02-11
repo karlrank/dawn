@@ -69,8 +69,7 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "56d3d8ad-8dcb-4146-bf63-5a3a9862d94b": {
           "type": "text",
@@ -163,8 +162,7 @@
     },
     "1642020754f04c9667": {
       "type": "product-items-in-stock",
-      "settings": {
-      }
+      "settings": {}
     },
     "1632393643eca7584e": {
       "type": "custom-liquid",
