@@ -32,6 +32,7 @@
         "blocks": {
           "2e0296fe-51ad-44a1-93ae-816b91172f02": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "We're Hiring! The Deadline to Apply is February 13th 2022!",
               "color_scheme": "accent-1",
@@ -40,7 +41,6 @@
           },
           "1b706781-8f33-4d39-86a0-dccbabbbb12e": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
               "text": "We Hit 60K Followers on Instagram! Giveaway Info Here!",
               "color_scheme": "accent-2",
