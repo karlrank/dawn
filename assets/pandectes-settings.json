@@ -4,7 +4,7 @@
     "theme": "Dawn STABLE",
     "primaryLocale": "en"
   },
-  "tsPublished": 1643871865,
+  "tsPublished": 1644680122,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -1065,9 +1065,11 @@
     "googleConsentMode": {
       "id": "",
       "isActive": false,
-      "adStorageCategory": 4,
       "dataLayerPropertyName": "dataLayer",
+      "adStorageCategory": 4,
       "analyticsStorageCategory": 2,
+      "personalizationStorageCategory": 8,
+      "functionalityStorageCategory": 8,
       "redactData": false
     },
     "facebookPixel": {
@@ -1082,12 +1084,22 @@
     },
     "defaultBlocked": 0,
     "patterns": {
-      "whiteList": [],
+      "whiteList": [
+
+      ],
       "blackList": {
-        "1": [],
-        "2": [],
-        "4": [],
-        "8": []
+        "1": [
+
+        ],
+        "2": [
+
+        ],
+        "4": [
+
+        ],
+        "8": [
+
+        ]
       }
     }
   }

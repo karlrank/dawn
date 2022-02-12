@@ -1,7 +1,7 @@
 // warning ： .shopify-payment-button 字符串被用于替换做兼容
 
 (function () {
-    window.addEventListener('DOMContentLoaded', function () {
+    window.addEventListener('load', function () {
         // console.log("?");
         //不在产品页面则推出
         if (window.ShopifyAnalytics.meta.page.pageType !== "product") {
@@ -20,9 +20,10 @@
         if(timeStamp-7200 > shopMeta) {
             return;
         }
-        if(document.querySelector("#product-restore-email-float") || document.querySelector("#product-restore-email")){
+        if(document.querySelector('#product-restore-email-flag') || document.querySelector("#product-restore-email-float") || document.querySelector("#product-restore-email")){
             return;
         }
+        document.body.insertAdjacentHTML("beforeend", '<div id="product-restore-email-flag" style="display:none;"></div>')
         //当前被选中的变体Id
         let selectVariantId = currentVariant.id;
         let productTitle = '';
@@ -217,7 +218,7 @@
                     }
                     let formStyle = window.getComputedStyle(trueForms[i], null);
                     //如果form不显示的话，直接中断本次循环，继续遍历之后的form表单
-                    if (formStyle.visibility != "visible" || formStyle.display == "none" || formStyle.height == 0 || formStyle.width == 0 || formStyle.height == 'auto') {
+                    if (formStyle.visibility != "visible" || formStyle.display == "none" || formStyle.height == '0px' || formStyle.height == '0' || formStyle.width == '0px' || formStyle.width == '0' || formStyle.height == 'auto') {
                         continue;
                     }
                     exactForm = trueForms[i];
@@ -485,6 +486,9 @@
                                  <select class="selected-unavailable-variant"></select>
                          </div>
                          <div>
+                                 <input class="buyer-name" type="text" placeholder="${popupData.popup_name_placeholder_text}">
+                         </div>
+                         <div>
                                  <input class="buyer-email" type="text" placeholder="${popupData.popup_placeholder_text}" onblur="verifyEmail()">
                                 <span class="invalid-email-tips"></span>
                          </div>
@@ -629,6 +633,7 @@
         //刷新页面
         // let reloadTimer = setInterval(() => {
         let setTimeoutHandle = null;
+        let startReload = false;
         reloadProductPage();
         // }, 100)
         
@@ -657,7 +662,17 @@
                     if(!available && popupStyleSwitch == 0){
                         getPopupStyle(shopId, popupStyleUrl);
                     }
-                    createEmailButton();
+                    if(!available && !startReload) {
+                        // console.log('执行了的startReload');
+                        // console.log(startReload);
+                        startReload = true;
+                        createEmailButton();
+                    }
+                        // console.log('此时的startReload');
+                        // console.log(startReload);
+                    if(buttonSwitch == 1) {
+                        initEmailToMeElement();
+                    }
                 }
             }
             setTimeoutHandle = setTimeout(() => {
@@ -680,7 +695,7 @@
                 // 请求后端接口
                 httpRequest(urlSuffix, params, 1);
             }
-            initEmailToMeElement();
+            // initEmailToMeElement();
         }
 
 
@@ -696,7 +711,7 @@
                     shopify_payment_button.style.display = "none";
                 }
                 if(inlineBtnElement){
-                    inlineBtnElement.style.display = "block";
+                    inlineBtnElement.style.display = "flex";
                     inlineEmailDiv.style.display = "flex";
                 }
                 if(floatBtnElement) {
@@ -747,6 +762,10 @@
         // 提交订阅 selectVariantId
         function subEmail() {
             let email = document.getElementsByClassName('buyer-email')[0].value;
+            let buyerName;
+            if(document.querySelector('.email-frame-body .buyer-name')) {
+                buyerName = document.querySelector('.email-frame-body .buyer-name').value;
+            }
             if (email == '') {
                 document.getElementsByClassName('invalid-email-tips')[0].style.display = 'block';
                 document.getElementsByClassName('invalid-email-tips')[0].innerHTML = popupData.popup_validation_text;
@@ -766,6 +785,7 @@
                         shopId: shopId,
                         variant_rid: document.querySelector(".selected-unavailable-variant").value,
                         receiver_email: document.getElementsByClassName('buyer-email')[0].value,
+                        receiver_name: buyerName ? buyerName : 'customer',
                         customer_rid: 0
                     }
 
@@ -849,6 +869,7 @@
                     letter-spacing: .1rem;
                     border-radius: 2px;
                     align-items:center;
+                    justify-content: center;
                 }
                 .email-me-button:hover{
                    opacity: 0.8;
@@ -958,7 +979,8 @@
                     color:#1A1B18;
                 }
                 
-                #email-me-frame .buyer-email{
+                #email-me-frame .buyer-email,
+                #email-me-frame .buyer-name{
                     border-radius: 5px;
                     border: 1px solid #d9d9d9;
                     margin: 10px 0 0 0;
@@ -1115,7 +1137,7 @@
                     padding-left: 40px;
                 }
                 #product-restore-email{
-                    display: flex;
+                    display: none;
                     justify-content: center;
                 }
                 #product-restore-email .email-me-button:hover{
