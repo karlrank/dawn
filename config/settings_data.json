@@ -30,15 +30,6 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
-          "2e0296fe-51ad-44a1-93ae-816b91172f02": {
-            "type": "announcement",
-            "disabled": true,
-            "settings": {
-              "text": "We're Hiring! The Deadline to Apply is February 13th 2022!",
-              "color_scheme": "accent-1",
-              "link": "shopify:\/\/pages\/were-hiring-2022"
-            }
-          },
           "1b706781-8f33-4d39-86a0-dccbabbbb12e": {
             "type": "announcement",
             "settings": {
@@ -63,15 +54,25 @@
               "color_scheme": "background-2",
               "link": "shopify:\/\/pages\/about-kamerastore"
             }
+          },
+          "2e0296fe-51ad-44a1-93ae-816b91172f02": {
+            "type": "announcement",
+            "disabled": true,
+            "settings": {
+              "text": "We're Hiring! The Deadline to Apply is February 13th 2022!",
+              "color_scheme": "accent-1",
+              "link": "shopify:\/\/pages\/were-hiring-2022"
+            }
           }
         },
         "block_order": [
-          "2e0296fe-51ad-44a1-93ae-816b91172f02",
           "1b706781-8f33-4d39-86a0-dccbabbbb12e",
           "4c1a92eb-53d3-4f1d-ad29-76811ffcecfe",
-          "39d85c5b-b96e-42e4-b90d-5d4e816742eb"
+          "39d85c5b-b96e-42e4-b90d-5d4e816742eb",
+          "2e0296fe-51ad-44a1-93ae-816b91172f02"
         ],
-        "settings": {}
+        "settings": {
+        }
       },
       "header": {
         "type": "header",
@@ -148,27 +149,33 @@
         }
       }
     },
-    "content_for_index": [],
+    "content_for_index": [
+
+    ],
     "blocks": {
       "163170712463a93bae": {
         "type": "shopify:\/\/apps\/product-filter-search\/blocks\/boost-pfs\/7fc998ae-a150-4367-bab8-505d8a4503f7",
         "disabled": false,
-        "settings": {}
+        "settings": {
+        }
       },
       "1631707124234727b5": {
         "type": "shopify:\/\/apps\/product-filter-search\/blocks\/boost-pfs-style\/7fc998ae-a150-4367-bab8-505d8a4503f7",
         "disabled": false,
-        "settings": {}
+        "settings": {
+        }
       },
       "15323590465973626552": {
         "type": "shopify:\/\/apps\/translate-currency-langshop\/blocks\/langshop\/84899e01-2b29-42af-99d6-46d16daa2111",
         "disabled": false,
-        "settings": {}
+        "settings": {
+        }
       },
       "15351435345818755577": {
         "type": "shopify:\/\/apps\/gdpr-compliance-center\/blocks\/banner\/58c0baa2-6cc1-480c-9ea6-38d6d559556a",
         "disabled": false,
-        "settings": {}
+        "settings": {
+        }
       }
     }
   },
@@ -197,7 +204,8 @@
           "block_order": [
             "announcement-bar-0"
           ],
-          "settings": {}
+          "settings": {
+          }
         }
       }
     },
@@ -217,11 +225,13 @@
           "blocks": {
             "menu": {
               "type": "link_list",
-              "settings": {}
+              "settings": {
+              }
             },
             "text": {
               "type": "text",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
