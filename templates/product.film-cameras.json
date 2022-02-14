@@ -27,7 +27,7 @@
           "type": "custom_liquid",
           "disabled": true,
           "settings": {
-            "custom_liquid": "<p style=\"color: #b3b3b3\">{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span> ID: {{ current_variant.sku }}<\/span> {% if current_variant.barcode %}{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span>\/ Code: {{ current_variant.barcode }}  {{ product.metafields.my_fields.database_parent | metafield_text }}<\/span><\/p>{% endif %}"
+            "custom_liquid": "{% if product.tags contains 'Archived' %}\n          \n\n           <p style=\"color: #b3b3b3\">{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span> ID: {{ current_variant.sku }}<\/span> {% if current_variant.barcode %}{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span>\/ Code: {{ current_variant.barcode }}  {{ product.metafields.my_fields.database_parent | metafield_text }}<\/span><\/p>{% endif %}\n{% endif %}"
           }
         },
         "title": {
