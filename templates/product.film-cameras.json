@@ -39,7 +39,7 @@
         "74fe16dc-fae7-4902-b96b-a73338f83400": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<a href=\"{{ product.metafields.my_fields.database_parent.value.url }}\" class=\"link link--text underlined-link\">Read or Write Reviews<\/a>"
+            "custom_liquid": "{% if product.tags contains 'Archived' %}\n          \n\n           <p style=\"color: #b3b3b3\">{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span> ID: {{ current_variant.sku }}<\/span> {% if current_variant.barcode %}{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span>\/ Code: {{ current_variant.barcode }}  {{ product.metafields.my_fields.database_parent | metafield_text }}<\/span><\/p>{% endif %}\n{% endif %}"
           }
         },
         "title": {
