@@ -1,5 +1,12 @@
 {
   "sections": {
+    "1644845255ea764830": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<style>\n.restricted {\n  background-color: #FEF7EA;\n  color: #3E4447;\n  padding-left: 15px;\n  padding-right: 15px;\n  border: 2px solid #F6DFBB;\n  margin: 0px;\n  border-radius: 5px;\n}\n<\/style>\n<\/head>\n<body>\n\n<div class=\"restricted\">\n<h3><\/h3>\n<p><b>This item only ships to Finland!<\/b><br>\nCertain products such as \"{{product.type}}\" cannot be shipped outside of Finland, this is due to the items content or size.<\/p>\n<\/div>"
+      }
+    },
     "16334152711e2727b9": {
       "type": "custom-liquid",
       "settings": {
@@ -25,7 +32,8 @@
         },
         "title": {
           "type": "title",
-          "settings": {}
+          "settings": {
+          }
         },
         "94c18297-7071-4788-a294-49e32bd91e32": {
           "type": "custom_liquid",
@@ -36,7 +44,8 @@
         },
         "price": {
           "type": "price",
-          "settings": {}
+          "settings": {
+          }
         },
         "853cea71-8e8d-4b3a-8d41-fda13fdf751d": {
           "type": "custom_liquid",
@@ -75,7 +84,8 @@
           "type": "popup",
           "settings": {
             "text": "Camera Condition Ratings",
-            "page": "camera-condition-ratings"
+            "page": "camera-condition-ratings",
+            "show_button": false
           }
         },
         "ad4fef74-222f-422b-a2e1-33623ff7b9e6": {
@@ -260,6 +270,7 @@
     }
   },
   "order": [
+    "1644845255ea764830",
     "16334152711e2727b9",
     "main",
     "163178438845c86d64",
