@@ -8,9 +8,8 @@
     },
     "1644845255ea764830": {
       "type": "custom-liquid",
-      "disabled": true,
       "settings": {
-        "custom_liquid": "{% if product.tags contains 'Sold' %}\n<style>\n.restricted {\n  background-color: #D6D8D9;\n  color: #3B3B3B;\n  padding-left: 20px;\n  padding-right: 20px;\n  padding-bottom: 20px;\n  border: 2px solid #999;\n  margin: 50px;\n  border-radius: 5px;\n}\n<\/style>\n<\/head>\n<body>\n\n<div class=\"restricted\">\n<h2><b>Sold<\/b> on {{ product.metafields.my_fields.last_updated.value | date: \"%a, %b %d, %Y at %H:%M\" }}<\/h2>\n<p>\"{{product.title}}\" sold on \n{{ product.metafields.my_fields.last_updated.value | date: \"%a, %b %d, %Y at %H:%M\" }} We at Kamerastore believe in transparent pricing and sharing information with the photographic community. By keeping our sold product pages visible, anybody is able to find photos of different camera models as well as pricing information to support their own projects. If you’d like to get rid of some of the cameras you have lying around, you can\n<\/p>\n<\/div>\n{% endif %}"
+        "custom_liquid": "{% if product.tags contains 'Sold' %}\n<style>\n.restricted {\n  background-color: #D6D8D9;\n  color: #3B3B3B;\n  padding-left: 20px;\n  padding-right: 20px;\n  padding-bottom: 20px;\n  border: 2px solid #999;\n  margin: 5%;\n  border-radius: 5px;\n}\n<\/style>\n<\/head>\n<body>\n\n<div class=\"restricted\">\n<h2><b>Sold<\/b> on {{ product.metafields.my_fields.last_updated.value | date: \"%a, %b %d, %Y at %H:%M\" }}<\/h2>\n<p>\"{{product.title}}\" sold on \n{{ product.metafields.my_fields.last_updated.value | date: \"%a, %b %d, %Y at %H:%M\" }} We believe in transparent pricing & sharing information with the photographic community. By keeping our sold product pages visible, you can use the data for your own research. If you’d like to get rid of some of the cameras you have lying around, you can\n<\/p>\n<\/div>\n{% endif %}"
       }
     },
     "main": {
