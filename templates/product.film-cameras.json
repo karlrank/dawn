@@ -1,23 +1,23 @@
 {
   "sections": {
+    "1644845255ea764830": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if product.tags contains 'Sold' %}\n<style>\n.restricted {\n  background-color: #D6D8D9;\n  color: #666;\n  padding-left: 20px;\n  padding-right: 20px;\n  padding-bottom: 20px;\n  border: 2px solid #999;\n  margin: 5%;\n  border-radius: 5px;\n}\n<\/style>\n<\/head>\n<body>\n\n<div class=\"restricted\">\n<h2><b>Sold<\/b> on {{ product.metafields.my_fields.last_updated.value | date: \"%a, %b %d, %Y at %H:%M\" }}<\/h2>\n<p>\"{{product.title}}\" sold on \n{{ product.metafields.my_fields.last_updated.value | date: \"%a, %b %d, %Y at %H:%M\" }} We believe in transparent pricing & sharing information with the photographic community. By keeping our sold product pages visible, you can use the data for your own research. Check out our <a href=\"\/collections\/all-items\">newly listed items<\/a> to make sure you don't miss out again.\n<\/p>\n<\/div>\n{% endif %}"
+      }
+    },
     "16334152711e2727b9": {
       "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "{% if product.tags contains 'From-Fototapio' %}\n<style>\n.restricted {\n  background-color: #FEF7EA;\n  color: #3E4447;\n  padding-left: 15px;\n  padding-right: 15px;\n  padding-bottom: 20px;\n  border: 2px solid #F6DFBB;\n  margin: 50px;\n  border-radius: 5px;\n}\n<\/style>\n<\/head>\n<body>\n\n<div class=\"restricted\">\n<h3><\/h3>\n<p><h2><b>This item has sold!<\/b><\/h2>\n\"{{product.title}}\" cannot be shipped outside of Finland, this is due to the items content or size.<\/p>\n<\/div>\n{% endif %}"
+      }
+    },
+    "1644845255ea764830": {
+      "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<div class=\"page-width page-width--wide\">\n<p style=\"color: #b3b3b3\">{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span> ID: {{ current_variant.sku }}<\/span> {% if current_variant.barcode %}{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span>\/ Code: {{ current_variant.barcode }}  <\/span><\/p>{% endif %}<\/div>"
-      }
-    },
-    "1644845255ea764830": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "{% if product.tags contains 'From-Fototapio' %}\n<style>\n.restricted {\n  background-color: #FEF7EA;\n  color: #3E4447;\n  padding-left: 15px;\n  padding-right: 15px;\n  padding-bottom: 20px;\n  border: 2px solid #F6DFBB;\n  margin: 50px;\n  border-radius: 5px;\n}\n<\/style>\n<\/head>\n<body>\n\n<div class=\"restricted\">\n<h3><\/h3>\n<p><h2><b>This item has sold!<\/b><\/h2>\n\"{{product.title}}\" cannot be shipped outside of Finland, this is due to the items content or size.<\/p>\n<\/div>\n{% endif %}"
-      }
-    },
-    "1644845255ea764830": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "{% if product.tags contains 'From-Fototapio' %}\n<style>\n.restricted {\n  background-color: #FEF7EA;\n  color: #3E4447;\n  padding-left: 15px;\n  padding-right: 15px;\n  padding-bottom: 20px;\n  border: 2px solid #F6DFBB;\n  margin: 50px;\n  border-radius: 5px;\n}\n<\/style>\n<\/head>\n<body>\n\n<div class=\"restricted\">\n<h3><\/h3>\n<p><h2><b>This item has sold!<\/b><\/h2>\n\"{{product.title}}\" cannot be shipped outside of Finland, this is due to the items content or size.<\/p>\n<\/div>\n{% endif %}"
       }
     },
     "main": {
@@ -267,8 +267,8 @@
     }
   },
   "order": [
-    "16334152711e2727b9",
     "1644845255ea764830",
+    "16334152711e2727b9",
     "main",
     "163178438845c86d64",
     "16321391205a6cb4a0",
