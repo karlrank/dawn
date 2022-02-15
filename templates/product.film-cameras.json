@@ -10,7 +10,7 @@
       "type": "custom-liquid",
       "disabled": true,
       "settings": {
-        "custom_liquid": "{% if product.tags contains 'From-Fototapio' %}\n<style>\n.restricted {\n  background-color: #FEF7EA;\n  color: #3E4447;\n  padding-left: 15px;\n  padding-right: 15px;\n  padding-bottom: 20px;\n  border: 2px solid #F6DFBB;\n  margin: 50px;\n  border-radius: 5px;\n}\n<\/style>\n<\/head>\n<body>\n\n<div class=\"restricted\">\n<h3><\/h3>\n<p><h2><b>This item has sold!<\/b><\/h2>\n\n{{ product.metafields.my_fields.last_updated }}\n\n\"{{product.title}}\" cannot be shipped outside of Finland, this is due to the items content or size.<\/p>\n<\/div>\n{% endif %}"
+        "custom_liquid": "{% if product.tags contains 'From-Fototapio' %}\n<style>\n.restricted {\n  background-color: #FEF7EA;\n  color: #3E4447;\n  padding-left: 15px;\n  padding-right: 15px;\n  padding-bottom: 20px;\n  border: 2px solid #F6DFBB;\n  margin: 50px;\n  border-radius: 5px;\n}\n<\/style>\n<\/head>\n<body>\n\n<div class=\"restricted\">\n<h3><\/h3>\n<p><h2><b>This item has sold!<\/b><\/h2>\n\n{{ product.metafields.my_fields.last_updated | date: \"%b %d, %y\" }}\n\n\"{{product.title}}\" cannot be shipped outside of Finland, this is due to the items content or size.<\/p>\n<\/div>\n{% endif %}"
       }
     },
     "main": {
