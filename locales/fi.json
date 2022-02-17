@@ -474,6 +474,9 @@
         "value": {
           "in_stock": "Saatavilla"
         }
+      },
+      "vendor": {
+        "label": "Merkki"
       }
     },
     "errors": {
