@@ -18,7 +18,7 @@
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
             "stars_fill_color": "#ffc315",
-            "star_size": 15,
+            "star_size": 18,
             "text_align": "flex-start",
             "product": "{{product}}",
             "stars_text_empty": "No reviews yet"
