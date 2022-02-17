@@ -218,12 +218,6 @@
         "show_rating": false
       }
     },
-    "1636976863088ccff1": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
-    },
     "16321339467e367887": {
       "type": "image-with-text",
       "blocks": {
@@ -268,7 +262,6 @@
     "1632735936daa328ef",
     "16321391205a6cb4a0",
     "product-recommendations",
-    "1636976863088ccff1",
     "16321339467e367887"
   ]
 }
