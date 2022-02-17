@@ -67,16 +67,16 @@
             "show_type": false
           }
         },
-        "title": {
-          "type": "title",
-          "settings": {
-          }
-        },
         "56d3d8ad-8dcb-4146-bf63-5a3a9862d94b": {
           "type": "text",
           "settings": {
             "text": "Kamerastore Product Database",
             "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
           }
         },
         "5c4679de-0254-4571-be14-a70eb36ed4b6": {
@@ -153,8 +153,8 @@
       "block_order": [
         "adb68119-c110-4444-8e79-22a829981fd4",
         "630170a4-891c-4adc-9e5b-984494792005",
-        "title",
         "56d3d8ad-8dcb-4146-bf63-5a3a9862d94b",
+        "title",
         "5c4679de-0254-4571-be14-a70eb36ed4b6",
         "7e4478e8-83f8-4946-b146-0594dc094db3",
         "2bb10445-ce46-48e1-b3f7-e303f109e201",
