@@ -53,7 +53,7 @@
         "show_image_outline": true,
         "show_vendor": true,
         "show_rating": true,
-        "show_collection_prices": false,
+        "show_collection_prices": true,
         "enable_filtering": false,
         "enable_sorting": true,
         "collapse_on_larger_devices": false,
