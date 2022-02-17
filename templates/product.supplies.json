@@ -11,7 +11,18 @@
       "blocks": {
         "title": {
           "type": "title",
-          "settings": {}
+          "settings": {
+          }
+        },
+        "1205e67f-ba58-4cb7-9cba-ebad9222146c": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+            "stars_fill_color": "#ffc315",
+            "star_size": 15,
+            "text_align": "flex-start",
+            "product": "{{product}}",
+            "stars_text_empty": "No reviews yet"
+          }
         },
         "d2f0204f-1c5f-46fd-81d6-a9e4069c2ae4": {
           "type": "custom_liquid",
@@ -22,7 +33,8 @@
         },
         "price": {
           "type": "price",
-          "settings": {}
+          "settings": {
+          }
         },
         "f0c9e60b-84e2-4c7b-a294-cab454328d82": {
           "type": "custom_liquid",
@@ -47,7 +59,8 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {}
+          "settings": {
+          }
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -61,21 +74,25 @@
             "em_email_inline_button_display": true,
             "em_email_float_button_display": false,
             "em_email_button_color": "#ffffff",
+            "em_email_button_hover_color": "#202223",
             "em_email_button_background": "#333333",
+            "em_email_button_hover_background": "#444444",
+            "em_email_button_border_color": "transparent",
+            "em_email_button_hover_animation": false,
             "em_email_button_content": "EMAIL ME WHEN AVAILABLE",
-            "em_email_button_text_align": "center",
             "font_size": 14,
+            "margin_top": 10,
             "border_radius": 2,
             "em_email_button_font_family": "inherit",
             "em_email_button_font_weight": "inherit",
             "em_email_float_button_top": 0,
             "em_show_powered_by": "block",
-            "em_email_popup_btn_color": "#333333",
-            "em_email_popup_btn_font_color": "#ffffff",
             "em_email_popup_btn_value": "EMAIL ME WHEN AVAILABLE",
             "em_email_popup_header_text": "EMAIL ME WHEN AVAILABLE",
             "em_email_popup_footer_text": "We will notify you when this product is back in stock. We will not share your email address with anybody.",
             "em_email_popup_validation_text": "* Your email address is invalid.",
+            "em_email_popup_subscribed_text": "* You have already subscribed this product.",
+            "em_email_popup_name_placeholder_text": "Your name",
             "em_email_popup_placeholder_text": "Email address...",
             "em_email_success_frame_title": "Successfully subscribed!",
             "em_email_success_frame_content": "We will send you an email when this product is back in stock."
@@ -128,6 +145,7 @@
       },
       "block_order": [
         "title",
+        "1205e67f-ba58-4cb7-9cba-ebad9222146c",
         "d2f0204f-1c5f-46fd-81d6-a9e4069c2ae4",
         "price",
         "f0c9e60b-84e2-4c7b-a294-cab454328d82",
