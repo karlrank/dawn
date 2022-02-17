@@ -69,13 +69,24 @@
         },
         "title": {
           "type": "title",
-          "settings": {}
+          "settings": {
+          }
         },
         "56d3d8ad-8dcb-4146-bf63-5a3a9862d94b": {
           "type": "text",
           "settings": {
             "text": "Kamerastore Product Database",
             "text_style": "uppercase"
+          }
+        },
+        "5c4679de-0254-4571-be14-a70eb36ed4b6": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+            "stars_fill_color": "#000000",
+            "star_size": 15,
+            "text_align": "flex-start",
+            "product": "{{product}}",
+            "stars_text_empty": "No reviews yet"
           }
         },
         "7e4478e8-83f8-4946-b146-0594dc094db3": {
@@ -144,6 +155,7 @@
         "630170a4-891c-4adc-9e5b-984494792005",
         "title",
         "56d3d8ad-8dcb-4146-bf63-5a3a9862d94b",
+        "5c4679de-0254-4571-be14-a70eb36ed4b6",
         "7e4478e8-83f8-4946-b146-0594dc094db3",
         "2bb10445-ce46-48e1-b3f7-e303f109e201",
         "96c45658-7a4f-4bbe-8af4-a6f32859a982",
@@ -162,7 +174,8 @@
     },
     "1642020754f04c9667": {
       "type": "product-items-in-stock",
-      "settings": {}
+      "settings": {
+      }
     },
     "1632393643eca7584e": {
       "type": "custom-liquid",
@@ -170,8 +183,18 @@
         "custom_liquid": "<div class=\"page-width page-width--narrow\">\n<H2><\/h2><H3>Database Description<\/h3>{{ product.description }}<\/div>"
       }
     },
-    "164181547500ac863d": {
+    "16450990378461246d": {
       "type": "apps",
+      "blocks": {
+        "55545f6d-f5ae-4003-ba1b-076dd3ac0bed": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "55545f6d-f5ae-4003-ba1b-076dd3ac0bed"
+      ],
       "settings": {
         "include_margins": true
       }
@@ -266,7 +289,7 @@
     "main",
     "1642020754f04c9667",
     "1632393643eca7584e",
-    "164181547500ac863d",
+    "16450990378461246d",
     "16324019941e428b8f",
     "product-recommendations",
     "163239432974b497b2"
