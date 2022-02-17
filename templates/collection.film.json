@@ -1,0 +1,69 @@
+{
+  "sections": {
+    "163282324605c30201": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "163282324605c30201-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "163282324605c30201-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "163282324605c30201-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "163282324605c30201-0",
+        "163282324605c30201-1",
+        "163282324605c30201-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 24,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "show_collection_prices": false,
+        "enable_filtering": false,
+        "enable_sorting": true,
+        "collapse_on_larger_devices": false,
+        "display_database_products": true
+      }
+    }
+  },
+  "order": [
+    "163282324605c30201",
+    "banner",
+    "product-grid"
+  ]
+}
