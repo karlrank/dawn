@@ -82,8 +82,8 @@
         "5c4679de-0254-4571-be14-a70eb36ed4b6": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
-            "stars_fill_color": "#000000",
-            "star_size": 15,
+            "stars_fill_color": "#4ab6ff",
+            "star_size": 18,
             "text_align": "flex-start",
             "product": "{{product}}",
             "stars_text_empty": "No reviews yet"
