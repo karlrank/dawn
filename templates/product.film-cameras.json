@@ -60,17 +60,17 @@
             "show_dynamic_checkout": false
           }
         },
-        "d5caab0f-8084-4d2c-9f50-f4478f12dbeb": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{% unless product.selected_or_first_available_variant.inventory_management == null %}\nAvailable Stock\n          {% if template == \"supplies\" %}{% assign inventory = product.metafields.tomit_inventory %}{% if inventory.inventory_json.size > 0 %}<script>document.addEventListener('tomitLoaded', function(e) { tomitProductInventoryInfo.productJson = `{{inventory.inventory_json | json}}`; });<\/script>{% endif %}{% endif %}\n          \n          \n          <div id=\"inventoryLocationInformation\">\n              <span class=\"inventoryLocationLoading\"><\/span>\n          <\/div>\n{% endunless %}"
-          }
-        },
         "99452d1b-4d7e-4077-a88b-abeded9e84f2": {
           "type": "custom_liquid",
           "disabled": true,
           "settings": {
-            "custom_liquid": "<a href=\"{{ product.metafields.my_fields.database_parent.value.url }}\" class=\"link link--text underlined-link\">Read or Write Reviews<\/a>"
+            "custom_liquid": "{%- if product.metafields.my_fields.database_parent.value != blank -%}\n              {% liquid\n               assign rating_decimal = 0\n               assign decimal = product.metafields.reviews.rating.value.rating | modulo: 1\n               if decimal >= 0.3 and decimal <= 0.7\n                assign rating_decimal = 0.5\n              elsif decimal > 0.7\n                assign rating_decimal = 1\n               endif\n              %}\n              <div class=\"rating\" role=\"img\" aria-label=\"{{ 'accessibility.star_reviews_info' | t: rating_value: product.metafields.reviews.rating.value, rating_max: product.metafields.reviews.rating.value.scale_max }}\">\n                <span aria-hidden=\"true\" class=\"rating-star color-icon-{{ settings.accent_icons }}\" style=\"--rating: {{ product.metafields.reviews.rating.value.rating | floor }}; --rating-max: {{ product.metafields.reviews.rating.value.scale_max }}; --rating-decimal: {{ rating_decimal }};\"><\/span>\n              <\/div>\n              <p class=\"rating-text caption\">\n                <span aria-hidden=\"true\">{{ product.metafields.reviews.rating.value }} \/ {{ product.metafields.reviews.rating.value.scale_max }}<\/span>\n              <\/p>\n             \n            {%- endif -%}"
+          }
+        },
+        "d5caab0f-8084-4d2c-9f50-f4478f12dbeb": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% unless product.selected_or_first_available_variant.inventory_management == null %}\nAvailable Stock\n          {% if template == \"supplies\" %}{% assign inventory = product.metafields.tomit_inventory %}{% if inventory.inventory_json.size > 0 %}<script>document.addEventListener('tomitLoaded', function(e) { tomitProductInventoryInfo.productJson = `{{inventory.inventory_json | json}}`; });<\/script>{% endif %}{% endif %}\n          \n          \n          <div id=\"inventoryLocationInformation\">\n              <span class=\"inventoryLocationLoading\"><\/span>\n          <\/div>\n{% endunless %}"
           }
         },
         "235b8cd5-c263-4cde-9104-81a9203d4384": {
@@ -134,8 +134,8 @@
         "price",
         "853cea71-8e8d-4b3a-8d41-fda13fdf751d",
         "buy_buttons",
-        "d5caab0f-8084-4d2c-9f50-f4478f12dbeb",
         "99452d1b-4d7e-4077-a88b-abeded9e84f2",
+        "d5caab0f-8084-4d2c-9f50-f4478f12dbeb",
         "235b8cd5-c263-4cde-9104-81a9203d4384",
         "cd07da4b-ae00-46ee-bf67-5c7799d93921",
         "ad4fef74-222f-422b-a2e1-33623ff7b9e6",
