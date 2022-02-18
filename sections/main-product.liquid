@@ -18,6 +18,15 @@
 {%- endif -%}
 
 <section class="page-width">
+  {% if section.settings.show_sku_and_barcode %}
+    <p style="color: #b3b3b3">
+      <span> ID: {{ product.selected_or_first_available_variant.sku }}</span>
+      {% if product.selected_or_first_available_variant.barcode %}
+        <span>/ Code: {{ product.selected_or_first_available_variant.barcode }}</span>
+      {% endif %}
+    </p>
+  {% endif %}
+
   {% if section.settings.show_breadcrumbs %}
     <div class="product__breadcrumbs-container">
       {% for t in product.tags %}
@@ -436,6 +445,25 @@
                 </a>
               {% endif  %}
             </div>
+          {%- when 'link_to_review' -%}
+            <div class="product__link_to_review-container">
+              {% assign show_link = false %}
+              {% if block.settings.only_show_when_no_reviews == true and product.metafields.reviews.rating_count == 0 %}
+                {% assign show_link = true %}
+              {% elsif block.settings.only_show_when_no_reviews == true and product.metafields.reviews.rating_count == nil %}
+                {% assign show_link = true %}
+              {% elsif block.settings.only_show_when_no_reviews == false %}
+                {% assign show_link = true %}
+              {% endif %}
+
+              {% if show_link %}
+                {% if block.settings.link_to_host == true and product.metafields.my_fields.database_parent %}
+                  <a class="link" href="{{ product.metafields.my_fields.database_parent.value.url }}#shopify-product-reviews">{{ block.settings.link_text }}</a>
+                {% elsif block.settings.link_to_host == false %}
+                  <a class="link" href="#shopify-product-reviews">{{ block.settings.link_text }}</a>
+                {% endif %}
+              {% endif %}
+            </div>
           {%- endcase -%}
         {%- endfor -%}
       </div>
@@ -554,7 +582,8 @@
    */
   document.addEventListener('DOMContentLoaded', function() {
     const product_tags = JSON.parse('{{ product.tags | json }}');
-    if (product_tags.includes('item-stock')) {
+    const host_product_url = '{{ product.metafields.my_fields.database_parent.value.url }}';
+    if (product_tags.includes('item-stock') && host_product_url) {
       const reviewsLink = document.querySelector('div.spr-starrating.spr-summary-starrating > a');
       if (reviewsLink) {
         reviewsLink.href = `{{ product.metafields.my_fields.database_parent.value.url }}#shopify-product-reviews`;
@@ -946,10 +975,29 @@
       ]
     },
     {
-      "type": "breadcrumbs",
-      "name": "t:sections.main-product.blocks.breadcrumbs.name",
+      "type": "link_to_review",
+      "name": "t:sections.main-product.blocks.link_to_review.name",
       "limit": 1,
-      "settings": []
+      "settings": [
+        {
+          "type": "text",
+          "id": "link_text",
+          "label": "t:sections.main-product.blocks.link_to_review.settings.link_text.label",
+          "default": "Read or Write Reviews"
+        },
+        {
+          "type": "checkbox",
+          "id": "only_show_when_no_reviews",
+          "label": "t:sections.main-product.blocks.link_to_review.settings.only_show_when_no_reviews.label",
+          "default": true
+        },
+        {
+          "type": "checkbox",
+          "id": "link_to_host",
+          "label": "t:sections.main-product.blocks.link_to_review.settings.link_to_host.label",
+          "default": true
+        }
+      ]
     }
   ],
   "settings": [
@@ -977,10 +1025,20 @@
       "label": "t:sections.main-product.settings.enable_video_looping.label"
     },
     {
+      "type": "header",
+      "content": "t:sections.main-product.settings.display_info_header.content"
+    },
+    {
       "type": "checkbox",
       "id": "show_breadcrumbs",
       "default": true,
       "label": "t:sections.main-product.settings.show_breadcrumbs.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_sku_and_barcode",
+      "default": false,
+      "label": "t:sections.main-product.settings.show_sku_and_barcode.label"
     }
   ]
 }

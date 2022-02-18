@@ -281,6 +281,11 @@ a.product__text {
   margin-top: 0;
 }
 
+.product__link_to_review-container {
+  margin: 0;
+  transform: translateY(-1.5rem);
+}
+
 .product__text.caption-with-letter-spacing + .product__title {
   margin-top: 0;
 }

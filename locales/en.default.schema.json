@@ -1524,6 +1524,20 @@
               "label": "Show type"
             }
           }
+        },
+        "link_to_review": {
+          "name": "Link to Review",
+          "settings": {
+            "link_text": {
+              "label": "Link text"
+            },
+            "only_show_when_no_reviews": {
+              "label": "Only show when no reviews"
+            },
+            "link_to_host": {
+              "label": "Link to host"
+            }
+          }
         }
       },
       "settings": {
@@ -1540,8 +1554,14 @@
         "enable_video_looping": {
           "label": "Enable video looping"
         },
+        "display_info_header": {
+          "content": "Information to display"
+        },
         "show_breadcrumbs": {
           "label": "Show breadcrumbs"
+        },
+        "show_sku_and_barcode": {
+          "label": "Show SKU and Barcode"
         }
       }
     },
