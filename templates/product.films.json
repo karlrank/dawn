@@ -20,7 +20,7 @@
             "stars_fill_color": "#ffc315",
             "star_size": 18,
             "text_align": "flex-start",
-            "product": "{{product}}",
+            "product": "{{ product.metafields.my_fields.database_parent.value }}",
             "stars_text_empty": "No reviews yet"
           }
         },
