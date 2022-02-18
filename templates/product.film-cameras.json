@@ -59,7 +59,7 @@
           "type": "custom_liquid",
           "disabled": true,
           "settings": {
-            "custom_liquid": "{{ product.metafields.my_fields.database_parent.value.url }}\n<a href=\"{{ product.metafields.my_fields.database_parent.value.url }}\" class=\"link link--text underlined-link\">Read or Write Reviews<\/a>\n{{ \nproduct.metafields.my_fields.database_parent.value }}\n\n{{ product.metafields.reviews.rating.value }}"
+            "custom_liquid": "{{ product.metafields.my_fields.database_parent | metafield_tag }}\n\n{{ product.metafields.my_fields.database_parent.value.url }}\n<a href=\"{{ product.metafields.my_fields.database_parent.value.url }}\" class=\"link link--text underlined-link\">Read or Write Reviews<\/a>\n{{ \nproduct.metafields.my_fields.database_parent.value }}\n\n{{ product.metafields.reviews.rating.value }}"
           }
         },
         "buy_buttons": {
