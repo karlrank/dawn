@@ -58,22 +58,14 @@
         },
         "99452d1b-4d7e-4077-a88b-abeded9e84f2": {
           "type": "custom_liquid",
-          "disabled": true,
           "settings": {
-            "custom_liquid": "{{ product.metafields.my_fields.database_parent | metafield_tag }}\n\n{{ product.metafields.my_fields.database_parent.value.id }}"
+            "custom_liquid": "{{ product.metafields.my_fields.database_parent.value.url }}\n<a href=\"{{ product.metafields.my_fields.database_parent.value.url }}\" class=\"link link--text underlined-link\">Read or Write Reviews<\/a>\n{{ \nproduct.metafields.my_fields.database_parent.value }}\n\n{{ product.metafields.reviews.rating.value }}"
           }
         },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": false
-          }
-        },
-        "99452d1b-4d7e-4077-a88b-abeded9e84f2": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "{%- if product.metafields.my_fields.database_parent.value != blank -%}\n              {% liquid\n               assign rating_decimal = 0\n               assign decimal = product.metafields.reviews.rating.value.rating | modulo: 1\n               if decimal >= 0.3 and decimal <= 0.7\n                assign rating_decimal = 0.5\n              elsif decimal > 0.7\n                assign rating_decimal = 1\n               endif\n              %}\n              <div class=\"rating\" role=\"img\" aria-label=\"{{ 'accessibility.star_reviews_info' | t: rating_value: product.metafields.reviews.rating.value, rating_max: product.metafields.reviews.rating.value.scale_max }}\">\n                <span aria-hidden=\"true\" class=\"rating-star color-icon-{{ settings.accent_icons }}\" style=\"--rating: {{ product.metafields.reviews.rating.value.rating | floor }}; --rating-max: {{ product.metafields.reviews.rating.value.scale_max }}; --rating-decimal: {{ rating_decimal }};\"><\/span>\n              <\/div>\n              <p class=\"rating-text caption\">\n                <span aria-hidden=\"true\">{{ product.metafields.reviews.rating.value }} \/ {{ product.metafields.reviews.rating.value.scale_max }}<\/span>\n              <\/p>\n             \n            {%- endif -%}"
           }
         },
         "d5caab0f-8084-4d2c-9f50-f4478f12dbeb": {
@@ -144,7 +136,6 @@
         "853cea71-8e8d-4b3a-8d41-fda13fdf751d",
         "99452d1b-4d7e-4077-a88b-abeded9e84f2",
         "buy_buttons",
-        "99452d1b-4d7e-4077-a88b-abeded9e84f2",
         "d5caab0f-8084-4d2c-9f50-f4478f12dbeb",
         "235b8cd5-c263-4cde-9104-81a9203d4384",
         "cd07da4b-ae00-46ee-bf67-5c7799d93921",
