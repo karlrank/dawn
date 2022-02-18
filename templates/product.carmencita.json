@@ -17,11 +17,23 @@
         },
         "title": {
           "type": "title",
-          "settings": {}
+          "settings": {
+          }
+        },
+        "94f447f0-313b-4583-8d4b-21fc175dc2be": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+            "stars_fill_color": "#ffc315",
+            "star_size": 18,
+            "text_align": "flex-start",
+            "product": "{{product}}",
+            "stars_text_empty": "No reviews"
+          }
         },
         "price": {
           "type": "price",
-          "settings": {}
+          "settings": {
+          }
         },
         "f0c9e60b-84e2-4c7b-a294-cab454328d82": {
           "type": "custom_liquid",
@@ -31,7 +43,8 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {}
+          "settings": {
+          }
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -51,58 +64,18 @@
             "text": "This service is perfomed by Carmencita Film Lab in Valencia, Spain. Please scroll down to read more.",
             "text_style": "body"
           }
-        },
-        "4c9ef1cc-f6f3-4512-940d-96c0a632b68d": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "True Condition",
-            "content": "<p>Our used item condition ratings are over 99,5% accurate! Our highly skilled technicians use period-appropriate machinery to evaluate an item's true condition.<\/p>",
-            "page": "",
-            "icon": "star"
-          }
-        },
-        "c93981a2-30f3-4294-803c-c2c27ba4890e": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "14 Day Returns",
-            "content": "<p>Change your mind? Let us know within 14 days of delivery for a return and refund if you item is unopened.<\/p><p><a href=\"\/policies\/refund-policy\" target=\"_blank\" title=\"\/policies\/refund-policy\">Read More<\/a><\/p>",
-            "page": "",
-            "icon": "return"
-          }
-        },
-        "e44a2970-017f-4a65-9008-2a056066686c": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Fast Shipping",
-            "content": "<p>Flat-Rate Worldwide Shipping<\/p><p>🇫🇮 <strong>Finland<\/strong> 5€ | 1-3 days<strong><br\/><\/strong>🇪🇺 <strong>EU<\/strong> 10€ | 1-3 days<br\/>🇺🇸 <strong>USA<\/strong> 20€ (~$24) | 3-5 days<br\/>Most others 20€ | 3-5 days<\/p><p><a href=\"\/pages\/shipping-price-summary\" target=\"_blank\" title=\"Shipping Price Summary\">See full list<\/a><\/p>",
-            "page": "",
-            "icon": "plane"
-          }
-        },
-        "c0d021b5-1372-4595-af34-5ff3eb0a4898": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "<p class=\"line-item-property__field\">\n  <label>Color Tones<\/label><br>\n  <select id=\"color-tones\" name=\"properties[Color Tones]\">\n    <option value=\"Warm\">Warm<\/option>\n    <option value=\"Neutral\">Neutral<\/option>\n    <option value=\"Cool\">Cool<\/option>\n  <\/select>\n<\/p>\n\n<p class=\"line-item-property__field\">\n  <label>Contrast<\/label><br>\n  <select id=\"contrast\" name=\"properties[Contrast]\">\n    <option value=\"High\">High<\/option>\n    <option value=\"Neutral\">Neutral<\/option>\n    <option value=\"Low\">Low<\/option>\n  <\/select>\n<\/p>\n<p class=\"line-item-property__field\">\n  <label>Brightness<\/label><br>\n  <select id=\"brightness\" name=\"properties[Brightness]\">\n    <option value=\"Bright\">Bright<\/option>\n    <option value=\"Neutral\">Neutral<\/option>\n    <option value=\"Dark\">Dark<\/option>\n  <\/select>\n<\/p>"
-          }
         }
       },
       "block_order": [
         "96c45658-7a4f-4bbe-8af4-a6f32859a982",
         "title",
+        "94f447f0-313b-4583-8d4b-21fc175dc2be",
         "price",
         "f0c9e60b-84e2-4c7b-a294-cab454328d82",
         "quantity_selector",
         "variant_picker",
         "buy_buttons",
-        "60478f14-689d-44eb-b06c-7525ecd07f62",
-        "4c9ef1cc-f6f3-4512-940d-96c0a632b68d",
-        "c93981a2-30f3-4294-803c-c2c27ba4890e",
-        "e44a2970-017f-4a65-9008-2a056066686c",
-        "c0d021b5-1372-4595-af34-5ff3eb0a4898"
+        "60478f14-689d-44eb-b06c-7525ecd07f62"
       ],
       "settings": {
         "enable_sticky_info": true,
