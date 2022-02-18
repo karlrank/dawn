@@ -546,6 +546,24 @@
   });
 </script>
 
+<script>
+  /**
+   * Modify the output of the star review for the Shopify "Product Reviews"
+   * app to fit our Database-Stock item model better: Direct the links on the stock item pages to the
+   * reviews on the database item pages
+   */
+  document.addEventListener('DOMContentLoaded', function() {
+    const product_tags = JSON.parse('{{ product.tags | json }}');
+    if (product_tags.includes('item-stock')) {
+      const reviewsLink = document.querySelector('div.spr-starrating.spr-summary-starrating > a');
+      if (reviewsLink) {
+        reviewsLink.href = `{{ product.metafields.my_fields.database_parent.value.url }}#shopify-product-reviews`;
+        reviewsLink.removeAttribute('onclick');
+      }
+    }
+  });
+</script>
+
 {%- if first_3d_model -%}
   <script type="application/json" id="ProductJSON-{{ product.id }}">
     {{ product.media | where: 'media_type', 'model' | json }}
