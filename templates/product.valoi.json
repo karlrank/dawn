@@ -49,7 +49,18 @@
       "blocks": {
         "title": {
           "type": "title",
-          "settings": {}
+          "settings": {
+          }
+        },
+        "cf29d553-05b4-4684-9080-1bcc4b961df2": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+            "stars_fill_color": "#ffc315",
+            "star_size": 18,
+            "text_align": "flex-start",
+            "product": "{{product}}",
+            "stars_text_empty": "No reviews"
+          }
         },
         "6e329fbd-c3b0-4cfe-a6f4-9911df60910e": {
           "type": "custom_liquid",
@@ -59,7 +70,8 @@
         },
         "price": {
           "type": "price",
-          "settings": {}
+          "settings": {
+          }
         },
         "853cea71-8e8d-4b3a-8d41-fda13fdf751d": {
           "type": "custom_liquid",
@@ -69,7 +81,8 @@
         },
         "8a1f013f-3fbd-4ebb-b70b-fd9e114e338b": {
           "type": "quantity_selector",
-          "settings": {}
+          "settings": {
+          }
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -123,12 +136,14 @@
           "type": "popup",
           "settings": {
             "text": "About VALOI",
-            "page": "about-valoi"
+            "page": "about-valoi",
+            "show_button": false
           }
         }
       },
       "block_order": [
         "title",
+        "cf29d553-05b4-4684-9080-1bcc4b961df2",
         "6e329fbd-c3b0-4cfe-a6f4-9911df60910e",
         "price",
         "853cea71-8e8d-4b3a-8d41-fda13fdf751d",
