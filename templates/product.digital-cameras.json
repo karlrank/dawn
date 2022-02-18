@@ -16,16 +16,20 @@
             "show_type": false
           }
         },
-        "74fe16dc-fae7-4902-b96b-a73338f83400": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "<p style=\"color: #b3b3b3\">{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span> ID: {{ current_variant.sku }}<\/span> {% if current_variant.barcode %}{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span>\/ Code: {{ current_variant.barcode }}  {{ product.metafields.my_fields.database_parent | metafield_text }}<\/span><\/p>{% endif %}"
-          }
-        },
         "title": {
           "type": "title",
-          "settings": {}
+          "settings": {
+          }
+        },
+        "5dd63250-d7d5-4820-8932-ece16c594707": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+            "stars_fill_color": "#ffc315",
+            "star_size": 18,
+            "text_align": "flex-start",
+            "product": "{{ product.metafields.my_fields.database_parent.value }}",
+            "stars_text_empty": "No reviews"
+          }
         },
         "94c18297-7071-4788-a294-49e32bd91e32": {
           "type": "custom_liquid",
@@ -36,7 +40,8 @@
         },
         "price": {
           "type": "price",
-          "settings": {}
+          "settings": {
+          }
         },
         "853cea71-8e8d-4b3a-8d41-fda13fdf751d": {
           "type": "custom_liquid",
@@ -60,13 +65,6 @@
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": "{% unless product.selected_or_first_available_variant.inventory_management == null %}\nAvailable Stock\n          {% if template == \"supplies\" %}{% assign inventory = product.metafields.tomit_inventory %}{% if inventory.inventory_json.size > 0 %}<script>document.addEventListener('tomitLoaded', function(e) { tomitProductInventoryInfo.productJson = `{{inventory.inventory_json | json}}`; });<\/script>{% endif %}{% endif %}\n          \n          \n          <div id=\"inventoryLocationInformation\">\n              <span class=\"inventoryLocationLoading\"><\/span>\n          <\/div>\n{% endunless %}"
-          }
-        },
-        "99452d1b-4d7e-4077-a88b-abeded9e84f2": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "<a href=\"{{ product.metafields.my_fields.database_parent.value.url }}\" class=\"link link--text underlined-link\">Read or Write Reviews<\/a>"
           }
         },
         "235b8cd5-c263-4cde-9104-81a9203d4384": {
@@ -124,15 +122,14 @@
       },
       "block_order": [
         "5875f51c-da6b-4990-b273-8ddfdb2d7397",
-        "74fe16dc-fae7-4902-b96b-a73338f83400",
         "title",
+        "5dd63250-d7d5-4820-8932-ece16c594707",
         "94c18297-7071-4788-a294-49e32bd91e32",
         "price",
         "853cea71-8e8d-4b3a-8d41-fda13fdf751d",
         "83754794-92b8-452f-98b4-999eea3e6967",
         "buy_buttons",
         "d5caab0f-8084-4d2c-9f50-f4478f12dbeb",
-        "99452d1b-4d7e-4077-a88b-abeded9e84f2",
         "235b8cd5-c263-4cde-9104-81a9203d4384",
         "cd07da4b-ae00-46ee-bf67-5c7799d93921",
         "ad4fef74-222f-422b-a2e1-33623ff7b9e6",
