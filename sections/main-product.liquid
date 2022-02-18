@@ -19,7 +19,7 @@
 
 <section class="page-width">
   {% if section.settings.show_sku_and_barcode %}
-    <p style="color: #b3b3b3">
+    <p class="product__sku_and_barcode">
       <span> ID: {{ product.selected_or_first_available_variant.sku }}</span>
       {% if product.selected_or_first_available_variant.barcode %}
         <span>/ Code: {{ product.selected_or_first_available_variant.barcode }}</span>

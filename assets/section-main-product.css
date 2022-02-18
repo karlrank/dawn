@@ -848,3 +848,8 @@ a.product__text {
 .product__breadcrumbs-container {
   margin-bottom: 1rem;
 }
+
+.product__sku_and_barcode {
+  color: #b3b3b3;
+  margin: 0;
+}
