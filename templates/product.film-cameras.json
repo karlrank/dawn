@@ -22,16 +22,15 @@
             "show_type": false
           }
         },
-        "74fe16dc-fae7-4902-b96b-a73338f83400": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "<p style=\"color: #b3b3b3\">{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span> ID: {{ current_variant.sku }}<\/span> {% if current_variant.barcode %}{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span>\/ Code: {{ current_variant.barcode }}  {{ product.metafields.my_fields.database_parent | metafield_text }}<\/span><\/p>{% endif %}"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
+          }
+        },
+        "74fe16dc-fae7-4902-b96b-a73338f83400": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<a href=\"{{ product.metafields.my_fields.database_parent.value.url }}\" class=\"link link--text underlined-link\">Read or Write Reviews<\/a>"
           }
         },
         "0df71d04-5b16-4ca9-a92f-43724c825900": {
@@ -129,8 +128,8 @@
       },
       "block_order": [
         "5875f51c-da6b-4990-b273-8ddfdb2d7397",
-        "74fe16dc-fae7-4902-b96b-a73338f83400",
         "title",
+        "74fe16dc-fae7-4902-b96b-a73338f83400",
         "0df71d04-5b16-4ca9-a92f-43724c825900",
         "price",
         "853cea71-8e8d-4b3a-8d41-fda13fdf751d",
