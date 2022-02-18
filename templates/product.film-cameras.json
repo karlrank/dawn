@@ -27,12 +27,6 @@
           "settings": {
           }
         },
-        "74fe16dc-fae7-4902-b96b-a73338f83400": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<a href=\"{{ product.metafields.my_fields.database_parent.value.url }}\" class=\"link link--text underlined-link\">Read or Write Reviews<\/a>"
-          }
-        },
         "0df71d04-5b16-4ca9-a92f-43724c825900": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
@@ -130,7 +124,6 @@
       "block_order": [
         "5875f51c-da6b-4990-b273-8ddfdb2d7397",
         "title",
-        "74fe16dc-fae7-4902-b96b-a73338f83400",
         "0df71d04-5b16-4ca9-a92f-43724c825900",
         "price",
         "853cea71-8e8d-4b3a-8d41-fda13fdf751d",
