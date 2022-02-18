@@ -31,13 +31,6 @@
             "stars_text_empty": "No reviews"
           }
         },
-        "94c18297-7071-4788-a294-49e32bd91e32": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "<p>Ships from: {% if product.tags contains 'From-Kameratori' %}\n          \nTampere, Finland<\/p>\n{% elsif product.tags contains 'From-Fototapio' %}\n          \nEspoo, Finland <\/p>     \n\n{% elsif product.tags contains 'From-Valoi' %}\nTampere, Finland  \n{% endif %}\n\n{% comment %}\nNow section two\n{% endcomment %}\n\n<div id=\"variant-inventory\">\n{% if product.selected_or_first_available_variant.inventory_management == \"shopify\" and product.selected_or_first_available_variant.inventory_quantity> 0 %}\nIn stock: <b>{{product.selected_or_first_available_variant.inventory_quantity}}<\/b> available\n{% endif %}\n<\/div>"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -124,7 +117,6 @@
         "5875f51c-da6b-4990-b273-8ddfdb2d7397",
         "title",
         "5dd63250-d7d5-4820-8932-ece16c594707",
-        "94c18297-7071-4788-a294-49e32bd91e32",
         "price",
         "853cea71-8e8d-4b3a-8d41-fda13fdf751d",
         "83754794-92b8-452f-98b4-999eea3e6967",
