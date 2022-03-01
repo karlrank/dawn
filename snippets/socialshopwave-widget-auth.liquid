@@ -10,7 +10,7 @@
   <div id="ssw-topauth" class="ssw-topauth">
     {% if customer %}
       <div class="ssw-tprofile ssw-dropdown">
-        <a class="ssw-dropdown-toggle" data-toggle="ssw-dropdown" href="javascript:void(0);">
+        <a id="ssw-widget-auth-dropdown-toggle" class="ssw-dropdown-toggle" data-toggle="ssw-dropdown" href="javascript:void(0);">
           <i class="ssw-icon-user"></i>
           {{ customer.first_name }}
           {% if customer.last_name != 'Unknown' %}
@@ -18,7 +18,7 @@
           {% endif %}
           <i class="ssw-icon-down-open-big"></i>
         </a>
-        <ul class="ssw-dropdown-menu" role="menu" aria-labelledby="dLabel">
+        <ul class="ssw-dropdown-menu" role="menu" aria-labelledby="ssw-widget-auth-dropdown-toggle">
           <li id="customer_myorders_li"><a tabindex="-1" href="/account">
               {{ shop.metafields.ssw[customer_locale].value.my_orders }}
             </a></li>
