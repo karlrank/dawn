@@ -38,9 +38,10 @@
             let loader = Ssw.gwAssetsManifestLoader;
             Promise.all([
               loader.requireByKey("core.critical.css", "STYLE"),
-              loader.requireByKey("review.critical.css", "STYLE"),
-              loader.requireByKey("review.popup.critical.js", "SCRIPT")
+              loader.requireByKey("review.critical.css", "STYLE")
             ]).then(function () {
+              return loader.requireByKey("review.popup.critical.js", "SCRIPT");
+            }).then(function () {
               gwReviewPopupCriticalInit();
             });
           });
