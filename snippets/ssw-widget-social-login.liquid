@@ -1,3 +1,7 @@
+{% assign gwSettings = shop.metafields.ssw['settings'] %}
+{% if gwSettings.type == 'json' %}
+  {% assign gwSettings = shop.metafields.ssw['settings'].value %}
+{% endif %}
 {% assign ssw_manual_uninstall = shop.metafields.ssw['manual_uninstall'] | plus: 0 %}
 {% assign ssw_script_tags_allowed = shop.metafields.ssw['script_tags_allowed'] | plus: 0 %}
 {% if content_for_header contains 'ssw-empty.js' or ssw_manual_uninstall == 1 or ssw_script_tags_allowed != 1 %}
@@ -16,7 +20,7 @@
     </div>
 </div>
 <div class="ssw-accept-wrapper" style="display: none">
-  {% if shop.metafields.ssw.settings.force_accepts_marketing == 1 %}
+  {% if gwSettings.force_accepts_marketing == 1 %}
     <input type="hidden" class="ssw-accept-marketing__input_hidden" name="customer[accepts_marketing]" value="true">
   {% else %}
     <label class="ssw-accept-marketing">
